@@ -6,7 +6,8 @@ theme: jekyll-theme-chirpy
 # Only change this to '/repository-name' if your site has already been published to github pages
 # and doesn't have a custom domain, mine was configured to "/jekyll-chirpy561"
 # if you have a CNAME configured, leave it blank
-baseurl: #/jekyll-chirpy561
+baseurl: ""
+# baseurl: /jekyll-chirpy561
 
 # The language of the webpage › http://www.lingoes.net/en/translator/langcode.htm
 # If it has the same name as one of the files in folder `_data/locales`, the layout language will also be changed,
@@ -119,7 +120,7 @@ assets:
 pwa:
   enabled: true # the option for PWA feature
 
-paginate: 10
+paginate: 25
 
 # ------------ The following options are not recommended to be modified ------------------
 
