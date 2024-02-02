@@ -31,6 +31,39 @@ brew bundle dump --file=/tmp/brew-dump-test/Brewfile
 ls /tmp/brew-dump-test
 ```
 
+- In case you want to see the contents of your Brewfile use cat
+  - Below is just an example of how a Brewfile would look like
+  - Yours will look different
+
+```bash
+cat /tmp/brew-dump-test/Brewfile
+```
+
+```bash
+linkarzu.@.mini~/github/dotfiles-public on  main via 💎 v3.1.3
+[24/02/02 07:47:41]
+❯ cat /tmp/brew-dump-test/Brewfile
+tap "homebrew/bundle"
+tap "homebrew/cask-fonts"
+tap "homebrew/services"
+tap "jesseduffield/lazygit"
+tap "koekeishiya/formulae"
+brew "automake"
+brew "openssl@3"
+brew "bat"
+brew "bind"
+brew "bison"
+brew "chruby"
+brew "eza"
+brew "fd"
+brew "figlet"
+brew "fontconfig"
+```
+
+---
+
+---
+
 ---
 
 - Alternatively, if you want to save the Brewfile in the current directory
@@ -51,6 +84,10 @@ brew bundle dump
 ```bash
 brew bundle --file=/tmp/brew-dump-test/Brewfile
 ```
+
+---
+
+---
 
 ---
 
