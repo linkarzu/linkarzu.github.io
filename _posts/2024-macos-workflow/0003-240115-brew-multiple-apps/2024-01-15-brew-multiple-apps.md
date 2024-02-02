@@ -93,7 +93,7 @@ brew bundle --file=/tmp/brew-dump-test/Brewfile
 
 - Alternatively, if you are in the same directory where the Brewfile is, you
   can just run the command
-  - Don't run it just yet, see below
+  - Don't run it just yet, we will install the apps we need from GitHub below
 
 ```bash
 brew bundle
