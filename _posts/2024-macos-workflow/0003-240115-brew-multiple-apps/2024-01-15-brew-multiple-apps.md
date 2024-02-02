@@ -13,9 +13,12 @@ tags: [macos, tutorial, youtube, video, brew]
 ## Install multiple apps using brew
 
 - The **Brewfile** is a list of apps/packages installed by Homebrew
-  - To generate the **Brewfile**, use the `brew bundle dump` command
-  - You don't need to generate this file, is just an example in case you need
-    to generate the Brewfile in the future
+
+### How to generate a Brewfile
+
+- To generate the **Brewfile**, use the `brew bundle dump` command
+- You don't need to generate this file, is just an example in case you need
+  to generate the Brewfile in the future
 
 ```bash
 mkdir -p /tmp/brew-dump-test
@@ -28,6 +31,8 @@ brew bundle dump --file=/tmp/brew-dump-test/Brewfile
 ls /tmp/brew-dump-test
 ```
 
+---
+
 - Alternatively, if you want to save the Brewfile in the current directory
   don't specify the path
 
@@ -37,14 +42,17 @@ brew bundle dump
 
 - Inspect the Brewfile so you can see the apps
 
----
+### Install the apps listed in a Brewfile
 
 - To install the apps listed in the Brewfile
   - Don't run the below command yet, we'll install the apps we need shortly
+  - But this will be useful when you need to install apps using your own file
 
 ```bash
 brew bundle --file=/tmp/brew-dump-test/Brewfile
 ```
+
+---
 
 - Alternatively, if you are in the same directory where the Brewfile is, you
   can just run the command
@@ -54,7 +62,24 @@ brew bundle --file=/tmp/brew-dump-test/Brewfile
 brew bundle
 ```
 
----
+## How do I create a brewfile with my own apps?
+
+- In the previous video we saw how to install apps
+  - Go and check that video if you have doubts
+- So if this is your first time installing brew apps, you have to manually
+  install the apps one by one, searching for the correct commands in the
+  `https://formulae.brew.sh` page
+- Once you have all the apps that you want, you generate your Brewfile
+  following the steps in the [How to generate a Brewfile](#how-to-generate-a-brewfile)
+  section above
+
+### Do I need to store this Brewfile in github?
+
+- No, you can store a Brewfile that you have generated anywhere you want, when
+  you need it, just download it and then install the apps listed in that file
+  with the steps provided in the section above [Install the apps listed in a Brewfile](#install-the-apps-listed-in-a-brewfile)
+
+## Install apps from a brewfile hosted in github
 
 - We'll install the apps I use as a base, which are needed for this video series
   - `https://github.com/linkarzu/dotfiles-public/blob/main/brew/00-base/Brewfile`
@@ -94,7 +119,7 @@ brew info zsh-vi-mode
 brew info starship
 ```
 
----
+### See all the caveats using a script
 
 - This section below is optional, doesn't need to be done, but it's good for
   learning or if you want to understand what's going on
