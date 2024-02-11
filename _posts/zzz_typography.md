@@ -12,6 +12,8 @@ image:
   alt: Responsive rendering of Chirpy theme on multiple devices.
 ---
 
+- `https://github.com/cotes2020/jekyll-theme-chirpy/blob/master/_posts/2019-08-08-text-and-typography.md?plain=1`
+
 This post is to show Markdown syntax rendering on [**Chirpy**](https://github.com/cotes2020/jekyll-theme-chirpy/fork), you can also use it as an example of writing. Now, let's start looking at text and typography.
 
 ## Titles
@@ -49,7 +51,8 @@ Quisque egestas convallis ipsum, ut sollicitudin risus tincidunt a. Maecenas int
 - [ ] Job
   - [x] Step 1
   - [x] Step 2
-  - [ ] Step 3
+  - [x] Step 3
+  - [x] test page
 
 ### Description list
 
@@ -184,4 +187,3 @@ The image below will toggle dark/light mode based on theme preference, notice it
 
 [^footnote]: The footnote source
 [^fn-nth-2]: The 2nd footnote source
-
