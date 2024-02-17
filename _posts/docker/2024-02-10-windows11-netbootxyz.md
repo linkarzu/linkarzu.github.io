@@ -151,7 +151,7 @@ tags:
   - `https://technotim.live/posts/netbootxyz-tutorial/`
 - Yeah, my blog looks like Techno Tim's, guess how I set it up :shhhhh:
 
-## FAQ (Frequenly Asked Questions)
+## FAQ (Frequently Asked Questions)
 
 ### Can I run this in Virtualbox or similar?
 
@@ -768,7 +768,7 @@ tree
   - `Create Bootable WinPE media`
 - Which is what we will do below
 
-#### Download WinPE
+#### Download and install WinPE
 
 - WinPE is an add-on to the Windows Assessment and Deployment Kit (ADK).
   You can download the ADK and WinPE add-on from Download and install the ADK.
