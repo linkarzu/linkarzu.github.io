@@ -1,11 +1,13 @@
 ---
 title: Install Windows 11 over the network with netboot.xyz
-description:
-  Learn to install Windows 11 (or a lot of different OSs or tools available)
-  via the network using netboot.xyz, instead of having to store them in a flash drive and install
-  from there. We'll deploy docker containers, and I'm using a mikrotik router
+description: >-
+  Learn to install Windows 11 (or a lot of different OSs or tools available) via
+  the network using netboot.xyz, instead of having to store them in a flash
+  drive and install from there. We'll deploy docker containers, and I'm using a
+  mikrotik router
 image:
-  path: /daqwsgmx6/image/upload/v1708093565/youtube/docker-practical/win11-netbootxyz.png
+  path: >-
+    /daqwsgmx6/image/upload/v1708093565/youtube/docker-practical/win11-netbootxyz.png
 date: "2024-02-15 20:09:00 +0000"
 categories:
   - docker-practical
@@ -35,7 +37,7 @@ tags:
   - [Help out devs](#help-out-devs)
   - [Alternatives](#alternatives)
   - [Credits](#credits)
-- [FAQ (Frequenly Asked Questions)](#faq-frequenly-asked-questions)
+- [FAQ (Frequently Asked Questions)](#faq-frequently-asked-questions)
   - [Can I run this in Virtualbox or similar?](#can-i-run-this-in-virtualbox-or-similar)
   - [Will I be able to install Windows on real computers?](#will-i-be-able-to-install-windows-on-real-computers)
   - [Proxmox or XCP-ng?](#proxmox-or-xcp-ng)
@@ -68,7 +70,7 @@ tags:
 - [Create Windows 11 installation media](#create-windows-11-installation-media)
   - [Download and extract the Windows ISO to samba drive](#download-and-extract-the-windows-iso-to-samba-drive)
   - [Create Windows WinPE ISO](#create-windows-winpe-iso)
-    - [Download WinPE](#download-winpe)
+    - [Download and install WinPE](#download-and-install-winpe)
     - [Create Bootable WinPE media](#create-bootable-winpe-media)
       - [Mount the Windows PE boot image](#mount-the-windows-pe-boot-image)
       - [Copy boot files back to the Windows PE add-on installation](#copy-boot-files-back-to-the-windows-pe-add-on-installation)
