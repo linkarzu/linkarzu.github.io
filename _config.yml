@@ -101,10 +101,10 @@ comments:
     issue_term: # < url | pathname | title | ...>
   # Giscus options › https://giscus.app
   giscus:
-    repo: linkarzu/jekyll-chirpy561 # <gh-username>/<repo>
-    repo_id: R_kgDOJfXz-g
+    repo: linkarzu/linkarzu.github.io # <gh-username>/<repo>
+    repo_id: R_kgDOLKi1Ow
     category: General
-    category_id: DIC_kwDOJfXz-s4CWWtE
+    category_id: DIC_kwDOLKi1O84CdmZi
     mapping: pathname # optional, default to 'pathname'
     input_position: bottom # optional, default to 'bottom'
     lang: en # optional, default to the value of `site.lang`
