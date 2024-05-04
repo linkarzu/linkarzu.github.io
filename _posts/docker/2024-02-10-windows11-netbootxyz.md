@@ -1,10 +1,10 @@
 ---
 title: Install Windows 11 over the network with netboot.xyz
 description: >-
-  Learn to install Windows 11 (or a lot of different OSs or tools available) via
-  the network using netboot.xyz, instead of having to store them in a flash
-  drive and install from there. We'll deploy docker containers, and I'm using a
-  mikrotik router
+  In this video you will learn to install Windows 11 (or a lot of different OSs
+  or tools available) via the network using netboot.xyz, instead of having to
+  store them in a flash drive and install from there. We'll deploy docker
+  containers, and I'm using a mikrotik router
 image:
   path: >-
     /daqwsgmx6/image/upload/v1708093565/youtube/docker-practical/win11-netbootxyz.png
@@ -24,12 +24,11 @@ tags:
   - winpe
 ---
 
-{% include embed/youtube.html id='25uqeRAG39A' %}
-
 ## Contents
 
 <!-- toc -->
 
+- [YouTube video](#youtube-video)
 - [Important info](#important-info)
   - [Objectives](#objectives)
   - [Disclaimer](#disclaimer)
@@ -88,6 +87,10 @@ tags:
 
 <!-- tocstop -->
 
+## YouTube video
+
+{% include embed/youtube.html id='25uqeRAG39A' %}
+
 ## Important info
 
 ### Objectives
@@ -139,9 +142,10 @@ tags:
 
 - If you don't want to boot over network, there's Ventoy, that allows you to
   store multile ISOs in a flash drive and boot from those
-- `https://github.com/ventoy/Ventoy`
-- That's not the purpose of this guide, this is specifically to avoid USB
-  drives, and boot from the network instead
+  - `https://github.com/ventoy/Ventoy`
+  - That's not the purpose of this guide, this is specifically to avoid USB
+    drives, and boot from the network instead
+- There's another PXE server alternative called `iVentoy`
 
 ### Credits
 
