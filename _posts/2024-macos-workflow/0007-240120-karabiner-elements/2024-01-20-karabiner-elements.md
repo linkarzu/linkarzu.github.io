@@ -2,7 +2,7 @@
 title: 07 - Configure Karabiner-Elements in macOS
 description:
 image:
-  path: /daqwsgmx6/image/upload/v1706149938/youtube/2024-macos-workflow/07-karabiner-elements.png
+  path: /daqwsgmx6/image/upload/q_75/v1706149938/youtube/2024-macos-workflow/07-karabiner-elements.avif
 date: 2024-01-21 20:07:00 +0000
 categories: [2024-macos-workflow]
 tags: [macos, tutorial, youtube, video, karabiner-elements]

@@ -2,7 +2,7 @@
 title: 06 - Increase macOS key repeat rate
 description:
 image:
-  path: /daqwsgmx6/image/upload/v1706149938/youtube/2024-macos-workflow/06-keyrepeat-rate.png
+  path: /daqwsgmx6/image/upload/q_75/v1706149938/youtube/2024-macos-workflow/06-keyrepeat-rate.avif
 date: 2024-01-21 20:06:00 +0000
 categories: [2024-macos-workflow]
 tags: [macos, tutorial, youtube, video]

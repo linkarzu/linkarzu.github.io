@@ -7,8 +7,8 @@ description: >-
   containers, and I'm using a mikrotik router
 image:
   path: >-
-    /daqwsgmx6/image/upload/v1708093565/youtube/docker-practical/win11-netbootxyz.png
-date: "2024-02-15 20:09:00 +0000"
+    /daqwsgmx6/image/upload/q_75/v1708093565/youtube/docker-practical/win11-netbootxyz.avif
+date: '2024-02-15 20:09:00 +0000'
 categories:
   - docker-practical
 tags:
@@ -23,67 +23,66 @@ tags:
   - samba
   - winpe
 ---
-
 ## Contents
 
 <!-- toc -->
 
 - [YouTube video](#youtube-video)
 - [Important info](#important-info)
-  - [Objectives](#objectives)
-  - [Disclaimer](#disclaimer)
-  - [Requirements](#requirements)
-  - [Help out devs](#help-out-devs)
-  - [Alternatives](#alternatives)
-  - [Credits](#credits)
+  * [Objectives](#objectives)
+  * [Disclaimer](#disclaimer)
+  * [Requirements](#requirements)
+  * [Help out devs](#help-out-devs)
+  * [Alternatives](#alternatives)
+  * [Credits](#credits)
 - [FAQ (Frequently Asked Questions)](#faq-frequently-asked-questions)
-  - [Can I run this in Virtualbox or similar?](#can-i-run-this-in-virtualbox-or-similar)
-  - [Will I be able to install Windows on real computers?](#will-i-be-able-to-install-windows-on-real-computers)
-  - [Proxmox or XCP-ng?](#proxmox-or-xcp-ng)
-  - [Docker, really?](#docker-really)
-  - [Which Linux distro should I use?](#which-linux-distro-should-i-use)
-  - [Docker swarm?](#docker-swarm)
-  - [(CAVEAT) Do I need secure boot?](#caveat-do-i-need-secure-boot)
-  - [BIOS or UEFI?](#bios-or-uefi)
-  - [Boot file type differences?](#boot-file-type-differences)
-  - [Can I use the SAMBA server for other stuff?](#can-i-use-the-samba-server-for-other-stuff)
-  - [I already have a SAMBA server running, can I use that?](#i-already-have-a-samba-server-running-can-i-use-that)
+  * [Can I run this in Virtualbox or similar?](#can-i-run-this-in-virtualbox-or-similar)
+  * [Will I be able to install Windows on real computers?](#will-i-be-able-to-install-windows-on-real-computers)
+  * [Proxmox or XCP-ng?](#proxmox-or-xcp-ng)
+  * [Docker, really?](#docker-really)
+  * [Which Linux distro should I use?](#which-linux-distro-should-i-use)
+  * [Docker swarm?](#docker-swarm)
+  * [(CAVEAT) Do I need secure boot?](#caveat-do-i-need-secure-boot)
+  * [BIOS or UEFI?](#bios-or-uefi)
+  * [Boot file type differences?](#boot-file-type-differences)
+  * [Can I use the SAMBA server for other stuff?](#can-i-use-the-samba-server-for-other-stuff)
+  * [I already have a SAMBA server running, can I use that?](#i-already-have-a-samba-server-running-can-i-use-that)
 - [Linux server deployment](#linux-server-deployment)
-  - [Configure sudo access](#configure-sudo-access)
-  - [Install docker](#install-docker)
-  - [Get VM IP address](#get-vm-ip-address)
-  - [Deploy containers with docker compose](#deploy-containers-with-docker-compose)
-    - [Clone GitHub repo where containers are](#clone-github-repo-where-containers-are)
-    - [Deploy netboot.xyz container](#deploy-netbootxyz-container)
-    - [Deploy samba container](#deploy-samba-container)
+  * [Configure sudo access](#configure-sudo-access)
+  * [Install docker](#install-docker)
+  * [Get VM IP address](#get-vm-ip-address)
+  * [Deploy containers with docker compose](#deploy-containers-with-docker-compose)
+    + [Clone GitHub repo where containers are](#clone-github-repo-where-containers-are)
+    + [Deploy netboot.xyz container](#deploy-netbootxyz-container)
+    + [Deploy samba container](#deploy-samba-container)
       - [Generate new password for samba user](#generate-new-password-for-samba-user)
       - [Deploy container](#deploy-container)
       - [Configure samba permissions](#configure-samba-permissions)
 - [Add DNS entries](#add-dns-entries)
 - [Configure router after setting up container](#configure-router-after-setting-up-container)
-  - [Configure Mikrotik router](#configure-mikrotik-router)
+  * [Configure Mikrotik router](#configure-mikrotik-router)
 - [Download additional menus](#download-additional-menus)
 - [Configure netboot.xyz to use local assets](#configure-netbootxyz-to-use-local-assets)
-  - [Download an asset locally and test](#download-an-asset-locally-and-test)
-  - [Boot a machine to test a local asset](#boot-a-machine-to-test-a-local-asset)
+  * [Download an asset locally and test](#download-an-asset-locally-and-test)
+  * [Boot a machine to test a local asset](#boot-a-machine-to-test-a-local-asset)
 - [Create Windows 11 installation media](#create-windows-11-installation-media)
-  - [Download and extract the Windows ISO to samba drive](#download-and-extract-the-windows-iso-to-samba-drive)
-  - [Create Windows WinPE ISO](#create-windows-winpe-iso)
-    - [Download and install WinPE](#download-and-install-winpe)
-    - [Create Bootable WinPE media](#create-bootable-winpe-media)
+  * [Download and extract the Windows ISO to samba drive](#download-and-extract-the-windows-iso-to-samba-drive)
+  * [Create Windows WinPE ISO](#create-windows-winpe-iso)
+    + [Download and install WinPE](#download-and-install-winpe)
+    + [Create Bootable WinPE media](#create-bootable-winpe-media)
       - [Mount the Windows PE boot image](#mount-the-windows-pe-boot-image)
       - [Copy boot files back to the Windows PE add-on installation](#copy-boot-files-back-to-the-windows-pe-add-on-installation)
       - [Unmount the WinPE image, committing changes](#unmount-the-winpe-image-committing-changes)
       - [Create working files](#create-working-files)
       - [(OPTIONAL) Customize Windows PE](#optional-customize-windows-pe)
       - [Create bootable media (WinPE ISO)](#create-bootable-media-winpe-iso)
-  - [Copy the WinPE ISO files to the samba server](#copy-the-winpe-iso-files-to-the-samba-server)
-  - [Configure netboot to point to the WinPE files](#configure-netboot-to-point-to-the-winpe-files)
-  - [Configure custom options in windows.ipxe](#configure-custom-options-in-windowsipxe)
-  - [Configure samba server and password in winpe files](#configure-samba-server-and-password-in-winpe-files)
-  - [Configure autoattend.xml file](#configure-autoattendxml-file)
-  - [Disable secure boot](#disable-secure-boot)
-  - [Install windows via netboot.xyz](#install-windows-via-netbootxyz)
+  * [Copy the WinPE ISO files to the samba server](#copy-the-winpe-iso-files-to-the-samba-server)
+  * [Configure netboot to point to the WinPE files](#configure-netboot-to-point-to-the-winpe-files)
+  * [Configure custom options in windows.ipxe](#configure-custom-options-in-windowsipxe)
+  * [Configure samba server and password in winpe files](#configure-samba-server-and-password-in-winpe-files)
+  * [Configure autoattend.xml file](#configure-autoattendxml-file)
+  * [Disable secure boot](#disable-secure-boot)
+  * [Install windows via netboot.xyz](#install-windows-via-netbootxyz)
 
 <!-- tocstop -->
 
@@ -1172,3 +1171,4 @@ docker restart samba
   ask you to change the password when
 - Add a password for the user and that's it, you successfully installed Windows
   11 over the network
+

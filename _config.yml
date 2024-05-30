@@ -85,7 +85,7 @@ theme_mode: # [light|dark]
 img_cdn: https://res.cloudinary.com
 
 # the avatar on sidebar, support local or CORS resources
-avatar: /daqwsgmx6/image/upload/q_auto/v1683578753/Profile%20pics/linkedin.jpg
+avatar: /daqwsgmx6/image/upload/q_75/v1683578753/Profile%20pics/linkedin.avif
 
 # boolean type, the global switch for TOC in posts.
 toc: true

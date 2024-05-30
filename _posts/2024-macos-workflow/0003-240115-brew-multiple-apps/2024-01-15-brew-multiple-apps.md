@@ -2,7 +2,7 @@
 title: 03 - Install multiple apps with brew in macOS
 description:
 image:
-  path: /daqwsgmx6/image/upload/v1706207626/youtube/2024-macos-workflow/03-Install-mult-apps-brew.png
+  path: /daqwsgmx6/image/upload/q_75/v1706207626/youtube/2024-macos-workflow/03-Install-mult-apps-brew.avif
 date: 2024-01-21 20:03:00 +0000
 categories: [2024-macos-workflow]
 tags: [macos, tutorial, youtube, video, brew]

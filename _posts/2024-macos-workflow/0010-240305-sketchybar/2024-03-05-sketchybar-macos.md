@@ -10,8 +10,8 @@ description: >-
   menubar to your liking.
 image:
   path: >-
-    /daqwsgmx6/image/upload/v1709985364/youtube/2024-macos-workflow/10-sketchybar.png
-date: "2024-03-05 08:00:00 +0000"
+    /daqwsgmx6/image/upload/q_75/v1709985364/youtube/2024-macos-workflow/10-sketchybar.avif
+date: '2024-03-05 08:00:00 +0000'
 categories:
   - 2024-macos-workflow
 tags:
@@ -21,28 +21,28 @@ tags:
   - video
   - sketchybar
 ---
-
-## Watch the YouTube video
-
-{% include embed/youtube.html id='CY0gU_iPRTk' %}
-
 ## Contents
 
 <!-- toc -->
 
+- [YouTube video](#youtube-video)
 - [What is sketchybar](#what-is-sketchybar)
 - [Sketchybar demo](#sketchybar-demo)
 - [Hide macos menubar](#hide-macos-menubar)
 - [Sketchybar installation](#sketchybar-installation)
-  - [Install sketchybar](#install-sketchybar)
-  - [Install dependencies](#install-dependencies)
+  * [Install sketchybar](#install-sketchybar)
+  * [Install dependencies](#install-dependencies)
 - [Install themes](#install-themes)
-  - [Option 1: DOWNLOAD 'sketchybar' dir](#option-1-download-sketchybar-dir)
-    - [Update .zshrc file](#update-zshrc-file)
-  - [Option 2: CLONE dotfiles-latest repo](#option-2-clone-dotfiles-latest-repo)
+  * [Option 1: DOWNLOAD 'sketchybar' dir](#option-1-download-sketchybar-dir)
+    + [Update .zshrc file](#update-zshrc-file)
+  * [Option 2: CLONE dotfiles-latest repo](#option-2-clone-dotfiles-latest-repo)
 - [Uninstall sketchybar](#uninstall-sketchybar)
 
 <!-- tocstop -->
+
+## YouTube video
+
+{% include embed/youtube.html id='CY0gU_iPRTk' %}
 
 ## What is sketchybar
 
@@ -376,3 +376,4 @@ osascript -e 'tell application "System Events" to set autohide menu bar of dock 
   them.
   - If you want to uninstall them just run a `brew uninstall` command instead of
     `brew install`
+

@@ -2,7 +2,7 @@
 title: Customize your shell prompt with Starship
 description: Modify your shell prompt to show you GitHub repos and much more using Starship.
 image:
-  path: /daqwsgmx6/image/upload/c_mfit,h_630,w_1200/v1683742199/blog/starship-config.png
+  path: /daqwsgmx6/image/upload/v1683742199/blog/starship-config.avif
   alt: starship configuration
 date: 2023-06-16 21:51:00 +0000
 categories: [Shell]
