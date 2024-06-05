@@ -346,7 +346,7 @@ su -
 ```bash
 # Update package lists and install common Linux tools
 apt-get update
-apt-get install -y vim curl wget git htop net-tools
+apt-get install -y vim curl wget git htop net-tools sudo
 
 # Create a sudoers file for the current user in the correct directory
 # This command allows you to enter sudo commands without being asked for the password
