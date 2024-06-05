@@ -52,17 +52,32 @@ social:
     # Uncomment below to add more social links
     # - https://www.facebook.com/username
 
-google_site_verification: 52Nj8nkGFThShXw-dpEsxLj6i-UsMuVIhPS-9_khXqg
+# Site Verification Settings
+webmaster_verifications:
+  google: 52Nj8nkGFThShXw-dpEsxLj6i-UsMuVIhPS-9_khXqg
+  bing: # fill in your Bing verification code
+  alexa: # fill in your Alexa verification code
+  yandex: # fill in your Yandex verification code
+  baidu: # fill in your Baidu verification code
+  facebook: # fill in your Facebook verification code
 
 # ↑ --------------------------
 # The end of `jekyll-seo-tag` settings
 
-google_analytics:
-  id: G-SC17BJECK4 # fill in your Google Analytics ID
-  # Google Analytics pageviews report settings
-  pv:
-    proxy_endpoint: # fill in the Google Analytics superProxy endpoint of Google App Engine
-    cache_path: # the local PV cache data, friendly to visitors from GFW region
+# Web Analytics Settings
+analytics:
+  google:
+    id: G-SC17BJECK4 # fill in your Google Analytics ID
+  goatcounter:
+    id: # fill in your GoatCounter ID
+  umami:
+    id: # fill in your Umami ID
+    domain: # fill in your Umami domain
+  matomo:
+    id: # fill in your Matomo ID
+    domain: # fill in your Matomo domain
+  cloudflare:
+    id: # fill in your Cloudflare Web Analytics token
 
 # Prefer color scheme setting.
 #
