@@ -88,7 +88,7 @@ pageviews:
 #     light  - Use the light color scheme
 #     dark   - Use the dark color scheme
 #
-theme_mode: # [light|dark]
+theme_mode: # [light | dark]
 
 # The CDN endpoint for images.
 # Notice that once it is assigned, the CDN url
@@ -124,6 +124,7 @@ comments:
     category: General
     category_id: DIC_kwDOLKi1O84CdmZi
     mapping: pathname # optional, default to 'pathname'
+    strict: # optional, default to '0'
     input_position: bottom # optional, default to 'bottom'
     lang: en # optional, default to the value of `site.lang`
     reactions_enabled: 1 # optional, default to the value of `1`
@@ -134,7 +135,7 @@ assets:
     enabled: # boolean, keep empty means false
     # specify the Jekyll environment, empty means both
     # only works if `assets.self_host.enabled` is 'true'
-    env: # [development|production]
+    env: # [development | production]
 
 pwa:
   enabled: true # the option for PWA feature (installable)
@@ -221,6 +222,7 @@ exclude:
   - LICENSE
   - rollup.config.js
   - node_modules
+  - "*.config.js"
   - package*.json
 
 jekyll-archives:
