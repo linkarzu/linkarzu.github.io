@@ -3,12 +3,6 @@
 # Import the theme
 theme: jekyll-theme-chirpy
 
-# Only change this to '/repository-name' if your site has already been published to github pages
-# and doesn't have a custom domain, mine was configured to "/jekyll-chirpy561"
-# if you have a CNAME configured, leave it blank
-baseurl: ""
-# baseurl: /jekyll-chirpy561
-
 # The language of the webpage › http://www.lingoes.net/en/translator/langcode.htm
 # If it has the same name as one of the files in folder `_data/locales`, the layout language will also be changed,
 # otherwise, the layout language will use the default value of 'en'.
@@ -79,6 +73,10 @@ analytics:
   cloudflare:
     id: # fill in your Cloudflare Web Analytics token
 
+# Pageviews settings
+pageviews:
+  provider: # now only supports 'goatcounter'
+
 # Prefer color scheme setting.
 #
 # Note: Keep empty will follow the system prefer color by default,
@@ -102,11 +100,16 @@ cdn: https://res.cloudinary.com
 # the avatar on sidebar, support local or CORS resources
 avatar: /daqwsgmx6/image/upload/q_75/v1683578753/Profile%20pics/linkedin.avif
 
+# The URL of the site-wide social preview image used in SEO `og:image` meta tag.
+# It can be overridden by a customized `page.image` in front matter.
+social_preview_image: # string, local or CORS resources
+
 # boolean type, the global switch for TOC in posts.
 toc: true
 
 comments:
-  active: giscus # The global switch for posts comments, e.g., 'disqus'.  Keep it empty means disable
+  # Global switch for the post comment system. Keeping it empty means disabled.
+  provider: giscus
   # The active options are as follows:
   disqus:
     shortname: # fill with the Disqus shortname. › https://help.disqus.com/en/articles/1717111-what-s-a-shortname
@@ -134,13 +137,27 @@ assets:
     env: # [development|production]
 
 pwa:
-  enabled: true # the option for PWA feature
+  enabled: true # the option for PWA feature (installable)
+  cache:
+    enabled: true # the option for PWA offline cache
+    # Paths defined here will be excluded from the PWA cache.
+    # Usually its value is the `baseurl` of another website that
+    # shares the same domain name as the current website.
+    deny_paths:
+      # - "/example"  # URLs match `<SITE_URL>/example/*` will not be cached by the PWA
 
 paginate: 25
+
+# Only change this to '/repository-name' if your site has already been published to github pages
+# and doesn't have a custom domain, mine was configured to "/jekyll-chirpy561"
+# if you have a CNAME configured, leave it blank
+baseurl: ""
+# baseurl: /jekyll-chirpy561
 
 # ------------ The following options are not recommended to be modified ------------------
 
 kramdown:
+  footnote_backlink: "&#8617;&#xfe0e;"
   syntax_highlighter: rouge
   syntax_highlighter_opts: # Rouge Options › https://github.com/jneen/rouge#full-options
     css_class: highlight
@@ -168,7 +185,6 @@ defaults:
       # to update the code of all other post links in this project.
       # permalink: /posts/:title/
       permalink: /posts/:categories/:title/
-
   - scope:
       path: _drafts
     values:
@@ -181,10 +197,6 @@ defaults:
       permalink: /:title/
   - scope:
       path: assets/img/favicons
-    values:
-      swcache: true
-  - scope:
-      path: assets/js/dist
     values:
       swcache: true
 
