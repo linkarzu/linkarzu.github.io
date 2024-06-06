@@ -89,8 +89,8 @@ tags:
 ### This guide will be on my blog
 
 - You don't have to type all of these commands, this file will be uploaded to my
-  blogpost [linkarzu.com](linkarzu.com){:target="\_blank"} when I'm done with
-  the video, so you can follow along and just paste the commands
+  blogpost [linkarzu.com](https://linkarzu.com){:target="\_blank"} when I'm done
+  with the video, so you can follow along and just paste the commands
 
 ### Like and comment
 
