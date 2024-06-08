@@ -161,7 +161,7 @@ rm -rf ~/github/dotfiles-latest/kitty/themes/.github/
 
 - If you want to use my kitty settings, you can find my config file in my
   dotfiles
-  - [My kitty config file](https://github.com/linkarzu/dotfiles-latest/blob/6bc4e8aac5b8ad4465e95bbf5c53a9a84348ebd5/kitty/kitty.conf){:target="\_blank"}
+  - [My kitty config file](https://github.com/linkarzu/dotfiles-latest/blob/4ac00c8653025da331d43adfb892dc7a67ea4c6a/kitty/kitty.conf){:target="\_blank"}
   - Just copy the settings in my config file to your
     `~/.config/kitty/kitty.conf` file
 
@@ -349,7 +349,7 @@ set -g visual-activity off
 ---
 
 - The config I'm using for this plugin can be found in
-  [my dotfiles](https://github.com/linkarzu/dotfiles-latest/blob/6bc4e8aac5b8ad4465e95bbf5c53a9a84348ebd5/neovim/nvim-lazyvim/lua/plugins/image-nvim.lua){:target="\_blank"}
+  [my dotfiles](https://github.com/linkarzu/dotfiles-latest/blob/4ac00c8653025da331d43adfb892dc7a67ea4c6a/neovim/nvim-lazyvim/lua/plugins/image-nvim.lua){:target="\_blank"}
 
 ---
 
@@ -413,7 +413,7 @@ brew install pngpaste
 
 - Install this plugin like any other neovim plugin
 - The config I'm using for this plugin can be found in
-  [my dotfiles](https://github.com/linkarzu/dotfiles-latest/blob/6bc4e8aac5b8ad4465e95bbf5c53a9a84348ebd5/neovim/nvim-lazyvim/lua/plugins/img-clip.lua){:target="\_blank"}
+  [my dotfiles](https://github.com/linkarzu/dotfiles-latest/blob/4ac00c8653025da331d43adfb892dc7a67ea4c6a/neovim/nvim-lazyvim/lua/plugins/img-clip.lua){:target="\_blank"}
 
 ### Configure img-clip.nvim
 
@@ -444,7 +444,7 @@ brew install pngpaste
     - View the file in the web browser `iamcco/markdown-preview.nvim`
     - This comes by default with the lazyvim.org distro using `<leader>cp`
 - All of these keymaps and my plugin configs can be found in
-  [my dotfiles-latest repo](https://github.com/linkarzu/dotfiles-latest/blob/6bc4e8aac5b8ad4465e95bbf5c53a9a84348ebd5/neovim/nvim-lazyvim/lua/config/keymaps.lua){:target="\_blank"}
+  [my dotfiles-latest repo](https://github.com/linkarzu/dotfiles-latest/blob/4ac00c8653025da331d43adfb892dc7a67ea4c6a/neovim/nvim-lazyvim/lua/config/keymaps.lua){:target="\_blank"}
 
 ## Petition (reminder)
 
