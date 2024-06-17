@@ -3,7 +3,7 @@ title: From Google Docs to Obsidian
 description: Why did I stop taking notes in Google Docs and switched to Obsidian
 image:
   path: >-
-    /daqwsgmx6/image/upload/q_75/v1717456413/youtube/neovim/view-paste-images.avif
+    /daqwsgmx6/image/upload/q_75/v1718650283/youtube/obsidian/google-docs-to-obsidian.avif
 date: '2024-06-16 10:09:00 +0000'
 categories:
   - obsidian
@@ -22,17 +22,25 @@ tags:
 - [Warning](#warning)
 - [Reasons to switch to Obsidian](#reasons-to-switch-to-obsidian)
 - [Mobile app](#mobile-app)
+- [Recommendations](#recommendations)
+- [Timeline](#timeline)
 
 <!-- tocstop -->
 
 ## YouTube video
 
-{% include embed/youtube.html id='0O3kqGwNzTI' %}
+{% include embed/youtube.html id='qgxV0hwmywI' %}
 
 ## What is Obsidian
 
 - It's a note taking app, or as they call it, a "writing app"
   [link to their website](https://obsidian.md){:target="\_blank"}
+- Obsidian is available to download and install on
+  - macOS
+  - Linux
+  - Windows
+  - Android
+  - iOS
 
 ## Warning
 
@@ -79,6 +87,7 @@ tags:
 - 5. Codeblocks support since using markdown files
 - 6. I can upload my images to my Imgur account or store them locally
   - Demo on the video on how images are uploaded to imgur
+- 7. Vim motions
 
 ## Mobile app
 
@@ -89,10 +98,37 @@ tags:
 - But if I need to read a note, I do it on the github mobile app, because I
   upload my notes to a **PRIVATE** github repo
 
-```bash
-RECOMMENDATION sketchybar
-RECOMMENDATION Switch between apps using karabiner elements
-```
+## Recommendations
 
--
+- If you want to configure a custom menu bar on macos using sketchybar
+- <https://youtu.be/CY0gU_iPRTk>
+
+---
+
+- If you want to jump around your apps using keyboard shortcuts using
+  karabiner-elements
+- <https://youtu.be/Cr35bp8yAzo>
+
+## Timeline
+
+```bash
+0:00 - What is Obsidian
+0:21 - Qick Obsidian overview
+0:46 - Dont go down tutorial, plugin and zettelkasten rabbit holes
+1:55 - Reason 1 load times
+3:03 - Reason 2 searches
+4:21 - Reason 3 offline access
+4:37 - Sync obsidian repo to github
+5:26 - Reason 4 markdown format and directory structure
+8:12 - Reason 5 codeblocks
+9:28 - Reason 6 images locally or in imgur
+10:47 - Reason 7 vim motions
+11:04 - Mobile app and obsidian sync
+12:15 - RECOMMENDATION macOS sketchybar 12:29
+12:36 - RECOMMENDATION karabiner-elements 13:00
+13:01 - Migrate only what you need
+13:39 - Graph view
+13:00 - Calendar, daily notes
+14:19 - Link notes
+```
 
