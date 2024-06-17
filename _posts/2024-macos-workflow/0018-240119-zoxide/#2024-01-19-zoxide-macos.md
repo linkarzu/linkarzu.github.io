@@ -2,7 +2,7 @@
 title: 18 - zoxide, a smarter cd for macOS
 description:
 image:
-  path: /daqwsgmx6/image/upload/v1683742199/blog/brew-multiple-apps.avif
+  path: /daqwsgmx6/image/upload/q_75/v1683742199/blog/brew-multiple-apps.avif
 date: 2024-01-21 20:18:00 +0000
 categories: [2024-macos-workflow]
 tags: [macos, tutorial, youtube, video, zoxide, mactools]
