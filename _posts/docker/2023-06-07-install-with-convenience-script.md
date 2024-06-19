@@ -4,7 +4,8 @@ description: >-
   How to install docker on a Linux machine using the convenience script instead
   of the usual manual process
 image:
-  path: daqwsgmx6/image/upload/q_75/v1686166730/blog/convenience-script.avif
+  path: >-
+    daqwsgmx6/image/upload/q_75/v1718740023/youtube/docker-practical/convenience-script.avif
   alt: docker convenience script
 date: '2023-06-07 19:43:00 +0000'
 categories:
@@ -19,36 +20,161 @@ tags:
 
 <!-- toc -->
 
+- [YouTube video](#youtube-video)
 - [Overview](#overview)
-- [Install Docker](#install-docker)
-- [Run docker commands without sudo](#run-docker-commands-without-sudo)
+- [What distro am I using?](#what-distro-am-i-using)
+- [All in one script](#all-in-one-script)
+- [Configure sudo access](#configure-sudo-access)
+- [Convenience script step by step](#convenience-script-step-by-step)
+  * [Run docker commands without sudo](#run-docker-commands-without-sudo)
+- [What's next?](#whats-next)
+- [Timeline](#timeline)
 
 <!-- tocstop -->
 
+## YouTube video
+
+{% include embed/youtube.html id='HwEg6OYQzWY' %}
+
 ## Overview
 
-Up until a few weeks ago, every time I needed to install docker on a new Linux
-server, I'd go to the
-[official documentation page](https://docs.docker.com/engine/install/){:target="\_blank"}
-and follow the steps for my specific distro, which is usually Debian. There are
-several installation methods, and I'd normally go with the `apt repository` one.
+- In the past, every time I needed to install docker on a new Linux server, I'd
+  go to the
+  [official documentation page](https://docs.docker.com/engine/install/){:target="\_blank"}
+  and follow the steps for my specific distro, which is usually Debian. There
+  are several installation methods, and I'd normally go with the
+  `apt repository` one.
+- This means setting up the repo, adding the GPG key, installing docker, etc.
+  - Not difficult, but you still have to go through the documentation to find
+    the right commands and after installing docker a few times, it gets kinda
+    tedious.
+- In the official documentation, there's also a method at the end that reads
+  `Use a convenience script`, which is what will be covered in this guide.
+- This guide applies if you'll install Docker Engine on a **linux server**,
+  using one of the supported distros.
 
-This means setting up the repo, adding the GPG key, installing docker, etc. Not
-difficult, but you still have to go through the documentation to find the right
-commands and after installing docker a few times, it gets kinda tedious.
+<!-- markdownlint-disable -->
+<!-- prettier-ignore-start -->
 
-In the official documentation, there's also a method at the end that reads
-`Use a convenience script`, which is what will be covered in this guide. The
-only thing you need to remember is the URL in which the script is hosted.
+> This is `not` a guide to install `Docker desktop` on either Linux, Windows or Mac.
+{: .prompt-tip }
 
-> - This guide applies if you'll install Docker Engine on a **linux server**,
->   using one of the supported distros.
-> - `This is not a guide to install Docker desktop on either Linux, Windows or Mac.`
->   {: .prompt-tip }
+<!-- prettier-ignore-end -->
+<!-- markdownlint-restore -->
 
-## Install Docker
+## What distro am I using?
 
-- Go to [https://get.docker.com/](https://get.docker.com/){:target="\_blank"}
+- I'm using `Debian`, but these commands should work for any debian based
+  distro, like the most popular one Ubuntu
+
+## All in one script
+
+- I created this script that does the following:
+  - 1 - Make sure docker is NOT already installed
+  - 2 - Check you have sudo permissions
+  - 3 - Show you the versions and ask you which one you want to install
+    - This is useful if for example you want to install a specific docker
+      version so that it matches the rest of your docker hosts in your swarm
+      cluster
+  - 4 - Add your user to the `docker` group so you can run docker commands
+    without sudo
+  - 5 - Execute the docker convenience script
+- If you want to understand better what the script does, go inspect it in github
+
+```bash
+bash -c "$(curl -sSL https://raw.githubusercontent.com/linkarzu/scripts-public/master/debian/docker/10-convenience-script.sh)"
+```
+
+## Configure sudo access
+
+<!-- markdownlint-disable -->
+<!-- prettier-ignore-start -->
+ 
+<!-- tip=green, info=blue, warning=yellow, danger=red -->
+ 
+> Follow this section if you don't want to be typing your `sudo` password
+{: .prompt-danger }
+ 
+<!-- prettier-ignore-end -->
+<!-- markdownlint-restore -->
+
+- **If you can run the command below, without being asked for your password,
+  that means you have sudo permissions**
+
+```bash
+sudo apt-get update
+```
+
+- I have to log in as root to do be able to add my user to the sudoers file
+  - Remember that I'm on Debian, may be different for your distro
+
+```bash
+# Saving the name of my current user to a temp file because will need it
+whoami > /tmp/current_user
+
+# Log in as root
+su -
+```
+
+- If you already have the packages below installed, and run the install commands
+  again, the packages will just be updated, so no worries
+
+```bash
+# Update package lists and install common Linux tools
+apt-get update
+apt-get install -y vim curl wget git htop net-tools sudo
+
+# Create a sudoers file for the current user in the correct directory
+# This command allows you to enter sudo commands without being asked for the password
+# The name of the file doesnt have to match the user, but its good for consistency
+my_current_user=$(cat /tmp/current_user)
+echo "$my_current_user ALL=(ALL) NOPASSWD:ALL" > /etc/sudoers.d/$my_current_user
+
+# Set the file permissions to 440 for security
+chmod 440 /etc/sudoers.d/$my_current_user
+
+# Cleanup the temporary file
+rm /tmp/current_user
+
+# Exit the root shell and go back to our regular user
+exit
+```
+
+- Here's the contents of the file
+
+```bash
+sudo cat /etc/sudoers.d/$(whoami)
+```
+
+- Now my user can run sudo commands without being asked for the password
+
+```bash
+sudo apt-get update
+```
+
+---
+
+In case you want to remove what we just did, just delete the file we created
+
+```bash
+sudo rm /etc/sudoers.d/krishna
+```
+
+## Convenience script step by step
+
+<!-- markdownlint-disable -->
+<!-- prettier-ignore-start -->
+ 
+<!-- tip=green, info=blue, warning=yellow, danger=red -->
+ 
+> - This section and all the following ones, explain what the script above does
+  - **If you already installed docker above, don't run the following commands again**
+{: .prompt-info }
+ 
+<!-- prettier-ignore-end -->
+<!-- markdownlint-restore -->
+
+- Go to [get.docker.com](https://get.docker.com/){:target="\_blank"}
 - There you will see detailed instructions on how to install docker, but below
   are summarized steps taken from the script. I'll be installing it on a newly
   deployed Debian 11.7 server
@@ -97,7 +223,7 @@ DEBIAN_FRONTEND=noninteractive apt-get install -y -qq docker-ce docker-ce-cli co
 - **Run the script to start the installation (make sure to run it as
   sudo/root)**
   - At the end of the installation, you will see the version installed, and also
-    an important note at the bottom, see the exmaple code below
+    an important note, see the exmaple code below
 
 ```bash
 sudo sh install-docker.sh
@@ -152,16 +278,25 @@ WARNING: Access to the remote API on a privileged Docker daemon is equivalent
 ================================================================================
 ```
 
-> If you're planning on using this docker host in a Swarm cluster **do not** run
-> the docker daemon in rootless mode. I did and it was a nightmare trying to
-> figure out why my node wasn't able to join the cluster. Instead of doing that,
-> I'll add my user to the `docker` group as seen below
->
-> - NOTE: The `docker` group grants root-level privileges to the user. For
->   details on how this impacts security in your system, see
->   [Docker Daemon Attack Surface](https://docs.docker.com/engine/security/#docker-daemon-attack-surface){:target="\_blank"}
+- If you're planning on using this docker host in a Swarm cluster **do not** run
+  the docker daemon in rootless mode.
+- I did and it was a nightmare trying to figure out why my node wasn't able to
+  join the cluster. Instead of doing that, I'll add my user to the `docker`
+  group as seen below
 
-## Run docker commands without sudo
+<!-- markdownlint-disable -->
+<!-- prettier-ignore-start -->
+ 
+<!-- tip=green, info=blue, warning=yellow, danger=red -->
+ 
+> - The `docker` group grants root-level privileges to the user. 
+- For details on how this impacts security in your system, see [Docker Daemon Attack Surface](https://docs.docker.com/engine/security/#docker-daemon-attack-surface){:target="\_blank"}
+{: .prompt-tip }
+ 
+<!-- prettier-ignore-end -->
+<!-- markdownlint-restore -->
+
+### Run docker commands without sudo
 
 - Notice that you cannot run `docker` commands without sudo
 
@@ -218,4 +353,36 @@ CONTAINER ID   IMAGE     COMMAND   CREATED   STATUS    PORTS     NAMES
   - You don't even need to come back to the guide again in the future, all of
     the steps are listed in
     [https://get.docker.com/](https://get.docker.com/){:target="\_blank"}
+
+## What's next?
+
+- Now that you have docker installed, install some containers
+- If you're up to the challenge, and want to apply docker in a real life
+  scenario, in this other video
+- [Install Windows 11 over the network with netboot.xyz, automated install with unattend.xml](https://youtu.be/25uqeRAG39A){:target="\_blank"}
+  - I go over the installation of 2 docker containers and a lot of other stuff
+
+---
+
+{% include embed/youtube.html id='25uqeRAG39A' %}
+
+## Timeline
+
+```bash
+0:00 - What is the convenience script
+0:47 - Not docker desktop, but instead to install docker on Linux
+0:58 - Deploy new VM
+1:41 - Distro I am using
+1:55 - OPTION1 All in one script
+2:57 - Install specific docker version
+4:50 - RECOMMENDATION switch between tmux sessions 5:05
+5:00 - RECOMMENDATION tmux 5:26
+5:50 - Install latest docker version
+6:00 - Revert VM snapshot
+7:15 - Cannot run script if docker installed
+7:30 - Configure sudo access
+8:37 - OPTION2 run convenience script step by step
+9:11 - RECOMMENDATION install windows 11 over the network 9:24
+9:39 - outro
+```
 
