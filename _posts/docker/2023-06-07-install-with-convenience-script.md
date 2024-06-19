@@ -5,7 +5,7 @@ description: >-
   of the usual manual process
 image:
   path: >-
-    daqwsgmx6/image/upload/q_75/v1718740023/youtube/docker-practical/convenience-script.avif
+    daqwsgmx6/image/upload/q_75/v1718827702/youtube/docker-practical/convenience-script.avif
   alt: docker convenience script
 date: '2023-06-07 19:43:00 +0000'
 categories:
