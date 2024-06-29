@@ -45,7 +45,7 @@ tags:
  
 <!-- tip=green, info=blue, warning=yellow, danger=red -->
  
-> If you're wathing the video the link to this guide will be in the video description
+> If you're watching the video the link to this guide will be in the video description
 {: .prompt-info }
  
 <!-- prettier-ignore-end -->
