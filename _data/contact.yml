@@ -4,19 +4,20 @@
   icon: "fab fa-youtube"
   url: "https://www.youtube.com/@linkarzu"
 
+- type: twitter
+  icon: "fa-brands fa-x-twitter"
+  url: "https://twitter.com/link_arzu"
+
 - type: github
   icon: "fab fa-github"
 
-- type: linkedin
-  icon: "fab fa-linkedin" # icons powered by <https://fontawesome.com/>
-  url: "https://www.linkedin.com/in/christianarzu" # Fill with your Linkedin homepage
+# - type: linkedin
+#   icon: "fab fa-linkedin" # icons powered by <https://fontawesome.com/>
+#   url: "https://www.linkedin.com/in/christianarzu" # Fill with your Linkedin homepage
 
 # - type: credly
 #   icon: "fas fa-certificate" #I updated the icon version in _sass/base.scss to v6.4.0
 #   url: "https://www.credly.com/users/chrisjosuearzu/badges"
-
-# - type: twitter
-#   icon: "fa-brands fa-x-twitter"
 
 # - type: email
 #   icon: "fas fa-envelope"
