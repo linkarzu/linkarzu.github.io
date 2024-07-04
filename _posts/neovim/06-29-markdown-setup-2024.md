@@ -26,19 +26,27 @@ tags:
 - [Disclaimer](#disclaimer)
 - [All links to my YouTube videos in video description](#all-links-to-my-youtube-videos-in-video-description)
 - [Pending items](#pending-items)
+- [Where are all these files?](#where-are-all-these-files)
 - [Markdown tips](#markdown-tips)
   * [Better bullet points](#better-bullet-points)
   * [Spell checking (works in tmux)](#spell-checking-works-in-tmux)
+    + [Spell dictionary](#spell-dictionary)
+    + [Fix undercurl in tmux](#fix-undercurl-in-tmux)
+    + [Lazyvim spell defaults](#lazyvim-spell-defaults)
+    + [John McBride video recommendation](#john-mcbride-video-recommendation)
   * [todo items `leader+td`](#todo-items-leadertd)
   * [Add markdown TOC](#add-markdown-toc)
   * [Delete current file](#delete-current-file)
-  * [Jump to daily note `hyper+t+r`](#jump-to-daily-note-hypertr)
+  * [Create or jump daily note `hyper+t+r`](#create-or-jump-daily-note-hypertr)
   * [Create headings and daily note](#create-headings-and-daily-note)
   * [View and paste images](#view-and-paste-images)
   * [Use snippets](#use-snippets)
   * [Bold easily](#bold-easily)
   * [Jump between markdown headings](#jump-between-markdown-headings)
+    + [lazyvim already uses default `gj` and `gk` mappings](#lazyvim-already-uses-default-gj-and-gk-mappings)
   * [Fold all level 2 or 3 headings](#fold-all-level-2-or-3-headings)
+    + [Folding basics](#folding-basics)
+    + [Andrew Courter video recommendation](#andrew-courter-video-recommendation)
   * [Fold with enter](#fold-with-enter)
   * [Accept completion with `ctrl+y` instead of enter](#accept-completion-with-ctrly-instead-of-enter)
   * [Working with marks](#working-with-marks)
@@ -46,13 +54,16 @@ tags:
   * [Paste github repo as link](#paste-github-repo-as-link)
   * [Increase decrease all markdown headings](#increase-decrease-all-markdown-headings)
   * [Line wrapping at 80 characters](#line-wrapping-at-80-characters)
+    + [textwidth 80](#textwidth-80)
+    + [ProseWrap and .prettierrc.yaml](#prosewrap-and-prettierrcyaml)
   * [Disable autoformatting in certain sections](#disable-autoformatting-in-certain-sections)
   * [Add file path to current file](#add-file-path-to-current-file)
+  * [Copy current file path to clipboard](#copy-current-file-path-to-clipboard)
   * [Navigate the help pages](#navigate-the-help-pages)
   * [See key maps](#see-key-maps)
   * [Paste with "p" in visual mode](#paste-with-p-in-visual-mode)
   * [Select text in a bullet point](#select-text-in-a-bullet-point)
-  * [Indent with tab](#indent-with-tab)
+  * [Don't indent with tab](#dont-indent-with-tab)
   * [Open current file in finder](#open-current-file-in-finder)
   * [Alternate file](#alternate-file)
   * [How do I do the hyper+t+r and hyper+t+j](#how-do-i-do-the-hypertr-and-hypertj)
@@ -116,11 +127,11 @@ tags:
   using something different you might need to to a bit of tweaking, but you can
   grab the overall ideas and adapt them to your own config
 - I use `macOS`, so keep that in mind too
-- My entire neovim setup is in my github repo, so you can also grab it
 - This is not a distribution, this is my personal setup, so one day I may use
   certain plugin, like `neo-tree`, and the following day I may completely
   disable it and instead switch to `mini.files`, in case you clone and pull,
   expect to see changes
+- My entire neovim setup is in my github repo, so you can also grab it
 
 ## All links to my YouTube videos in video description
 
@@ -135,6 +146,15 @@ tags:
 - <!-- TODO; Fix mutiline bold, bolds but doesn't unbold -->
 - <!-- TODO; Delete current file with keymap -->
 - <!-- TODO: Current line bullet point with <leader>ml -->
+
+## Where are all these files?
+
+- They're in my [dotfiles](https://github.com/linkarzu/dotfiles-latest)
+- Search for any keymap, for example `<leader>fD` in my keymaps file:
+  - `~/github/dotfiles-latest/neovim/neobean/lua/config/keymaps.lua`
+  - And you will be able to see the code related to that keymap
+- I'm not giving you a `permalink`, as my dotfiles change quite often, so always
+  check for the latest updates
 
 ## Markdown tips
 
@@ -158,8 +178,8 @@ There's much more that you can find in the github page
 
 ### Spell checking (works in tmux)
 
-- mispellll
-- mispellll
+- misspell
+- misspell
 - mispellll
 - mispellll
 - mispellll
@@ -171,22 +191,39 @@ There's much more that you can find in the github page
     please let me know in the comments**
 - To add a word to your dictionary use `zg`
   - I created a keymap `<leader>msg` (markdown good)
-  - This fill will be in my main neobean directory
-    `~/github/dotfiles-latest/neovim/neobean/spell/en.utf-8.add` and every time
-    I add a word it will be added there
 - If you added a word by mistake and want to remove it `<leader>msu`
 - After you correct a word, if you want to repeat that and correct it across the
   file use `<leader>msr`
   - **This isn't working for me, will look at it another day, if you know how to
     fix it,**
+
+<!-- markdownlint-disable -->
+<!-- prettier-ignore-start -->
+ 
+<!-- tip=green, info=blue, warning=yellow, danger=red -->
+ 
+> I'm not sure why, but if you use the dashboard-nvim plugin and press "s" to 
+restore the session, but you do it really fast, the autocmd doesn't kick in and 
+spelling will be off, so when in the dashboard wait a few seconds before
+pressings "s", will take a look at this issue another day
+{: .prompt-danger }
+ 
+<!-- prettier-ignore-end -->
+<!-- markdownlint-restore -->
+
+#### Spell dictionary
+
+- The file with all the keywords I add is in my main neobean directory:
+  - `~/github/dotfiles-latest/neovim/neobean/spell/en.utf-8.add`
 - Something that John McBride recommends:
   - Don't manually add words to that file, but instead add them with the mapping
     so that neovim recompiles the file
   - Personally, I haven't tested how this file across machines, but time will
     tell
 
----
+#### Fix undercurl in tmux
 
+- Special thanks to Folke for this tip
 - I use both kitty and tmux, for this to work, you need to add the following
   lines to your tmux.conf file
 
@@ -204,41 +241,25 @@ set -as terminal-overrides ',*:Smulx=\E[4::%p1%dm'
 set -as terminal-overrides ',*:Setulc=\E[58::2::%p1%{65536}%/%d::%p1%{256}%/%{255}%&%d::%p1%{255}%&%d%;m'
 ```
 
-- Go and see my file for the latest changes
+- Go and see my tmux.conf file for the latest changes
 - I changed the undercurl color and style in my neovim colorscheme settings,
   every time you make a change there you have to reload the tmux config, but
   also **kill the tmux session** or it won't work
 
----
+#### Lazyvim spell defaults
 
 - There's a default
   [Auto Command](https://www.lazyvim.org/configuration/general#auto-commands){:target="\_blank"}
-  (autocmd) in Folke's lazyvim.org distro that **I think** is what enables
-  spelling
+  (autocmd) in Folke's lazyvim.org distro that is what enables spelling
 - Also the lazyvim.org comes preconfigured with the
   [Option](https://www.lazyvim.org/configuration/general#options){:target="\_blank"}
   `opt.spelllang = { "en" }` (English)
 
----
+#### John McBride video recommendation
 
-- Watch this great video by by John McBride if you want to learn more
-  [Neovim: How to setup the spell checker](https://youtu.be/KoL-2WTlr04?si=3WKTc0RXWUQiY2vr){:target="\_blank"}
-
----
-
-<!-- markdownlint-disable -->
-<!-- prettier-ignore-start -->
- 
-<!-- tip=green, info=blue, warning=yellow, danger=red -->
- 
-> I'm not sure why, but if you use the dashboard-nvim plugin and press "s" to 
-restore the session, but you do it really fast, the autocmd doesn't kick in and 
-spelling will be off, so when in the dashboard wait a few seconds before
-pressings "s", will take a look at this issue another day
-{: .prompt-danger }
- 
-<!-- prettier-ignore-end -->
-<!-- markdownlint-restore -->
+- Watch this great video by by John McBride if you want to learn more about
+  spell:
+  - [Neovim: How to setup the spell checker](https://youtu.be/KoL-2WTlr04?si=3WKTc0RXWUQiY2vr){:target="\_blank"}
 
 ### todo items `leader+td`
 
@@ -268,7 +289,7 @@ pressings "s", will take a look at this issue another day
 - **This is for macOS and uses the trash app, if you're on Linux, modify the
   keymap**
 
-### Jump to daily note `hyper+t+r`
+### Create or jump daily note `hyper+t+r`
 
 - I normally handle my notes as large files (kubernetes, docker, xcp-ng, etc),
   but there are times I don't want to add stuff to one of those files and
@@ -295,7 +316,7 @@ pressings "s", will take a look at this issue another day
  
 <!-- tip=green, info=blue, warning=yellow, danger=red -->
  
-> Make sure that the `300-dailyNote.sh` script is executable
+> Make sure that the `~/github/dotfiles-latest/scripts/macos/mac/300-dailyNote.sh` script is executable
 {: .prompt-tip }
  
 <!-- prettier-ignore-end -->
@@ -351,9 +372,11 @@ pressings "s", will take a look at this issue another day
 
 ---
 
-- This is just a random paragraph with random text in it, it doesn't serve any
-  purpose but I just want to use it to demonstrate how multi line bold and
-  unbold works
+This is just a random paragraph with random text in it, it doesn't serve any
+purpose but I just want to use it to demonstrate how multi line bold and unbold
+works
+
+This is just a single line of text
 
 ### Jump between markdown headings
 
@@ -362,7 +385,7 @@ pressings "s", will take a look at this issue another day
 - Besides the outline plugin if I want to navigate between headings I use:
   - `gj` and `gk`
 
----
+#### lazyvim already uses default `gj` and `gk` mappings
 
 - Remember that I use the `lazyvim.org` distro
 - That distro already comes with some Default keymaps configured
@@ -401,16 +424,17 @@ map({ "n", "x" }, "<Up>", "v:count == 0 ? 'gk' : 'k'", { expr = true, silent = t
 <!-- prettier-ignore-end -->
 <!-- markdownlint-restore -->
 
-- I created 2 keymaps to fold
-  - `<leader>mfk` and `<leader>mfl` (markdown fold 2`k` and 3`l`)
-    - I know, it sounds like `madafaka`, but it's just the 2nd letter
+- I created 4 keymaps to fold:
+  - `<leader>mfj` (markdown fold 1)
+  * `<leader>mfk` (markdown fold 2)
+    - I know, it looks like `madafaka`, but it's just the 2nd letter
+  * `<leader>mfl` (markdown fold 3)
+  * `<leader>mf;` (markdown fold 4)
 - And to unfold:
   - `<leader>mfu` (markdown fold undo)
 - See the `Folding section` in the keymaps file
-- You can add more keymaps, for example `<leader>mf;` (markdown fold 4):
-  - I don't need them
 
----
+#### Folding basics
 
 - There are several fold options worth knowing about
 - `opt.foldlevel = 99`
@@ -443,15 +467,14 @@ map({ "n", "x" }, "<Up>", "v:count == 0 ? 'gk' : 'k'", { expr = true, silent = t
 :set foldtext?
 ```
 
----
+#### Andrew Courter video recommendation
 
-- There's a grat video about Folds by Andrew Courter:
+- There's a great video about Folds by Andrew Courter:
   - [Code Folding in Neovim](https://youtu.be/f_f08KnAJOQ){:target="\_blank"}
 
 ### Fold with enter
 
 - Normally you fold with `za` but I changed it to use enter `<CR>`
-- `Toggle fold`
 
 <!-- markdownlint-disable -->
 <!-- prettier-ignore-start -->
@@ -459,7 +482,7 @@ map({ "n", "x" }, "<Up>", "v:count == 0 ? 'gk' : 'k'", { expr = true, silent = t
 <!-- tip=green, info=blue, warning=yellow, danger=red -->
  
 > [If you like this, and want to support me](#if-you-like-this-and-want-to-support-me)
-{: .prompt- }
+{: .prompt-tip }
  
 <!-- prettier-ignore-end -->
 <!-- markdownlint-restore -->
@@ -517,9 +540,9 @@ map({ "n", "x" }, "<Up>", "v:count == 0 ? 'gk' : 'k'", { expr = true, silent = t
   place, so I prefer to follow the markdown guidelines.
 - To achieve this I do 2 things:
 
----
+#### textwidth 80
 
-- 1. Set the option `vim.opt.textwidth = 80` in `lua/config/options.lua`
+- Set the option `vim.opt.textwidth = 80` in `lua/config/options.lua`
   - When text reaches this limit, it automatically wraps to the next line.
   - This will automatically switch to the line below as you are typing and reach
     the 80 characters
@@ -527,10 +550,10 @@ map({ "n", "x" }, "<Up>", "v:count == 0 ? 'gk' : 'k'", { expr = true, silent = t
     - Existing lines in a document after you enable the option
     - Long lines that you paste into a file
 
----
+#### ProseWrap and .prettierrc.yaml
 
-- 2. Use `prettier` with the `proseWrap: "always"` option in the
-     `.prettierrc.yaml` file
+- Use `prettier` with the `proseWrap: "always"` option in the `.prettierrc.yaml`
+  file
   - This will autoformat existing lines over 80 characters and also long lines
     that you paste that exceed the 80 characters
   - You will see how to enable prettier in the `LazyExtras` section
@@ -584,7 +607,7 @@ map({ "n", "x" }, "<Up>", "v:count == 0 ? 'gk' : 'k'", { expr = true, silent = t
 - `<C-z>`
 - `Insert filename with path`
 
----
+### Copy current file path to clipboard
 
 - To copy the file path to the clipboard use `<leader>fp`
 
@@ -606,6 +629,7 @@ map({ "n", "x" }, "<Up>", "v:count == 0 ? 'gk' : 'k'", { expr = true, silent = t
 
 - This is not markdown specific, but overall neovim specific
 - **DON'T** use `cmd+v` (macOS) to paste
+- Paste with `p` (lowercase) or `P` (uppercase)
 
 ```bash
 Laborum aute consectetur sit reprehenderit.
@@ -631,7 +655,7 @@ Minim tempor ullamco do eu pariatur minim.
   there, not sure why
   - **If you know why this is, let me know down in the comments**
 
-### Indent with tab
+### Don't indent with tab
 
 - **Don't try this**, because if you use snippets, this will interfere with them
   and you won't be able to jump to the next field using tab
@@ -658,6 +682,13 @@ Minim tempor ullamco do eu pariatur minim.
 - I'm using The Primeagen's tmux sessionizer script, I explain everything in
   detail in the video below
 - [Primeagen's tmux-sessionizer and tmux-sshonizer-agen](https://youtu.be/MCbEPylDEWU){:target="\_blank"}
+
+---
+
+- If on macOS, I also use the BetterTouchTool app, which allows me to run
+  hyper+t+j from any app, not just from the terminal itself
+- I have a video in which I go over BetterTouchTool in great detail:
+  - [Advanced BetterTouchTools shortcuts that execute a set of actions like scripts](https://youtu.be/RBHCgEEluD0){:target="\_blank"}
 
 ### See messages history
 
