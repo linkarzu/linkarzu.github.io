@@ -27,6 +27,7 @@ tags:
 - [All links to my YouTube videos in video description](#all-links-to-my-youtube-videos-in-video-description)
 - [Pending items](#pending-items)
 - [Markdown tips](#markdown-tips)
+  * [Better bullet points](#better-bullet-points)
   * [Spell checking (works in tmux)](#spell-checking-works-in-tmux)
   * [todo items `leader+td`](#todo-items-leadertd)
   * [Add markdown TOC](#add-markdown-toc)
@@ -150,8 +151,31 @@ tags:
 
 ## Markdown tips
 
+### Better bullet points
+
+- You'll see what plugin we use later on
+- When you are in a bullet point, and press enter, it automatically creates it
+  below and respects indentation
+- If you put a colon at the end, it will indent the next bullet point:
+  - Notice the indentation changed:
+    - And indented again
+- If you press enter in a line that only has a bullet point, line below won't
+  have one
+
+---
+
+1. Numbers are also auto increased
+2. This was added automatically
+
+There's much more that you can find in the github page
+
 ### Spell checking (works in tmux)
 
+- mispellll
+- mispellll
+- mispellll
+- mispellll
+- mispellll
 - To toggle spelling `<Leader>us`
 - To jump between misspelled words use `[s` and `]s`
 - To correct a word using suggestions the default is `z=`
@@ -178,7 +202,6 @@ tags:
 
 - I use both kitty and tmux, for this to work, you need to add the following
   lines to your tmux.conf file
-- Notice I added a `Spell: On` indicator to my lualine
 
 ```bash
 # Undercurl support (works with kitty)
@@ -421,7 +444,7 @@ map({ "n", "x" }, "<Up>", "v:count == 0 ? 'gk' : 'k'", { expr = true, silent = t
 - `opt.foldtext = ""`
   - (default LazyVim 0.10)
   * Defines the text displayed for a closed fold
-  * An empty string means foldtext is disabled, and the line is displayed
+  * An empty string means `foldtext` is disabled, and the line is displayed
     normally with highlighting and no line wrapping.
 
 ```bash
@@ -437,7 +460,17 @@ map({ "n", "x" }, "<Up>", "v:count == 0 ? 'gk' : 'k'", { expr = true, silent = t
 
 - Normally you fold with `za` but I changed it to use enter `<CR>`
 - `Toggle fold`
-- [If you like this, and want to support me](#if-you-like-this-and-want-to-support-me)
+
+<!-- markdownlint-disable -->
+<!-- prettier-ignore-start -->
+ 
+<!-- tip=green, info=blue, warning=yellow, danger=red -->
+ 
+> [If you like this, and want to support me](#if-you-like-this-and-want-to-support-me)
+{: .prompt- }
+ 
+<!-- prettier-ignore-end -->
+<!-- markdownlint-restore -->
 
 ### Accept completion with `ctrl+y` instead of enter
 
