@@ -108,7 +108,7 @@ tags:
 - But I kept going back to Obsidian to take and read my notes, and I hated that,
   even though I have keymaps configured to jump to each app,
   [link to my karabiner-elements video here](https://youtu.be/Cr35bp8yAzo){:target="\_blank"}
-  - And yes, Obsdian has vim key bindings and vimrc support, but it cannot
+  - And yes, Obsidian has vim key bindings and vimrc support, but it cannot
     compete with all the keymaps and keybindings I have configured in neovim,
     for example:
     - Keymap to jump between markdown headings
@@ -157,7 +157,7 @@ rm -rf ~/github/dotfiles-latest/kitty/themes/.github/
 # If the file already exists its fine, you can run this command
 mkdir -p ~/.config/kitty
 
-# Or in case you are one of those VScode or nano guys, edit the file there
+# Or in case you are one of those VS code or nano guys, edit the file there
 vim ~/.config/kitty/kitty.conf
 ```
 
