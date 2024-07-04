@@ -1,14 +1,55 @@
 ---
 title: 02 - What is brew and how to install it in macos?
-description:
+description: null
 image:
-  path: /daqwsgmx6/image/upload/q_75/v1706149938/youtube/2024-macos-workflow/02-what-is-brew.avif
-date: 2024-01-21 20:02:00 +0000
-categories: [2024-macos-workflow]
-tags: [macos, tutorial, youtube, video, brew]
+  path: >-
+    /daqwsgmx6/image/upload/q_75/v1706149938/youtube/2024-macos-workflow/02-what-is-brew.avif
+date: '2024-01-21 20:02:00 +0000'
+categories:
+  - 2024-macos-workflow
+tags:
+  - macos
+  - tutorial
+  - youtube
+  - video
+  - brew
 ---
+## Contents
+
+<!-- toc -->
+
+- [YouTube video](#youtube-video)
+- [If you like this, and want to support me](#if-you-like-this-and-want-to-support-me)
+- [Follow me on Twitter](#follow-me-on-twitter)
+- [What is brew and what is it for?](#what-is-brew-and-what-is-it-for)
+  * [(Optional) create ll alias](#optional-create-ll-alias)
+- [Install brew](#install-brew)
+- [Install apps through brew](#install-apps-through-brew)
+
+<!-- tocstop -->
+
+## YouTube video
 
 {% include embed/youtube.html id='BEB7X78ivNM' %}
+
+## If you like this, and want to support me
+
+<!-- markdownlint-disable -->
+<!-- prettier-ignore-start -->
+ 
+<!-- tip=green, info=blue, warning=yellow, danger=red -->
+ 
+> - This helps me to keep creating content and sharing it
+- [Share a tip here](https://ko-fi.com/linkarzu){:target="\_blank"}
+{: .prompt-tip }
+ 
+<!-- prettier-ignore-end -->
+<!-- markdownlint-restore -->
+
+## Follow me on Twitter
+
+- Or as kids call it these days "X"
+- [Here's the link](https://x.com/link_arzu){:target="\_blank"}
 
 ## What is brew and what is it for?
 
@@ -41,8 +82,8 @@ source ~/.zshrc
 
 ## Install brew
 
-- In the brew documentation `https://docs.brew.sh/Installation`
-  you can see the macOS Requirements
+- In the brew documentation `https://docs.brew.sh/Installation` you can see the
+  macOS Requirements
   - A 64-bit Intel CPU or Apple Silicon CPU
   - macOS Big Sur (11) (or higher)
   - Command Line Tools (CLT) for Xcode (from `xcode-select --install` or
@@ -123,3 +164,4 @@ neofetch
   - `brew install neofetch`
 - Each package will have its own **caveats** at the bottom of the install, see
   The **install mulitple packages** video to see how I handle all at once
+

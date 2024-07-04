@@ -90,19 +90,6 @@ tags:
 
 {% include embed/youtube.html id='' %}
 
----
-
-<!-- markdownlint-disable -->
-<!-- prettier-ignore-start -->
- 
-<!-- tip=green, info=blue, warning=yellow, danger=red -->
- 
-> If you're watching the video the link to this guide will be in the video description
-{: .prompt-info }
- 
-<!-- prettier-ignore-end -->
-<!-- markdownlint-restore -->
-
 ## If you like this, and want to support me
 
 <!-- markdownlint-disable -->
@@ -455,6 +442,11 @@ map({ "n", "x" }, "<Up>", "v:count == 0 ? 'gk' : 'k'", { expr = true, silent = t
 :set foldexpr?
 :set foldtext?
 ```
+
+---
+
+- There's a grat video about Folds by Andrew Courter:
+  - [Code Folding in Neovim](https://youtu.be/f_f08KnAJOQ){:target="\_blank"}
 
 ### Fold with enter
 

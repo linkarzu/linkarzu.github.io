@@ -1,14 +1,56 @@
 ---
 title: 08 - What is tmux and how to use it in macOS
-description:
+description: null
 image:
-  path: /daqwsgmx6/image/upload/q_75/v1706149938/youtube/2024-macos-workflow/08-tmux.avif
-date: 2024-01-21 20:08:00 +0000
-categories: [2024-macos-workflow]
-tags: [macos, tutorial, youtube, video, tmux]
+  path: >-
+    /daqwsgmx6/image/upload/q_75/v1706149938/youtube/2024-macos-workflow/08-tmux.avif
+date: '2024-01-21 20:08:00 +0000'
+categories:
+  - 2024-macos-workflow
+tags:
+  - macos
+  - tutorial
+  - youtube
+  - video
+  - tmux
 ---
+## Contents
+
+<!-- toc -->
+
+- [YouTube video](#youtube-video)
+- [If you like this, and want to support me](#if-you-like-this-and-want-to-support-me)
+- [Follow me on Twitter](#follow-me-on-twitter)
+- [What is tmux and why do I use it?](#what-is-tmux-and-why-do-i-use-it)
+- [Install](#install)
+- [tmux configuration file](#tmux-configuration-file)
+- [Delete tmux resurrect settings](#delete-tmux-resurrect-settings)
+- [Tmux basics](#tmux-basics)
+
+<!-- tocstop -->
+
+## YouTube video
 
 {% include embed/youtube.html id='0aD7-EBnULc' %}
+
+## If you like this, and want to support me
+
+<!-- markdownlint-disable -->
+<!-- prettier-ignore-start -->
+ 
+<!-- tip=green, info=blue, warning=yellow, danger=red -->
+ 
+> - This helps me to keep creating content and sharing it
+- [Share a tip here](https://ko-fi.com/linkarzu){:target="\_blank"}
+{: .prompt-tip }
+ 
+<!-- prettier-ignore-end -->
+<!-- markdownlint-restore -->
+
+## Follow me on Twitter
+
+- Or as kids call it these days "X"
+- [Here's the link](https://x.com/link_arzu){:target="\_blank"}
 
 ## What is tmux and why do I use it?
 
@@ -31,8 +73,8 @@ tags: [macos, tutorial, youtube, video, tmux]
 - We already installed tmux when we ran the installed multiple apps with brew
   (video 3)
 - Notice the green line at the bottom
-- My tmux configuration file is already pointing to the file that we cloned
-  from my dotfiles-public repo as seen below
+- My tmux configuration file is already pointing to the file that we cloned from
+  my dotfiles-public repo as seen below
 
 ```bash
 cd && ls -al
@@ -46,22 +88,22 @@ git clone https://github.com/tmux-plugins/tpm ~/.tmux/plugins/tpm
 ```
 
 - Now we need to install the plugins
-- **If you have issues installing the plugins below, close alacritty and open
-  it again**
+- **If you have issues installing the plugins below, close alacritty and open it
+  again**
   - Press `ctrl+b` in the terminal to execute tmux commands
   - Then capital I `shift+i` to install
 - Notice that the pane shows at the bottom
 
 ## tmux configuration file
 
-- We'll go over the tmux configuration file in the video. I have comments
-  In the file that will help you navigate around and better use tmux
+- We'll go over the tmux configuration file in the video. I have comments In the
+  file that will help you navigate around and better use tmux
 
 ## Delete tmux resurrect settings
 
-- I wanted to delete my resurrect data to start fresh with tmux,
-  so all you need to do is delete this folder below.
-  You can `mv` it instead of deleting it in case you want to back it up
+- I wanted to delete my resurrect data to start fresh with tmux, so all you need
+  to do is delete this folder below. You can `mv` it instead of deleting it in
+  case you want to back it up
 
 ```bash
 rm -rf ~/.local/share/tmux
@@ -69,8 +111,8 @@ rm -rf ~/.local/share/tmux
 
 ## Tmux basics
 
-- To start a new tmux session without sourcing the `.tmux.conf` file
-  this is useful to see if your config is causing any issues
+- To start a new tmux session without sourcing the `.tmux.conf` file this is
+  useful to see if your config is causing any issues
 
 ```bash
 tmux -f /dev/null
@@ -111,7 +153,8 @@ tmux ls
 
 - See list of windows and sessions
   - `ctrl+b w`
-  - When in here, you can type `x` to kill a session and type `yes` at the bottom
+  - When in here, you can type `x` to kill a session and type `yes` at the
+    bottom
 
 ---
 
@@ -157,8 +200,8 @@ tmux a -t 0
 - Scroll in a tmux pane
   - `ctrl+[`
   - Then scroll with vim navigation
-  - When inside this mode you can also use the following
-    and the cursor will be kept in a **fixed position**
+  - When inside this mode you can also use the following and the cursor will be
+    kept in a **fixed position**
     - shift J
     - shift K
   - When in this mode:
@@ -168,3 +211,4 @@ tmux a -t 0
       lines in our tmux config file
   - `q` to stop scrolling
     - or `ctrl+c`
+

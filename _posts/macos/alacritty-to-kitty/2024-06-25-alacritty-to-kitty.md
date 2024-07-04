@@ -23,6 +23,8 @@ tags:
 <!-- toc -->
 
 - [YouTube video](#youtube-video)
+- [If you like this, and want to support me](#if-you-like-this-and-want-to-support-me)
+- [Follow me on Twitter](#follow-me-on-twitter)
 - [Why the switch?](#why-the-switch)
 - [What is alacritty?](#what-is-alacritty)
   * [Why have I used Alacritty so far?](#why-have-i-used-alacritty-so-far)
@@ -38,18 +40,24 @@ tags:
 
 {% include embed/youtube.html id='MZNvjclifD8' %}
 
----
+## If you like this, and want to support me
 
 <!-- markdownlint-disable -->
 <!-- prettier-ignore-start -->
  
 <!-- tip=green, info=blue, warning=yellow, danger=red -->
  
-> If you're watching the video the link to this guide will be in the video description
-{: .prompt-info }
+> - This helps me to keep creating content and sharing it
+- [Share a tip here](https://ko-fi.com/linkarzu){:target="\_blank"}
+{: .prompt-tip }
  
 <!-- prettier-ignore-end -->
 <!-- markdownlint-restore -->
+
+## Follow me on Twitter
+
+- Or as kids call it these days "X"
+- [Here's the link](https://x.com/link_arzu){:target="\_blank"}
 
 ## Why the switch?
 

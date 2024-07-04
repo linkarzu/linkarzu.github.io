@@ -18,6 +18,8 @@ tags:
 <!-- toc -->
 
 - [YouTube video](#youtube-video)
+- [If you like this, and want to support me](#if-you-like-this-and-want-to-support-me)
+- [Follow me on Twitter](#follow-me-on-twitter)
 - [What is Obsidian](#what-is-obsidian)
 - [Warning](#warning)
 - [Reasons to switch to Obsidian](#reasons-to-switch-to-obsidian)
@@ -30,6 +32,25 @@ tags:
 ## YouTube video
 
 {% include embed/youtube.html id='qgxV0hwmywI' %}
+
+## If you like this, and want to support me
+
+<!-- markdownlint-disable -->
+<!-- prettier-ignore-start -->
+ 
+<!-- tip=green, info=blue, warning=yellow, danger=red -->
+ 
+> - This helps me to keep creating content and sharing it
+- [Share a tip here](https://ko-fi.com/linkarzu){:target="\_blank"}
+{: .prompt-tip }
+ 
+<!-- prettier-ignore-end -->
+<!-- markdownlint-restore -->
+
+## Follow me on Twitter
+
+- Or as kids call it these days "X"
+- [Here's the link](https://x.com/link_arzu){:target="\_blank"}
 
 ## What is Obsidian
 

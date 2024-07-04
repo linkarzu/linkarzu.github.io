@@ -1,27 +1,67 @@
 ---
 title: 07 - Configure Karabiner-Elements in macOS
-description:
+description: null
 image:
-  path: /daqwsgmx6/image/upload/q_75/v1706149938/youtube/2024-macos-workflow/07-karabiner-elements.avif
-date: 2024-01-21 20:07:00 +0000
-categories: [2024-macos-workflow]
-tags: [macos, tutorial, youtube, video, karabiner-elements]
+  path: >-
+    /daqwsgmx6/image/upload/q_75/v1706149938/youtube/2024-macos-workflow/07-karabiner-elements.avif
+date: '2024-01-21 20:07:00 +0000'
+categories:
+  - 2024-macos-workflow
+tags:
+  - macos
+  - tutorial
+  - youtube
+  - video
+  - karabiner-elements
 ---
+## Contents
+
+<!-- toc -->
+
+- [YouTube video](#youtube-video)
+- [If you like this, and want to support me](#if-you-like-this-and-want-to-support-me)
+- [Follow me on Twitter](#follow-me-on-twitter)
+- [What is karabiner-elements and how to configure the mappings](#what-is-karabiner-elements-and-how-to-configure-the-mappings)
+- [Install and configure Karabiner-Elements](#install-and-configure-karabiner-elements)
+- [configure automatic typescript to json translation](#configure-automatic-typescript-to-json-translation)
+
+<!-- tocstop -->
+
+## YouTube video
 
 {% include embed/youtube.html id='Cr35bp8yAzo' %}
+
+## If you like this, and want to support me
+
+<!-- markdownlint-disable -->
+<!-- prettier-ignore-start -->
+ 
+<!-- tip=green, info=blue, warning=yellow, danger=red -->
+ 
+> - This helps me to keep creating content and sharing it
+- [Share a tip here](https://ko-fi.com/linkarzu){:target="\_blank"}
+{: .prompt-tip }
+ 
+<!-- prettier-ignore-end -->
+<!-- markdownlint-restore -->
+
+## Follow me on Twitter
+
+- Or as kids call it these days "X"
+- [Here's the link](https://x.com/link_arzu){:target="\_blank"}
 
 ## What is karabiner-elements and how to configure the mappings
 
 - Karabiner-elements is a powerful and stable keyboard customizer for macOS.
-- `NOTE:` After installing karabiner, you'll notice that the windows are all over
-  the place, I want to keep my windows organized, so will configure and install
-  a window manager, in my case yabai in a future video.
-  That will enable the transparency effect on my terminal and other apps
+- `NOTE:` After installing karabiner, you'll notice that the windows are all
+  over the place, I want to keep my windows organized, so will configure and
+  install a window manager, in my case yabai in a future video. That will enable
+  the transparency effect on my terminal and other apps
 - `NOTE:` GokuRakuJoudo is a famous karabiner.json manager, similar to what we
-  will do here, but using the edn file format instead of typescript.
-  I don't have the time or will to set it up, as my current configuration
-  works fine for me. But if someone can explain the benefits over this approach
-  it would be appreciated
+  will do here, but using the edn file format instead of typescript. I don't
+  have the time or will to set it up, as my current configuration works fine for
+  me. But if someone can explain the benefits over this approach it would be
+  appreciated
 
 ## Install and configure Karabiner-Elements
 
@@ -41,8 +81,8 @@ brew install --cask karabiner-elements
   - This repo translates from manageable typescript code `rules.ts` (400 lines)
     to the karabiner configuration file `karabiner.json` (2500 lines)
   - Is this repo needed? No, but it's way easier to manage the mappings
-- Karabiner will automatically load the configuration we set up in the
-  dotfiles video `~/.config/karabiner/karabiner.json`
+- Karabiner will automatically load the configuration we set up in the dotfiles
+  video `~/.config/karabiner/karabiner.json`
 - So mappings will start working automatically after installing it
 - All my mappings can be found in the dotfiles directory (demo in video)
   - Alacritty `hyper+space+j`
@@ -74,8 +114,8 @@ brew install --cask karabiner-elements
 
 ## configure automatic typescript to json translation
 
-- All my mappings are statically configured at the moment, but you may not
-  want to keep those, as I guess you'll configure your own
+- All my mappings are statically configured at the moment, but you may not want
+  to keep those, as I guess you'll configure your own
   - So that's what we're doing below. Every time the `rules.ts` file is updated
     we want that those changes are automatically applied to the `karabiner.json`
     file, so we use the `mxstbr` repo we saw above
@@ -98,8 +138,8 @@ yarn run build
 
 - Every time we make a change to the `rules.ts` file, we have to run the
   `yarn run build` command to translate the changes to the karabiner.json file
-  but running the build command every time would be extremely annoying, so
-  we run a watch command which will run the build automatically if changes occur
+  but running the build command every time would be extremely annoying, so we
+  run a watch command which will run the build automatically if changes occur
 
 ```bash
 yarn run watch
@@ -107,8 +147,8 @@ yarn run watch
 
 - That's a bit better, but we would have to manually run that watch command
   every time we are working with the mappings so that it applies the changes
-- Instead, I want to run this watch command when the computer starts, so we
-  have to create a LaunchAgent plist file
+- Instead, I want to run this watch command when the computer starts, so we have
+  to create a LaunchAgent plist file
 
 ```bash
 cat <<EOF >~/Library/LaunchAgents/com.linkarzu.karabiner.plist
@@ -160,8 +200,8 @@ launchctl bootstrap gui/$(id -u) ~/Library/LaunchAgents/com.linkarzu.karabiner.p
 
 ---
 
-- If for any reason, you need to unload or stop this plist from running, run
-  the command below, but keep in mind that the changes wont be automatic anymore
+- If for any reason, you need to unload or stop this plist from running, run the
+  command below, but keep in mind that the changes wont be automatic anymore
 - You can also delete the plist file if needed
 
 ```bash
@@ -179,3 +219,4 @@ cat /tmp/karabiner_linkarzu.out.log
 ```bash
 cat /tmp/karabiner_linkarzu.err.log
 ```
+

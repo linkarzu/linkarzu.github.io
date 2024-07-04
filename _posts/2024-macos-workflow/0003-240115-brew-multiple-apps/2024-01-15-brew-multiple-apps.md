@@ -1,14 +1,59 @@
 ---
 title: 03 - Install multiple apps with brew in macOS
-description:
+description: null
 image:
-  path: /daqwsgmx6/image/upload/q_75/v1706207626/youtube/2024-macos-workflow/03-Install-mult-apps-brew.avif
-date: 2024-01-21 20:03:00 +0000
-categories: [2024-macos-workflow]
-tags: [macos, tutorial, youtube, video, brew]
+  path: >-
+    /daqwsgmx6/image/upload/q_75/v1706207626/youtube/2024-macos-workflow/03-Install-mult-apps-brew.avif
+date: '2024-01-21 20:03:00 +0000'
+categories:
+  - 2024-macos-workflow
+tags:
+  - macos
+  - tutorial
+  - youtube
+  - video
+  - brew
 ---
+## Contents
+
+<!-- toc -->
+
+- [YouTube video](#youtube-video)
+- [If you like this, and want to support me](#if-you-like-this-and-want-to-support-me)
+- [Follow me on Twitter](#follow-me-on-twitter)
+- [Install multiple apps using brew](#install-multiple-apps-using-brew)
+  * [How to generate a Brewfile](#how-to-generate-a-brewfile)
+  * [Install the apps listed in a Brewfile](#install-the-apps-listed-in-a-brewfile)
+- [How do I create a brewfile with my own apps?](#how-do-i-create-a-brewfile-with-my-own-apps)
+  * [Do I need to store this Brewfile in github?](#do-i-need-to-store-this-brewfile-in-github)
+- [Install apps from a brewfile hosted in github](#install-apps-from-a-brewfile-hosted-in-github)
+- [Caveats](#caveats)
+  * [See all the caveats using a script](#see-all-the-caveats-using-a-script)
+
+<!-- tocstop -->
+
+## YouTube video
 
 {% include embed/youtube.html id='e7Bb1uUHpa8' %}
+
+## If you like this, and want to support me
+
+<!-- markdownlint-disable -->
+<!-- prettier-ignore-start -->
+ 
+<!-- tip=green, info=blue, warning=yellow, danger=red -->
+ 
+> - This helps me to keep creating content and sharing it
+- [Share a tip here](https://ko-fi.com/linkarzu){:target="\_blank"}
+{: .prompt-tip }
+ 
+<!-- prettier-ignore-end -->
+<!-- markdownlint-restore -->
+
+## Follow me on Twitter
+
+- Or as kids call it these days "X"
+- [Here's the link](https://x.com/link_arzu){:target="\_blank"}
 
 ## Install multiple apps using brew
 
@@ -17,8 +62,8 @@ tags: [macos, tutorial, youtube, video, brew]
 ### How to generate a Brewfile
 
 - To generate the **Brewfile**, use the `brew bundle dump` command
-- You don't need to generate this file, is just an example in case you need
-  to generate the Brewfile in the future
+- You don't need to generate this file, is just an example in case you need to
+  generate the Brewfile in the future
 
 ```bash
 mkdir -p /tmp/brew-dump-test
@@ -66,8 +111,8 @@ brew "fontconfig"
 
 ---
 
-- Alternatively, if you want to save the Brewfile in the current directory
-  don't specify the path
+- Alternatively, if you want to save the Brewfile in the current directory don't
+  specify the path
 
 ```bash
 brew bundle dump
@@ -91,8 +136,8 @@ brew bundle --file=/tmp/brew-dump-test/Brewfile
 
 ---
 
-- Alternatively, if you are in the same directory where the Brewfile is, you
-  can just run the command
+- Alternatively, if you are in the same directory where the Brewfile is, you can
+  just run the command
   - Don't run it just yet, we will install the apps we need from GitHub below
 
 ```bash
@@ -106,23 +151,24 @@ brew bundle
 - So if this is your first time installing brew apps, you have to manually
   install the apps one by one, searching for the correct commands in the
   `https://formulae.brew.sh` page
-- Once you have all the apps that you want, you generate your Brewfile
-  following the steps in the [How to generate a Brewfile](#how-to-generate-a-brewfile)
+- Once you have all the apps that you want, you generate your Brewfile following
+  the steps in the [How to generate a Brewfile](#how-to-generate-a-brewfile)
   section above
 
 ### Do I need to store this Brewfile in github?
 
 - No, you can store a Brewfile that you have generated anywhere you want, when
   you need it, just download it and then install the apps listed in that file
-  with the steps provided in the section above [Install the apps listed in a Brewfile](#install-the-apps-listed-in-a-brewfile)
+  with the steps provided in the section above
+  [Install the apps listed in a Brewfile](#install-the-apps-listed-in-a-brewfile)
 
 ## Install apps from a brewfile hosted in github
 
 - We'll install the apps I use as a base, which are needed for this video series
   - `https://github.com/linkarzu/dotfiles-public/blob/main/brew/00-base/Brewfile`
-  - The following command gets the contents of my Brewfile in github, and
-    passes it directly to the `brew bundle` command. A local `Brewfile` won't
-    be created in your computer
+  - The following command gets the contents of my Brewfile in github, and passes
+    it directly to the `brew bundle` command. A local `Brewfile` won't be
+    created in your computer
 
 ```bash
 curl -fsSL https://raw.githubusercontent.com/linkarzu/dotfiles-public/main/brew/00-base/Brewfile | brew bundle --file=-
@@ -139,8 +185,8 @@ curl -fsSL https://raw.githubusercontent.com/linkarzu/dotfiles-public/main/brew/
 ## Caveats
 
 - Some apps have caveats that need to be taken care of so they work
-  - The caveats for each one of the apps I use, are already taken care of by
-    my zshrc file, this is found on a later video related to my dotfiles
+  - The caveats for each one of the apps I use, are already taken care of by my
+    zshrc file, this is found on a later video related to my dotfiles
 
 ```bash
 brew list
@@ -207,3 +253,4 @@ done;
 - This will **not** fix the caveats, just show them to you so you can fix them
   manually.
   - Don't worry about the caveats, we'll fix them in my dotfiles video
+

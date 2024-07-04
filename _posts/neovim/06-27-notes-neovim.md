@@ -33,19 +33,6 @@ tags:
 
 {% include embed/youtube.html id='' %}
 
----
-
-<!-- markdownlint-disable -->
-<!-- prettier-ignore-start -->
- 
-<!-- tip=green, info=blue, warning=yellow, danger=red -->
- 
-> If you're watching the video the link to this guide will be in the video description
-{: .prompt-info }
- 
-<!-- prettier-ignore-end -->
-<!-- markdownlint-restore -->
-
 ## How do I install neovim?
 
 - You're going to get tons of different advice and everyone's going to tell you

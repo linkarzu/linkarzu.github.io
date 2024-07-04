@@ -1,14 +1,54 @@
 ---
 title: 04 - What are dotfiles and how to clone them
-description:
+description: null
 image:
-  path: /daqwsgmx6/image/upload/q_75/v1706149938/youtube/2024-macos-workflow/04-dotfiles.avif
-date: 2024-01-21 20:04:00 +0000
-categories: [2024-macos-workflow]
-tags: [macos, tutorial, youtube, video, dotfiles]
+  path: >-
+    /daqwsgmx6/image/upload/q_75/v1706149938/youtube/2024-macos-workflow/04-dotfiles.avif
+date: '2024-01-21 20:04:00 +0000'
+categories:
+  - 2024-macos-workflow
+tags:
+  - macos
+  - tutorial
+  - youtube
+  - video
+  - dotfiles
 ---
+## Contents
+
+<!-- toc -->
+
+- [YouTube video](#youtube-video)
+- [If you like this, and want to support me](#if-you-like-this-and-want-to-support-me)
+- [Follow me on Twitter](#follow-me-on-twitter)
+- [What are dotfiles?](#what-are-dotfiles)
+- [Importance of the .zshrc file](#importance-of-the-zshrc-file)
+- [Clone the dotfiles](#clone-the-dotfiles)
+
+<!-- tocstop -->
+
+## YouTube video
 
 {% include embed/youtube.html id='XBjfzySpGdE' %}
+
+## If you like this, and want to support me
+
+<!-- markdownlint-disable -->
+<!-- prettier-ignore-start -->
+ 
+<!-- tip=green, info=blue, warning=yellow, danger=red -->
+ 
+> - This helps me to keep creating content and sharing it
+- [Share a tip here](https://ko-fi.com/linkarzu){:target="\_blank"}
+{: .prompt-tip }
+ 
+<!-- prettier-ignore-end -->
+<!-- markdownlint-restore -->
+
+## Follow me on Twitter
+
+- Or as kids call it these days "X"
+- [Here's the link](https://x.com/link_arzu){:target="\_blank"}
 
 ## What are dotfiles?
 
@@ -18,35 +58,35 @@ tags: [macos, tutorial, youtube, video, dotfiles]
   - `https://github.com/linkarzu/dotfiles-public`
 - What are repositories?
   - Repositories are essentially online storage spaces where you can keep and
-    manage various configuration files and scripts.
-    Repos can be stored on platforms like Github, GitLab, Bitbucket, etc.
-    You can easily track any changes made to these files over time, share them
-    with others, or synchronize them across multiple devices.
+    manage various configuration files and scripts. Repos can be stored on
+    platforms like Github, GitLab, Bitbucket, etc. You can easily track any
+    changes made to these files over time, share them with others, or
+    synchronize them across multiple devices.
   - If you're new to this, think of Github as a Google Drive, but for code
 
 ## Importance of the .zshrc file
 
-- Every time you open your terminal application, if using zsh as you shell
-  , which is the default in macos, the `~/.zshrc` file is executed
+- Every time you open your terminal application, if using zsh as you shell ,
+  which is the default in macos, the `~/.zshrc` file is executed
   - You can check what your current shell is with `echo $SHELL`
 - Also every time you source the .zshrc file, you execute it.
 - This matters because I use my zshrc file as a master file to update the rest
   of the local computer dotfiles, so every time I open my terminal, if there
-  were changes in any of my dotfiles in github, they will be applied locally
-  on my computer
+  were changes in any of my dotfiles in github, they will be applied locally on
+  my computer
 
 ## Clone the dotfiles
 
 - We need to configure each one of the apps we installed on the earlier video
-  for doing that, we'll be using my dotfiles, as I already have working
-  settings in the repository
+  for doing that, we'll be using my dotfiles, as I already have working settings
+  in the repository
 - To get those settings to your local computer, you need to clone my repo
 - `NOTE:` Instead of cloning the repo, I `highly recommend` you to fork it, that
-  way if I make changes in the future, they won't be applied to you automatically
+  way if I make changes in the future, they won't be applied to you
+  automatically
 - I'll briefly show you how to fork in the video.
   - Sign in to github (if you don't have an account create one)
-  - Go to my dotfiles repo
-    `https://github.com/linkarzu/dotfiles-public`
+  - Go to my dotfiles repo `https://github.com/linkarzu/dotfiles-public`
   - Click on fork
 - If you don't want to fork the repo, its kind of fine, you can also clone
   directly and I'll show you how to disable automatic updates
@@ -62,8 +102,7 @@ cd ~/github/
 - Then clone the repo to that created directory
   - To run this git clone command, we need to have git installed, which we
     already installed on an earlier video
-  - cloning the repo, basically copies all the files in github, to my
-    computer
+  - cloning the repo, basically copies all the files in github, to my computer
 
 ```bash
 git clone <REPO_URL>
@@ -73,16 +112,16 @@ git clone <REPO_URL>
   with my zshrc file
   - This will take care of all the caveats for the apps we installed with brew
     on an earlier video, so that all of our apps work properly
-  - You can open and inspect the `zshrc-file.sh` file in the repo.
-    But we will go over what each section does in later videos
-- The first command below will back up your .zshrc file first, in case you
-  want to revert back to those settings in in the future.
+  - You can open and inspect the `zshrc-file.sh` file in the repo. But we will
+    go over what each section does in later videos
+- The first command below will back up your .zshrc file first, in case you want
+  to revert back to those settings in in the future.
 - The second command replaces your .zshrc file with a symlink (shortcut) that
   points to the .zshrc file stored in the repo files we cloned
   - If the file already exists it will be replaced, but remember, we
     automatically back it up first
-  - `-n` allows the link to be treated as a normal file if it is a symlink
-    that points to a directory
+  - `-n` allows the link to be treated as a normal file if it is a symlink that
+    points to a directory
   - `-f` "force" overwrites without warning if it already exists
 
 ```bash
@@ -127,3 +166,4 @@ lla ~
   alacritty video
 - **If you cloned my repo directly instead of forking, comment the auto update
   lines, demo in the video**
+

@@ -1,6 +1,6 @@
 ---
 title: 10 - What is Alacritty and how to use it in macOS
-description: How to switch from iTerma and configure the Alacritty terminal emulator
+description: How to switch from iTerm and configure the Alacritty terminal emulator
 image:
   path: >-
     /daqwsgmx6/image/upload/q_75/v1709985364/youtube/2024-macos-workflow/iterm-to-alacritty.avif
@@ -20,6 +20,8 @@ tags:
 <!-- toc -->
 
 - [YouTube video](#youtube-video)
+- [If you like this, and want to support me](#if-you-like-this-and-want-to-support-me)
+- [Follow me on Twitter](#follow-me-on-twitter)
 - [What is alacritty and why?](#what-is-alacritty-and-why)
 - [How do I install alacritty?](#how-do-i-install-alacritty)
 
@@ -28,6 +30,25 @@ tags:
 ## YouTube video
 
 {% include embed/youtube.html id='Lk3D4GtIEsU' %}
+
+## If you like this, and want to support me
+
+<!-- markdownlint-disable -->
+<!-- prettier-ignore-start -->
+ 
+<!-- tip=green, info=blue, warning=yellow, danger=red -->
+ 
+> - This helps me to keep creating content and sharing it
+- [Share a tip here](https://ko-fi.com/linkarzu){:target="\_blank"}
+{: .prompt-tip }
+ 
+<!-- prettier-ignore-end -->
+<!-- markdownlint-restore -->
+
+## Follow me on Twitter
+
+- Or as kids call it these days "X"
+- [Here's the link](https://x.com/link_arzu){:target="\_blank"}
 
 ## What is alacritty and why?
 

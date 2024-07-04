@@ -21,6 +21,8 @@ tags:
 <!-- toc -->
 
 - [YouTube video](#youtube-video)
+- [If you like this, and want to support me](#if-you-like-this-and-want-to-support-me)
+- [Follow me on Twitter](#follow-me-on-twitter)
 - [Overview](#overview)
 - [What distro am I using?](#what-distro-am-i-using)
 - [All in one script](#all-in-one-script)
@@ -35,6 +37,25 @@ tags:
 ## YouTube video
 
 {% include embed/youtube.html id='HwEg6OYQzWY' %}
+
+## If you like this, and want to support me
+
+<!-- markdownlint-disable -->
+<!-- prettier-ignore-start -->
+ 
+<!-- tip=green, info=blue, warning=yellow, danger=red -->
+ 
+> - This helps me to keep creating content and sharing it
+- [Share a tip here](https://ko-fi.com/linkarzu){:target="\_blank"}
+{: .prompt-tip }
+ 
+<!-- prettier-ignore-end -->
+<!-- markdownlint-restore -->
+
+## Follow me on Twitter
+
+- Or as kids call it these days "X"
+- [Here's the link](https://x.com/link_arzu){:target="\_blank"}
 
 ## Overview
 
