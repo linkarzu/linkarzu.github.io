@@ -6,7 +6,7 @@ description: >-
 image:
   path: >-
     /daqwsgmx6/image/upload/q_75/v1719362711/youtube/macos/alacritty-to-kitty.avif
-date: "2024-06-27 06:10:00 +0000"
+date: '2024-06-27 06:10:00 +0000'
 categories:
   - neovim
 tags:
@@ -16,67 +16,71 @@ tags:
   - video
   - neovim
 ---
-
 ## Contents
 
 <!-- toc -->
 
 - [YouTube video](#youtube-video)
+- [If you like this, and want to support me](#if-you-like-this-and-want-to-support-me)
+- [Follow me on Twitter](#follow-me-on-twitter)
 - [Disclaimer](#disclaimer)
 - [All links to my YouTube videos in video description](#all-links-to-my-youtube-videos-in-video-description)
-- [ko-fi](#ko-fi)
 - [Pending items](#pending-items)
 - [Markdown tips](#markdown-tips)
-  - [Spell checking (works in tmux)](#spell-checking-works-in-tmux)
-  - [Create daily note `hyper+t+r`](#create-daily-note-hypertr)
-  - [todo items `leader+td`](#todo-items-leadertd)
-  - [Jump between markdown headings](#jump-between-markdown-headings)
-  - [Add markdown TOC](#add-markdown-toc)
-  - [Use snippets](#use-snippets)
-  - [Bold easily](#bold-easily)
-  - [Accept completion with `ctrl+y` instead of enter](#accept-completion-with-ctrly-instead-of-enter)
-  - [Create headings and auto add the date](#create-headings-and-auto-add-the-date)
-  - [Working with marks](#working-with-marks)
-  - [Fold with enter](#fold-with-enter)
-  - [Make selected text a link](#make-selected-text-a-link)
-  - [Paste github repo as link](#paste-github-repo-as-link)
-  - [Increase decrease all markdown headings](#increase-decrease-all-markdown-headings)
-  - [Line wrapping at 80 characters](#line-wrapping-at-80-characters)
-  - [Disable autoformatting in certain sections](#disable-autoformatting-in-certain-sections)
-  - [Add file path to current file](#add-file-path-to-current-file)
-  - [Navigate the help pages](#navigate-the-help-pages)
-  - [Paste with "p" in visual mode](#paste-with-p-in-visual-mode)
-  - [Select text in a bullet point](#select-text-in-a-bullet-point)
-  - [Indent with tab](#indent-with-tab)
-  - [Open current file in finder](#open-current-file-in-finder)
-  - [Alternate file](#alternate-file)
-  - [How do I do the hyper+t+r and hyper+t+j](#how-do-i-do-the-hypertr-and-hypertj)
-  - [See messages history](#see-messages-history)
-  - [Dismiss all messages](#dismiss-all-messages)
+  * [Spell checking (works in tmux)](#spell-checking-works-in-tmux)
+  * [todo items `leader+td`](#todo-items-leadertd)
+  * [Add markdown TOC](#add-markdown-toc)
+  * [Delete current file](#delete-current-file)
+  * [Jump to daily note `hyper+t+r`](#jump-to-daily-note-hypertr)
+  * [Create headings and daily note](#create-headings-and-daily-note)
+  * [View and paste images](#view-and-paste-images)
+  * [Use snippets](#use-snippets)
+  * [Bold easily](#bold-easily)
+  * [Jump between markdown headings](#jump-between-markdown-headings)
+  * [Fold all level 2 or 3 headings](#fold-all-level-2-or-3-headings)
+  * [Fold with enter](#fold-with-enter)
+  * [Accept completion with `ctrl+y` instead of enter](#accept-completion-with-ctrly-instead-of-enter)
+  * [Working with marks](#working-with-marks)
+  * [Make selected text a link](#make-selected-text-a-link)
+  * [Paste github repo as link](#paste-github-repo-as-link)
+  * [Increase decrease all markdown headings](#increase-decrease-all-markdown-headings)
+  * [Line wrapping at 80 characters](#line-wrapping-at-80-characters)
+  * [Disable autoformatting in certain sections](#disable-autoformatting-in-certain-sections)
+  * [Add file path to current file](#add-file-path-to-current-file)
+  * [Navigate the help pages](#navigate-the-help-pages)
+  * [See key maps](#see-key-maps)
+  * [Paste with "p" in visual mode](#paste-with-p-in-visual-mode)
+  * [Select text in a bullet point](#select-text-in-a-bullet-point)
+  * [Indent with tab](#indent-with-tab)
+  * [Open current file in finder](#open-current-file-in-finder)
+  * [Alternate file](#alternate-file)
+  * [How do I do the hyper+t+r and hyper+t+j](#how-do-i-do-the-hypertr-and-hypertj)
+  * [See messages history](#see-messages-history)
+  * [Dismiss all messages](#dismiss-all-messages)
 - [What plugins and tips do you use?](#what-plugins-and-tips-do-you-use)
 - [What do you want to see next?](#what-do-you-want-to-see-next)
 - [Markdown plugins](#markdown-plugins)
-  - [bullets-vim/bullets.vim](#bullets-vimbulletsvim)
-  - [echasnovski/mini.ai](#echasnovskiminiai)
-  - [arnamak/stay-centered.nvim](#arnamakstay-centerednvim)
-  - [hedyhli/outline.nvim](#hedyhlioutlinenvim)
-  - [lukas-reineke/headlines.nvim](#lukas-reinekeheadlinesnvim)
-  - [nvim-pack/nvim-spectre](#nvim-packnvim-spectre)
-  - [okuuva/auto-save.nvim](#okuuvaauto-savenvim)
-  - [iamcco/markdown-preview.nvim](#iamccomarkdown-previewnvim)
-  - [echasnovski/mini.surround](#echasnovskiminisurround)
-  - [3rd/image.nvim](#3rdimagenvim)
-  - [HakonHarnes/img-clip.nvim](#hakonharnesimg-clipnvim)
-  - [BufExplorer](#bufexplorer)
-  - [nvim-telescope/telescope.nvim](#nvim-telescopetelescopenvim)
-  - [nvim-treesitter/nvim-treesitter](#nvim-treesitternvim-treesitter)
-  - [LazyExtras](#lazyextras)
-    - [lang.markdown](#langmarkdown)
+  * [bullets-vim/bullets.vim](#bullets-vimbulletsvim)
+  * [echasnovski/mini.ai](#echasnovskiminiai)
+  * [arnamak/stay-centered.nvim](#arnamakstay-centerednvim)
+  * [hedyhli/outline.nvim](#hedyhlioutlinenvim)
+  * [lukas-reineke/headlines.nvim](#lukas-reinekeheadlinesnvim)
+  * [nvim-pack/nvim-spectre](#nvim-packnvim-spectre)
+  * [okuuva/auto-save.nvim](#okuuvaauto-savenvim)
+  * [iamcco/markdown-preview.nvim](#iamccomarkdown-previewnvim)
+  * [echasnovski/mini.surround](#echasnovskiminisurround)
+  * [3rd/image.nvim](#3rdimagenvim)
+  * [HakonHarnes/img-clip.nvim](#hakonharnesimg-clipnvim)
+  * [BufExplorer](#bufexplorer)
+  * [nvim-telescope/telescope.nvim](#nvim-telescopetelescopenvim)
+  * [nvim-treesitter/nvim-treesitter](#nvim-treesitternvim-treesitter)
+  * [LazyExtras](#lazyextras)
+    + [lang.markdown](#langmarkdown)
       - [markdownlint-cli2](#markdownlint-cli2)
       - [markdown-toc](#markdown-toc)
       - [marksman](#marksman)
-    - [formatting.prettier](#formattingprettier)
-  - [epwalsh/obsidian.nvim (uninstalled)](#epwalshobsidiannvim-uninstalled)
+    + [formatting.prettier](#formattingprettier)
+  * [epwalsh/obsidian.nvim (uninstalled)](#epwalshobsidiannvim-uninstalled)
 - [Improve the video next year](#improve-the-video-next-year)
 
 <!-- tocstop -->
@@ -98,6 +102,25 @@ tags:
 <!-- prettier-ignore-end -->
 <!-- markdownlint-restore -->
 
+## If you like this, and want to support me
+
+<!-- markdownlint-disable -->
+<!-- prettier-ignore-start -->
+ 
+<!-- tip=green, info=blue, warning=yellow, danger=red -->
+ 
+> - This helps me to keep creating content and sharing it
+- [Share a tip here](https://ko-fi.com/linkarzu){:target="\_blank"}
+{: .prompt-tip }
+ 
+<!-- prettier-ignore-end -->
+<!-- markdownlint-restore -->
+
+## Follow me on Twitter
+
+- Or as kids call it these days "X"
+- [Here's the link](https://x.com/link_arzu){:target="\_blank"}
+
 ## Disclaimer
 
 - I use the [lazyvim.org](http://www.lazyvim.org){:target="\_blank"} distro, so
@@ -115,21 +138,15 @@ tags:
 
 - All of the links will also be in my blogpost
 
-## ko-fi
-
-- If you want to support me
-
 ## Pending items
 
 - These don't have to be at a specific section, they can be anywhere in the
   file, I just leave them at the top because they break my `<C-Space` key
 
----
-
 - <!-- TODO; Fix spell, I noticed it works outside tmux -->
-- <!-- TODO: Fix mutiline bold, bolds but doesn't unbold -->
+- <!-- TODO; Fix mutiline bold, bolds but doesn't unbold -->
+- <!-- TODO; Delete current file with keymap -->
 - <!-- TODO: Current line bullet point with <leader>ml -->
-- <!-- TODO: Delete current file with keymap -->
 
 ## Markdown tips
 
@@ -150,7 +167,7 @@ tags:
 - After you correct a word, if you want to repeat that and correct it across the
   file use `<leader>msr`
   - **This isn't working for me, will look at it another day, if you know how to
-    fix it, let me know in the comments**
+    fix it,**
 - Something that John McBride recommends:
   - Don't manually add words to that file, but instead add them with the mapping
     so that neovim recompiles the file
@@ -213,7 +230,35 @@ pressings "s", will take a look at this issue another day
 <!-- prettier-ignore-end -->
 <!-- markdownlint-restore -->
 
-### Create daily note `hyper+t+r`
+### todo items `leader+td`
+
+- I use the `todo` snippet to add it
+- `<leader>td` (todo done)
+- `<leader>ta` (todo all)
+  - These 2 are configured in my keymaps
+- `<leader>tl` (todo list)
+  - Configured this keymap in the telescope plugin
+
+### Add markdown TOC
+
+- `<leader>mt`
+- This is to create a Table Of Contents
+- It will add it at the top of the file if there's not one, and if there is a
+  TOC already, it will update it
+- It doesn't matter if the file has **front matter at the top** or not, the
+  keymap will detect it and not cause problems
+- To generate the TOC I use the `markdown-toc` plugin, and it's installed as a
+  LazyExtra, you'll understand later
+
+### Delete current file
+
+- A lot of times, I want to remove the file I'm on without going out of neovim
+  or without even opening my neovim file explorer
+- `<leader>fD`
+- **This is for macOS and uses the trash app, if you're on Linux, modify the
+  keymap**
+
+### Jump to daily note `hyper+t+r`
 
 - I normally handle my notes as large files (kubernetes, docker, xcp-ng, etc),
   but there are times I don't want to add stuff to one of those files and
@@ -228,23 +273,84 @@ pressings "s", will take a look at this issue another day
   * Create a new tmux session with the note name in detached mode and start
     neovim with the daily note
     - If a tmux session with that name already exists, just switch to it
+
+---
+
 - I'll let you know how I do `hyper+t+r` later on
 
-### todo items `leader+td`
+---
 
-- I use the `todo` snippet to add it
-  - I toggle them with `<leader>td`
-    - This is configured in my keymaps `TODO toggle item done or not`
-  - I view them with `<leader>tl`
-    - Configured this keymap in the telescope plugin
+<!-- markdownlint-disable -->
+<!-- prettier-ignore-start -->
+ 
+<!-- tip=green, info=blue, warning=yellow, danger=red -->
+ 
+> Make sure that the `300-dailyNote.sh` script is executable
+{: .prompt-tip }
+ 
+<!-- prettier-ignore-end -->
+<!-- markdownlint-restore -->
+
+### Create headings and daily note
+
+<!-- markdownlint-disable -->
+<!-- prettier-ignore-start -->
+ 
+<!-- tip=green, info=blue, warning=yellow, danger=red -->
+ 
+> I use this in my Obsidian vault
+{: .prompt-info }
+ 
+<!-- prettier-ignore-end -->
+<!-- markdownlint-restore -->
+
+- This is useful in case I want to have stuff **linked** to my daily note
+- I use markdown headings with date on a specific note `XOA for example`
+- Then in obsidian I can go to a specific note, and see which headings are
+  linked to that note, just so that I can keep track of what did each day, some
+  sort of journal
+- **These keymaps besides adding the heading, will also create the daily note if
+  it does not exist**:
+  - If you don't want to create the daily note, comment that line
+- `<leader>jj`, `<leader>kk`, `<leader>ll`, `<leader>;;`,
+  `<leader>uu`,`<leader>ii`
+
+### View and paste images
+
+- ![2024-07-03-at-18-17-45.avif](06-29-markdown-setup-2024-img/2024-07-03-at-18-17-45.avif)
+- ![skyrim mushroom cave](https://staticdelivery.nexusmods.com/images/110/1668624-1323185986.jpg)
+
+---
+
+- We'll see how to set this up later
+
+### Use snippets
+
+- I use these in case I want to:
+  - Add a code block
+  - Add a link
+  - Add link in new tab
+  - Add a todo item
+
+### Bold easily
+
+- This needs the `mini.surround` plugin
+- By default if you want to **bold some text**, you select it and do `2gsa*` or
+  if you want to "unbold" it I normally do `gsd*.`
+- I configured keymap `<leader>mb`
+
+---
+
+- This is just a random paragraph with random text in it, it doesn't serve any
+  purpose but I just want to use it to demonstrate how multi line bold and
+  unbold works
 
 ### Jump between markdown headings
 
 - **Follow markdown convention and use a single H1 heading in your file for this
   to work**
-- Besides the outline plugin if I want to navigate between headings I use `gj`
-  and `gk`
-  - `Search UP for a markdown header`
+- Besides the outline plugin if I want to navigate between headings I use:
+  - `gj` and `gk`
 
 ---
 
@@ -270,33 +376,68 @@ map({ "n", "x" }, "<Up>", "v:count == 0 ? 'gk' : 'k'", { expr = true, silent = t
 - You might think that `gj` and `gk` mappings I added would break the default
   keymaps, but for some reason it still keeps working
   - So with `j` and `k` I navigate through wrapped lines without issues
-- `Search UP for a markdown header`
 
-### Add markdown TOC
+### Fold all level 2 or 3 headings
 
-- `<leader>mt`
-- This is to create a Table Of Contents
-- It will add it at the top of the file if there's not one, and if there is a
-  TOC already, it will update it
-- It doesn't matter if the file has **front matter at the top** or not, the
-  keymap will detect it and not cause problems
-- To generate the TOC I use the `markdown-toc` plugin, and it's installed as a
-  LazyExtra, you'll understand later
+<!-- markdownlint-disable -->
 
-### Use snippets
+<!-- prettier-ignore-start -->
+<!-- tip=green, info=blue, warning=yellow, danger=red -->
+ 
+> DO NOT leave headings OF THE SAME LEVEL without any text between them or
+> folding will not work properly
+{: .prompt-danger }
+ 
+<!-- prettier-ignore-end -->
+<!-- markdownlint-restore -->
 
-- I use these in case I want to:
-  - Add a code block
-  - Add a link
-  - Add link in new tab
-  - Add a todo item
+- I created 2 keymaps to fold
+  - `<leader>mfk` and `<leader>mfl` (markdown fold 2`k` and 3`l`)
+    - I know, it sounds like `madafaka`, but it's just the 2nd letter
+- And to unfold:
+  - `<leader>mfu` (markdown fold undo)
+- See the `Folding section` in the keymaps file
+- You can add more keymaps, for example `<leader>mf;` (markdown fold 4):
+  - I don't need them
 
-### Bold easily
+---
 
-- This needs the `mini.surround` plugin
-- By default if you want to **bold some text**, you select it and do `2gsa*` or
-  if you want to "unbold" it I normally do `gsd*.`
-- I configured keymap `<leader>mb`
+- There are several fold options worth knowing about
+- `opt.foldlevel = 99`
+  - (default LazyVim)
+  * Sets the initial fold level when opening a file.
+  * With a high value like 99, it ensures that almost all folds are open when a
+    file is opened.
+- `opt.foldmethod = "expr"`
+  - (default LazyVim 0.10)
+  * Sets the method for defining folds
+  * Uses the expression defined in `foldexpr` to create folds. This method
+    allows for highly customizable folding behavior based on the evaluated
+    expression.
+- `opt.foldexpr = "v:lua.require'lazyvim.util'.ui.foldexpr()"`
+  - (default LazyVim 0.10)
+  * Specifies the expression used to define folds
+  * Uses a lazyvim Lua function to dynamically determine fold levels
+- `opt.foldtext = ""`
+  - (default LazyVim 0.10)
+  * Defines the text displayed for a closed fold
+  * An empty string means foldtext is disabled, and the line is displayed
+    normally with highlighting and no line wrapping.
+
+```bash
+:set foldlevel? | set foldexpr? | set foldmethod? | set foldtext?
+
+:set foldlevel?
+:set foldmethod?
+:set foldexpr?
+:set foldtext?
+```
+
+### Fold with enter
+
+- Normally you fold with `za` but I changed it to use enter `<CR>`
+- `Toggle fold`
+- [If you like this, and want to support me](#if-you-like-this-and-want-to-support-me)
 
 ### Accept completion with `ctrl+y` instead of enter
 
@@ -304,15 +445,6 @@ map({ "n", "x" }, "<Up>", "v:count == 0 ? 'gk' : 'k'", { expr = true, silent = t
   end of a line and hit enter, it would autocomplete a word instead of moving to
   the line below
 - I change this in the `nvim-cmp.lua` file
-
-### Create headings and auto add the date
-
-- This is useful in case I want to have stuff related to my daily note
-- If in my obsidian directory, I use markdown headings with date on a specific
-  note `XOA for example`
-- Then in obsidian I can go to a specific note, and see which headings are
-  linked to that note, just so that I can keep track of what did each day, some
-  sort of journal
 
 ### Working with marks
 
@@ -329,11 +461,6 @@ map({ "n", "x" }, "<Up>", "v:count == 0 ? 'gk' : 'k'", { expr = true, silent = t
 - `:delmarks a j k l m z n` removes all the marks specified
 - I created a keymap to delete all marks
   - `<leader>md` (mark delete)
-
-### Fold with enter
-
-- Normally you fold with `za` but I changed it to use enter `<CR>`
-- `Toggle fold`
 
 ### Make selected text a link
 
@@ -356,16 +483,6 @@ map({ "n", "x" }, "<Up>", "v:count == 0 ? 'gk' : 'k'", { expr = true, silent = t
   heading
 - `<leader>mhI` and `<leader>mhD`
   - These 2 don't ask for confirmation and just increase all the headings
-- `<leader>mhi` and `<leader>mhd`
-  - This goes 1 heading at a time and asks for **confirmation**
-  - keep pressing `n` to NOT increase, but you can see it detects headings
-    - `y` (yes): Replace this instance and continue to the next match.
-    - `n` (no): Do not replace this instance and continue to the next match.
-    - `a` (all): Replace all remaining instances without further prompting.
-    - `q` (quit): Quit without making any further replacements.
-    - `l` (last): Replace this instance and then quit
-    - `^E` (`Ctrl+E`): Scroll the text window down one line
-    - `^Y` (`Ctrl+Y`): Scroll the text window up one line
 
 ### Line wrapping at 80 characters
 
@@ -395,7 +512,8 @@ map({ "n", "x" }, "<Up>", "v:count == 0 ? 'gk' : 'k'", { expr = true, silent = t
 
 ---
 
-- To add the `.prettierrc.yaml` file, I personally do it in my `$HOME` directory
+- I add the `~/github/dotfiles-latest/.prettierrc.yaml.prettierrc.yaml` file, to
+  my `$HOME` directory
 - I keep the file in my dotfiles and create a symlink in my home directory that
   points to the `.prettierrc.yaml` file
 
@@ -419,13 +537,13 @@ map({ "n", "x" }, "<Up>", "v:count == 0 ? 'gk' : 'k'", { expr = true, silent = t
 
 <!-- markdownlint-disable -->
 <!-- prettier-ignore-start -->
- 
+
 <!-- tip=green, info=blue, warning=yellow, danger=red -->
- 
+
 > This is a message that renders correctly in the page because it's not
 > autoformatted
 {: .prompt-tip }
- 
+
 <!-- prettier-ignore-end -->
 <!-- markdownlint-restore -->
 
@@ -455,6 +573,10 @@ map({ "n", "x" }, "<Up>", "v:count == 0 ? 'gk' : 'k'", { expr = true, silent = t
 - To go back to where you were after navigating to a tag, use `Ctrl-o`
 - Close that pane with `<leader>wd` (window delete)
 
+### See key maps
+
+- `<leader>sk`
+
 ### Paste with "p" in visual mode
 
 - This is not markdown specific, but overall neovim specific
@@ -480,7 +602,8 @@ Minim tempor ullamco do eu pariatur minim.
 
 ---
 
-- This breaks if you have a todo item below, it will jump there, not sure why
+- This breaks if you have a markdown comment below in the file, it will jump
+  there, not sure why
   - **If you know why this is, let me know down in the comments**
 
 ### Indent with tab
@@ -513,12 +636,13 @@ Minim tempor ullamco do eu pariatur minim.
 
 ### See messages history
 
-- These are the messages that show up with Folke's
+- This comes by default with lazyvim, but you will forget
+- These are the messages that show up with
   [folke/noice.nvim](https://github.com/folke/noice.nvim){:target="\_blank"}
 - You'll see the pop-up, but a lot of times you will want to see them again
-- Use the command `:NoiceHistory`
-- There's a default lazyvim keymap `<leader>snh` (search noice history)
+- There's a **default** lazyvim keymap `<leader>snh` (search noice history)
   - Close the window that shows below with `<leader>wd` (window delete)
+- Or use the command `:NoiceHistory`
 
 ### Dismiss all messages
 
@@ -526,6 +650,14 @@ Minim tempor ullamco do eu pariatur minim.
   messages on the screen, sometimes occupying the entire screen and you won't be
   able to read
 - Clear them all with `<leader>snd` (search noice dismiss)
+
+<!-- markdownlint-disable -->
+
+```bash
+:lua local messages = {"System update available. System update available. System update available.","Backup completed successfully. Backup completed successfully. Backup completed successfully.","New email received. New email received. New email received.","Reminder: Meeting at 3 PM. Reminder: Meeting at 3 PM. Reminder: Meeting at 3 PM.","Low disk space on drive C:. Low disk space on drive C:. Low disk space on drive C:.","Software update installed. Software update installed. Software update installed.","Battery level critical. Battery level critical. Battery level critical.","File download completed. File download completed. File download completed.","New message from John. New message from John. New message from John.","Security scan completed. Security scan completed. Security scan completed.","Application crash detected. Application crash detected. Application crash detected.","Printer is out of paper. Printer is out of paper. Printer is out of paper.","Wi-Fi connection lost. Wi-Fi connection lost. Wi-Fi connection lost.","New friend request received. New friend request received. New friend request received.","Weather alert: Heavy rain expected. Weather alert: Heavy rain expected. Weather alert: Heavy rain expected.","VPN connection established. VPN connection established. VPN connection established.","System reboot required. System reboot required. System reboot required.","Bluetooth device connected. Bluetooth device connected. Bluetooth device connected.","Scheduled maintenance at midnight. Scheduled maintenance at midnight. Scheduled maintenance at midnight.","Password change reminder. Password change reminder. Password change reminder."} for _, message in ipairs(messages) do vim.api.nvim_echo({{message, "WarningMsg"}}, false, {}) end
+```
+
+<!-- markdownlint-restore -->
 
 ## What plugins and tips do you use?
 
@@ -838,7 +970,7 @@ body {
 ---
 
 - To modify the warning settings, copy the following file
-  `~/github/dotfiles-latest/neovim/neobean/.markdownlint.yaml`
+  `~/github/dotfiles-latest/.markdownlint.yaml`
 - To each dir in which you want the settings to be applied, for example, I
   copied it to my `github/obsidian_main` and `github/linkarzu.github.io` dir.
 - Copy it to the working directory, you can see it with `:pwd`
@@ -916,3 +1048,4 @@ body {
 
 - As the "viejas" say in my country "If God gives me license" I'll make a follow
   up video next year with the things that changed between now and then
+
