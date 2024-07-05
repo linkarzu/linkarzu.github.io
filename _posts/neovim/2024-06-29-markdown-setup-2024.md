@@ -100,7 +100,7 @@ tags:
 
 ## YouTube video
 
-{% include embed/youtube.html id='' %}
+{% include embed/youtube.html id='c0cuvzK1SDo' %}
 
 ## If you like this, and want to support me
 
