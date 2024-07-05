@@ -123,7 +123,7 @@ tags:
 
 ## Disclaimer
 
-- I use the [lazyvim.org](http://www.lazyvim.org){:target="\_blank"} distro, so
+- I use the [lazyvim.org](https://www.lazyvim.org){:target="\_blank"} distro, so
   my plugins and tips are optimized to be compatible with that the most, if
   using something different you might need to to a bit of tweaking, but you can
   grab the overall ideas and adapt them to your own config
