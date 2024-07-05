@@ -5,7 +5,7 @@ description: >-
   in neovim
 image:
   path: >-
-    /daqwsgmx6/image/upload/q_75/v1719362711/youtube/macos/alacritty-to-kitty.avif
+    /daqwsgmx6/image/upload/q_75/v1717456413/youtube/neovim/markdown-setup-2024.avif
 date: '2024-06-27 06:10:00 +0000'
 categories:
   - neovim
@@ -54,7 +54,7 @@ tags:
   * [Paste github repo as link](#paste-github-repo-as-link)
   * [Increase decrease all markdown headings](#increase-decrease-all-markdown-headings)
   * [Line wrapping at 80 characters](#line-wrapping-at-80-characters)
-    + [textwidth 80](#textwidth-80)
+    + [`textwidth = 80`](#textwidth--80)
     + [ProseWrap and .prettierrc.yaml](#prosewrap-and-prettierrcyaml)
   * [Disable autoformatting in certain sections](#disable-autoformatting-in-certain-sections)
   * [Add file path to current file](#add-file-path-to-current-file)
@@ -83,7 +83,7 @@ tags:
   * [echasnovski/mini.surround](#echasnovskiminisurround)
   * [3rd/image.nvim](#3rdimagenvim)
   * [HakonHarnes/img-clip.nvim](#hakonharnesimg-clipnvim)
-  * [BufExplorer](#bufexplorer)
+  * [jlanzarotta/bufexplorer](#jlanzarottabufexplorer)
   * [nvim-telescope/telescope.nvim](#nvim-telescopetelescopenvim)
   * [nvim-treesitter/nvim-treesitter](#nvim-treesitternvim-treesitter)
   * [LazyExtras](#lazyextras)
@@ -94,6 +94,7 @@ tags:
     + [formatting.prettier](#formattingprettier)
   * [epwalsh/obsidian.nvim (uninstalled)](#epwalshobsidiannvim-uninstalled)
 - [Improve the video next year](#improve-the-video-next-year)
+- [Timeline](#timeline)
 
 <!-- tocstop -->
 
@@ -149,7 +150,8 @@ tags:
 
 ## Where are all these files?
 
-- They're in my [dotfiles](https://github.com/linkarzu/dotfiles-latest)
+- They're in my
+  [dotfiles](https://github.com/linkarzu/dotfiles-latest){:target="\_blank"}
 - Search for any keymap, for example `<leader>fD` in my keymaps file:
   - `~/github/dotfiles-latest/neovim/neobean/lua/config/keymaps.lua`
   - And you will be able to see the code related to that keymap
@@ -178,11 +180,6 @@ There's much more that you can find in the github page
 
 ### Spell checking (works in tmux)
 
-- misspell
-- misspell
-- mispellll
-- mispellll
-- mispellll
 - To toggle spelling `<Leader>us`
 - To jump between misspelled words use `[s` and `]s`
 - To correct a word using suggestions the default is `z=`
@@ -265,10 +262,10 @@ set -as terminal-overrides ',*:Setulc=\E[58::2::%p1%{65536}%/%d::%p1%{256}%/%{25
 
 - I use the `todo` snippet to add it
 - `<leader>td` (todo done)
+  - Configured in my keymaps
 - `<leader>ta` (todo all)
-  - These 2 are configured in my keymaps
 - `<leader>tl` (todo list)
-  - Configured this keymap in the telescope plugin
+  - Configured these keymaps in the telescope plugin
 
 ### Add markdown TOC
 
@@ -348,11 +345,6 @@ set -as terminal-overrides ',*:Setulc=\E[58::2::%p1%{65536}%/%d::%p1%{256}%/%{25
 
 ### View and paste images
 
-- ![2024-07-03-at-18-17-45.avif](06-29-markdown-setup-2024-img/2024-07-03-at-18-17-45.avif)
-- ![skyrim mushroom cave](https://staticdelivery.nexusmods.com/images/110/1668624-1323185986.jpg)
-
----
-
 - We'll see how to set this up later
 
 ### Use snippets
@@ -412,6 +404,15 @@ map({ "n", "x" }, "<Up>", "v:count == 0 ? 'gk' : 'k'", { expr = true, silent = t
 
 ### Fold all level 2 or 3 headings
 
+- I created 4 keymaps to fold:
+  - `<leader>mfj` (markdown fold 1)
+  * `<leader>mfk` (markdown fold 2)
+    - I know, it looks like `madafaka`, but it's just the 2nd letter
+  * `<leader>mfl` (markdown fold 3)
+  * `<leader>mf;` (markdown fold 4)
+- And to unfold:
+  - `<leader>mfu` (markdown fold undo)
+- See the `Folding section` in the keymaps file
 <!-- markdownlint-disable -->
 
 <!-- prettier-ignore-start -->
@@ -423,16 +424,6 @@ map({ "n", "x" }, "<Up>", "v:count == 0 ? 'gk' : 'k'", { expr = true, silent = t
  
 <!-- prettier-ignore-end -->
 <!-- markdownlint-restore -->
-
-- I created 4 keymaps to fold:
-  - `<leader>mfj` (markdown fold 1)
-  * `<leader>mfk` (markdown fold 2)
-    - I know, it looks like `madafaka`, but it's just the 2nd letter
-  * `<leader>mfl` (markdown fold 3)
-  * `<leader>mf;` (markdown fold 4)
-- And to unfold:
-  - `<leader>mfu` (markdown fold undo)
-- See the `Folding section` in the keymaps file
 
 #### Folding basics
 
@@ -523,6 +514,7 @@ map({ "n", "x" }, "<Up>", "v:count == 0 ? 'gk' : 'k'", { expr = true, silent = t
 - `<C-g>` (github, and since you run it with ctrl, can run it in insert mode)
 - Make sure you have **the main** github repo link in your clipboard first
 - [folke/noice.nvim](https://github.com/folke/noice.nvim){:target="\_blank"}
+- [linkarzu/dotfiles-latest](https://github.com/linkarzu/dotfiles-latest){:target="\_blank"}
 
 ### Increase decrease all markdown headings
 
@@ -540,7 +532,7 @@ map({ "n", "x" }, "<Up>", "v:count == 0 ? 'gk' : 'k'", { expr = true, silent = t
   place, so I prefer to follow the markdown guidelines.
 - To achieve this I do 2 things:
 
-#### textwidth 80
+#### `textwidth = 80`
 
 - Set the option `vim.opt.textwidth = 80` in `lua/config/options.lua`
   - When text reaches this limit, it automatically wraps to the next line.
@@ -552,16 +544,16 @@ map({ "n", "x" }, "<Up>", "v:count == 0 ? 'gk' : 'k'", { expr = true, silent = t
 
 #### ProseWrap and .prettierrc.yaml
 
-- Use `prettier` with the `proseWrap: "always"` option in the `.prettierrc.yaml`
-  file
+- This requires the `prettier` plugin, we'll install it later
+- Configure the `proseWrap: "always"` option in the `.prettierrc.yaml` file
   - This will autoformat existing lines over 80 characters and also long lines
     that you paste that exceed the 80 characters
   - You will see how to enable prettier in the `LazyExtras` section
 
 ---
 
-- I add the `~/github/dotfiles-latest/.prettierrc.yaml.prettierrc.yaml` file, to
-  my `$HOME` directory
+- I add the `~/github/dotfiles-latest/.prettierrc.yaml` file, to my `$HOME`
+  directory
 - I keep the file in my dotfiles and create a symlink in my home directory that
   points to the `.prettierrc.yaml` file
 
@@ -688,7 +680,7 @@ Minim tempor ullamco do eu pariatur minim.
 - If on macOS, I also use the BetterTouchTool app, which allows me to run
   hyper+t+j from any app, not just from the terminal itself
 - I have a video in which I go over BetterTouchTool in great detail:
-  - [Advanced BetterTouchTools shortcuts that execute a set of actions like scripts](https://youtu.be/RBHCgEEluD0){:target="\_blank"}
+  - [Advanced BetterTouchTool shortcuts that execute a set of actions like scripts](https://youtu.be/RBHCgEEluD0){:target="\_blank"}
 
 ### See messages history
 
@@ -796,7 +788,7 @@ tmux_session_name=${note_name}
 ### nvim-pack/nvim-spectre
 
 - [nvim-pack/nvim-spectre](https://github.com/nvim-pack/nvim-spectre){:target="\_blank"}
-- Find and replace text
+- Find and replace text `<leader>sr`
 - I normally do `<leader>uw` to wrap when in the plugin
 - I changed the highlight colors in `eldritch.lua` because I could barely see
   the default ones
@@ -860,7 +852,7 @@ tmux_session_name=${note_name}
 - I go over how to set up both plugins in my video:
 - [View and paste images in Neovim like in Obsidian](https://youtu.be/0O3kqGwNzTI){:target="\_blank"}
 
-### BufExplorer
+### jlanzarotta/bufexplorer
 
 - [jlanzarotta/bufexplorer](https://github.com/jlanzarotta/bufexplorer){:target="\_blank"}
 - Allows me to easily close buffers I don't need with `d`
@@ -1041,6 +1033,9 @@ body {
 
 ```md
 <!-- markdownlint-configure-file { "MD013": { "line_length": 100 } } -->
+
+<!-- markdownlint-disable -->
+<!-- markdownlint-restore -->
 ```
 
 ---
@@ -1064,9 +1059,6 @@ body {
   - `K` (uppercase `k`) over a link allow me to hover
     - `KK` (press it twice) and you can navigate that file in the hover menu
   - `gd` (go to definition) allows me to go the file that a link points to
-  - [link to SketchyBar](../2024-macos-workflow/0010-240305-SketchyBar/2024-03-05-SketchyBar-macos.md#what-is-SketchyBar)
-  - [SketchyBar demo](../2024-macos-workflow/0010-240305-SketchyBar/2024-03-05-SketchyBar-macos.md#SketchyBar-demo)
-  - [internal link](#formattingprettier)
 
 #### formatting.prettier
 
@@ -1104,4 +1096,74 @@ body {
 
 - As the "viejas" say in my country "If God gives me license" I'll make a follow
   up video next year with the things that changed between now and then
+
+## Timeline
+
+```bash
+0:00 - Bullet points
+0:57 - Spell checking
+4:12 - Where are the files?
+4:51 - todo items
+6:34 - add TOC
+7:49 - Delete current file
+8:27 - Daily note with hyper+t+r
+9:38 - Add headings and daily note
+11:11 - View and paste images
+12:00 - Snippets
+13:11 - Bold
+14:33 - Jump markdown headings
+15:33 - Fold all headings
+17:09 - Fold with enter
+17:23 - If you want to support me, I appreciate it
+18:50 - Completion with ctrl+y
+19:24 - Marks
+20:13 - Make selected text a link
+20:44 - Paste github repo link
+21:06 - Increase or decrease headings
+21:45 - Line wrapping
+23:33 - Disable autoformatting in sections
+24:23 - Add file path to file
+24:42 - Copy file path to clipboard
+25:07 - Navigate the help pages
+25:57 - Search key maps
+26:20 - Paste with p
+26:56 - Select text in a bulletpoint
+27:40 - Dont indent with tab
+28:24 - Open current file in finder
+28:35 - Alternate file
+29:26 - How do I hyper+t+r
+30:15 - See messages history
+30:37 - Dismiss all messages
+31:03 - Share your plugins
+31:28 - Plugins section
+31:57 - bullets.vim
+32:10 - mini.ai
+33:24 - stay-centered.nvim
+33:50 - outline.nvim
+34:15 - headlines.nvim
+34:45 - nvim-spectre
+36:01 - auto-save.nvim
+36:35 - markdown-preview.nvim
+37:01 - mini.surround
+38:19 - image.nvim and img-clip.nvim
+38:47 - BufExplorer
+40:10 - Telescope.nvim
+40:50 - nvim-treesitter
+41:19 - LazyExtras
+43:14 - markdownlint-cli2
+45:40 - marksman
+46:41 - prettier
+47:46 - obsidian.nvim
+48:23 - see you next year
+48:44 - outro
+```
+
+```bash
+29:23 - RECOMMENDATION alternate file
+29:36 - RECOMMENDATION tmux-sessionizer
+29:48 - RECOMMENDATION BetterTouchTool
+34:11 - RECOMMENDATION outline.nvim
+36:30 - RECOMMENDATION auto-save.nvim
+38:44 - RECOMMENDATION view paste images neovim
+```
 
