@@ -8,8 +8,12 @@
   icon: "fa-brands fa-x-twitter"
   url: "https://twitter.com/link_arzu"
 
-- type: github
-  icon: "fab fa-github"
+- type: ko-fi
+  icon: "fa-solid fa-hand-holding-heart"
+  url: "https://ko-fi.com/linkarzu"
+
+# - type: github
+#   icon: "fab fa-github"
 
 # - type: linkedin
 #   icon: "fab fa-linkedin" # icons powered by <https://fontawesome.com/>
