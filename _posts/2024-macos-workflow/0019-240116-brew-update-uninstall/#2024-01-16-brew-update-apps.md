@@ -19,7 +19,7 @@ brew outdated
 Below command is just an example of what outdated packages look like
 
 ```bash
-krishna.@.mini~/github/dotfiles-public on  main [!] took 14s
+krishna.@.mini~/github/dotfiles-latest on  main [!] took 14s
 [24/01/16 16:51:15]
 ❯ brew outdated
 Warning: Cask gstreamer-framework was renamed to gstreamer-runtime.
@@ -40,7 +40,7 @@ brew update
 Below command is just an example of what updating packages looks like
 
 ```bash
-krishna.@.mini~/github/dotfiles-public on  main [!]
+krishna.@.mini~/github/dotfiles-latest on  main [!]
 [24/01/16 16:50:35]
 ❯ brew update
 Updated 2 taps (homebrew/cask-versions and homebrew/bundle).
@@ -68,7 +68,7 @@ brew upgrade
 Below command is just an example of what upgrading packages looks like
 
 ```bash
-krishna.@.mini~/github/dotfiles-public on  main [!] took 2s
+krishna.@.mini~/github/dotfiles-latest on  main [!] took 2s
 [24/01/16 16:52:15]
 ❯ brew upgrade
 

@@ -13,7 +13,7 @@ tags: [macos, tutorial, youtube, video, zsh-autosuggestions, mactools]
 - zsh-autosuggestions suggests commands as you type based on history and
   completions
   - To configure it go to my zshrc file
-  - `~/github/dotfiles-public/zshrc/zshrc-file.sh`
+  - `~/github/dotfiles-latest/zshrc/zshrc-file.sh`
   - Demonstration in the video
 
 ```bash

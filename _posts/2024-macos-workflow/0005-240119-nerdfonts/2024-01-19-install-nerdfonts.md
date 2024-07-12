@@ -66,7 +66,7 @@ brew uninstall font-meslo-lg-nerd-font
 
 ```bash
 # Terminal symbols don't look correctly
-cd ~/github/dotfiles-public/karabiner/mxstbr
+cd ~/github/dotfiles-latest/karabiner/mxstbr
 
 # Neovim symbols don't show up correctly
 nvim

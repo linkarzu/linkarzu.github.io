@@ -15,7 +15,7 @@ tags: [macos, tutorial, youtube, video, starship]
   - To see all the different options that can be configured, to this page
     `https://starship.rs/config/#prompt`
   - To configure it go to my zshrc file
-  - `~/github/dotfiles-public/zshrc/zshrc-file.sh`
+  - `~/github/dotfiles-latest/zshrc/zshrc-file.sh`
   - Demonstration in the video
 
 ```bash
@@ -23,5 +23,5 @@ brew install starship
 ```
 
 ```bash
-cd ~/github/dotfiles-public/karabiner/mxstbr
+cd ~/github/dotfiles-latest/karabiner/mxstbr
 ```

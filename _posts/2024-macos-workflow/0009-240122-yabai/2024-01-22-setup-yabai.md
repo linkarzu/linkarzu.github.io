@@ -238,7 +238,7 @@ yabai --start-service
   - This is because the executable changes, therefore it's shasum changes
 
 ```bash
-~/github/dotfiles-public/yabai/scripting-addition.sh
+~/github/dotfiles-latest/yabai/scripting-addition.sh
 ```
 
 - To restart yabai

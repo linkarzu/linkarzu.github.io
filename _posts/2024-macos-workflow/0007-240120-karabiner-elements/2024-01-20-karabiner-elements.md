@@ -124,7 +124,7 @@ brew install --cask karabiner-elements
 
 ```bash
 # Make sure to change to the mxstbr project directory
-cd ~/github/dotfiles-public/karabiner/mxstbr
+cd ~/github/dotfiles-latest/karabiner/mxstbr
 
 # Installs the project dependencies. These dependencies are usually defined
 # in a package.json file in the root directory of the TypeScript project.
@@ -171,7 +171,7 @@ cat <<EOF >~/Library/LaunchAgents/com.linkarzu.karabiner.plist
     <key>StandardErrorPath</key>
     <string>/tmp/karabiner_linkarzu.err.log</string>
     <key>WorkingDirectory</key>
-    <string>$HOME/github/dotfiles-public/karabiner/mxstbr</string>
+    <string>$HOME/github/dotfiles-latest/karabiner/mxstbr</string>
     <key>EnvironmentVariables</key>
     <dict>
       <key>PATH</key>

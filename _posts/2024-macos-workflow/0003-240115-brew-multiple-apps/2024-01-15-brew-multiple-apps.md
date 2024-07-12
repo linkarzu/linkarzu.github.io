@@ -85,7 +85,7 @@ cat /tmp/brew-dump-test/Brewfile
 ```
 
 ```bash
-linkarzu.@.mini~/github/dotfiles-public on  main via 💎 v3.1.3
+linkarzu.@.mini~/github/dotfiles-latest on  main via 💎 v3.1.3
 [24/02/02 07:47:41]
 ❯ cat /tmp/brew-dump-test/Brewfile
 tap "homebrew/bundle"
