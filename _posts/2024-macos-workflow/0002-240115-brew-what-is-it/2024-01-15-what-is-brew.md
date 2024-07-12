@@ -67,6 +67,20 @@ tags:
   - Can update all the installed apps through the terminal
   - `https://github.com/linkarzu/dotfiles-latest/blob/main/brew/00-base/Brewfile`
 
+<!-- markdownlint-disable -->
+<!-- prettier-ignore-start -->
+ 
+<!-- tip=green, info=blue, warning=yellow, danger=red -->
+ 
+>   - In the video you will see I use my old and now unmaintained `dotfiles-public` repo.
+  - The repo that is now maintained and up to date is `dotfiles-latest`.
+  - All the commands in the blogpost are updated and point to the **new** `dotfiles-latest` repo.
+    - If you encounter any issues or outdated parts, let me know
+{: .prompt-info }
+ 
+<!-- prettier-ignore-end -->
+<!-- markdownlint-restore -->
+
 ### (Optional) create ll alias
 
 - Before proceeding, I use the `ls -l` command a lot to list files inside a

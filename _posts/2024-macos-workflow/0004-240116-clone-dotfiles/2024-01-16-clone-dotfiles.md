@@ -56,6 +56,21 @@ tags:
   - Usually kept in a repository to reproduce the changes across devices
   - I keep my settings for alacritty, tmux, karabiner, brew, starship, zsh, etc
   - `https://github.com/linkarzu/dotfiles-latest`
+
+<!-- markdownlint-disable -->
+<!-- prettier-ignore-start -->
+ 
+<!-- tip=green, info=blue, warning=yellow, danger=red -->
+ 
+>   - In the video you will see I use my old and now unmaintained `dotfiles-public` repo.
+  - The repo that is now maintained and up to date is `dotfiles-latest`.
+  - All the commands in the blogpost are updated and point to the **new** `dotfiles-latest` repo.
+    - If you encounter any issues or outdated parts, let me know
+{: .prompt-info }
+ 
+<!-- prettier-ignore-end -->
+<!-- markdownlint-restore -->
+
 - What are repositories?
   - Repositories are essentially online storage spaces where you can keep and
     manage various configuration files and scripts. Repos can be stored on

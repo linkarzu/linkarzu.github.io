@@ -170,6 +170,20 @@ brew bundle
     it directly to the `brew bundle` command. A local `Brewfile` won't be
     created in your computer
 
+<!-- markdownlint-disable -->
+<!-- prettier-ignore-start -->
+ 
+<!-- tip=green, info=blue, warning=yellow, danger=red -->
+ 
+>   - In the video you will see I use my old and now unmaintained `dotfiles-public` repo.
+  - The repo that is now maintained and up to date is `dotfiles-latest`.
+  - All the commands in the blogpost are updated and point to the **new** `dotfiles-latest` repo.
+    - If you encounter any issues or outdated parts, let me know
+{: .prompt-info }
+ 
+<!-- prettier-ignore-end -->
+<!-- markdownlint-restore -->
+
 ```bash
 curl -fsSL https://raw.githubusercontent.com/linkarzu/dotfiles-latest/main/brew/00-base/Brewfile | brew bundle --file=-
 ```
