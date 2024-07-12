@@ -136,7 +136,7 @@ lla ~
 ```
 
 ```bash
-# Create the symlink to point .zshrc to the file in my dotfiles-public repo
+# Create the symlink to point .zshrc to the file in my dotfiles-latest repo
 ln -snf ~/github/dotfiles-latest/zshrc/zshrc-file.sh ~/.zshrc
 ```
 

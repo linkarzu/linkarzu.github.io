@@ -358,7 +358,7 @@ git checkout adf127a73b6c57383b6ae17211ceeaf978f70b4a
 # If the original ~/.zshrc file does not exist, nothing will happen
 cp ~/.zshrc ~/.zshrc_backup_$(date +%Y%m%d%H%M%S) >/dev/null 2>&1
 
-# Create the symlink to point .zshrc to the file in my dotfiles-public repo
+# Create the symlink to point .zshrc to the file in my dotfiles-latest repo
 ln -snf ~/github/dotfiles-latest/zshrc/zshrc-file.sh ~/.zshrc
 
 source ~/.zshrc

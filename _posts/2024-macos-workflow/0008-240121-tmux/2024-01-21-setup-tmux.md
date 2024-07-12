@@ -74,7 +74,7 @@ tags:
   (video 3)
 - Notice the green line at the bottom
 - My tmux configuration file is already pointing to the file that we cloned from
-  my dotfiles-public repo as seen below
+  my dotfiles-latest repo as seen below
 
 ```bash
 cd && ls -al
