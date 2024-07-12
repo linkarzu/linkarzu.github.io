@@ -165,13 +165,13 @@ brew bundle
 ## Install apps from a brewfile hosted in github
 
 - We'll install the apps I use as a base, which are needed for this video series
-  - `https://github.com/linkarzu/dotfiles-public/blob/main/brew/00-base/Brewfile`
+  - `https://github.com/linkarzu/dotfiles-latest/blob/main/brew/00-base/Brewfile`
   - The following command gets the contents of my Brewfile in github, and passes
     it directly to the `brew bundle` command. A local `Brewfile` won't be
     created in your computer
 
 ```bash
-curl -fsSL https://raw.githubusercontent.com/linkarzu/dotfiles-public/main/brew/00-base/Brewfile | brew bundle --file=-
+curl -fsSL https://raw.githubusercontent.com/linkarzu/dotfiles-latest/main/brew/00-base/Brewfile | brew bundle --file=-
 ```
 
 - The apps below are optional, I use Neovim as my main editor, so will install
@@ -179,7 +179,7 @@ curl -fsSL https://raw.githubusercontent.com/linkarzu/dotfiles-public/main/brew/
   - You don't need to install these, unless you want to
 
 ```bash
-curl -fsSL https://raw.githubusercontent.com/linkarzu/dotfiles-public/main/brew/10-essential/Brewfile | brew bundle --file=-
+curl -fsSL https://raw.githubusercontent.com/linkarzu/dotfiles-latest/main/brew/10-essential/Brewfile | brew bundle --file=-
 ```
 
 ## Caveats

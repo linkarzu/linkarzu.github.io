@@ -65,7 +65,7 @@ tags:
   - Instead of going to each site, you install packages through your terminal
   - You can install multiple apps at once
   - Can update all the installed apps through the terminal
-  - `https://github.com/linkarzu/dotfiles-public/blob/main/brew/00-base/Brewfile`
+  - `https://github.com/linkarzu/dotfiles-latest/blob/main/brew/00-base/Brewfile`
 
 ### (Optional) create ll alias
 

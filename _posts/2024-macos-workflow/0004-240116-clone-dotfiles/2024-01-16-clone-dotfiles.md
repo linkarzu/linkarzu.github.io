@@ -55,7 +55,7 @@ tags:
 - They're files that store the settings to configure your different apps
   - Usually kept in a repository to reproduce the changes across devices
   - I keep my settings for alacritty, tmux, karabiner, brew, starship, zsh, etc
-  - `https://github.com/linkarzu/dotfiles-public`
+  - `https://github.com/linkarzu/dotfiles-latest`
 - What are repositories?
   - Repositories are essentially online storage spaces where you can keep and
     manage various configuration files and scripts. Repos can be stored on
@@ -86,7 +86,7 @@ tags:
   automatically
 - I'll briefly show you how to fork in the video.
   - Sign in to github (if you don't have an account create one)
-  - Go to my dotfiles repo `https://github.com/linkarzu/dotfiles-public`
+  - Go to my dotfiles repo `https://github.com/linkarzu/dotfiles-latest`
   - Click on fork
 - If you don't want to fork the repo, its kind of fine, you can also clone
   directly and I'll show you how to disable automatic updates

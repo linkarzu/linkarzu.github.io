@@ -13,7 +13,7 @@ tags: [macos, tutorial, youtube, video, zoxide, mactools]
 - zoxide is a smarter cd command, it remembers which directories you use most
   frequently, so you can "jump" to them in just a few keystrokes.
   - To configure it go to my zshrc file
-  - `https://github.com/linkarzu/dotfiles-public/blob/main/zshrc/zshrc-file.sh`
+  - `https://github.com/linkarzu/dotfiles-latest/blob/main/zshrc/zshrc-file.sh`
   - Demonstration in the video
 - Each directory in zoxide is assigned a score, starting with 1 the first time
   it is accessed. Every subsequent access increases the score by 1. When a query
