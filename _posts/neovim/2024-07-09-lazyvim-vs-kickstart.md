@@ -205,7 +205,8 @@ mkdir -p ~/.config
 - **Do the following in Google Chrome**
   - I tried safari and the download does not work
 - Sign in to your github account
-- Go to my [dotfiles-latest repo](https://github.com/linkarzu/dotfiles-latest)
+- Go to my
+  [dotfiles-latest repo](https://github.com/linkarzu/dotfiles-latest){:target="\_blank"}
   - **Star it 😉**
 - Once there, press `.` (dot)
   - Or instead you can switch the `github.com` to `github.dev` on the top to go
@@ -350,7 +351,7 @@ kickstart: require("kickstart.health").check()
   configuration files, therefore using my configs
 - If you want to learn more of what happens in the background and also learn
   more about dotfiles, watch this video
-  - [04 - What are dotfiles and how to clone them](https://youtube.com/watch?v=XBjfzySpGdE)
+  - [04 - What are dotfiles and how to clone them](https://youtube.com/watch?v=XBjfzySpGdE){:target="\_blank"}
   - In this video I also show you how to `fork` the repo to have your own copy
     to make your own changes, in case you want to re-upload it back to github
 
