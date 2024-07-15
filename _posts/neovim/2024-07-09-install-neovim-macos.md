@@ -229,7 +229,7 @@ nvim test-file.md
   - The [lazyvim.org](https://www.lazyvim.org){:target="\_blank"} distro
   - [kickstart.nvim](https://github.com/nvim-lua/kickstart.nvim){:target="\_blank"}
 - To learn all of this, watch the video below:
-  - name of the new video
+  - [Lazyvim.org or kickstart.nvim in Neovim? You should try both and I’ll show you how](https://youtu.be/_WJBLC8LciQ){:target="\_blank"}
 
 ## What's your favorite Neovim distro?
 
