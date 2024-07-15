@@ -1,10 +1,8 @@
 ---
-title: >-
-  Lazyvim.org or kickstart.nvim in Neovim? You should try both and I’ll show you
-  how
+title: Lazyvim or kickstart in Neovim? You should try both and I’ll show you how
 description: >-
   I go over the pros and cons of installing either a neovim distribution or
-  kickstart.nvim, and I'll show you how to set them up both.
+  kickstart, and I'll show you how to set them up both.
 image:
   path: >-
     /daqwsgmx6/image/upload/q_75/v1717456413/youtube/neovim/lazyvim-vs-kickstart.avif
