@@ -38,6 +38,7 @@ tags:
 - [Compatible terminal](#compatible-terminal)
 - [Configure neovim](#configure-neovim)
 - [What's your favorite Neovim distro?](#whats-your-favorite-neovim-distro)
+- [My complete Neovim markdown setup and workflow in 2024](#my-complete-neovim-markdown-setup-and-workflow-in-2024)
 - [Timeline](#timeline)
 - [Recommendations](#recommendations)
 
@@ -234,6 +235,12 @@ nvim test-file.md
 ## What's your favorite Neovim distro?
 
 - Let me know down in the comments
+
+## My complete Neovim markdown setup and workflow in 2024
+
+- If you like this current article, you will find this quite useful:
+
+{% include embed/youtube.html id='c0cuvzK1SDo' %}
 
 ## Timeline
 

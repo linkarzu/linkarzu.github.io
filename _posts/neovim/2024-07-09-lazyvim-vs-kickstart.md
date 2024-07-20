@@ -46,6 +46,7 @@ tags:
   * [LazyVim or neobean](#lazyvim-or-neobean)
   * [kickstart.nvim](#kickstartnvim)
 - [Install Dependencies](#install-dependencies)
+- [My complete Neovim markdown setup and workflow in 2024](#my-complete-neovim-markdown-setup-and-workflow-in-2024)
 - [How to get your feet wet?](#how-to-get-your-feet-wet)
 - [What do you want to see next?](#what-do-you-want-to-see-next)
 - [Timeline](#timeline)
@@ -478,6 +479,12 @@ brew install jesseduffield/lazygit/lazygit
 # In case you want to install node
 brew install node
 ```
+
+## My complete Neovim markdown setup and workflow in 2024
+
+- If you like this current article, you will find this quite useful:
+
+{% include embed/youtube.html id='c0cuvzK1SDo' %}
 
 ## How to get your feet wet?
 

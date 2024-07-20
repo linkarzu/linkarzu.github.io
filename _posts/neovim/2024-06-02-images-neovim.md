@@ -30,6 +30,7 @@ tags:
   * [Star the repos if you like the plugins](#star-the-repos-if-you-like-the-plugins)
   * [This guide will be on my blog](#this-guide-will-be-on-my-blog)
   * [Like and comment](#like-and-comment)
+- [My complete Neovim markdown setup and workflow in 2024](#my-complete-neovim-markdown-setup-and-workflow-in-2024)
 - [image.nvim](#imagenvim)
   * [Install image.nvim dependencies](#install-imagenvim-dependencies)
     + [Homebrew](#homebrew)
@@ -118,6 +119,12 @@ tags:
 - If you like my videos and you want me to keep making more, once you've
   finished watching it, please give it a like and comment
 - This helps me a lot so that YouTube shows the video to more people
+
+## My complete Neovim markdown setup and workflow in 2024
+
+- If you like this current article, you will find this quite useful:
+
+{% include embed/youtube.html id='c0cuvzK1SDo' %}
 
 ## image.nvim
 
