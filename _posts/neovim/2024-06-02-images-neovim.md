@@ -189,7 +189,7 @@ rm -rf ~/github/dotfiles-latest/kitty/themes/.github/
 
 - If you want to use my kitty settings, you can find my config file in my
   dotfiles
-  - [My kitty config file](https://github.com/linkarzu/dotfiles-latest/blob/4ac00c8653025da331d43adfb892dc7a67ea4c6a/kitty/kitty.conf){:target="\_blank"}
+  - [My kitty config file](https://github.com/linkarzu/dotfiles-latest/blob/940cbd0df21d0f81fa041d2dead187ce8085a8db/kitty/kitty.conf){:target="\_blank"}
   - Just copy the settings in my config file to your
     `~/.config/kitty/kitty.conf` file
 
