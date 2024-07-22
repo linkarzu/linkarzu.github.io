@@ -32,17 +32,20 @@ tags:
     + [Normal mode navigation](#normal-mode-navigation)
       - [Basic navigation](#basic-navigation)
       - [My top picks for navigating](#my-top-picks-for-navigating)
-      - [Other "useful" navigation options](#other-useful-navigation-options)
     + [Normal mode text manipulation](#normal-mode-text-manipulation)
       - [My top picks for manipulating](#my-top-picks-for-manipulating)
         * [Undo and redo](#undo-and-redo)
         * [Indent](#indent)
-        * [Delete text](#delete-text)
-        * [Cut, copy and paste](#cut-copy-and-paste)
+        * [Delete, cut, copy and paste](#delete-cut-copy-and-paste)
         * [Change, replace, join](#change-replace-join)
+        * [Around inside](#around-inside)
+        * [Til find](#til-find)
   * [Insert mode](#insert-mode)
+    + [Get to insert mode](#get-to-insert-mode)
   * [Command line mode](#command-line-mode)
   * [Visual mode](#visual-mode)
+    + [Visual mode navigation](#visual-mode-navigation)
+    + [Some vertical visual mode tips](#some-vertical-visual-mode-tips)
 - [Quit and save](#quit-and-save)
 - [Search, find replace](#search-find-replace)
 - [Documentation](#documentation)
@@ -120,8 +123,9 @@ tags:
 ---
 
 - The traditional way:
-  - `ctrl-[`
   - `[esc]`
+    - I re-mapped `escape` to `capslock` because it's easier to press
+  - `ctrl-[`
 
 #### Normal mode navigation
 
@@ -161,23 +165,6 @@ tags:
   - `gj` - takes me to the markdown header below
   - `gk` - takes me to the markdown header above
 
-##### Other "useful" navigation options
-
-- **Don't worry about these to much at first, learn them later on, honestly, I
-  rarely use them but it's good to know them**
-- `W` - moves to next word (stops at spaces)
-- `B` - moves backward a word (stops at spaces)
-- `}` takes you to the next blank line
-- `{` brings you back to the previous blank line
-- `ctrl-f` - go page forward
-- `ctrl-b` - go page backward
-- `^` - takes you to the first character of the line
-- `$` - takes you to the last character of the line
-- `0` - takes you to the very beginning of a line
-- `z[enter]` - moves the current cursor line to the top of the screen
-  - I always keep my cursor in the middle of the screen using a plugin
-- `11gg` - go to line 11
-
 #### Normal mode text manipulation
 
 ##### My top picks for manipulating
@@ -186,102 +173,165 @@ tags:
 
 - `u` - undo (press multiple times to keep undoing)
 - `ctrl-r` - redo (press multiple times to keep redoing)
+- `.` - repeats the last entered command, and leaves you in command mode:
+  - Let's say you pressed `dw` or `db` then keep pressing `.` to execute them
+    multiple times
 
 ###### Indent
 
 - `S->>` - (shift+>+>) indent line to the right
 - `S-<<` - (shift+<+<) indent line to the left
 
-###### Delete text
-
-- `d` and `x` cuts text but also copies it to the clipboard
-- `x` - deletes the character the cursor is on (leave pressed, same as **supr**)
-- `dd` - deletes entire line
-- `dw` - delete word starting **from** and including cursor position (stops at
-  symbols)
-- `db` - deletes to the beginning of the previous word (stops at symbols)
-- `D` - deletes until end of line, starting at cursor
-- `dip` - delete inside paragraph (leaves lines around)
-- `dap` - delete around paragraph (removes lines around)
-- The following 2 work with the
-  [echasnovski/mini.ai](https://github.com/echasnovski/mini.ai){:target="\_blank"}
-  plugin
-  - `dio` - delete inside block
-  - `dao` - delete around block
-
-```bash
-- first paragraph
-- first paragraph
-- first paragraph
-```
-
-```bash
-- second paragraph
-- second paragraph
-- second paragraph
-```
-
----
-
-- **Other useful options worth knowing but don't worry about these too much for
-  now**
-- `X` - deletes the character to the left of the cursor (leave pressed, same as
-- `d$` - deletes to the end of the line starting at the cursor
-- `d^` - deletes to the beginning of the line starting at the cursor
-- `5dw` - deletes 5 words
-  - `d5w` - same thing, but easier to remember (delete 5 words)
-- `3dd` - deletes 3 lines including the one where the cursor is on
-  - `d3d` - the same thing, deletes 3 lines
-
-###### Cut, copy and paste
+###### Delete, cut, copy and paste
 
 - Text copied to the registry(clipboard) stays there until replaced with
   something else, which means it can be pasted multiple times
   - **delete = cut**
   - **yank = copy**
   - **put = paste**
+- `d` and `x` cuts text but also copies it to the clipboard
+- `yw` - yank word
+- `yy` - copies an entire line
 - `P` - paste before the cursor (or above if its a line)
 - `p` - paste after the cursor (or below if its a line)
-  - `ddp` - cuts a line and pastes it below
-  - `xp` - cuts character and pastes it **after** the cursor
-- `P` - paste before (or above) the cursor
-  - `ddP` - cuts a line and pastes it above
-  - `xP` - cuts character and pastes it **before** the cursor
-- `yw` - yank (copy) word
-  - `y2w` - yank 2 words
-  - `2yw` - yank 2 words
-- `yy` - copies an entire line
-  - `yyp` - copies the entire line and pastes it below
-- `y4y` - yank for lines
-  - `4yy` - same thing
+- `x` - deletes the character the cursor is on (leave pressed, same as `supr`)
+- `dd` - deletes entire line
+- `dw` - delete word starting **from** cursor position (stops at symbols)
+- `db` - deletes to the beginning of previous word (stops at symbols)
+  - Useful when navigating with `w` and then press `db`
+- `D` - deletes until end of line, starting at cursor
+
+---
+
+- These is a custom keymap I configured:
+  - `Y` - yank to end of line starting from cursor
 
 ###### Change, replace, join
 
-- `cw` - change word starting at the cursor (stops at symbol)
-  - `cW` - change word starting at cursor (stops at space)
+- `cw` - change word starting at the cursor, leaves you in insert mode
 - `r` - replace a **single** character and automatically puts you back in
   **normal mode**
-- `R` - replace the text starting with the cursor (you will see REPLACE at the
-  bottom)
 - `J` - joins 2 lines together. Keep pressing it to join more lines, adds a
   space
-  - `gJ` - joins 2 lines together but without adding a space
-  - `3J` - joins 3 lines together
+
+```bash
+Here I am adding some text to show you how to join lines when they are separate,
+
+I will be pressing the keys shown above to test this, this text is just random
+
+stuff, so do not pay attention to it
+```
+
+###### Around inside
+
+<!-- markdownlint-disable -->
+<!-- prettier-ignore-start -->
+ 
+<!-- tip=green, info=blue, warning=yellow, danger=red -->
+ 
+> - All the following motions work with `d`, `y`, `c`, `v`
+- So for example you could run `dap`, `yap`, `cap`, `vap` 
+- I know, it seems there should be a `fap`, but there's not
+{: .prompt-info }
+ 
+<!-- prettier-ignore-end -->
+<!-- markdownlint-restore -->
+
+- `a` stands for **around**, deletes spaces around
+- `i` stands for **inside**, does NOT delete spaces around
+  - `dip` - delete inside paragraph
+  - `yip` - yank inside paragraph
+  - `cip` - change inside paragraph
+  - `vip` - select inside paragraph
+
+---
+
+- Remember that instead of `d` below, you can switch it for `y`, `c` or `v`
+- `caw` or `ciw` - for a word, doesn't matter if you're in the middle
+- `ca"` or `ci"` - for "text in double quotes"
+- `ca'` or `ci'` - for 'text in single quotes'
+- `ca`` or`ci``- for `text in backtick quotes`
+- `ca(` or `ci(` - for (text in parentheses)
+- `ca{` or `ci{` - for {text in curly braces}
+- `ca[` or `ci[` - for [text in square brackets]
+- `cap` or `cip` - for paragraphs
+
+- The following 2 work with the
+  [echasnovski/mini.ai](https://github.com/echasnovski/mini.ai){:target="\_blank"}
+  plugin
+  - `cio` or `cao` - for text inside a blog
+    - **I use code blocks a lot, so this is my favorite of all times**
+  - `cit` or `cat` - for tags <div>text inside an html tag</div>
+  - This plugin can do way much more
+
+```bash
+- first paragraph
+- first paragraph
+- first paragraph
+```
+
+```bash
+- second paragraph
+- second paragraph
+- second paragraph
+```
+
+<!-- markdownlint-disable -->
+<!-- prettier-ignore-start -->
+ 
+<!-- tip=green, info=blue, warning=yellow, danger=red -->
+ 
+> There's a lot more of these motions, if in lazyvim press `ci` to list them
+{: .prompt-info }
+ 
+<!-- prettier-ignore-end -->
+<!-- markdownlint-restore -->
+
+###### Til find
+
+<!-- markdownlint-disable -->
+<!-- prettier-ignore-start -->
+ 
+<!-- tip=green, info=blue, warning=yellow, danger=red -->
+ 
+> - All the following motions work with `d`, `y`, `c`, `v`
+- So for example you could run `dt[`, `yt7`, `ct7`, `vt7` 
+{: .prompt-info }
+ 
+<!-- prettier-ignore-end -->
+<!-- markdownlint-restore -->
+
+- Instead of `[` type any character you want to find:
+  - `ct7`, `ct{`, `ct7`, etc
+- `ct[` - change til [beginning of square bracket]:
+  - will delete everything from your cursor until the character 7
+  - **it doesn't delete the `[` itself**
+- `cf[` - change find [beginning of square bracket]
+  - similar to above but will delete the `[`
 
 ### Insert mode
 
-- `insert` - Add or edit text as you do regularly in any editor To enter insert
-  mode there are several options, here are some useful ones:
-- `i` - insert text before the cursor position.
-- `I` - insert text at the **beginning** of the line.
-  - this is the same as `^i`
-- `a` - append text **after** the cursor position.
-- `A` - append text at the **end** of the line.
-  - this is the same as `$a`
-- `o` - open a new line below the cursor and enter insert mode.
-- `O` - open a new line above the cursor and enter insert mode.
-- `s` - substitute the character under the cursor and enter insert mode.
-- `S` - substitute the entire line and enter insert mode.
+<!-- markdownlint-disable -->
+<!-- prettier-ignore-start -->
+ 
+<!-- tip=green, info=blue, warning=yellow, danger=red -->
+ 
+> This mode allows you to edit text as you do regularly in any editor
+{: .prompt-info }
+ 
+<!-- prettier-ignore-end -->
+<!-- markdownlint-restore -->
+
+#### Get to insert mode
+
+- To enter insert mode there are several options, here are some useful ones:
+- `i` - "insert" text **before** the cursor position.
+- `a` - "append" text **after** the cursor position.
+- `I` - "insert" text at the **beginning** of the line.
+- `A` - "append" text at the **end** of the line.
+- `o` - "open" a new line below the cursor and enter insert mode.
+- `O` - "open" a new line above the cursor and enter insert mode.
+- `gi` - takes you back to the last position you were in insert mode
 
 ### Command line mode
 
@@ -291,7 +341,111 @@ tags:
 
 ### Visual mode
 
-- `visual` - Select text
+<!-- markdownlint-disable -->
+<!-- prettier-ignore-start -->
+ 
+<!-- tip=green, info=blue, warning=yellow, danger=red -->
+ 
+> This mode allows you to visually select text, to then manipulate it
+{: .prompt-info }
+ 
+<!-- prettier-ignore-end -->
+<!-- markdownlint-restore -->
+
+#### Visual mode navigation
+
+- `v` - enter visual mode and then move with any navigation option:
+  - Using the `hjkl` keys
+  - `vgl` - select to the end of the line (`gl` is a custom mapping I have)
+  - `vgh` - select to the start of the line (`gh` is a custom mapping I have)
+  - `vw` - select word, keep pressing `w` to keep selecting words
+  - Basically use any normal navigation commands when in visual mode
+
+---
+
+- Once you have the text you need select it you can delete it `d`, change it
+  `c`, yank it `y`, or paste over it `P`
+- When pasting text over in visual mode **I personally paste with `P`**:
+  - `P` - does **not** put the REPLACED text in the unnamed `""` register:
+    - This means that if you paste multiple times, you will paste the original
+      text
+  - `p` - puts the REPLACED text in the unnamed `""` register:
+    - This means that if you paste again, you will paste the text that was
+      replaced
+- Do not paste with `cmd+v` on macOS or it will mess up the lines you have below
+
+```bash
+Laborum aute multiple means text.
+Laborum aute multiple means text.
+
+liquip non aliquip exercitation pariatur
+liquip non aliquip exercitation pariatur
+
+do eu pariatur minim.
+do eu pariatur minim.
+```
+
+---
+
+- `V` - selects entire line
+- `gv` - takes you to the last selection you had in visual mode
+- `vig` - Select the entire file
+- `ctrl-v` - vertical visual mode
+
+#### Some vertical visual mode tips
+
+- Append the same part of text to the end of every line
+  - `ctrl-v`
+  - Scroll vertically to select the desired lines
+  - `$` - to move to the very end of every line
+  - `A` - lowercase A to append
+  - Type the desired text, you will see it only in 1 line
+  - `[escape]` or `kj` - and text shows in all the lines
+
+```bash
+- testing line 1
+- testing random 2
+- testing whatever 3
+- testing other line 4
+- testing one new extra line 5
+```
+
+---
+
+- Insert the same text at the beginning of each line
+  - `ctrl-v` and scroll vertically to select all the lines
+  - `0` - **OPTIONAL** in case you're not at the beginning of the line already
+  - `I` - uppercase I to insert
+  - Type the desired text, you will see it only in 1 line
+  - `[escape]` or `kj` - and text shows in all the lines
+
+```bash
+testing line 1
+testing random 2
+testing whatever 3
+testing other line 4
+testing one new extra line 5
+```
+
+---
+
+- Replace the same text at the beginning of each line
+  - `ctrl-v` and scroll vertically to select all the lines
+  - `$` - to move to the very end of every line
+  - `c` - c to change
+  - All the selected text will be deleted and you'll stay in insert mode
+  - Type the desired text, you will see it only in 1 line
+  - `[escape]` - and text shows in all the lines
+
+Indent a single line
+
+- `>>` - indents a single line to the right
+
+Indent all the lines
+
+- `V` linewise visual mode and scroll vertically to select all the lines
+- `>` - indents to the right
+- `<` - indents to the left
 
 ## Quit and save
 
