@@ -1,9 +1,8 @@
 ---
-title: Learn the neovim basics
+title: 'Neovim navigation and editing basics in 3 minutes, all you need to know'
 description: >-
-  We go over the different modes, useful navigation, undo, redo, delete, cut,
-  copy, paste, change, replace, join, search, other ways of quitting Vim,
-  Vimtutor, and the tip to install the Vim VS code extension.
+  Learn the neovim basics that show you how to navigate and edit text, this is
+  all you need to know to get started
 image:
   path: /daqwsgmx6/image/upload/q_75/v1683742199/blog/vim-tutorial_xdxvlf.avif
 date: '2024-07-21 18:50:00 +0000'
@@ -26,14 +25,17 @@ tags:
 - [A link to my guide will be in the video description](#a-link-to-my-guide-will-be-in-the-video-description)
 - [If you like this, and want to support me](#if-you-like-this-and-want-to-support-me)
 - [Follow me on Twitter](#follow-me-on-twitter)
+- [Quit and save](#quit-and-save)
+- [If you want to try the configuration you're looking at](#if-you-want-to-try-the-configuration-youre-looking-at)
 - [Vim modes](#vim-modes)
   * [Normal mode](#normal-mode)
+    + [What is normal mode](#what-is-normal-mode)
     + [Get to normal mode](#get-to-normal-mode)
     + [Normal mode navigation](#normal-mode-navigation)
       - [Basic navigation](#basic-navigation)
-      - [My top picks for navigating](#my-top-picks-for-navigating)
+      - [My top picks for normal mode navigation](#my-top-picks-for-normal-mode-navigation)
     + [Normal mode text manipulation](#normal-mode-text-manipulation)
-      - [My top picks for manipulating](#my-top-picks-for-manipulating)
+      - [My top picks for normal mode manipulation](#my-top-picks-for-normal-mode-manipulation)
         * [Undo and redo](#undo-and-redo)
         * [Indent](#indent)
         * [Delete, cut, copy and paste](#delete-cut-copy-and-paste)
@@ -41,14 +43,26 @@ tags:
         * [Around inside](#around-inside)
         * [Til find](#til-find)
   * [Insert mode](#insert-mode)
+    + [What is insert mode](#what-is-insert-mode)
     + [Get to insert mode](#get-to-insert-mode)
-  * [Command line mode](#command-line-mode)
+    + [Indent text in insert mode](#indent-text-in-insert-mode)
   * [Visual mode](#visual-mode)
+    + [What is visual mode](#what-is-visual-mode)
     + [Visual mode navigation](#visual-mode-navigation)
-    + [Some vertical visual mode tips](#some-vertical-visual-mode-tips)
-- [Quit and save](#quit-and-save)
+    + [Visual mode text manipulation](#visual-mode-text-manipulation)
+    + [Pasting text in visual mode](#pasting-text-in-visual-mode)
+    + [Vertical visual mode navigation](#vertical-visual-mode-navigation)
+      - [What is vertical visual mode](#what-is-vertical-visual-mode)
+      - [Append same text to end of each line](#append-same-text-to-end-of-each-line)
+      - [Insert same text at the beginning of each line](#insert-same-text-at-the-beginning-of-each-line)
+      - [Replace same text on each line](#replace-same-text-on-each-line)
+  * [Command line mode](#command-line-mode)
+- [My complete Neovim markdown setup and workflow in 2024](#my-complete-neovim-markdown-setup-and-workflow-in-2024)
 - [Search, find replace](#search-find-replace)
-- [Documentation](#documentation)
+  * [Search find](#search-find)
+  * [Substitute](#substitute)
+- [echasnovski/mini.surround](#echasnovskiminisurround)
+- [Tutor](#tutor)
 
 <!-- tocstop -->
 
@@ -71,6 +85,8 @@ tags:
   1. I'm not even remotely close to know them all
   2. Even if I did, you won't remember them all at the beginning
   3. Start with these few suggestions and keep adding new stuff later on
+- Here I'll show you all you need to know to navigate and edit text using neovim
+  using as few commands and options as possible
 
 ## A link to my guide will be in the video description
 
@@ -95,16 +111,46 @@ tags:
 - Or as kids call it these days "X"
 - [Here's the link](https://x.com/link_arzu){:target="\_blank"}
 
+## Quit and save
+
+- The way I do it as of today July 21st 2024:
+  - I use the [lazyvim.org](https://www.lazyvim.org){:target="\_blank"} distro,
+    I have [autosave enabled](https://youtu.be/W5fjlU4tSpw){:target="\_blank"},
+    so I don't worry about saving and to quit I just press `<leader>qq`
+
+---
+
+- The traditional way:
+  - To write and quit:
+    - `:wq`
+    - `ZZ` - shift-Z-Z (the Z's are uppercase)
+  - To quit without saving
+    - `:q!`
+    - `ZQ` - shift-Z-Q (uppercase too)
+  - To just save, or just quit
+    - `:q` - quit if you haven’t made any changes
+    - `:w` - save without quitting
+
+## If you want to try the configuration you're looking at
+
+- I have a video in which I explain how to install the lazyvim.org distro,
+  kickstart and the config that you see on the video:
+
+{% include embed/youtube.html id='_WJBLC8LciQ' %}
+
 ## Vim modes
 
 ### Normal mode
+
+#### What is normal mode
 
 <!-- markdownlint-disable -->
 <!-- prettier-ignore-start -->
  
 <!-- tip=green, info=blue, warning=yellow, danger=red -->
  
-> This mode allows you to navigate and perform different actions
+> - This mode allows you to navigate and perform different actions
+- This is the mode I'm using to navigate when moving around in the video
 {: .prompt-info }
  
 <!-- prettier-ignore-end -->
@@ -140,7 +186,7 @@ tags:
   - `h` - move cursor left by one character.
   - `l` - move cursor right by one character.
 
-##### My top picks for navigating
+##### My top picks for normal mode navigation
 
 - `w` - moves to the **start** of the next word (stops at symbols)
 - `e` - moves to the **end** of the next word (stops at symbols)
@@ -167,7 +213,7 @@ tags:
 
 #### Normal mode text manipulation
 
-##### My top picks for manipulating
+##### My top picks for normal mode manipulation
 
 ###### Undo and redo
 
@@ -256,7 +302,7 @@ stuff, so do not pay attention to it
 - `ca[` or `ci[` - for [text in square brackets]
 - `cap` or `cip` - for paragraphs
 
-- The following 2 work with the
+- The following work with the
   [echasnovski/mini.ai](https://github.com/echasnovski/mini.ai){:target="\_blank"}
   plugin
   - `cio` or `cao` - for text inside a blog
@@ -311,6 +357,8 @@ stuff, so do not pay attention to it
 
 ### Insert mode
 
+#### What is insert mode
+
 <!-- markdownlint-disable -->
 <!-- prettier-ignore-start -->
  
@@ -333,13 +381,13 @@ stuff, so do not pay attention to it
 - `O` - "open" a new line above the cursor and enter insert mode.
 - `gi` - takes you back to the last position you were in insert mode
 
-### Command line mode
+#### Indent text in insert mode
 
-- `command line` - Enter commands: save, quit, search, checkhealth, etc You
-  normally enter command mode when you need to enter Vim commands.
-- `:` - takes you to "line" mode when you're in normal mode
+- When in insert mode use `<C-T>` and `<C-D>`
 
 ### Visual mode
+
+#### What is visual mode
 
 <!-- markdownlint-disable -->
 <!-- prettier-ignore-start -->
@@ -360,11 +408,24 @@ stuff, so do not pay attention to it
   - `vgh` - select to the start of the line (`gh` is a custom mapping I have)
   - `vw` - select word, keep pressing `w` to keep selecting words
   - Basically use any normal navigation commands when in visual mode
+- `V` - selects entire line
+- `gv` - takes you to the last selection you had in visual mode
+- `vig` - select entire file
+  - This is a keymap that comes with the lazyvim.org distro and uses the
+    [mini.ai plugin](https://www.lazyvim.org/plugins/coding#miniai){:target="\_blank"}
 
----
+#### Visual mode text manipulation
 
-- Once you have the text you need select it you can delete it `d`, change it
-  `c`, yank it `y`, or paste over it `P`
+- Once you have text selected in visual mode, you can:
+  - `c` - change it
+  - `d` - delete it
+  - `y` - yank it
+  - `P` - paste over it
+  - `>` - indent it to the right
+  - `<` - indent it to the left
+
+#### Pasting text in visual mode
+
 - When pasting text over in visual mode **I personally paste with `P`**:
   - `P` - does **not** put the REPLACED text in the unnamed `""` register:
     - This means that if you paste multiple times, you will paste the original
@@ -385,22 +446,29 @@ do eu pariatur minim.
 do eu pariatur minim.
 ```
 
----
+#### Vertical visual mode navigation
 
-- `V` - selects entire line
-- `gv` - takes you to the last selection you had in visual mode
-- `vig` - Select the entire file
-- `ctrl-v` - vertical visual mode
+##### What is vertical visual mode
 
-#### Some vertical visual mode tips
+<!-- markdownlint-disable -->
+<!-- prettier-ignore-start -->
+ 
+<!-- tip=green, info=blue, warning=yellow, danger=red -->
+ 
+> This mode allows you to edit multiple lines vertically, to enter it press `ctrl-v`
+{: .prompt-info }
+ 
+<!-- prettier-ignore-end -->
+<!-- markdownlint-restore -->
 
-- Append the same part of text to the end of every line
-  - `ctrl-v`
-  - Scroll vertically to select the desired lines
-  - `$` - to move to the very end of every line
-  - `A` - lowercase A to append
-  - Type the desired text, you will see it only in 1 line
-  - `[escape]` or `kj` - and text shows in all the lines
+##### Append same text to end of each line
+
+- `ctrl-v` - enter vertical visual mode
+- Scroll vertically to select the desired lines
+- `$` - to move to the very end of every line
+- `A` - lowercase A to append
+- Type the desired text, you will see it only in 1 line
+- `[escape]` or `kj` - and text shows in all the lines
 
 ```bash
 - testing line 1
@@ -410,14 +478,14 @@ do eu pariatur minim.
 - testing one new extra line 5
 ```
 
----
+##### Insert same text at the beginning of each line
 
-- Insert the same text at the beginning of each line
-  - `ctrl-v` and scroll vertically to select all the lines
-  - `0` - **OPTIONAL** in case you're not at the beginning of the line already
-  - `I` - uppercase I to insert
-  - Type the desired text, you will see it only in 1 line
-  - `[escape]` or `kj` - and text shows in all the lines
+- `ctrl-v` - enter vertical visual mode
+- Scroll vertically to select all the lines
+- `0` - **OPTIONAL** in case you're not at the beginning of the line already
+- `I` - uppercase I to insert
+- Type the desired text, you will see it only in 1 line
+- `[escape]` or `kj` - and text shows in all the lines
 
 ```bash
 testing line 1
@@ -427,67 +495,104 @@ testing other line 4
 testing one new extra line 5
 ```
 
----
+##### Replace same text on each line
 
-- Replace the same text at the beginning of each line
-  - `ctrl-v` and scroll vertically to select all the lines
-  - `$` - to move to the very end of every line
-  - `c` - c to change
-  - All the selected text will be deleted and you'll stay in insert mode
-  - Type the desired text, you will see it only in 1 line
-  - `[escape]` - and text shows in all the lines
+- Put cursor at beginning of word you want to change
+- `ctrl-v` - enter vertical visual mode
+- Scroll vertically to select all the lines
+- `l` or `e` - to select the rest of that word or words
+- `c` - c to change
+- All the selected text will be deleted and you'll stay in insert mode
+- Type the desired text, you will see it only in 1 line
+- `[escape]` - and text shows in all the lines
 
-Indent a single line
+```bash
+testing line 1
+testing random 2
+testing whatever 3
+testing other line 4
+testing one new extra line 5
+```
 
-- `>>` - indents a single line to the right
+### Command line mode
 
-Indent all the lines
+- `command line` - Enter commands: save, quit, search, checkhealth, etc
+- You normally enter command mode when you need to enter Neovim commands.
+- `:` - takes you to "line" mode when you're in normal mode
 
-- `V` linewise visual mode and scroll vertically to select all the lines
-- `>` - indents to the right
-- `<` - indents to the left
+## My complete Neovim markdown setup and workflow in 2024
 
-## Quit and save
+- If you like this current article, you will find this quite useful:
 
-- The way I do it as of today July 21st 2024:
-  - I use the [lazyvim.org](https://www.lazyvim.org){:target="\_blank"} distro,
-    I have [autosave enabled](https://youtu.be/W5fjlU4tSpw){:target="\_blank"},
-    so I don't worry about saving and to quit I just press `<leader>qq`
-
----
-
-- The traditional way:
-  - To write and quit:
-    - `:wq`
-    - `ZZ` - shift-Z-Z (the Z's are uppercase)
-  - To quit without saving
-    - `:q!`
-    - `ZQ` - shift-Z-Q (uppercase too)
-  - To just save, or just quit
-    - `:q` - quit if you haven’t made any changes
-    - `:w` - save without quitting
+{% include embed/youtube.html id='c0cuvzK1SDo' %}
 
 ## Search, find replace
+
+### Search find
 
 This is useful if you open a file with Vim, and need to search for a specific
 word
 
-- `/unicorn[enter]` - searches **forward** for the word "unicorn"
+- For all the following options:
   - `n` - keep searching the same word **forward**
-  - `N` - keep searching the same word **backward**
-- `?unicorn[enter]` - searches **backward** for the word "unicorn"
-  - `n` - keep searching the same word **backward**
-  - `N` - keep searching the same word **forward**
-
-## Documentation
-
-- `:help` - opens the documentation when inside vim
-  - `:h` - a shortcut that does the same thing
-- `:q` - quit the help menu
+  * `N` - keep searching the same word **backward**
 
 ---
 
-This is by no means a complete Vim guide, as more advanced topics are not
-covered. But I think it's enough to get you started and interested in your
-journey to continue learning about Vim.
+- `/unicorn[enter]` - search **forward** for the word "unicorn"
+- `?unicorn[enter]` - search **backward** for the word "unicorn"
+- `*` - moves to the **next** occurrence of the word where the cursor is
+- `#` - moves to the **prev** occurrence of the word where the cursor is:
+  - opposite of `*`
+
+### Substitute
+
+- I don't use this, instead I use the plugin:
+  - [nvim-pack/nvim-spectre](https://github.com/nvim-pack/nvim-spectre){:target="\_blank"}
+- Folke recently replaced this plugin with this other one:
+  - [MagicDuck/grug-far.nvim](https://github.com/MagicDuck/grug-far.nvim){:target="\_blank"}
+  - But I haven't had time to test it
+
+---
+
+- Anyway, it's good to know at least this one that replaces all occurrences of
+  "whisky" with "juice":
+  - First type `:`, then
+  - `%s/whisky/juice/g`
+    - `%` - represents all lines in the file
+    - `s` - is to substitute
+    - `g` - means globally (entire file)
+
+```bash
+whisky word will be replaced, I have written whisky three times, even though I
+this is just some sample whisky text that has some test words in which the
+do not drink anymore, but whisky is just the first word that came to mind
+```
+
+## echasnovski/mini.surround
+
+- [echasnovski/mini.surround](https://github.com/echasnovski/mini.surround){:target="\_blank"}
+  - This is a plugin I cannot live without, I highly recommend you to get it
+  - This already comes in my own config in case you want to test it out
+- **Add a surrounding**
+  - If I want to surround a `part of the text`
+  - I select it in visual mode, then press `gsa"`
+    - I normally use ", `, ', (, [, {
+- **Replace a surrounding**
+  - Let's say I have this "surrounded text"
+  - And I want to change it with 'surrounded text'
+  - Place the cursor anywhere inside the " "
+  - Then press `gsr"'`
+    - goto, surround, replace, current surrounding, new surrounding
+- **Remove a surround**
+  - If we have 'this surrounded text'
+    - Place cursor anywhere inside the surrounding and remove it with `gsd'`
+
+## Tutor
+
+- If you want to learn way more stuff related to neovim navigation and text
+  editing, use the `:Tutor` command
+- If you're using the lazyvim.org distro it comes disabled by default, so enable
+  it by deleting the `"tutor"` line in the following file:
+  - `lua/config/lazy.lua`
 
