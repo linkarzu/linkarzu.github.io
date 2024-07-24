@@ -1,10 +1,13 @@
 ---
-title: 'Neovim navigation and editing basics in 3 minutes, all you need to know'
+title: >-
+  All the basic and advanced Neovim navigation and editing commands you need to
+  know to get  started
 description: >-
-  Learn the neovim basics that show you how to navigate and edit text, this is
-  all you need to know to get started
+  Learn the neovim basics that show you how to navigate and edit text leaving a
+  lot of nonsense out, this is all you need to know to get started
 image:
-  path: /daqwsgmx6/image/upload/q_75/v1683742199/blog/vim-tutorial_xdxvlf.avif
+  path: >-
+    /daqwsgmx6/image/upload/q_75/v1717456413/youtube/neovim/neovim-nav-basics.avif
 date: '2024-07-21 18:50:00 +0000'
 categories:
   - neovim
@@ -27,48 +30,52 @@ tags:
 - [Follow me on Twitter](#follow-me-on-twitter)
 - [Quit and save](#quit-and-save)
 - [If you want to try the configuration you're looking at](#if-you-want-to-try-the-configuration-youre-looking-at)
-- [Vim modes](#vim-modes)
-  * [Normal mode](#normal-mode)
-    + [What is normal mode](#what-is-normal-mode)
-    + [Get to normal mode](#get-to-normal-mode)
-    + [Normal mode navigation](#normal-mode-navigation)
-      - [Basic navigation](#basic-navigation)
-      - [My top picks for normal mode navigation](#my-top-picks-for-normal-mode-navigation)
-    + [Normal mode text manipulation](#normal-mode-text-manipulation)
-      - [My top picks for normal mode manipulation](#my-top-picks-for-normal-mode-manipulation)
-        * [Undo and redo](#undo-and-redo)
-        * [Indent](#indent)
-        * [Delete, cut, copy and paste](#delete-cut-copy-and-paste)
-        * [Change, replace, join](#change-replace-join)
-        * [Around inside](#around-inside)
-        * [Til find](#til-find)
-  * [Insert mode](#insert-mode)
-    + [What is insert mode](#what-is-insert-mode)
-    + [Get to insert mode](#get-to-insert-mode)
-    + [Indent text in insert mode](#indent-text-in-insert-mode)
-  * [Visual mode](#visual-mode)
-    + [What is visual mode](#what-is-visual-mode)
-    + [Visual mode navigation](#visual-mode-navigation)
-    + [Visual mode text manipulation](#visual-mode-text-manipulation)
-    + [Pasting text in visual mode](#pasting-text-in-visual-mode)
-    + [Vertical visual mode navigation](#vertical-visual-mode-navigation)
-      - [What is vertical visual mode](#what-is-vertical-visual-mode)
-      - [Append same text to end of each line](#append-same-text-to-end-of-each-line)
-      - [Insert same text at the beginning of each line](#insert-same-text-at-the-beginning-of-each-line)
-      - [Replace same text on each line](#replace-same-text-on-each-line)
-  * [Command line mode](#command-line-mode)
+- [Neovim modes](#neovim-modes)
+- [Normal mode](#normal-mode)
+  * [What is normal mode](#what-is-normal-mode)
+  * [Get to normal mode](#get-to-normal-mode)
+  * [Normal mode navigation](#normal-mode-navigation)
+    + [Basic navigation](#basic-navigation)
+    + [My top picks for normal mode navigation](#my-top-picks-for-normal-mode-navigation)
+  * [Normal mode text manipulation](#normal-mode-text-manipulation)
+    + [My top picks for normal mode manipulation](#my-top-picks-for-normal-mode-manipulation)
+      - [Undo and redo](#undo-and-redo)
+      - [Indent](#indent)
+      - [Delete, cut, copy and paste](#delete-cut-copy-and-paste)
+      - [Change, replace, join](#change-replace-join)
+      - [Around inside](#around-inside)
+      - [Til (to) find](#til-to-find)
+- [Insert mode](#insert-mode)
+  * [What is insert mode](#what-is-insert-mode)
+  * [Get to insert mode](#get-to-insert-mode)
+  * [Indent text in insert mode](#indent-text-in-insert-mode)
+- [Visual mode](#visual-mode)
+  * [What is visual mode](#what-is-visual-mode)
+  * [Visual mode navigation](#visual-mode-navigation)
+  * [Visual mode text manipulation](#visual-mode-text-manipulation)
+  * [Pasting text in visual mode](#pasting-text-in-visual-mode)
+  * [Vertical visual mode navigation](#vertical-visual-mode-navigation)
+    + [What is vertical visual mode](#what-is-vertical-visual-mode)
+    + [Append same text to end of each line](#append-same-text-to-end-of-each-line)
+    + [Insert same text at the beginning of each line](#insert-same-text-at-the-beginning-of-each-line)
+    + [Replace same text on each line](#replace-same-text-on-each-line)
+- [Command line mode](#command-line-mode)
+  * [What is command line mode](#what-is-command-line-mode)
+  * [Substitute](#substitute)
+  * [checkhealth](#checkhealth)
+  * [There's way more](#theres-way-more)
 - [My complete Neovim markdown setup and workflow in 2024](#my-complete-neovim-markdown-setup-and-workflow-in-2024)
 - [Search, find replace](#search-find-replace)
   * [Search find](#search-find)
-  * [Substitute](#substitute)
 - [echasnovski/mini.surround](#echasnovskiminisurround)
 - [Tutor](#tutor)
+- [Timeline](#timeline)
 
 <!-- tocstop -->
 
 ## YouTube video
 
-{% include embed/youtube.html id='' %}
+{% include embed/youtube.html id='YvZgM-PrP3s' %}
 
 ## Disclaimer
 
@@ -80,13 +87,15 @@ tags:
 
 ## Introduction
 
+- Here I'll show you all you need to know to navigate and edit text with neovim
+  using as few commands and options as possible
+- This will be useful if you're just getting started with neovim, and don't even
+  know the basics
 - There are thousands of different ways to navigate and edit text in neovim, I
   don't want to overwhelm you with every single option because:
   1. I'm not even remotely close to know them all
   2. Even if I did, you won't remember them all at the beginning
   3. Start with these few suggestions and keep adding new stuff later on
-- Here I'll show you all you need to know to navigate and edit text using neovim
-  using as few commands and options as possible
 
 ## A link to my guide will be in the video description
 
@@ -113,7 +122,7 @@ tags:
 
 ## Quit and save
 
-- The way I do it as of today July 21st 2024:
+- The way I do it as of today:
   - I use the [lazyvim.org](https://www.lazyvim.org){:target="\_blank"} distro,
     I have [autosave enabled](https://youtu.be/W5fjlU4tSpw){:target="\_blank"},
     so I don't worry about saving and to quit I just press `<leader>qq`
@@ -138,11 +147,18 @@ tags:
 
 {% include embed/youtube.html id='_WJBLC8LciQ' %}
 
-## Vim modes
+## Neovim modes
 
-### Normal mode
+- Neovim has several different modes, but the ones discussed in this tutorial
+  will be:
+  - `normal`
+  - `insert`
+  - `visual`
+  - `command line`
 
-#### What is normal mode
+## Normal mode
+
+### What is normal mode
 
 <!-- markdownlint-disable -->
 <!-- prettier-ignore-start -->
@@ -156,7 +172,7 @@ tags:
 <!-- prettier-ignore-end -->
 <!-- markdownlint-restore -->
 
-#### Get to normal mode
+### Get to normal mode
 
 - The way I get to normal mode:
   - When I'm editing text (insert mode) and I want to go to normal mode, I have
@@ -173,12 +189,12 @@ tags:
     - I re-mapped `escape` to `capslock` because it's easier to press
   - `ctrl-[`
 
-#### Normal mode navigation
+### Normal mode navigation
 
-##### Basic navigation
+#### Basic navigation
 
-- In Vim, instead of navigating with the arrow keys (which you also can, but not
-  recommended), you navigate with `hjkl`
+- In neovim, instead of navigating with the arrow keys (which you also can, but
+  not recommended), you navigate with `hjkl`
 - It'll be tough to get used to, but once you do, you won't have to lift your
   hand to look for the arrow keys, and it'll be faster:
   - `j` - move cursor down by one line.
@@ -186,7 +202,7 @@ tags:
   - `h` - move cursor left by one character.
   - `l` - move cursor right by one character.
 
-##### My top picks for normal mode navigation
+#### My top picks for normal mode navigation
 
 - `w` - moves to the **start** of the next word (stops at symbols)
 - `e` - moves to the **end** of the next word (stops at symbols)
@@ -198,37 +214,37 @@ tags:
 - `50gg` - go to line 50
 - `''` - (single quote 2 times) jump back to the position of the cursor before
   the last jump
-  - Let's say you're in line 150, and press `gg` to go to the top of the file,
-    but then want to jump back again to line 150, you press `''`
-  - Let's say you're in line 150, and press `50gg` to jump to line 50, but then
-    want to jump back again to line 150, you press `''`
+  - Let's say you're in line 200, and press `gg` to go to the top of the file,
+    but then want to jump back again to line 200, you press `''`
+  - Let's say you're in line 200, and press `50gg` to jump to line 50, but then
+    want to jump back again to line 200, you press `''`
 
 ---
 
 - These are custom keymaps I configured:
-  - `gh` - takes you to the first character of the line
   - `gl` - takes you to the last character of the line
+  - `gh` - takes you to the first character of the line
   - `gj` - takes me to the markdown header below
   - `gk` - takes me to the markdown header above
 
-#### Normal mode text manipulation
+### Normal mode text manipulation
 
-##### My top picks for normal mode manipulation
+#### My top picks for normal mode manipulation
 
-###### Undo and redo
+##### Undo and redo
 
 - `u` - undo (press multiple times to keep undoing)
 - `ctrl-r` - redo (press multiple times to keep redoing)
-- `.` - repeats the last entered command, and leaves you in command mode:
+- `.` - the last entered command, and leaves you in command mode:
   - Let's say you pressed `dw` or `db` then keep pressing `.` to execute them
     multiple times
 
-###### Indent
+##### Indent
 
-- `S->>` - (shift+>+>) indent line to the right
-- `S-<<` - (shift+<+<) indent line to the left
+- `S+>>` - (shift+>+>) indent line to the right
+  - `S+<<` - (shift+<+<) indent line to the left
 
-###### Delete, cut, copy and paste
+##### Delete, cut, copy and paste
 
 - Text copied to the registry(clipboard) stays there until replaced with
   something else, which means it can be pasted multiple times
@@ -252,7 +268,7 @@ tags:
 - These is a custom keymap I configured:
   - `Y` - yank to end of line starting from cursor
 
-###### Change, replace, join
+##### Change, replace, join
 
 - `cw` - change word starting at the cursor, leaves you in insert mode
 - `r` - replace a **single** character and automatically puts you back in
@@ -268,7 +284,7 @@ I will be pressing the keys shown above to test this, this text is just random
 stuff, so do not pay attention to it
 ```
 
-###### Around inside
+##### Around inside
 
 <!-- markdownlint-disable -->
 <!-- prettier-ignore-start -->
@@ -277,7 +293,7 @@ stuff, so do not pay attention to it
  
 > - All the following motions work with `d`, `y`, `c`, `v`
 - So for example you could run `dap`, `yap`, `cap`, `vap` 
-- I know, it seems there should be a `fap`, but there's not
+    * I know, it seems there should be a `fap`, but there's not
 {: .prompt-info }
  
 <!-- prettier-ignore-end -->
@@ -296,30 +312,32 @@ stuff, so do not pay attention to it
 - `caw` or `ciw` - for a word, doesn't matter if you're in the middle
 - `ca"` or `ci"` - for "text in double quotes"
 - `ca'` or `ci'` - for 'text in single quotes'
-- `ca`` or`ci``- for `text in backtick quotes`
+- [ca\`] or [ci\`] - for `text in backtick quotes`
 - `ca(` or `ci(` - for (text in parentheses)
 - `ca{` or `ci{` - for {text in curly braces}
 - `ca[` or `ci[` - for [text in square brackets]
-- `cap` or `cip` - for paragraphs
+- `cap` or `cip` - for paragraphs:
+  - In the video I demonstrate this with `vap` and `vip`
+
+---
 
 - The following work with the
   [echasnovski/mini.ai](https://github.com/echasnovski/mini.ai){:target="\_blank"}
   plugin
-  - `cio` or `cao` - for text inside a blog
-    - **I use code blocks a lot, so this is my favorite of all times**
-  - `cit` or `cat` - for tags <div>text inside an html tag</div>
+  - `cit` or `cat` - for tags <div>change that</div>
+  - `cio` or `cao` - for text inside a code block
+    - **I use code blocks a lot, so this is my favorite of all times, but the
+      `v` variant:**
+      - `vio`
   - This plugin can do way much more
 
 ```bash
 - first paragraph
 - first paragraph
 - first paragraph
-```
 
-```bash
-- second paragraph
-- second paragraph
-- second paragraph
+- another line
+test
 ```
 
 <!-- markdownlint-disable -->
@@ -333,7 +351,7 @@ stuff, so do not pay attention to it
 <!-- prettier-ignore-end -->
 <!-- markdownlint-restore -->
 
-###### Til find
+##### Til (to) find
 
 <!-- markdownlint-disable -->
 <!-- prettier-ignore-start -->
@@ -341,23 +359,23 @@ stuff, so do not pay attention to it
 <!-- tip=green, info=blue, warning=yellow, danger=red -->
  
 > - All the following motions work with `d`, `y`, `c`, `v`
-- So for example you could run `dt[`, `yt7`, `ct7`, `vt7` 
+- So for example you could run `dt7`, `yt7`, `ct7`, `vt7` 
 {: .prompt-info }
  
 <!-- prettier-ignore-end -->
 <!-- markdownlint-restore -->
 
 - Instead of `[` type any character you want to find:
-  - `ct7`, `ct{`, `ct7`, etc
+  - `ct7`, `ct{`, `ct(`, etc
 - `ct[` - change til [beginning of square bracket]:
   - will delete everything from your cursor until the character 7
   - **it doesn't delete the `[` itself**
 - `cf[` - change find [beginning of square bracket]
   - similar to above but will delete the `[`
 
-### Insert mode
+## Insert mode
 
-#### What is insert mode
+### What is insert mode
 
 <!-- markdownlint-disable -->
 <!-- prettier-ignore-start -->
@@ -370,7 +388,7 @@ stuff, so do not pay attention to it
 <!-- prettier-ignore-end -->
 <!-- markdownlint-restore -->
 
-#### Get to insert mode
+### Get to insert mode
 
 - To enter insert mode there are several options, here are some useful ones:
 - `i` - "insert" text **before** the cursor position.
@@ -381,13 +399,14 @@ stuff, so do not pay attention to it
 - `O` - "open" a new line above the cursor and enter insert mode.
 - `gi` - takes you back to the last position you were in insert mode
 
-#### Indent text in insert mode
+### Indent text in insert mode
 
 - When in insert mode use `<C-T>` and `<C-D>`
+- indent this
 
-### Visual mode
+## Visual mode
 
-#### What is visual mode
+### What is visual mode
 
 <!-- markdownlint-disable -->
 <!-- prettier-ignore-start -->
@@ -400,7 +419,7 @@ stuff, so do not pay attention to it
 <!-- prettier-ignore-end -->
 <!-- markdownlint-restore -->
 
-#### Visual mode navigation
+### Visual mode navigation
 
 - `v` - enter visual mode and then move with any navigation option:
   - Using the `hjkl` keys
@@ -414,7 +433,7 @@ stuff, so do not pay attention to it
   - This is a keymap that comes with the lazyvim.org distro and uses the
     [mini.ai plugin](https://www.lazyvim.org/plugins/coding#miniai){:target="\_blank"}
 
-#### Visual mode text manipulation
+### Visual mode text manipulation
 
 - Once you have text selected in visual mode, you can:
   - `c` - change it
@@ -424,7 +443,7 @@ stuff, so do not pay attention to it
   - `>` - indent it to the right
   - `<` - indent it to the left
 
-#### Pasting text in visual mode
+### Pasting text in visual mode
 
 - When pasting text over in visual mode **I personally paste with `P`**:
   - `P` - does **not** put the REPLACED text in the unnamed `""` register:
@@ -446,9 +465,9 @@ do eu pariatur minim.
 do eu pariatur minim.
 ```
 
-#### Vertical visual mode navigation
+### Vertical visual mode navigation
 
-##### What is vertical visual mode
+#### What is vertical visual mode
 
 <!-- markdownlint-disable -->
 <!-- prettier-ignore-start -->
@@ -461,7 +480,7 @@ do eu pariatur minim.
 <!-- prettier-ignore-end -->
 <!-- markdownlint-restore -->
 
-##### Append same text to end of each line
+#### Append same text to end of each line
 
 - `ctrl-v` - enter vertical visual mode
 - Scroll vertically to select the desired lines
@@ -478,7 +497,7 @@ do eu pariatur minim.
 - testing one new extra line 5
 ```
 
-##### Insert same text at the beginning of each line
+#### Insert same text at the beginning of each line
 
 - `ctrl-v` - enter vertical visual mode
 - Scroll vertically to select all the lines
@@ -495,7 +514,7 @@ testing other line 4
 testing one new extra line 5
 ```
 
-##### Replace same text on each line
+#### Replace same text on each line
 
 - Put cursor at beginning of word you want to change
 - `ctrl-v` - enter vertical visual mode
@@ -507,18 +526,56 @@ testing one new extra line 5
 - `[escape]` - and text shows in all the lines
 
 ```bash
-testing line 1
-testing random 2
-testing whatever 3
-testing other line 4
-testing one new extra line 5
+new word line 1
+new word random 2
+new word whatever 3
+new word other line 4
+new word one new extra line 5
 ```
 
-### Command line mode
+## Command line mode
 
-- `command line` - Enter commands: save, quit, search, checkhealth, etc
-- You normally enter command mode when you need to enter Neovim commands.
-- `:` - takes you to "line" mode when you're in normal mode
+### What is command line mode
+
+- You normally enter command mode when you need to enter Neovim commands like:
+  save, quit, search, checkhealth, etc
+- `:` - takes you to `command line` mode when you're in `normal` mode
+
+### Substitute
+
+- I rarely use this, instead I use the plugin:
+  - [nvim-pack/nvim-spectre](https://github.com/nvim-pack/nvim-spectre){:target="\_blank"}
+- Folke recently replaced this plugin with this other one:
+  - [MagicDuck/grug-far.nvim](https://github.com/MagicDuck/grug-far.nvim){:target="\_blank"}
+  - But I haven't had time to test it
+
+---
+
+- Anyway, it's good to know at least this one that replaces all occurrences of
+  "whisky" with "juice":
+  - First enter command line mode with `:`, then
+  - `%s/whisky/juice/g`
+    - `%` - represents all lines in the file
+    - `s` - is to substitute
+    - `g` - means globally (entire file)
+
+```bash
+whisky word will be replaced, I have written whisky three times, even though I
+this is just some sample whisky text that has some test words in which the
+do not drink anymore, but whisky is just the first word that came to mind
+```
+
+### checkhealth
+
+- `:checkhealth` - allows you to see if there are errors in your neovim
+  configuration
+
+### There's way more
+
+- Most of the plugins you install have command line mode "commands", so there's
+  thousands of commands that is difficult to learn by heart
+- What's usually done, is to create keymaps to enter those commands
+- You can also create your own keymaps that execute specific actions
 
 ## My complete Neovim markdown setup and workflow in 2024
 
@@ -530,7 +587,7 @@ testing one new extra line 5
 
 ### Search find
 
-This is useful if you open a file with Vim, and need to search for a specific
+This is useful if you open a file with neovim, and need to search for a specific
 word
 
 - For all the following options:
@@ -545,41 +602,22 @@ word
 - `#` - moves to the **prev** occurrence of the word where the cursor is:
   - opposite of `*`
 
-### Substitute
-
-- I don't use this, instead I use the plugin:
-  - [nvim-pack/nvim-spectre](https://github.com/nvim-pack/nvim-spectre){:target="\_blank"}
-- Folke recently replaced this plugin with this other one:
-  - [MagicDuck/grug-far.nvim](https://github.com/MagicDuck/grug-far.nvim){:target="\_blank"}
-  - But I haven't had time to test it
-
----
-
-- Anyway, it's good to know at least this one that replaces all occurrences of
-  "whisky" with "juice":
-  - First type `:`, then
-  - `%s/whisky/juice/g`
-    - `%` - represents all lines in the file
-    - `s` - is to substitute
-    - `g` - means globally (entire file)
-
-```bash
-whisky word will be replaced, I have written whisky three times, even though I
-this is just some sample whisky text that has some test words in which the
-do not drink anymore, but whisky is just the first word that came to mind
-```
-
 ## echasnovski/mini.surround
 
 - [echasnovski/mini.surround](https://github.com/echasnovski/mini.surround){:target="\_blank"}
   - This is a plugin I cannot live without, I highly recommend you to get it
   - This already comes in my own config in case you want to test it out
-- **Add a surrounding**
+- **Add a surround on a word**
+  - Position the cursor at the beginning of the word
+  - Add the surround with `gsae"`, for example
+  - `e` above is to move to the end of the word
+    - Besides `"`, I also use these: ` ' ( [ {
+- **Add a surround in visual mode**
   - If I want to surround a `part of the text`
   - I select it in visual mode, then press `gsa"`
-    - I normally use ", `, ', (, [, {
+    - Besides `"`, I also use these: ` ' ( [ {
 - **Replace a surrounding**
-  - Let's say I have this "surrounded text"
+  - Let's say I have this [ surrounded text ]
   - And I want to change it with 'surrounded text'
   - Place the cursor anywhere inside the " "
   - Then press `gsr"'`
@@ -595,4 +633,32 @@ do not drink anymore, but whisky is just the first word that came to mind
 - If you're using the lazyvim.org distro it comes disabled by default, so enable
   it by deleting the `"tutor"` line in the following file:
   - `lua/config/lazy.lua`
+
+## Timeline
+
+```bash
+0:00 - Intro
+0:15 - Quit save
+0:43 - normal mode
+2:00 - undo redo
+2:13 - indent
+2:23 - delete cut copy paste
+2:51 - change replace join
+3:12 - around inside
+4:20 - til find
+4:48 - insert mode
+5:29 - visual mode
+6:14 - paste text in visual mode
+6:33 - vertical visual mode
+7:23 - command line mode
+7:34 - substitute
+8:16 - search find
+8:44 - mini.surround
+9:39 - tutor
+```
+
+```bash
+0:39 - RECOMMENDATION lazyvim vs kickstart
+8:05 - RECOMMENDATION markdown workflow
+```
 
