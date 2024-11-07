@@ -5,7 +5,7 @@ description: >-
   in neovim
 image:
   path: >-
-    /daqwsgmx6/image/upload/q_75/v1717456413/youtube/neovim/markdown-setup-2024.avif
+    https://res.cloudinary.com/daqwsgmx6/image/upload/q_75/v1717456413/youtube/neovim/markdown-setup-2024.avif
 date: '2024-06-27 06:10:00 +0000'
 categories:
   - neovim

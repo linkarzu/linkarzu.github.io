@@ -6,7 +6,7 @@ description: >-
   with it
 image:
   path: >-
-    /daqwsgmx6/image/upload/q_75/v1717456413/youtube/neovim/install-neovim-macos.avif
+    https://res.cloudinary.com/daqwsgmx6/image/upload/q_75/v1717456413/youtube/neovim/install-neovim-macos.avif
 date: '2024-07-09 06:00:00 +0000'
 categories:
   - neovim

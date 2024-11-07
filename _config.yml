@@ -95,10 +95,10 @@ theme_mode: # [light | dark]
 # will be added to all image (site avatar & posts' images) paths starting with '/'
 #
 # e.g. 'https://cdn.com'
-cdn: https://res.cloudinary.com
+# cdn: https://res.cloudinary.com
 
 # the avatar on sidebar, support local or CORS resources
-avatar: /daqwsgmx6/image/upload/q_75/v1683578753/Profile%20pics/linkedin.avif
+avatar: https://res.cloudinary.com/daqwsgmx6/image/upload/q_75/v1683578753/Profile%20pics/linkedin.avif
 
 # The URL of the site-wide social preview image used in SEO `og:image` meta tag.
 # It can be overridden by a customized `page.image` in front matter.
@@ -197,7 +197,7 @@ defaults:
       layout: page
       permalink: /:title/
   - scope:
-      path: assets/img/favicons
+      path: assets/img
     values:
       swcache: true
 

@@ -5,7 +5,7 @@ description: >-
   Here we will go over the differences and which one you should use
 image:
   path: >-
-    /daqwsgmx6/image/upload/q_75/v1717456413/youtube/neovim/neovim-vs-neovide.avif
+    https://res.cloudinary.com/daqwsgmx6/image/upload/q_75/v1717456413/youtube/neovim/neovim-vs-neovide.avif
 date: '2024-08-22 18:50:00 +0000'
 categories:
   - xcp-ng

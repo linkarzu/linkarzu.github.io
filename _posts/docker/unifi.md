@@ -3,7 +3,7 @@ title: Unifi network
 description: Learn
 image:
   path: >-
-    /daqwsgmx6/image/upload/q_75/v1708093565/youtube/docker-practical/win11-netbootxyz.avif
+    https://res.cloudinary.com/daqwsgmx6/image/upload/q_75/v1708093565/youtube/docker-practical/win11-netbootxyz.avif
 date: '2024-02-15 20:09:00 +0000'
 categories:
   - docker-practical

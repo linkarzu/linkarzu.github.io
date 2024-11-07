@@ -1,12 +1,12 @@
 ---
-title: 07 - Configure Karabiner-Elements in macOS
+title: Karabiner-Elements updates 2024
 description: null
 image:
   path: >-
     https://res.cloudinary.com/daqwsgmx6/image/upload/q_75/v1706149938/youtube/2024-macos-workflow/07-karabiner-elements.avif
 date: '2024-01-21 20:07:00 +0000'
 categories:
-  - 2024-macos-workflow
+  - macos
 tags:
   - macos
   - tutorial
@@ -53,20 +53,10 @@ tags:
 ## What is karabiner-elements and how to configure the mappings
 
 - Karabiner-elements is a powerful and stable keyboard customizer for macOS.
-- `NOTE:` After installing karabiner, you'll notice that the windows are all
-  over the place, I want to keep my windows organized, so will configure and
-  install a window manager, in my case yabai in a future video. That will enable
-  the transparency effect on my terminal and other apps
-- `NOTE:` GokuRakuJoudo is a famous karabiner.json manager, similar to what we
-  will do here, but using the edn file format instead of typescript. I don't
-  have the time or will to set it up, as my current configuration works fine for
-  me. But if someone can explain the benefits over this approach it would be
-  appreciated
 
 ## Install and configure Karabiner-Elements
 
-- First, we'll install the package so its easier to understand how it works
-  - Then I'll explain what karabiner is, and what its used for
+- First you need to install it
 
 ```bash
 brew install --cask karabiner-elements
@@ -83,34 +73,6 @@ brew install --cask karabiner-elements
   - Is this repo needed? No, but it's way easier to manage the mappings
 - Karabiner will automatically load the configuration we set up in the dotfiles
   video `~/.config/karabiner/karabiner.json`
-- So mappings will start working automatically after installing it
-- All my mappings can be found in the dotfiles directory (demo in video)
-  - Alacritty `hyper+space+j`
-  - Safari `hyper+space+k`
-  - Obsidian `hyper+space+o`
-  - Chatgpt `hyper+space+;`
-    - Add it to dock in chrome, can also use safari, doesn't matter
-  - Spotify `hyper+space+h`
-  - Youtube `hyper+space+y`
-    - Add it to dock in chrome, can also use safari, doesn't matter
-  - System settings `hyper+space+'`
-  - Visual Studio code `hyper+space+n`
-  - Finder `hyper+space+f`
-  - I have additional mappings to:
-    - Navigate between tabs in my browsers
-    - Increase volume up/down
-    - Increase screen brightness up/down
-    - Open raycast extensions
-    - Execute BetterTouchTool commands
-    - And much more (demo in the video)
-  - If you don't have one of the apps installed, the mapping does nothing
-
----
-
-- I like switching my raycast hotkey to hyper+g
-- I also like configuring the paste app to use hyper+w
-
----
 
 ## configure automatic typescript to json translation
 
@@ -119,7 +81,6 @@ brew install --cask karabiner-elements
   - So that's what we're doing below. Every time the `rules.ts` file is updated
     we want that those changes are automatically applied to the `karabiner.json`
     file, so we use the `mxstbr` repo we saw above
-  - Demo on how the file doesn't change automatically at the moment
 - So we install dependencies and run the build
 
 ```bash

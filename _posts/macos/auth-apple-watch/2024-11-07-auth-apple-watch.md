@@ -6,10 +6,10 @@ description: >-
   your sudo commands with the watch?
 image:
   path: >-
-    /daqwsgmx6/image/upload/q_75/v1717456413/youtube/neovim/lazyvim-vs-kickstart.avif
+    https://res.cloudinary.com/daqwsgmx6/image/upload/q_75/v1717456413/youtube/neovim/lazyvim-vs-kickstart.avif
 date: '2024-11-07 06:10:00 +0000'
 categories:
-  - neovim
+  - macos
 tags:
   - macos
   - tutorial
@@ -48,14 +48,6 @@ tags:
 
 - I use a mac mini as my daily driver, my main keyboard was a magic keyboard with
   touch ID as seen on the image below
-
-![avif Image](2024-11-07-auth-apple-watch-img/241107-104112.avif){: width="972" height="589" .w-75 .normal}
-
-![webp Image](2024-11-07-auth-apple-watch-img/241107-105109.webp){: width="972" height="589" .w-75 .normal}
-
-![jpg Image](2024-11-07-auth-apple-watch-img/241107-105735.jpg){: width="972" height="589" .w-75 .normal}
-
-![avif no chg prmiss](2024-11-07-auth-apple-watch-img/241107-110211.avif){: width="972" height="589" .w-75 .normal}
 
 ## A link to my guide will be in the video description
 

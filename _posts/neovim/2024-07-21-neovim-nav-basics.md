@@ -7,7 +7,7 @@ description: >-
   lot of nonsense out, this is all you need to know to get started
 image:
   path: >-
-    /daqwsgmx6/image/upload/q_75/v1717456413/youtube/neovim/neovim-nav-basics.avif
+    https://res.cloudinary.com/daqwsgmx6/image/upload/q_75/v1717456413/youtube/neovim/neovim-nav-basics.avif
 date: '2024-07-21 18:50:00 +0000'
 categories:
   - neovim

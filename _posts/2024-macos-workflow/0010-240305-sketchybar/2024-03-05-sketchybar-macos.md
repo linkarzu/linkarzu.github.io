@@ -10,7 +10,7 @@ description: >-
   menubar to your liking.
 image:
   path: >-
-    /daqwsgmx6/image/upload/q_75/v1709985364/youtube/2024-macos-workflow/10-sketchybar.avif
+    https://res.cloudinary.com/daqwsgmx6/image/upload/q_75/v1709985364/youtube/2024-macos-workflow/10-sketchybar.avif
 date: '2024-03-05 08:00:00 +0000'
 categories:
   - 2024-macos-workflow

@@ -3,7 +3,7 @@ title: 10 - What is Alacritty and how to use it in macOS
 description: How to switch from iTerm and configure the Alacritty terminal emulator
 image:
   path: >-
-    /daqwsgmx6/image/upload/q_75/v1709985364/youtube/2024-macos-workflow/iterm-to-alacritty.avif
+    https://res.cloudinary.com/daqwsgmx6/image/upload/q_75/v1709985364/youtube/2024-macos-workflow/iterm-to-alacritty.avif
 date: '2024-06-16 06:10:00 +0000'
 categories:
   - 2024-macos-workflow

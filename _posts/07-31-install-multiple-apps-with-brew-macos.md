@@ -4,7 +4,7 @@ description: >-
   Tutorial useful if you bought a new Mac, or formatted and want to install most
   of your apps with just a few commands using a Brewfile
 image:
-  path: /daqwsgmx6/image/upload/q_75/v1683742199/blog/brew-multiple-apps.avif
+  path: https://res.cloudinary.com/daqwsgmx6/image/upload/q_75/v1683742199/blog/brew-multiple-apps.avif
   alt: brew multiple apps
 date: '2023-07-31 14:24:00 +0000'
 categories:

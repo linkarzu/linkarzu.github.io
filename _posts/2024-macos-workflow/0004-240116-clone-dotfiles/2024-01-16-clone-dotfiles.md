@@ -3,7 +3,7 @@ title: 04 - What are dotfiles and how to clone them
 description: null
 image:
   path: >-
-    /daqwsgmx6/image/upload/q_75/v1706149938/youtube/2024-macos-workflow/04-dotfiles.avif
+    https://res.cloudinary.com/daqwsgmx6/image/upload/q_75/v1706149938/youtube/2024-macos-workflow/04-dotfiles.avif
 date: '2024-01-21 20:04:00 +0000'
 categories:
   - 2024-macos-workflow

@@ -1,12 +1,12 @@
 ---
-title: Lazyvim or kickstart in Neovim? You should try both and I’ll show you how
+title: Install multiple neovim distros
 description: >-
-  I go over the pros and cons of installing either a neovim distribution or
-  kickstart, and I'll show you how to set them up both.
+  Sometimes you may want to try a neovim version or distribution you may see on
+  a video or somewhere, how can you install them?
 image:
   path: >-
     https://res.cloudinary.com/daqwsgmx6/image/upload/q_75/v1717456413/youtube/neovim/lazyvim-vs-kickstart.avif
-date: '2024-07-09 06:10:00 +0000'
+date: '2024-09-28 06:10:00 +0000'
 categories:
   - neovim
 tags:
@@ -26,10 +26,7 @@ tags:
 - [A link to my guide will be in the video description](#a-link-to-my-guide-will-be-in-the-video-description)
 - [If you like this, and want to support me](#if-you-like-this-and-want-to-support-me)
 - [Follow me on Twitter](#follow-me-on-twitter)
-- [Pros and cons of each](#pros-and-cons-of-each)
-  * [Using a distribution](#using-a-distribution)
-  * [Using kickstart.nvim](#using-kickstartnvim)
-- [Before you continue](#before-you-continue)
+- [Installation requirements](#installation-requirements)
 - [Installation options](#installation-options)
   * [Which one do I choose?](#which-one-do-i-choose)
   * [Option 1: Download my `neovim` dir](#option-1-download-my-neovim-dir)
@@ -42,6 +39,8 @@ tags:
     + [How to clone](#how-to-clone)
     + [Test with kickstart](#test-with-kickstart)
   * [Option 3: Manually go to each repo and download it](#option-3-manually-go-to-each-repo-and-download-it)
+- [How to add new distros](#how-to-add-new-distros)
+  * [Adding NvChad](#adding-nvchad)
 - [First time setup](#first-time-setup)
   * [LazyVim or neobean](#lazyvim-or-neobean)
   * [kickstart.nvim](#kickstartnvim)
@@ -63,20 +62,13 @@ tags:
 
 ## Introduction
 
-- After installing neovim, you'll be wondering what to do next, if to whether
-  build your setup from scratch using `kickstart.nvim`, use a neovim
-  distribution like `lazyvim.org` or use my personal setup `neobean`
-- My personal advise is, use the lazyvim.org distro, but run the kickstart.nvim
-  setup in parallel and go over it when you have some free time, and learn
-  everything that you need to learn about neovim
-- So in this guide, I will now show you how to **download, install and use the
-  following 3 setups and use them in the same machine**
-  - My own `neobean` config, it's built on top of the lazyvim.org distro
-  - Folke's [lazyvim.org](https://www.lazyvim.org){:target="\_blank"} distro
-  - [kickstart.nvim](https://github.com/nvim-lua/kickstart.nvim){:target="\_blank"}
-- I already have everything setup on this machine, so in the video you'll see
-  that I'll go through the whole process by remotely managing other computer and
-  starting from scratch
+- This comes from my video:
+  - [Lazyvim or kickstart in Neovim?](https://youtu.be/_WJBLC8LciQ){:target="\_blank"}
+- It's a shorter version that focuses only in showing you to to install multiple
+  Neovim distributions or versions
+- If you want to understand what distro to use, go and watch that video
+- In this video we will use the `$NVIM_APPNAME` environment variable which
+  controls the sub-directory that neovim will read from
 
 ## A link to my guide will be in the video description
 
@@ -102,42 +94,15 @@ tags:
 - Or as kids call it these days "X"
 - [Here's the link](https://x.com/link_arzu){:target="\_blank"}
 
-## Pros and cons of each
-
-### Using a distribution
-
-- You will have basically everything setup for you, it already comes with a lot
-  of defaults and is really easy to get started if you know nothing about the
-  Lua programming language, or the neovim configuration
-- The downside is that since you're not familiar with anything in the neovim
-  world, executing a simple change, will take you a long time and will be a bit
-  difficult
-  - By googling you'll be able to figure things out, eventually
-- All of the different settings in a distribution will feel overwhelming, but
-  start small, I started just editing markdown files
-- If some plugins are removed from the default install and made optional, you
-  may see some "breaking" changes, which you can fix by reading the
-  [news section](https://www.lazyvim.org/news){:target="\_blank"}
-
-### Using kickstart.nvim
-
-- You will understand the ins and outs of neovim, kickstart even takes you
-  through the process of trying out the `:Tutor` which goes over the very
-  basics, like how to navigate in neovim, how to edit text, and all you need to
-  know related to neovim commands
-- Kickstart also includes some useful links in case you want to get started with
-  the Lua programming language (Brazil mentioned)
-- The downside of this, is that it will take you longer to achieve the
-  configuration you want
-
-## Before you continue
+## Installation requirements
 
 - Make sure you have these 3 installed:
   - `brew`
   - `neovim`
   - `kitty` (or any other terminal with true colors and undercurl)
 - If you don't:
-  - To install `neovim` watch this video
+  - To install `neovim` watch this video:
+    - [How to install neovim on macos](https://youtu.be/un7DhE71EeY){:target="\_blank"}
   - To install and configure `kitty` watch this video:
     - [Why I switched from Alacritty to kitty, and how to configure kitty](https://youtu.be/MZNvjclifD8){:target="\_blank"}
 
@@ -194,6 +159,7 @@ tags:
 my_working_directory="$HOME/github/linkarzu-dots"
 
 # This creates the dir and switches to it
+# if the dir already exists, nothing happens
 mkdir -p $my_working_directory
 cd $my_working_directory
 
@@ -274,8 +240,9 @@ alias vl='export NVIM_APPNAME="lazyvim" && /opt/homebrew/bin/nvim'
 # If you want to open the daily note with a different distro, update the "nvim"
 # symlink in the symlinks section
 #
-# If you don't understand what I mean by "daily note" go and watch my markdown workflow video
-# https://youtu.be/c0cuvzK1SDo
+# If you don't understand what I mean by "daily note" go and watch my daily
+# note video
+# https://youtu.be/W3hgsMoUcqo
 alias nvim='export NVIM_APPNAME="nvim" && /opt/homebrew/bin/nvim'
 ```
 
@@ -414,6 +381,21 @@ kickstart: require("kickstart.health").check()
 
 - Here you don't use my dotfiles at all, but instead go to the lazyvim.org page,
   and follow the instructions to install it, and do the same with kickstart
+
+## How to add new distros
+
+### Adding NvChad
+
+- Go to the [NvChad website](https://nvchad.com/docs/quickstart/install/){:target="\_blank"} for the installation instructions
+- It will instruct you to install with this command
+
+```bash
+git clone https://github.com/NvChad/starter ~/.config/nvim && nvim
+```
+
+- I don't want to do that, as it will replace my `~/.config/nvim` configuration
+- Instead I want to download NvChad to my dotfiles, then create a symlink
+  and configure the `NVIM_APPNAME` as we did before
 
 ## First time setup
 

@@ -3,7 +3,7 @@ title: 'Neovim or Neovide, what is the difference?'
 description: 'Understand what Neovide is, how to install it and how to set it up'
 image:
   path: >-
-    /daqwsgmx6/image/upload/q_75/v1717456413/youtube/neovim/neovim-vs-neovide.avif
+    https://res.cloudinary.com/daqwsgmx6/image/upload/q_75/v1717456413/youtube/neovim/neovim-vs-neovide.avif
 date: '2024-07-25 18:50:00 +0000'
 categories:
   - neovim

@@ -3,7 +3,7 @@ title: glove80 testing
 description: glove80 testing
 image:
   path: >-
-    /daqwsgmx6/image/upload/q_75/v1717456413/youtube/neovim/neovim-vs-neovide.avif
+    https://res.cloudinary.com/daqwsgmx6/image/upload/q_75/v1717456413/youtube/neovim/neovim-vs-neovide.avif
 date: '2024-07-25 18:50:00 +0000'
 categories:
   - neovim
@@ -32,6 +32,8 @@ tags:
   * [Day-5 240825](#day-5-240825)
   * [Day-9 240829](#day-9-240829)
   * [Day-10 240830](#day-10-240830)
+  * [241013](#241013)
+  * [241028](#241028)
 - [Pros and cons](#pros-and-cons)
   * [Cons](#cons)
 
@@ -139,6 +141,19 @@ tags:
 - The goal is to have 1 key to do both functions
 - I'm also using the pinkies for the last 2 rows, instead of my ring fingers,
   it's less of a stretch
+
+### 241013
+
+- Today, Oct 13th 2024, I charged the battery to 100%, want to see how long it lasts
+- 2 computers connected via Bluetooth
+- no lights
+
+### 241028
+
+- The left side of the keyboard ran out of battery today and turned off
+- Right side of the keyboard battery is still 5/6
+- Not sure if this is a firmware issue or an issue with the battery itself on
+  the left half
 
 ## Pros and cons
 

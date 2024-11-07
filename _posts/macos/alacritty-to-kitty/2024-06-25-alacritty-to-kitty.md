@@ -5,7 +5,7 @@ description: >-
   switch to Kitty
 image:
   path: >-
-    /daqwsgmx6/image/upload/q_75/v1719362711/youtube/macos/alacritty-to-kitty.avif
+    https://res.cloudinary.com/daqwsgmx6/image/upload/q_75/v1719362711/youtube/macos/alacritty-to-kitty.avif
 date: '2024-06-25 06:10:00 +0000'
 categories:
   - macos

@@ -3,7 +3,7 @@ title: 02 - What is brew and how to install it in macos?
 description: null
 image:
   path: >-
-    /daqwsgmx6/image/upload/q_75/v1706149938/youtube/2024-macos-workflow/02-what-is-brew.avif
+    https://res.cloudinary.com/daqwsgmx6/image/upload/q_75/v1706149938/youtube/2024-macos-workflow/02-what-is-brew.avif
 date: '2024-01-21 20:02:00 +0000'
 categories:
   - 2024-macos-workflow

@@ -5,7 +5,7 @@ description: >-
   images, the same way you do in obsidian
 image:
   path: >-
-    /daqwsgmx6/image/upload/q_75/v1717456413/youtube/neovim/view-paste-images.avif
+    https://res.cloudinary.com/daqwsgmx6/image/upload/q_75/v1717456413/youtube/neovim/view-paste-images.avif
 date: '2024-06-02 07:09:00 +0000'
 categories:
   - neovim

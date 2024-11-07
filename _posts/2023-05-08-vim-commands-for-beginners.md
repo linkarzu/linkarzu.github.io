@@ -5,7 +5,7 @@ description: >-
   redo, delete, cut, copy, paste, change, replace, join, search, other ways of
   quitting Vim, Vimtutor, and the tip to install the Vim VS code extension.
 image:
-  path: /daqwsgmx6/image/upload/q_75/v1683742199/blog/vim-tutorial_xdxvlf.avif
+  path: https://res.cloudinary.com/daqwsgmx6/image/upload/q_75/v1683742199/blog/vim-tutorial_xdxvlf.avif
   alt: vim tutorial
 date: '2023-05-08 18:50:00 +0000'
 categories:

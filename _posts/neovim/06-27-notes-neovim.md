@@ -5,7 +5,7 @@ description: >-
   get started, start by taking notes in it
 image:
   path: >-
-    /daqwsgmx6/image/upload/q_75/v1719362711/youtube/macos/alacritty-to-kitty.avif
+    https://res.cloudinary.com/daqwsgmx6/image/upload/q_75/v1719362711/youtube/macos/alacritty-to-kitty.avif
 date: '2024-06-27 06:10:00 +0000'
 categories:
   - neovim

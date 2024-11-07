@@ -3,7 +3,7 @@ title: 08 - What is tmux and how to use it in macOS
 description: null
 image:
   path: >-
-    /daqwsgmx6/image/upload/q_75/v1706149938/youtube/2024-macos-workflow/08-tmux.avif
+    https://res.cloudinary.com/daqwsgmx6/image/upload/q_75/v1706149938/youtube/2024-macos-workflow/08-tmux.avif
 date: '2024-01-21 20:08:00 +0000'
 categories:
   - 2024-macos-workflow

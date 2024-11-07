@@ -186,4 +186,5 @@ The image below will toggle dark/light mode based on theme preference, notice it
 ## Reverse Footnote
 
 [^footnote]: The footnote source
+
 [^fn-nth-2]: The 2nd footnote source

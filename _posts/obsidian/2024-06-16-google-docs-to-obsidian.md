@@ -3,7 +3,7 @@ title: From Google Docs to Obsidian
 description: Why did I stop taking notes in Google Docs and switched to Obsidian
 image:
   path: >-
-    /daqwsgmx6/image/upload/q_75/v1718650283/youtube/obsidian/google-docs-to-obsidian.avif
+    https://res.cloudinary.com/daqwsgmx6/image/upload/q_75/v1718650283/youtube/obsidian/google-docs-to-obsidian.avif
 date: '2024-06-16 10:09:00 +0000'
 categories:
   - obsidian
