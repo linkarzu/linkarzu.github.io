@@ -5,7 +5,7 @@ description: >-
   without touch ID but you have an apple watch and would like to authenticate
   your sudo commands with the watch?
 image:
-  path: ../../../assets/img/imgs/241111-thux-sudo-apple-watch.avif
+  path: ../../../assets/img/imgs/241111-thux-apple-watch-sudo.avif
 date: '2024-11-07 06:10:00 +0000'
 categories:
   - macos
