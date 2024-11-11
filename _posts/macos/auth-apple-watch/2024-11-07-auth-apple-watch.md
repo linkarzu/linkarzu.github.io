@@ -5,7 +5,7 @@ description: >-
   without touch ID but you have an apple watch and would like to authenticate
   your sudo commands with the watch?
 image:
-  path: ../../../assets/img/imgs/241110-thux-sudo-apple-watch.avif
+  path: ../../../assets/img/imgs/241111-thux-sudo-apple-watch.avif
 date: '2024-11-07 06:10:00 +0000'
 categories:
   - macos
@@ -41,7 +41,7 @@ tags:
 
 ## YouTube video
 
-{% include embed/youtube.html id='Ir146JnQMdY' %}
+{% include embed/youtube.html id='Ddb0viKux9A' %}
 
 ## Introduction
 
@@ -82,6 +82,19 @@ _auth request sent from terminal to apple watch_
 - Make sure you understand what you're doing before making changes to system
   files
 
+<!-- markdownlint-disable -->
+<!-- prettier-ignore-start -->
+ 
+<!-- tip=green, info=blue, warning=yellow, danger=red -->
+ 
+> I don't recommend you doing this in a `work or company computer`. If protected
+> by a firmware password and you mess things up, you may need to enter safe mode
+> and you probably won't have that password
+{: .prompt-danger }
+ 
+<!-- prettier-ignore-end -->
+<!-- markdownlint-restore -->
+
 ## Requirements
 
 - This tutorial is for `macOS`
@@ -96,7 +109,7 @@ _auth request sent from terminal to apple watch_
 <!-- tip=green, info=blue, warning=yellow, danger=red -->
  
 > You `do not` need a `keyboard` or `mac` with touch ID
-{: .prompt-danger }
+{: .prompt-info }
  
 <!-- prettier-ignore-end -->
 <!-- markdownlint-restore -->
