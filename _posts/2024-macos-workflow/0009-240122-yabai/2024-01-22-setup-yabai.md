@@ -110,15 +110,15 @@ tags:
 
 - Once you enable transparency, the image shown on the background will be the
   one on your desktop, so configure one
-  - `https://www.pexels.com/photo/purple-and-pink-diamond-on-blue-background-5011647/`
-  - `https://www.pexels.com/photo/landscape-photography-of-mountain-3384692/`
+  - [diamond image](https://www.pexels.com/photo/purple-and-pink-diamond-on-blue-background-5011647/)
+  - [landscape image](https://www.pexels.com/photo/landscape-photography-of-mountain-3384692/)
 - I don't keep anything on my desktop, not even HDD icons, so go to finder,
   settings and unselect everything in the `General` tab
 - **I like to auto-hide the macos dock as well, as I don't need it**
 
 ## What is SIP in macOS and why we need to disable it?
 
-- `https://github.com/koekeishiya/yabai/wiki/Disabling-System-Integrity-Protection`
+- [link to disable sip](https://github.com/koekeishiya/yabai/wiki/Disabling-System-Integrity-Protection)
 - System Integrity Protection protects some files and directories from being
   modified — even from the root user. yabai needs System Integrity Protection
   (SIP) to be (partially) disabled so that it can inject a scripting addition
@@ -146,8 +146,8 @@ tags:
 - I'm on macos 14.2.1 (Sonoma) at the moment, and have an Apple silicon
   computer,
 - If you're on an Intel machine or a different macOS version than mine, go to
-  the yabai wiki to get help on how to disable SIP
-- `https://github.com/koekeishiya/yabai/wiki/Disabling-System-Integrity-Protection#how-do-i-disable-system-integrity-protection`
+  the yabai wiki to get help on
+  [how to disable SIP](https://github.com/koekeishiya/yabai/wiki/Disabling-System-Integrity-Protection#how-do-i-disable-system-integrity-protection)
 - To disable SIP for my OS version (Sonoma) and architecture (M1):
   - Turn off the computer
   - Turn it back on, but leave the power button pressed until you see
@@ -178,7 +178,7 @@ sudo nvram boot-args=-arm64e_preview_abi
 - When back, up, you can verify that System Integrity Protection is turned off
   by running `csrutil status`, which returns
   - `System Integrity Protection status: disabled.`
-- It may show `unknown`for newer versions of macOS when disabling SIP partially
+- It may show `unknown` for newer versions of macOS when disabling SIP partially
 - Notice what's shown on my terminal below
 
 ```bash
@@ -221,7 +221,7 @@ yabai --start-service
 
 ## Configure the scripting addition
 
-- `https://github.com/koekeishiya/yabai/wiki/Installing-yabai-(latest-release)#configure-scripting-addition`
+- [Scripting addition](<https://github.com/koekeishiya/yabai/wiki/Installing-yabai-(latest-release)#configure-scripting-addition%3E>)
 - We need to configure the scripting addition so that we can modify the Dock.app
 - **yabai** uses the macOS Mach APIs to inject code into Dock.app; this requires
   elevated (root) privileges.
