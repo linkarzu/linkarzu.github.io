@@ -102,9 +102,9 @@ tags:
     monitor containers in one, make changes on the other
 - Yabai documentation is really good but a bit outdated, not all the new changes
   get added, so to see if new features have been added, or fixed, go to the
-  changelog `https://github.com/koekeishiya/yabai/blob/master/CHANGELOG.md`
-  - You can also find all the command options/arguments in the asciidoc
-    `https://github.com/koekeishiya/yabai/blob/master/doc/yabai.asciidoc`
+  [changelog](https://github.com/koekeishiya/yabai/blob/master/CHANGELOG.md)
+  - You can also find all the command options/arguments in the
+    [asciidoc](https://github.com/koekeishiya/yabai/blob/master/doc/yabai.asciidoc)
 
 ## Configure macos background and finder settings
 
