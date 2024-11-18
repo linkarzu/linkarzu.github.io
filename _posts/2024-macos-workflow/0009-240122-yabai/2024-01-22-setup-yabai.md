@@ -28,6 +28,7 @@ tags:
 - [Install yabai](#install-yabai)
 - [Configure the scripting addition](#configure-the-scripting-addition)
 - [Yabai settings](#yabai-settings)
+- [Yabai updates 2024 - video](#yabai-updates-2024---video)
 - [Help with things I need to fix](#help-with-things-i-need-to-fix)
 
 <!-- tocstop -->
@@ -102,23 +103,23 @@ tags:
     monitor containers in one, make changes on the other
 - Yabai documentation is really good but a bit outdated, not all the new changes
   get added, so to see if new features have been added, or fixed, go to the
-  [changelog](https://github.com/koekeishiya/yabai/blob/master/CHANGELOG.md)
+  [changelog](https://github.com/koekeishiya/yabai/blob/master/CHANGELOG.md){:target="\_blank"}
   - You can also find all the command options/arguments in the
-    [asciidoc](https://github.com/koekeishiya/yabai/blob/master/doc/yabai.asciidoc)
+    [asciidoc](https://github.com/koekeishiya/yabai/blob/master/doc/yabai.asciidoc){:target="\_blank"}
 
 ## Configure macos background and finder settings
 
 - Once you enable transparency, the image shown on the background will be the
   one on your desktop, so configure one
-  - [diamond image](https://www.pexels.com/photo/purple-and-pink-diamond-on-blue-background-5011647/)
-  - [landscape image](https://www.pexels.com/photo/landscape-photography-of-mountain-3384692/)
+  - [diamond image](https://www.pexels.com/photo/purple-and-pink-diamond-on-blue-background-5011647/){:target="\_blank"}
+  - [landscape image](https://www.pexels.com/photo/landscape-photography-of-mountain-3384692/){:target="\_blank"}
 - I don't keep anything on my desktop, not even HDD icons, so go to finder,
   settings and unselect everything in the `General` tab
 - **I like to auto-hide the macos dock as well, as I don't need it**
 
 ## What is SIP in macOS and why we need to disable it?
 
-- [link to disable sip](https://github.com/koekeishiya/yabai/wiki/Disabling-System-Integrity-Protection)
+- [link to disable sip](https://github.com/koekeishiya/yabai/wiki/Disabling-System-Integrity-Protection){:target="\_blank"}
 - System Integrity Protection protects some files and directories from being
   modified — even from the root user. yabai needs System Integrity Protection
   (SIP) to be (partially) disabled so that it can inject a scripting addition
@@ -147,7 +148,7 @@ tags:
   computer,
 - If you're on an Intel machine or a different macOS version than mine, go to
   the yabai wiki to get help on
-  [how to disable SIP](https://github.com/koekeishiya/yabai/wiki/Disabling-System-Integrity-Protection#how-do-i-disable-system-integrity-protection)
+  [how to disable SIP](https://github.com/koekeishiya/yabai/wiki/Disabling-System-Integrity-Protection#how-do-i-disable-system-integrity-protection){:target="\_blank"}
 - To disable SIP for my OS version (Sonoma) and architecture (M1):
   - Turn off the computer
   - Turn it back on, but leave the power button pressed until you see
@@ -221,7 +222,7 @@ yabai --start-service
 
 ## Configure the scripting addition
 
-- [Scripting addition](<https://github.com/koekeishiya/yabai/wiki/Installing-yabai-(latest-release)#configure-scripting-addition%3E>)
+- [Scripting addition](<https://github.com/koekeishiya/yabai/wiki/Installing-yabai-(latest-release)#configure-scripting-addition%3E>){:target="\_blank"}
 - We need to configure the scripting addition so that we can modify the Dock.app
 - **yabai** uses the macOS Mach APIs to inject code into Dock.app; this requires
   elevated (root) privileges.
@@ -250,6 +251,23 @@ yabai --restart-service
 ## Yabai settings
 
 - We go over the yabai settings in the video
+
+## Yabai updates 2024 - video
+
+- I released a follow up video in which I go over a few updates regarding my
+  yabai configuration as of November 2024
+- One of the commands I run in this video to see the name of the applications
+  that are running, in case you need to add an app to the unmanaged list, or
+  transparent list for example
+
+```bash
+yabai -m query --windows | jq -r '.[].app'
+```
+
+- I would highly recommend you watch this video if you want to better understand
+  the latest changes in my yabai config
+
+  {% include embed/youtube.html id='9SQG5ogWEug' %}
 
 ## Help with things I need to fix
 
