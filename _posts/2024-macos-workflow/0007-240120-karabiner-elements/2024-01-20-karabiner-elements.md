@@ -24,6 +24,7 @@ tags:
 - [What is karabiner-elements and how to configure the mappings](#what-is-karabiner-elements-and-how-to-configure-the-mappings)
 - [Install and configure Karabiner-Elements](#install-and-configure-karabiner-elements)
 - [configure automatic typescript to json translation](#configure-automatic-typescript-to-json-translation)
+- [Karabiner updates 2024 - video](#karabiner-updates-2024---video)
 
 <!-- tocstop -->
 
@@ -219,4 +220,20 @@ cat /tmp/karabiner_linkarzu.out.log
 ```bash
 cat /tmp/karabiner_linkarzu.err.log
 ```
+
+## Karabiner updates 2024 - video
+
+- I released a follow up video in which I go over a few updates regarding my
+  karabiner configuration as mappings as of November 2024
+- One of the main updates was changing my hyper key from `shift` to
+  `right command`, as it caused me forearm pain, so I'd recommend you do the
+  same
+- I also implemented new keymaps for example:
+  - Copy to the clipboard by tapping `left command`
+  - Paste by tapping `left option`
+  - Send `cmd+tab` by pressing `control`
+  - And way more
+- I would highly recommend you watch the video below
+
+  {% include embed/youtube.html id='dqEiDVYRWLk' %}
 
