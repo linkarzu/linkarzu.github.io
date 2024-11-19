@@ -386,7 +386,9 @@ kickstart: require("kickstart.health").check()
 
 ### Adding NvChad
 
-- Go to the [NvChad website](https://nvchad.com/docs/quickstart/install/){:target="\_blank"} for the installation instructions
+- Go to the
+  [NvChad website](https://nvchad.com/docs/quickstart/install/){:target="\_blank"}
+  for the installation instructions
 - It will instruct you to install with this command
 
 ```bash
@@ -394,8 +396,8 @@ git clone https://github.com/NvChad/starter ~/.config/nvim && nvim
 ```
 
 - I don't want to do that, as it will replace my `~/.config/nvim` configuration
-- Instead I want to download NvChad to my dotfiles, then create a symlink
-  and configure the `NVIM_APPNAME` as we did before
+- Instead I want to download NvChad to my dotfiles, then create a symlink and
+  configure the `NVIM_APPNAME` as we did before
 
 ## First time setup
 
