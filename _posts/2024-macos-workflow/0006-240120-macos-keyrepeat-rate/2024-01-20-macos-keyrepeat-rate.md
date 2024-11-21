@@ -70,18 +70,36 @@ defaults read NSGlobalDomain KeyRepeat
 defaults read NSGlobalDomain InitialKeyRepeat
 ```
 
-- To lower the values even more
-- `https://gist.github.com/hofmannsven/ff21749b0e6afc50da458bebbd9989c5`
-- Normal minimum is 2 (30 ms)
+- To lower the values
+  [even more](https://gist.github.com/hofmannsven/ff21749b0e6afc50da458bebbd9989c5){:target="\_blank"}
+- This first value is the `KeyRepeat` which is the actual rate at which the keys
+  repeat
+  - Default minimum is 2 (30 ms)
 
 ```bash
 defaults write -g KeyRepeat -int 1
 ```
 
-Normal minimum is 15 (225 ms)
+- This other value below is for the `InitialKeyRepeat` which is the delay before
+  the key starts repeating
+  - Default minimum is 15 (225 ms)
+
+<!-- markdownlint-disable -->
+<!-- prettier-ignore-start -->
+ 
+<!-- tip=green, info=blue, warning=yellow, danger=red -->
+ 
+> **DO NOT** set this value below to **10**, I did that in my macbook and was 
+> having repeated keys all the time, spent some and finally figured out it was 
+> because of this being set to 10. My other computer with the value set to 15
+> didn't experience this issue
+{: .prompt-danger }
+ 
+<!-- prettier-ignore-end -->
+<!-- markdownlint-restore -->
 
 ```bash
-defaults write -g InitialKeyRepeat -int 10
+defaults write -g InitialKeyRepeat -int 15
 ```
 
 - After this, reboot for the changes to take effect
