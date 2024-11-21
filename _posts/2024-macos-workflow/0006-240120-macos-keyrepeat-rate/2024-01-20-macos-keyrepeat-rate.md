@@ -93,13 +93,18 @@ defaults write -g KeyRepeat -int 1
 > having repeated keys all the time, spent some and finally figured out it was 
 > because of this being set to 10. My other computer with the value set to 15
 > didn't experience this issue
+> - Mi `mac mini` worked with this set to 15, but my `macbook` worked with 20,
+>   otherwise I would still get repeated keys, so experiment and see what works,
+>   for now I'll keep everything at 20
+> - If using a **wired** keyboard, you may go with lower values, I use a **glove80**
+>   that switches between the 2 computers, and both connect via Bluetooth
 {: .prompt-danger }
  
 <!-- prettier-ignore-end -->
 <!-- markdownlint-restore -->
 
 ```bash
-defaults write -g InitialKeyRepeat -int 15
+defaults write -g InitialKeyRepeat -int 20
 ```
 
 - After this, reboot for the changes to take effect
