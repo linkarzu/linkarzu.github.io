@@ -50,10 +50,6 @@ tags:
 
 {% include embed/youtube.html id='xN1hdY1cc3E' %}
 
-<!-- prettier-ignore -->
-![Image](../../assets/img/imgs/241212-thux-multi-distro.avif){: width="500" }
-_image_
-
 ## Disclaimer
 
 - I use `macOS`, so keep that in mind
