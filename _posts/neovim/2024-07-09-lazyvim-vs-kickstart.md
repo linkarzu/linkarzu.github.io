@@ -217,6 +217,39 @@ mkdir -p ~/.config
 
 #### Update .zshrc file
 
+- Before continuing, I'll make sure I don't have my `nvim` command aliased
+  (because I did have it aliased in the past)
+- If **not** aliased, notice that nvim points directly to the neovim executable
+
+```bash
+which nvim
+```
+
+```bash
+❯❯❯❯ which nvim
+/opt/homebrew/bin/nvim
+```
+
+- If alias you would get something like this:
+
+```bash
+❯❯❯❯ which nvim
+nvim: aliased to export NVIM_APPNAME="nvim" && /opt/homebrew/bin/nvim
+```
+
+- If you have your command aliased, every time you see `nvim` below in the
+  guide, you will probably have to run nvim using the full path as seen below
+
+```bash
+# instead of this:
+alias v='export NVIM_APPNAME="neobean" && nvim'
+
+# You would run this:
+alias v='export NVIM_APPNAME="neobean" && /opt/homebrew/bin/nvim'
+```
+
+---
+
 - First open the file
 
 ```bash
@@ -264,19 +297,9 @@ ln -snf $my_working_directory/neovim/neobean/ ~/.config/nvim >/dev/null 2>&1
 #
 # Notice that both "v" and "nvim" start "neobean"
 # "vk" opens kickstart and "vl" opens lazyvim
-alias v='export NVIM_APPNAME="neobean" && /opt/homebrew/bin/nvim'
-alias vk='export NVIM_APPNAME="kickstart.nvim" && /opt/homebrew/bin/nvim'
-alias vl='export NVIM_APPNAME="lazyvim" && /opt/homebrew/bin/nvim'
-# I'm also leaving this "nvim" alias, which points to the "nvim" APPNAME, but
-# that APPNAME in fact points to my "neobean" config in the symlinks section
-# If I don't do this, my daily note doesn't work
-#
-# If you want to open the daily note with a different distro, update the "nvim"
-# symlink in the symlinks section
-#
-# If you don't understand what I mean by "daily note" go and watch my markdown workflow video
-# https://youtu.be/c0cuvzK1SDo
-alias nvim='export NVIM_APPNAME="nvim" && /opt/homebrew/bin/nvim'
+alias v='export NVIM_APPNAME="neobean" && nvim'
+alias vk='export NVIM_APPNAME="kickstart.nvim" && nvim'
+alias vl='export NVIM_APPNAME="lazyvim" && nvim'
 ```
 
 - Save the changes with `:wq` and then apply them with
