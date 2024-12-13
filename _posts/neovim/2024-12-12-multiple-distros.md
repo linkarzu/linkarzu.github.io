@@ -353,7 +353,7 @@ echo "XDG_CONFIG_HOME=$download_dir NVIM_APPNAME=$distro $neovim_path"
 - To open the `init.lua` file
 
 ```bash
-XDG_CONFIG_HOME=$download_dir NVIM_APPNAME=$distro $neovim_path $distro/init.lua
+XDG_CONFIG_HOME=$download_dir NVIM_APPNAME=$distro $neovim_path $download_dir/$distro/init.lua
 ```
 
 ### Try mini.files
