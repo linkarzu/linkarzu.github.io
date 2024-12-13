@@ -163,19 +163,50 @@ drwxr-xr-x     - linkarzu staff  8 Nov 07:00  yazi_backup_20241108070029
 - We're not setting the `XDG_CONFIG_HOME` var, you'll understand this later
 
 ```bash
-NVIM_APPNAME=neobean /opt/homebrew/bin/nvim
+NVIM_APPNAME=neobean nvim
 ```
 
 ### Set variables needed
 
+- I'll declare the `download_dir` variable and create the directory
+
 ```bash
 # Directory to store the neovim configs
 download_dir="$HOME/Downloads/test-configs"
-# neovim app path, using the full path because I have a symlink: which nvim
-neovim_path="/opt/homebrew/bin/nvim"
 
 mkdir -p $download_dir
 cd $download_dir
+```
+
+- Before continuing, I'll make sure I don't have my `nvim` command aliased
+  (because I did have it aliased in the past)
+- If **not** aliased, notice that nvim points directly to the neovim executable
+
+```bash
+which nvim
+```
+
+```bash
+❯❯❯❯ which nvim
+/opt/homebrew/bin/nvim
+```
+
+- If alias you would get something like this:
+
+```bash
+❯❯❯❯ which nvim
+nvim: aliased to export NVIM_APPNAME="nvim" && /opt/homebrew/bin/nvim
+```
+
+- If you have your command aliased, every time you see `nvim` below in the
+  guide, you will probably have to run nvim using the full path as seen below
+
+```bash
+# instead of this:
+NVIM_APPNAME=neobean nvim
+
+# You would run this:
+NVIM_APPNAME=neobean /opt/homebrew/bin/nvim
 ```
 
 ### Adding my **neobean** config
@@ -203,7 +234,7 @@ cd $download_dir
 - Then run the downloaded config
   - `XDG_CONFIG_HOME` is the dir where the neovim config is stored
   - `NVIM_APPNAME` is the name of the config in the dir above
-  - `/opt/homebrew/bin/nvim` is just the neovim executable/app
+  - `nvim` is just the neovim executable/app
     - **I'm using the full path, because I have a symlink for `nvim`**
     - I can see the symlink if I run `which nvim`
 
@@ -211,24 +242,24 @@ cd $download_dir
 distro=neobean
 
 # Command to run the config
-XDG_CONFIG_HOME=$download_dir NVIM_APPNAME=$distro $neovim_path
+XDG_CONFIG_HOME=$download_dir NVIM_APPNAME=$distro nvim
 
 # Print the config command
 echo -e "\nCommand to run config:"
-echo "XDG_CONFIG_HOME=$download_dir NVIM_APPNAME=$distro $neovim_path"
+echo "XDG_CONFIG_HOME=$download_dir NVIM_APPNAME=$distro nvim"
 ```
 
 - The last echo command will output the command needed to run this config
 
 ```bash
-XDG_CONFIG_HOME=/Users/linkarzu/Downloads/test-configs NVIM_APPNAME=neobean /opt/homebrew/bin/nvim
+XDG_CONFIG_HOME=/Users/linkarzu/Downloads/test-configs NVIM_APPNAME=neobean nvim
 ```
 
 - If you don't want to use the full path but instead a **home-relative** path
   just replace `/Users/linkarzu` with `~`
 
 ```bash
-XDG_CONFIG_HOME=~/Downloads/test-configs NVIM_APPNAME=neobean /opt/homebrew/bin/nvim
+XDG_CONFIG_HOME=~/Downloads/test-configs NVIM_APPNAME=neobean nvim
 ```
 
 ### How to create an alias?
@@ -237,14 +268,14 @@ XDG_CONFIG_HOME=~/Downloads/test-configs NVIM_APPNAME=neobean /opt/homebrew/bin/
   different config
 
 ```bash
-XDG_CONFIG_HOME=~/Downloads/test-configs NVIM_APPNAME=neobean /opt/homebrew/bin/nvim
+XDG_CONFIG_HOME=~/Downloads/test-configs NVIM_APPNAME=neobean nvim
 ```
 
 - So create an alias for each config in your `.bashrc` or `.zshrc` file, just
   add this
 
 ```bash
-alias neobeaner='XDG_CONFIG_HOME=~/Downloads/test-configs NVIM_APPNAME=neobean /opt/homebrew/bin/nvim'
+alias neobeaner='XDG_CONFIG_HOME=~/Downloads/test-configs NVIM_APPNAME=neobean nvim'
 ```
 
 - Then to run this config, just run `neobeaner`
@@ -293,11 +324,11 @@ distro=$(echo "$repo" | awk -F'/' '{print $4}')
 git clone $repo $download_dir/$distro
 
 # Command to run the config
-XDG_CONFIG_HOME=$download_dir NVIM_APPNAME=$distro $neovim_path
+XDG_CONFIG_HOME=$download_dir NVIM_APPNAME=$distro nvim
 
 # Print the config command
 echo -e "\nCommand to run config:"
-echo "XDG_CONFIG_HOME=$download_dir NVIM_APPNAME=$distro $neovim_path"
+echo "XDG_CONFIG_HOME=$download_dir NVIM_APPNAME=$distro nvim"
 ```
 
 - Some NvChad recommendations found in their website
@@ -324,11 +355,11 @@ distro=$(echo "$repo" | awk -F'/' '{print $4}')
 git clone $repo $download_dir/$distro
 
 # Command to run the config
-XDG_CONFIG_HOME=$download_dir NVIM_APPNAME=$distro $neovim_path
+XDG_CONFIG_HOME=$download_dir NVIM_APPNAME=$distro nvim
 
 # Print the config command
 echo -e "\nCommand to run config:"
-echo "XDG_CONFIG_HOME=$download_dir NVIM_APPNAME=$distro $neovim_path"
+echo "XDG_CONFIG_HOME=$download_dir NVIM_APPNAME=$distro nvim"
 ```
 
 ### Adding kickstart.nvim
@@ -343,17 +374,17 @@ distro=$(echo "$repo" | awk -F'/' '{print $4}')
 git clone $repo $download_dir/$distro
 
 # Command to run the config
-XDG_CONFIG_HOME=$download_dir NVIM_APPNAME=$distro $neovim_path
+XDG_CONFIG_HOME=$download_dir NVIM_APPNAME=$distro nvim
 
 # Print the config command
 echo -e "\nCommand to run config:"
-echo "XDG_CONFIG_HOME=$download_dir NVIM_APPNAME=$distro $neovim_path"
+echo "XDG_CONFIG_HOME=$download_dir NVIM_APPNAME=$distro nvim"
 ```
 
 - To open the `init.lua` file
 
 ```bash
-XDG_CONFIG_HOME=$download_dir NVIM_APPNAME=$distro $neovim_path $download_dir/$distro/init.lua
+XDG_CONFIG_HOME=$download_dir NVIM_APPNAME=$distro nvim $download_dir/$distro/init.lua
 ```
 
 ### Try mini.files
@@ -378,11 +409,11 @@ distro=$(echo "$repo" | awk -F'/' '{print $4}')
 git clone $repo $download_dir/$distro
 
 # Command to run the config
-XDG_CONFIG_HOME=$download_dir NVIM_APPNAME=$distro $neovim_path
+XDG_CONFIG_HOME=$download_dir NVIM_APPNAME=$distro nvim
 
 # Print the config command
 echo -e "\nCommand to run config:"
-echo "XDG_CONFIG_HOME=$download_dir NVIM_APPNAME=$distro $neovim_path"
+echo "XDG_CONFIG_HOME=$download_dir NVIM_APPNAME=$distro nvim"
 ```
 
 ### Adding AstroNvim
@@ -397,11 +428,11 @@ distro=$(echo "$repo" | awk -F'/' '{print $4}')
 git clone $repo $download_dir/$distro
 
 # Command to run the config
-XDG_CONFIG_HOME=$download_dir NVIM_APPNAME=$distro $neovim_path
+XDG_CONFIG_HOME=$download_dir NVIM_APPNAME=$distro nvim
 
 # Print the config command
 echo -e "\nCommand to run config:"
-echo "XDG_CONFIG_HOME=$download_dir NVIM_APPNAME=$distro $neovim_path"
+echo "XDG_CONFIG_HOME=$download_dir NVIM_APPNAME=$distro nvim"
 ```
 
 ### Delete .git directories
