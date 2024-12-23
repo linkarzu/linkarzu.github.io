@@ -234,7 +234,7 @@ which nvim
 
 ```bash
 ❯❯❯❯ which nvim
-nvim: aliased to export NVIM_APPNAME="nvim" && /opt/homebrew/bin/nvim
+nvim: aliased to NVIM_APPNAME=nvim /opt/homebrew/bin/nvim
 ```
 
 - If you have your command aliased, every time you see `nvim` below in the
@@ -242,10 +242,10 @@ nvim: aliased to export NVIM_APPNAME="nvim" && /opt/homebrew/bin/nvim
 
 ```bash
 # instead of this:
-alias v='export NVIM_APPNAME="neobean" && nvim'
+alias v='NVIM_APPNAME=neobean nvim'
 
 # You would run this:
-alias v='export NVIM_APPNAME="neobean" && /opt/homebrew/bin/nvim'
+alias v='NVIM_APPNAME=neobean /opt/homebrew/bin/nvim'
 ```
 
 ---
@@ -297,9 +297,9 @@ ln -snf $my_working_directory/neovim/neobean/ ~/.config/nvim >/dev/null 2>&1
 #
 # Notice that both "v" and "nvim" start "neobean"
 # "vk" opens kickstart and "vl" opens lazyvim
-alias v='export NVIM_APPNAME="neobean" && nvim'
-alias vk='export NVIM_APPNAME="kickstart.nvim" && nvim'
-alias vl='export NVIM_APPNAME="lazyvim" && nvim'
+alias v='NVIM_APPNAME=neobean nvim'
+alias vk='NVIM_APPNAME=kickstart.nvim nvim'
+alias vl='NVIM_APPNAME=lazyvim nvim'
 ```
 
 - Save the changes with `:wq` and then apply them with

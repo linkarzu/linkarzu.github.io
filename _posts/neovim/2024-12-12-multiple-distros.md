@@ -195,7 +195,7 @@ which nvim
 
 ```bash
 ❯❯❯❯ which nvim
-nvim: aliased to export NVIM_APPNAME="nvim" && /opt/homebrew/bin/nvim
+nvim: aliased to NVIM_APPNAME=nvim /opt/homebrew/bin/nvim
 ```
 
 - If you have your command aliased, every time you see `nvim` below in the
