@@ -24,6 +24,8 @@ tags:
 - [Introduction](#introduction)
 - [A link to my guide will be in the video description](#a-link-to-my-guide-will-be-in-the-video-description)
 - [If you like this, and want to support me](#if-you-like-this-and-want-to-support-me)
+- [Discord server](#discord-server)
+- [Follow me on Twitter](#follow-me-on-twitter)
 - [Help me reach more people](#help-me-reach-more-people)
 - [Installation requirements](#installation-requirements)
 - [Download multiple configs](#download-multiple-configs)
@@ -82,6 +84,26 @@ tags:
  
 <!-- prettier-ignore-end -->
 <!-- markdownlint-restore -->
+
+## Discord server
+
+- After following this guide or even watching the related video, you:
+  - Have questions related to one of the tools, configs or scripts that I use
+  - Would like me to expand a bit more on how something in is done
+  - Or simply would like to talk and meet other community members that share
+    your same interests
+- join the
+  [discord server in this link](https://www.youtube.com/channel/UCrSIvbFncPSlK6AdwE2QboA/join)
+- Access to the discord server is only for YouTube community members
+
+<!-- prettier-ignore -->
+![Image](../../../assets/img/imgs/250101-discord-server.avif){: width="500" }
+_Discord Server_
+
+## Follow me on Twitter
+
+- Or as kids call it these days "X"
+- [Here's the link](https://x.com/link_arzu){:target="\_blank"}
 
 ## Help me reach more people
 
