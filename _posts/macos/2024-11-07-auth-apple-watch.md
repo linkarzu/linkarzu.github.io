@@ -5,7 +5,7 @@ description: >-
   without touch ID but you have an apple watch and would like to authenticate
   your sudo commands with the watch?
 image:
-  path: ../../../assets/img/imgs/241111-thux-apple-watch-sudo.avif
+  path: ../../assets/img/imgs/241111-thux-apple-watch-sudo.avif
 date: '2024-11-07 06:10:00 +0000'
 categories:
   - macos
@@ -27,6 +27,7 @@ tags:
 - [Requirements](#requirements)
 - [A link to my guide will be in the video description](#a-link-to-my-guide-will-be-in-the-video-description)
 - [If you like this, and want to support me](#if-you-like-this-and-want-to-support-me)
+- [Discord server](#discord-server)
 - [Follow me on Twitter](#follow-me-on-twitter)
 - [Setup macOS](#setup-macos)
   * [System settings](#system-settings)
@@ -49,7 +50,7 @@ tags:
   magic keyboard with touch ID
 
 <!-- prettier-ignore -->
-![Image](../../../assets/img/imgs/241108-magic-keyboard.avif){: width="500"}
+![Image](../../assets/img/imgs/241108-magic-keyboard.avif){: width="500"}
 _magic keyboard with touch ID_
 
 - But around 2 months ago I switched to a glove80, and as you're able to tell,
@@ -58,7 +59,7 @@ _magic keyboard with touch ID_
   - I'll review the glove80 soon, so subscribe on YouTube to find out
 
 <!-- prettier-ignore -->
-![Image](../../../assets/img/imgs/241108-glove-80.avif){: width="500"}
+![Image](../../assets/img/imgs/241108-glove-80.avif){: width="500"}
 _glove80 keyboard_
 
 - I spend most of my day in my terminal doing stuff, and I sometimes need to
@@ -68,7 +69,7 @@ _glove80 keyboard_
   requests are sent to your apple watch instead of typing the password
 
 <!-- prettier-ignore -->
-![Image](../../../assets/img/imgs/241108-auth-to-watch.avif){: width="500"}
+![Image](../../assets/img/imgs/241108-auth-to-watch.avif){: width="500"}
 _auth request sent from terminal to apple watch_
 
 ## Disclaimer
@@ -122,29 +123,32 @@ _auth request sent from terminal to apple watch_
 
 ## If you like this, and want to support me
 
-<!-- markdownlint-disable -->
-<!-- prettier-ignore-start -->
-<!-- tip=green, info=blue, warning=yellow, danger=red -->
- 
-> - This helps me to keep creating content and sharing it
-- [Share a tip here](https://ko-fi.com/linkarzu){:target="\_blank"}
-{: .prompt-tip }
- 
-<!-- prettier-ignore-end -->
-<!-- markdownlint-restore -->
+- I create and edit my videos in an m1 mac mini, and it's starting to stay
+  behind in the editing side of things, tends to slow me down a bit, I'd like to
+  upgrade the machine I use for all my videos to a `mac mini` with these specs:
+  - Apple M4 Pro chip with 14‑core CPU, 20‑core GPU, 16-core Neural Engine
+  - 24GB unified memory
+  - 1TB SSD storage
+  - 10 Gigabit Ethernet
+- If you want to help me reach my goal, you can
+  [donate here](https://ko-fi.com/linkarzu/goal?g=6){:target="\_blank"}
+
+<!-- prettier-ignore -->
+[![Image](../../assets/img/imgs/250103-ko-fi-donate.avif){: width="400" }](https://ko-fi.com/linkarzu/goal?g=6){:target="_blank"}
 
 ## Discord server
 
 - After following this guide or even watching the related video, you:
   - Have questions related to one of the tools, configs or scripts that I use
   - Would like me to expand a bit more on how something is done
-  - Or simply would like to talk and meet other community members that share your same interests
-- join the [discord server in this link](https://www.youtube.com/channel/UCrSIvbFncPSlK6AdwE2QboA/join){:target="\_blank"}
+  - Or simply would like to talk and meet other community members that share
+    your same interests
+- join the
+  [discord server in this link](https://www.youtube.com/channel/UCrSIvbFncPSlK6AdwE2QboA/join){:target="\_blank"}
 - Access to the discord server is only for YouTube community members
 
 <!-- prettier-ignore -->
-[![Image](../assets/img/imgs/250101-discord-server.avif){: width="500" }](https://www.youtube.com/channel/UCrSIvbFncPSlK6AdwE2QboA/join){:target="_blank"}
-
+[![Image](../../assets/img/imgs/250101-discord-server.avif){: width="400" }](https://www.youtube.com/channel/UCrSIvbFncPSlK6AdwE2QboA/join){:target="_blank"}
 
 ## Follow me on Twitter
 
@@ -158,7 +162,7 @@ _auth request sent from terminal to apple watch_
 - Make sure that this option is enabled
 
 <!-- prettier-ignore -->
-![Image](../../../assets/img/imgs/241108-syst-sett-watch.avif){: width="500" }
+![Image](../../assets/img/imgs/241108-syst-sett-watch.avif){: width="500" }
 _macOS system settings_
 
 ### With touch ID
