@@ -119,14 +119,14 @@ tags:
 
 - After following this guide or even watching the related video, you:
   - Have questions related to one of the tools, configs or scripts that I use
-  - Would like me to expand a bit more on how something in is done
+  - Would like me to expand a bit more on how something is done
   - Or simply would like to talk and meet other community members that share your same interests
 - join the [discord server in this link](https://www.youtube.com/channel/UCrSIvbFncPSlK6AdwE2QboA/join)
 - Access to the discord server is only for YouTube community members
 
 <!-- prettier-ignore -->
-![Image](../../../assets/img/imgs/250101-discord-server.avif){: width="500" }
-_Discord Server_
+[![Image](../assets/img/imgs/250101-discord-server.avif){: width="500" }](https://www.youtube.com/channel/UCrSIvbFncPSlK6AdwE2QboA/join){:target="_blank"}
+
 
 ## Follow me on Twitter
 
