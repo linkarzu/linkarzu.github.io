@@ -93,7 +93,7 @@ tags:
   - Or simply would like to talk and meet other community members that share
     your same interests
 - join the
-  [discord server in this link](https://www.youtube.com/channel/UCrSIvbFncPSlK6AdwE2QboA/join)
+  [discord server in this link](https://www.youtube.com/channel/UCrSIvbFncPSlK6AdwE2QboA/join){:target="\_blank"}
 - Access to the discord server is only for YouTube community members
 
 <!-- prettier-ignore -->
