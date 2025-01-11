@@ -16,6 +16,8 @@ tags:
 ---
 ## Contents
 
+### Table of contents
+
 <!-- toc -->
 
 - [YouTube video](#youtube-video)
@@ -30,6 +32,7 @@ tags:
 - [Markdown tips](#markdown-tips)
   * [Use snippets](#use-snippets)
   * [Todo items (tasks)](#todo-items-tasks)
+  * [skitty-notes](#skitty-notes)
   * [Add images to assets dir](#add-images-to-assets-dir)
   * [Create or jump daily note hyper+t+r](#create-or-jump-daily-note-hypertr)
   * [How do I do the hyper+t+r and hyper+t+j](#how-do-i-do-the-hypertr-and-hypertj)
@@ -72,27 +75,30 @@ tags:
 - [What plugins and tips do you use?](#what-plugins-and-tips-do-you-use)
 - [What do you want to see next?](#what-do-you-want-to-see-next)
 - [Markdown plugins](#markdown-plugins)
+  * [MeanderingProgrammer/render-markdown.nvim](#meanderingprogrammerrender-markdownnvim)
   * [bullets-vim/bullets.vim](#bullets-vimbulletsvim)
+  * [echasnovski/mini.surround](#echasnovskiminisurround)
   * [echasnovski/mini.ai](#echasnovskiminiai)
   * [arnamak/stay-centered.nvim](#arnamakstay-centerednvim)
   * [hedyhli/outline.nvim](#hedyhlioutlinenvim)
   * [~~lukas-reineke/headlines.nvim~~](#lukas-reinekeheadlinesnvim)
-  * [nvim-pack/nvim-spectre](#nvim-packnvim-spectre)
+  * [MagicDuck/grug-far.nvim](#magicduckgrug-farnvim)
+  * [~~nvim-pack/nvim-spectre~~](#nvim-packnvim-spectre)
   * [okuuva/auto-save.nvim](#okuuvaauto-savenvim)
   * [iamcco/markdown-preview.nvim](#iamccomarkdown-previewnvim)
-  * [echasnovski/mini.surround](#echasnovskiminisurround)
   * [3rd/image.nvim](#3rdimagenvim)
   * [HakonHarnes/img-clip.nvim](#hakonharnesimg-clipnvim)
-  * [jlanzarotta/bufexplorer](#jlanzarottabufexplorer)
+  * [~~jlanzarotta/bufexplorer~~](#jlanzarottabufexplorer)
   * [nvim-telescope/telescope.nvim](#nvim-telescopetelescopenvim)
   * [nvim-treesitter/nvim-treesitter](#nvim-treesitternvim-treesitter)
+  * [mfussenegger/nvim-lint](#mfusseneggernvim-lint)
   * [LazyExtras](#lazyextras)
     + [lang.markdown](#langmarkdown)
       - [markdownlint-cli2](#markdownlint-cli2)
       - [markdown-toc](#markdown-toc)
       - [marksman](#marksman)
     + [formatting.prettier](#formattingprettier)
-  * [epwalsh/obsidian.nvim (uninstalled)](#epwalshobsidiannvim-uninstalled)
+  * [~~epwalsh/obsidian.nvim (uninstalled)~~](#epwalshobsidiannvim-uninstalled)
 - [Improve the video next year](#improve-the-video-next-year)
 - [Timeline](#timeline)
 
@@ -277,6 +283,21 @@ alias neobean='NVIM_APPNAME=linkarzu/dotfiles-latest/neovim/neobean nvim'
   - [Manage Markdown tasks in Neovim similar to Obsidian - Telescope to List Completed and Pending Tasks](https://youtu.be/59hvZl077hM)
 
 {% include embed/youtube.html id='59hvZl077hM' %}
+
+### skitty-notes
+
+- I like keeping track of the things that I have to do during the day, and the
+  things I have done, I also like to have my video ideas stored and tracked in
+  github, reminders, etc
+- I used the Apple reminder's app in the past, but I've recently switched to
+  skitty-notes, it's basically this same neovim config running in kitty showing
+  on the right hand side of my screen, always visible
+- I can switch to it by tapping the `right arrow` key, and I create and toggle
+  tasks there
+- I have a video in which I explain it in detail:
+  - [skitty-notes - Markdown Sticky Notes app in Neovim in the Kitty Terminal](https://youtu.be/M0B_24d0MWw){:target="\_blank"}
+
+{% include embed/youtube.html id='M0B_24d0MWw' %}
 
 ### Add images to assets dir
 
@@ -475,7 +496,7 @@ alias neobean='NVIM_APPNAME=linkarzu/dotfiles-latest/neovim/neobean nvim'
 - With ~~`ctrl+b space`~~ `Left Shift` I alternate between the last 2 tmux
   sessions
 - - I have a video about this:
-  * [Alternate between the last 2 tmux sessions or neovim buffers, blazingly fast, with a keymap](https://youtu.be/HWs3YEj05K4){:target="\_blank"}
+  - [Alternate between the last 2 tmux sessions or neovim buffers, blazingly fast, with a keymap](https://youtu.be/HWs3YEj05K4){:target="\_blank"}
 
 {% include embed/youtube.html id='HWs3YEj05K4' %}
 
@@ -662,7 +683,7 @@ macos-option-as-alt = right
 - You'll see the pop-up, but a lot of times you will want to see them again
 - There's a **default** lazyvim keymap `<leader>snh` (search noice history)
   - **I use `<M-h>`**
-  * Close the window that shows below with `<leader>wd` (window delete)
+  - Close the window that shows below with `<leader>wd` (window delete)
 - Or use the command `:NoiceHistory`
 
 ### Accept completion with `ctrl+y` instead of enter
@@ -975,6 +996,17 @@ Minim tempor ullamco do eu pariatur minim.
 - These are sorted by my personal preference, most preferred ones at the top
 - **Star the repos below if you like the plugins**
 
+### MeanderingProgrammer/render-markdown.nvim
+
+- [MeanderingProgrammer/render-markdown.nvim](https://github.com/MeanderingProgrammer/render-markdown.nvim){:target="\_blank"}
+- You like how my markdown file looks, with beautiful headings, icons on the
+  links, beautiful code blocks with their respective icons depending on the
+  language, etc?
+- This is what you're looking for, I go over this plugin in a video:
+  - [Beautiful markdown documents with render-markdown.nvim](https://youtu.be/_PjKiIUo5Hc){:target="\_blank"}
+
+{% include embed/youtube.html id='_PjKiIUo5Hc' %}
+
 ### bullets-vim/bullets.vim
 
 - [bullets-vim/bullets.vim](https://github.com/bullets-vim/bullets.vim){:target="\_blank"}
@@ -982,6 +1014,23 @@ Minim tempor ullamco do eu pariatur minim.
 - I 100% love this plugin, and I still use it daily for bulletpoints
 - Currently I use it a lot with my **tasks** as well
 - `M-l` to add new task and press enter to keep creating them below
+
+### echasnovski/mini.surround
+
+- [echasnovski/mini.surround](https://github.com/echasnovski/mini.surround){:target="\_blank"}
+- **Add a surrounding**
+  - If I want to surround a `part of the text`
+  - I select it in visual mode, then press `gsa"`
+    - I normally use ", `, ', (, [, {
+- **Replace a surrounding**
+  - Let's say I have this "surrounded text"
+  - And I want to change it with 'surrounded text'
+  - Place the cursor anywhere inside the " "
+  - Then press `gsr"'`
+    - goto, surround, replace, current surrounding, new surrounding
+- **Remove a surround**
+  - If we have 'this surrounded text'
+    - Place cursor anywhere inside the surrounding and remove it with `gsd'`
 
 ### echasnovski/mini.ai
 
@@ -1041,14 +1090,25 @@ tmux_session_name=${note_name}
 
 - ~~[lukas-reineke/headlines.nvim](https://github.com/lukas-reineke/headlines.nvim){:target="\_blank"}~~
 - ~~You like the way these beautiful headlines look too?~~
+- I didn't take this call, it was Folke and replaced the plugin with
+  [MeanderingProgrammer/render-markdown.nvim](https://github.com/MeanderingProgrammer/render-markdown.nvim){:target="\_blank"}
 
-### nvim-pack/nvim-spectre
+### MagicDuck/grug-far.nvim
 
-- [nvim-pack/nvim-spectre](https://github.com/nvim-pack/nvim-spectre){:target="\_blank"}
-- Find and replace text `<leader>sr`
-- I normally do `<leader>uw` to wrap when in the plugin
-- I changed the highlight colors in `eldritch.lua` because I could barely see
-  the default ones
+- [MagicDuck/grug-far.nvim](https://github.com/MagicDuck/grug-far.nvim){:target="\_blank"}
+- This is used for search and replace, it allows me to do magical stuff, like
+  multi line search and replace
+- In-depth video on this plugin soon, so stay tuned and subscribe
+
+### ~~nvim-pack/nvim-spectre~~
+
+- ~~[nvim-pack/nvim-spectre](https://github.com/nvim-pack/nvim-spectre){:target="\_blank"}~~
+- ~~Find and replace text `<leader>sr`~~
+- ~~I normally do `<leader>uw` to wrap when in the plugin~~
+- ~~I changed the highlight colors in `eldritch.lua` because I could barely see
+  the default ones~~
+- I didn't take this call, it was Folke and replaced the plugin with
+  [MagicDuck/grug-far.nvim](https://github.com/MagicDuck/grug-far.nvim){:target="\_blank"}
 
 ### okuuva/auto-save.nvim
 
@@ -1067,6 +1127,9 @@ tmux_session_name=${note_name}
     and coming back
   - `debounce_delay` currently set to 5s and if need to save for a strange
     reason, maybe to auto-format faster I run `M-w`
+
+---
+
 - This is a really controversial plugin, some people love autosave, some other
   ones hate it
 - Personally I like autosaving, this plugin will auto save for you when you exit
@@ -1085,24 +1148,7 @@ tmux_session_name=${note_name}
   nice and you can toggle dark light mode
 - If studying, your teachers will think to themselves, how did this guy print
   this PDF so beautifully?
-  - Just careful with code blocks when converting to PDF
-
-### echasnovski/mini.surround
-
-- [echasnovski/mini.surround](https://github.com/echasnovski/mini.surround){:target="\_blank"}
-- **Add a surrounding**
-  - If I want to surround a `part of the text`
-  - I select it in visual mode, then press `gsa"`
-    - I normally use ", `, ', (, [, {
-- **Replace a surrounding**
-  - Let's say I have this "surrounded text"
-  - And I want to change it with 'surrounded text'
-  - Place the cursor anywhere inside the " "
-  - Then press `gsr"'`
-    - goto, surround, replace, current surrounding, new surrounding
-- **Remove a surround**
-  - If we have 'this surrounded text'
-    - Place cursor anywhere inside the surrounding and remove it with `gsd'`
+  - Just careful with line wrapping and code blocks when converting to PDF
 
 ### 3rd/image.nvim
 
@@ -1123,19 +1169,31 @@ tmux_session_name=${note_name}
 - I go over how to set up both plugins in my video:
 - [View and paste images in Neovim like in Obsidian](https://youtu.be/0O3kqGwNzTI){:target="\_blank"}
 
-### jlanzarotta/bufexplorer
+### ~~jlanzarotta/bufexplorer~~
 
-- [jlanzarotta/bufexplorer](https://github.com/jlanzarotta/bufexplorer){:target="\_blank"}
-- Allows me to easily close buffers I don't need with `d`
-  - Sort ordering MRU (Most Recently Used) by default
-- Navigation with this plugin and tmux sessions with `hyper+b s` is basically
-  the same, can navigate using `j` and `k` in both tools
-  - I use the same sorting in my tmux sessions, sort them by time so that the
-    last used ones show at the top, this is covered in my video:
-  - [Alternate between the last 2 tmux sessions or neovim buffers, blazingly fast, with a keymap](https://youtu.be/HWs3YEj05K4){:target="\_blank"}
+- ~~[jlanzarotta/bufexplorer](https://github.com/jlanzarotta/bufexplorer){:target="\_blank"}~~
+- ~~Allows me to easily close buffers I don't need with `d`~~
+  - ~~Sort ordering MRU (Most Recently Used) by default~~
+- ~~Navigation with this plugin and tmux sessions with `hyper+b s` is
+  basically~~ ~~the same, can navigate using `j` and `k` in both tools~~
+  - ~~I use the same sorting in my tmux sessions, sort them by time so that
+    the~~ ~~last used ones show at the top, this is covered in my video:~~
+  - ~~[Alternate between the last 2 tmux sessions or neovim buffers, blazingly fast, with a keymap](https://youtu.be/HWs3YEj05K4){:target="\_blank"}~~
+
+---
+
+- I navigate my buffers using telescope, they're also sorted by MRU, I can close
+  buffers from telescope with `d` and the best thing, is that I can get a
+  preview of the buffers:
+  - **I can scroll up or down the preview with `S-j` and `S-k`**
 - By default, in lazyvim with `<S-h>` and `<S-l>` you navigate between the prev
-  and next buffers, but I changed both of those to open BufExplorer instead
-- You can also use telescope `<leader>fb` but I'm used to BufExplorer
+  and next buffers, but I changed both of those:
+  - `<S-h>` opens telescope buffers
+  - `<S-l>` opens snipe.nvim
+- I have a video in which I cover all of this:
+  - [How I navigate between buffers in neovim](https://youtu.be/ldfxEda_mzc){:target="\_blank"}
+
+{% include embed/youtube.html id='ldfxEda_mzc' %}
 
 ### nvim-telescope/telescope.nvim
 
@@ -1143,6 +1201,16 @@ tmux_session_name=${note_name}
 - This doesn't even need a mention, I use it to find files and grep for text
 - I just swap `ff` and `fF` because I like finding files at the root directory
   with `ff`
+- `<leader><space>` - find files with
+  [nvim-telescope/telescope-frecency.nvim](https://github.com/nvim-telescope/telescope-frecency.nvim){:target="\_blank"}
+- Telescope Frecency gives each file a score, depending on how much that file is
+  opened, so let's say I have 2 files with the same name, the more I open one of
+  them, the higher the score will be, so when I bring up telescope, that file
+  will show at the top
+- I have a video in which I go over frecency and how I set it up:
+  - [telescope-frecency.nvim - Sort files in telescope by showing the most accessed files first](https://youtu.be/Qr-vX51gB8g){:target="\_blank"}
+
+{% include embed/youtube.html id='Qr-vX51gB8g' %}
 
 ### nvim-treesitter/nvim-treesitter
 
@@ -1258,6 +1326,21 @@ body {
 }
 ```
 
+### mfussenegger/nvim-lint
+
+- [mfussenegger/nvim-lint](https://github.com/mfussenegger/nvim-lint){:target="\_blank"}
+- This plugin allows you to globally set the `.markdownlint.yaml` file instead
+  of doing it on a per `:pwd` directory
+- If you add the file to the :pwd directory, that file will take precedence
+  instead of the --config file specified below
+- This suggestion came from the
+  [My complete Neovim markdown setup and workflow in 2024](https://youtu.be/c0cuvzK1SDo){:target="\_blank"}
+  video by user `@killua_148`
+- I have a video that explains how to use this plugin:
+  - [Follow markdown standards with markdowlint markdownlint-cli2 and nvim-lint](https://youtu.be/LsABH1_Ma04){:target="\_blank"}
+
+{% include embed/youtube.html id='LsABH1_Ma04' %}
+
 ### LazyExtras
 
 - You can manage these in the `lua/config/lazy.lua` file or with `:LazyExtras`
@@ -1269,7 +1352,7 @@ body {
 #### lang.markdown
 
 - This includes:
--  headlines.nvim  markdown-preview.nvim  mason.nvim  nvim-lspconfig 
+-  markdown-preview.nvim  mason.nvim  nvim-lspconfig  render-markdown.nvim 
   conform.nvim  none-ls.nvim  nvim-lint
 - If you go to the lazyvim.org website in the extras ->
   [lang -> markdown](https://www.lazyvim.org/extras/lang/markdown){:target="\_blank"}
@@ -1285,39 +1368,19 @@ body {
 - This is the plugin that shows me markdown warnings when the line length is
   exceeded, I have a duplicate or invalid heading, etc
 - I love it, helps me follow markdown "best practices"
+- I have a video about this plugin:
+  - [Follow markdown standards with markdowlint markdownlint-cli2 and nvim-lint](https://youtu.be/LsABH1_Ma04){:target="\_blank"}
 
----
-
-- To modify the warning settings, copy the following file
-  `~/github/dotfiles-latest/.markdownlint.yaml`
-- To each dir in which you want the settings to be applied, for example, I
-  copied it to my `github/obsidian_main` and `github/linkarzu.github.io` dir.
-- Copy it to the working directory, you can see it with `:pwd`
-
----
-
-- If, you need to change markdownlint settings **INSIDE a specific file**, add
-  this heading as an example
-  - For example, I had a file in which I configured prettier's print width to
-    100 instead of 80, so I added this so that the markdownlint stopped showing
-    me errors
-
-```md
-<!-- markdownlint-configure-file { "MD013": { "line_length": 100 } } -->
-
-<!-- markdownlint-disable -->
-<!-- markdownlint-restore -->
-```
-
----
-
-- See all the warnings with `<leader>xx`
-- Navigate between warnings with `[d` or `]d` (prev or next diagnostic)
+{% include embed/youtube.html id='LsABH1_Ma04' %}
 
 ##### markdown-toc
 
 - [jonschlinkert/markdown-toc](https://github.com/jonschlinkert/markdown-toc){:target="\_blank"}
 - This is the plugin that adds the TOC at the top of the file
+- I have a vide about this as well:
+  - [Create table of contents in neovim with markdown-toc](https://youtu.be/BVyrXsZ_ViA){:target="\_blank"}
+
+{% include embed/youtube.html id='BVyrXsZ_ViA' %}
 
 ##### marksman
 
@@ -1330,6 +1393,8 @@ body {
   - `K` (uppercase `k`) over a link allow me to hover
     - `KK` (press it twice) and you can navigate that file in the hover menu
   - `gd` (go to definition) allows me to go the file that a link points to
+- In combination with `blink.cmp` this is quite useful for linking notes
+  together
 
 #### formatting.prettier
 
@@ -1351,22 +1416,19 @@ body {
 - I like following markdown guidelines, so I don't like my lines to be longer
   than 80 characters, I like to enable wrapping for them
 
-### epwalsh/obsidian.nvim (uninstalled)
+### ~~epwalsh/obsidian.nvim (uninstalled)~~
 
 - [epwalsh/obsidian.nvim](https://github.com/epwalsh/obsidian.nvim){:target="\_blank"}
-- I used this plugin for a few days, but uninstalled as I didn't find much use
-  for my personal workflow
-- Before this I used `marksman` so if I press `gd` by default it takes me to the
-  file I need
-- **Please let me know in the comments what use case you find with this plugin**
-- P.D I like to keep my `conceallevel = 0`
-  - If set to 0 it shows all the symbols in a file, like bullet points and code
-    block languages, obsidian.nvim works better with 1 or 2
+- I link notes with `marksman` and I format my files with
+  `meanderingprogrammerrender-markdownnvim`, so I don't see a use case for this
+  plugin
 
 ## Improve the video next year
 
-- As the "viejas" say in my country "If God gives me license" I'll make a follow
-  up video next year with the things that changed between now and then
+- I'll make a follow up video next year with the things that changed between now
+  and then
+- Share improvements and tips in the youtube comments of stuff that would make
+  my markdown editing experience even better
 
 ## Timeline
 
