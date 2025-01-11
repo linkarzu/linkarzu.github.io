@@ -37,19 +37,17 @@ tags:
     + [Fix undercurl in tmux](#fix-undercurl-in-tmux)
     + [Lazyvim spell defaults](#lazyvim-spell-defaults)
   * [Use alt for keymaps](#use-alt-for-keymaps)
-  * [Change auto-save settings](#change-auto-save-settings)
   * [Add markdown TOC](#add-markdown-toc)
   * [Delete current file](#delete-current-file)
-  * [Create headings and daily note](#create-headings-and-daily-note)
+  * [I need help](#i-need-help)
   * [Bold easily](#bold-easily)
   * [Jump between markdown headings](#jump-between-markdown-headings)
     + [lazyvim already uses default `gj` and `gk` mappings](#lazyvim-already-uses-default-gj-and-gk-mappings)
+  * [Use the dictionary with blink.cmp](#use-the-dictionary-with-blinkcmp)
   * [Fold all level 2 or 3 headings](#fold-all-level-2-or-3-headings)
     + [Folding basics](#folding-basics)
-    + [Andrew Courter video recommendation](#andrew-courter-video-recommendation)
   * [Fold with enter](#fold-with-enter)
   * [Accept completion with `ctrl+y` instead of enter](#accept-completion-with-ctrly-instead-of-enter)
-  * [Working with marks](#working-with-marks)
   * [Make selected text a link](#make-selected-text-a-link)
   * [Paste github repo as link](#paste-github-repo-as-link)
   * [Increase decrease all markdown headings](#increase-decrease-all-markdown-headings)
@@ -69,6 +67,8 @@ tags:
   * [How do I do the hyper+t+r and hyper+t+j](#how-do-i-do-the-hypertr-and-hypertj)
   * [See messages history](#see-messages-history)
   * [Dismiss all messages](#dismiss-all-messages)
+  * [Create headings and daily note](#create-headings-and-daily-note)
+  * [Working with marks](#working-with-marks)
 - [What plugins and tips do you use?](#what-plugins-and-tips-do-you-use)
 - [What do you want to see next?](#what-do-you-want-to-see-next)
 - [Markdown plugins](#markdown-plugins)
@@ -219,6 +219,7 @@ alias neobean='NVIM_APPNAME=linkarzu/dotfiles-latest/neovim/neobean nvim'
 
 ### Use snippets
 
+- Snippets is one of my favorite things
 - I use these in case I want to:
   - Add one of my YouTube videos
   - Add a code block
@@ -283,6 +284,12 @@ alias neobean='NVIM_APPNAME=linkarzu/dotfiles-latest/neovim/neobean nvim'
 
 ### Create or jump daily note `hyper+t+r`
 
+- I use the daily note every day, usually for example if I need to upload a new
+  video, I have a template in LuaSnip to get me started, and I do this in my
+  daily note
+- I don't keep a journal, like in `The Princess Diaries` movie, I just use my
+  daily note as a temp location to edit stuff that needs to be placed somewhere
+  else
 - I normally handle my notes as large files (kubernetes, docker, xcp-ng, etc),
   but there are times I don't want to add stuff to one of those files and
   instead add it to my daily note
@@ -445,21 +452,6 @@ macos-option-as-alt = right
 
 {% include embed/youtube.html id='rCiq5CyFFhA' %}
 
-### Change auto-save settings
-
-- My auto-save plugin `debounce_delay` used to be set to 750ms but I felt it
-  slowed me down, I had to wait a bit for auto-save to kick in, which also
-  auto-formats my files, so if I needed to quickly change stuff between 2 lines
-  and I got out of insert mode, auto-save kicked in, now I have more time to go
-  out of insert mode, edit stuff, go somewhere else and enter insert mode
-  without autosave not kicking in
-- It's configured to auto save when I leave a buffer or the focus is lost, but
-  **only** if I'm not on insert mode
-- Otherwise it would cause issues when switching to a tutorial in insert mode
-  and coming back
-- `debounce_delay` currently set to 5s and if need to save for a strange reason,
-  maybe to auto-format faster I run `M-w`
-
 ### Add markdown TOC
 
 - `<leader>mt`
@@ -479,33 +471,25 @@ macos-option-as-alt = right
 - **This is for macOS and uses the trash app, if you're on Linux, modify the
   keymap**
 
-### Create headings and daily note
+### I need help
 
-<!-- markdownlint-disable -->
-<!-- prettier-ignore-start -->
- 
-<!-- tip=green, info=blue, warning=yellow, danger=red -->
- 
-> I use this in my Obsidian vault
-{: .prompt-info }
- 
-<!-- prettier-ignore-end -->
-<!-- markdownlint-restore -->
-
-- This is useful in case I want to have stuff **linked** to my daily note
-- I use markdown headings with date on a specific note `XOA for example`
-- Then in obsidian I can go to a specific note, and see which headings are
-  linked to that note, just so that I can keep track of what did each day, some
-  sort of journal
-- **These keymaps besides adding the heading, will also create the daily note if
-  it does not exist**:
-  - If you don't want to create the daily note, comment that line
-- `<leader>jj`, `<leader>kk`, `<leader>ll`, `<leader>;;`,
-  `<leader>uu`,`<leader>ii`
+- My entire markdown config is a bit complex and will probably raise some
+  questions that need to do some troubleshooting or hand holding
+- Remember to join the
+  [YouTube members only discord](https://www.youtube.com/channel/UCrSIvbFncPSlK6AdwE2QboA/join){:target="\_blank"}
 
 ### Bold easily
 
-- This needs the `mini.surround` plugin
+- This is still relevant and I use it sometimes
+- If I'm on a word and press `<leader>mb` it will toggle bold on the single word
+- If try to bold on a `*` it will let me know that I need to move the cursor
+- Can bold a paragraph in visual mode
+- If in a bold area (paragraph) and run `<leader>mb` will unbold that section
+  - need to be on the first line
+
+---
+
+- It needs the `mini.surround` plugin
 - By default if you want to **bold some text**, you select it and do `2gsa*` or
   if you want to "unbold" it I normally do `gsd*.`
 - I configured keymap `<leader>mb`
@@ -522,8 +506,9 @@ This is just a single line of text
 
 - **Follow markdown convention and use a single H1 heading in your file for this
   to work**
-- Besides the outline plugin if I want to navigate between headings I use:
-  - `gj` and `gk`
+- I tend to fold items and navigate that way, or use the outline plugin, but
+  sometimes I do still use `gj` and `gk` when unfolded to navigate between
+  headings
 
 #### lazyvim already uses default `gj` and `gk` mappings
 
@@ -550,16 +535,29 @@ map({ "n", "x" }, "<Up>", "v:count == 0 ? 'gk' : 'k'", { expr = true, silent = t
   keymaps, but for some reason it still keeps working
   - So with `j` and `k` I navigate through wrapped lines without issues
 
+### Use the dictionary with blink.cmp
+
+- You can search a dictionary to autocomplete words when typing, allows you to
+  avoid typos and understand what a word means
+- I explain how the dictionary works in detail in this video:
+  - [blink.cmp updates - Remove LuaSnip - Emoji and Dictionary Sources - Fix Jump Autosave Issue](https://youtu.be/JrgfpWap_Pg)
+
+{% include embed/youtube.html id='JrgfpWap_Pg' %}
+
 ### Fold all level 2 or 3 headings
 
+- I know, these may conflict with default folding config but I don't care, I
+  don't use the original keymaps for now
 - I created 4 keymaps to fold:
-  - `<leader>mfj` (markdown fold 1)
-  - `<leader>mfk` (markdown fold 2)
-    - I know, it looks like `madafaka`, but it's just the 2nd letter
-  - `<leader>mfl` (markdown fold 3)
-  - `<leader>mf;` (markdown fold 4)
+  - ~~`<leader>mfj`~~ `zj` (markdown fold 1)
+  - ~~`<leader>mfk`~~ `zk` (markdown fold 2)
+  - ~~`<leader>mfl`~~ `zl` (markdown fold 3)
+  - ~~`<leader>mf;`~~ `z;` (markdown fold 4)
 - And to unfold:
-  - `<leader>mfu` (markdown fold undo)
+  - ~~`<leader>mfu`~~ `zu` (markdown fold undo)
+- I created a new keymap:
+  - `zi` moves to the heading above and folds it, useful if you don't want to
+    jump back to the heading above and fold it
 - See the `Folding section` in the keymaps file
 <!-- markdownlint-disable -->
 
@@ -572,6 +570,11 @@ map({ "n", "x" }, "<Up>", "v:count == 0 ? 'gk' : 'k'", { expr = true, silent = t
  
 <!-- prettier-ignore-end -->
 <!-- markdownlint-restore -->
+
+- I created a video about folds after my last markdown workflow video:
+  - [Fold markdown headings in Neovim with a keymap](https://youtu.be/EYczZLNEnIY)
+
+{% include embed/youtube.html id='EYczZLNEnIY' %}
 
 #### Folding basics
 
@@ -606,55 +609,30 @@ map({ "n", "x" }, "<Up>", "v:count == 0 ? 'gk' : 'k'", { expr = true, silent = t
 :set foldtext?
 ```
 
-#### Andrew Courter video recommendation
-
-- There's a great video about Folds by Andrew Courter:
-  - [Code Folding in Neovim](https://youtu.be/f_f08KnAJOQ){:target="\_blank"}
-
 ### Fold with enter
 
 - Normally you fold with `za` but I changed it to use enter `<CR>`
-
-<!-- markdownlint-disable -->
-<!-- prettier-ignore-start -->
- 
-<!-- tip=green, info=blue, warning=yellow, danger=red -->
- 
-> [If you like this, and want to support me](#if-you-like-this-and-want-to-support-me)
-{: .prompt-tip }
- 
-<!-- prettier-ignore-end -->
-<!-- markdownlint-restore -->
 
 ### Accept completion with `ctrl+y` instead of enter
 
 - I really hated this behaviour, maybe skill issue, but every time I was at the
   end of a line and hit enter, it would autocomplete a word instead of moving to
   the line below
-- I change this in the `nvim-cmp.lua` file
-
-### Working with marks
-
-- Leave a mark somewhere you need to come back to
-- While in normal mode, press `m` and then a letter `a-z` will create a mark
-  - Lowercase letters (a to z) are for marks local to the current buffer
-  - Uppercase letters (A to Z) create global marks that can be jumped to from
-    any buffer
-- To jump to a mark
-  - `'a` - (single quote) jump to the line of the mark in the first character
-  - `a - (backtick), jumps to character in which mark was set originally
-- To see all the marks use `:marks`
-- `:delmarks a` would remove the mark a
-- `:delmarks a j k l m z n` removes all the marks specified
-- I created a keymap to delete all marks
-  - `<leader>md` (mark delete)
+- I change this in the `keymap` section of the `blink-cmp.lua` file
 
 ### Make selected text a link
 
-- Regular link `<leader>mll` (markdown link)
-  - Link to lazyvim.org
-- Link that opens in new tab `<leader>mlt` (markdown link tab)
-  - Link that opens in new tab
+- These weren't as reliable, and the code was just farts and have been
+  deprecated
+- I've replaced them with luasnip snippets `;linkc` and `;linkcex`
+- (You thought I wasn't going to provide an alternative? 😉)
+- These 2 new snippets add the link that you have in your clipboard as a
+  markdown link and put your cursor in the alternative text section
+
+---
+
+- ~~Regular link `<leader>mll` (markdown link)~~
+- ~~Link that opens in new tab `<leader>mlt` (markdown link tab)~~
 
 ### Paste github repo as link
 
@@ -864,6 +842,54 @@ Minim tempor ullamco do eu pariatur minim.
 
 <!-- markdownlint-restore -->
 
+### Create headings and daily note
+
+- This is a good practice, but I haven't been following it, I don't add to much
+  stuff to my obsidian notes these days, I document stuff closer to the code, or
+  i the code itself, if you look at my dotfiles, you'll understand
+- I'm leaving this here, as it's still valid
+
+<!-- markdownlint-disable -->
+<!-- prettier-ignore-start -->
+ 
+<!-- tip=green, info=blue, warning=yellow, danger=red -->
+ 
+> I use this in my Obsidian vault
+{: .prompt-info }
+ 
+<!-- prettier-ignore-end -->
+<!-- markdownlint-restore -->
+
+- This is useful in case I want to have stuff **linked** to my daily note
+- I use markdown headings with date on a specific note `XOA for example`
+- Then in obsidian I can go to a specific note, and see which headings are
+  linked to that note, just so that I can keep track of what did each day, some
+  sort of journal
+- **These keymaps besides adding the heading, will also create the daily note if
+  it does not exist**:
+  - If you don't want to create the daily note, comment that line
+- `<leader>jj`, `<leader>kk`, `<leader>ll`, `<leader>;;`,
+  `<leader>uu`,`<leader>ii`
+
+### Working with marks
+
+- I have not used marks in an entire year, but leaving this here as it's
+  relevant and useful to some
+- I'm not going to demo this, go to last years video
+- Leave a mark somewhere you need to come back to
+- While in normal mode, press `m` and then a letter `a-z` will create a mark
+  - Lowercase letters (a to z) are for marks local to the current buffer
+  - Uppercase letters (A to Z) create global marks that can be jumped to from
+    any buffer
+- To jump to a mark
+  - `'a` - (single quote) jump to the line of the mark in the first character
+  - `a - (backtick), jumps to character in which mark was set originally
+- To see all the marks use `:marks`
+- `:delmarks a` would remove the mark a
+- `:delmarks a j k l m z n` removes all the marks specified
+- I created a keymap to delete all marks
+  - `<leader>md` (mark delete)
+
 ## What plugins and tips do you use?
 
 - Let me know down below, there's also cool recommendations that can help me
@@ -953,6 +979,20 @@ tmux_session_name=${note_name}
 ### okuuva/auto-save.nvim
 
 - [okuuva/auto-save.nvim](https://github.com/okuuva/auto-save.nvim){:target="\_blank"}
+- I still use this plugin every single day, still love it
+- UPDATES:
+  - My auto-save plugin `debounce_delay` used to be set to 750ms but I felt it
+    slowed me down, I had to wait a bit for auto-save to kick in, which also
+    auto-formats my files, so if I needed to quickly change stuff between 2
+    lines and I got out of insert mode, auto-save kicked in, now I have more
+    time to go out of insert mode, edit stuff, go somewhere else and enter
+    insert mode without autosave not kicking in
+  - It's configured to auto save when I leave a buffer or the focus is lost, but
+    **only** if I'm not on insert mode
+  - Otherwise it would cause issues when switching to a tutorial in insert mode
+    and coming back
+  - `debounce_delay` currently set to 5s and if need to save for a strange
+    reason, maybe to auto-format faster I run `M-w`
 - This is a really controversial plugin, some people love autosave, some other
   ones hate it
 - Personally I like autosaving, this plugin will auto save for you when you exit
