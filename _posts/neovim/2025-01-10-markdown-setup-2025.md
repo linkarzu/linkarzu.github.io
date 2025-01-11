@@ -287,7 +287,7 @@ alias neobean='NVIM_APPNAME=linkarzu/dotfiles-latest/neovim/neobean nvim'
 ---
 
 - To learn about this task management in detail, go and check a video I created:
-  - [Manage Markdown tasks in Neovim similar to Obsidian - Telescope to List Completed and Pending Tasks](https://youtu.be/59hvZl077hM)
+  - [Manage Markdown tasks in Neovim similar to Obsidian - Telescope to List Completed and Pending Tasks](https://youtu.be/59hvZl077hM){:target="\_blank"}
 
 {% include embed/youtube.html id='59hvZl077hM' %}
 
@@ -321,7 +321,7 @@ alias neobean='NVIM_APPNAME=linkarzu/dotfiles-latest/neovim/neobean nvim'
 
 - The "assets" directory is a pretty neat workflow that required a video on its
   own, so I created a video and I cover how I do stuff there in detail:
-  - [img-clip.nvim - Add images to "assets" directory in Neovim - Drag images - Paste images and more](https://youtu.be/a3CsyZGxHrs)
+  - [img-clip.nvim - Add images to "assets" directory in Neovim - Drag images - Paste images and more](https://youtu.be/a3CsyZGxHrs){:target="\_blank"}
 
 {% include embed/youtube.html id='a3CsyZGxHrs' %}
 
@@ -346,7 +346,7 @@ alias neobean='NVIM_APPNAME=linkarzu/dotfiles-latest/neovim/neobean nvim'
 
 - I created a dedicated video explaining how the daily note works and how to set
   it up:
-  - [Open your daily note in Neovim with a single keymap](https://youtu.be/W3hgsMoUcqo)
+  - [Open your daily note in Neovim with a single keymap](https://youtu.be/W3hgsMoUcqo){:target="\_blank"}
 
 {% include embed/youtube.html id='W3hgsMoUcqo' %}
 
@@ -374,7 +374,7 @@ alias neobean='NVIM_APPNAME=linkarzu/dotfiles-latest/neovim/neobean nvim'
     to my daily note tmux session or `hyper+t+u` takes me to my obsidian tmux
     session
 - I explain everything in detail in the video:
-  - [karabiner-elements configuration updates 2024](https://youtu.be/dqEiDVYRWLk)
+  - [karabiner-elements configuration updates 2024](https://youtu.be/dqEiDVYRWLk){:target="\_blank"}
 
 {% include embed/youtube.html id='dqEiDVYRWLk' %}
 
@@ -423,7 +423,7 @@ alias neobean='NVIM_APPNAME=linkarzu/dotfiles-latest/neovim/neobean nvim'
 <!-- markdownlint-restore -->
 
 - I created a video about folds after my last markdown workflow video:
-  - [Fold markdown headings in Neovim with a keymap](https://youtu.be/EYczZLNEnIY)
+  - [Fold markdown headings in Neovim with a keymap](https://youtu.be/EYczZLNEnIY){:target="\_blank"}
 
 {% include embed/youtube.html id='EYczZLNEnIY' %}
 
@@ -474,7 +474,7 @@ alias neobean='NVIM_APPNAME=linkarzu/dotfiles-latest/neovim/neobean nvim'
 - Do you want to learn more about luasnip and how I configure my snippets? Watch
   the video below (just remember that we now use `blink.cmp` instead of
   `nvim-cmp`):
-  - [Custom Snippets with LuaSnip in Neovim and Configure completion priority on nvim-cmp](https://youtu.be/GxnBIRl9UmA)
+  - [Custom Snippets with LuaSnip in Neovim and Configure completion priority on nvim-cmp](https://youtu.be/GxnBIRl9UmA){:target="\_blank"}
 
 ---
 
@@ -487,9 +487,9 @@ alias neobean='NVIM_APPNAME=linkarzu/dotfiles-latest/neovim/neobean nvim'
 - This is useful in case I need to reference a file from another file, then I
   can open this link I paste in the new file pressing `gx` in **neovide**
 - I use the same keymap in `mini.files`
-  - [Advanced MINI.FILES Keymaps for Neovim – System Clipboard Integration and More](https://youtu.be/BzblG2eV8dU)
+  - [Advanced MINI.FILES Keymaps for Neovim – System Clipboard Integration and More](https://youtu.be/BzblG2eV8dU){:target="\_blank"}
 - I use the same keymap in the `zen browser`:
-  - [Switching from Google Chrome to Zen Browser - Vertical tabs - Raindrop - OpenIn](https://youtu.be/ca1csvxfu0Q)
+  - [Switching from Google Chrome to Zen Browser - Vertical tabs - Raindrop - OpenIn](https://youtu.be/ca1csvxfu0Q){:target="\_blank"}
 
 {% include embed/youtube.html id='ca1csvxfu0Q' %}
 
@@ -535,7 +535,7 @@ alias neobean='NVIM_APPNAME=linkarzu/dotfiles-latest/neovim/neobean nvim'
 - You can search a dictionary to autocomplete words when typing, allows you to
   avoid typos and understand what a word means
 - I explain how the dictionary works in detail in this video:
-  - [blink.cmp updates - Remove LuaSnip - Emoji and Dictionary Sources - Fix Jump Autosave Issue](https://youtu.be/JrgfpWap_Pg)
+  - [blink.cmp updates - Remove LuaSnip - Emoji and Dictionary Sources - Fix Jump Autosave Issue](https://youtu.be/JrgfpWap_Pg){:target="\_blank"}
 
 {% include embed/youtube.html id='JrgfpWap_Pg' %}
 
@@ -555,7 +555,7 @@ alias neobean='NVIM_APPNAME=linkarzu/dotfiles-latest/neovim/neobean nvim'
 ---
 
 - I created a video dedicated to spell and how do do it in multiple languages:
-  - [neovim spell multiple languages](https://youtu.be/uLFAMYFmpkE)
+  - [neovim spell multiple languages](https://youtu.be/uLFAMYFmpkE){:target="\_blank"}
 
 {% include embed/youtube.html id='uLFAMYFmpkE' %}
 
@@ -598,7 +598,7 @@ set -as terminal-overrides ',*:Setulc=\E[58::2::%p1%{65536}%/%d::%p1%{256}%/%{25
 
 - If you want to setup Ghostty the way I do, and learn why I chose it as my
   default terminal, check this video out:
-  - [How to setup the Ghostty terminal, is it just hype? READ PINNED MESSAGE](https://youtu.be/rCiq5CyFFhA)
+  - [How to setup the Ghostty terminal, is it just hype? READ PINNED MESSAGE](https://youtu.be/rCiq5CyFFhA){:target="\_blank"}
 
 {% include embed/youtube.html id='rCiq5CyFFhA' %}
 
@@ -662,7 +662,7 @@ macos-option-as-alt = right
 
 - If you want to setup Ghostty the way I do, and learn why I chose it as my
   default terminal, check this video out:
-  - [How to setup the Ghostty terminal, is it just hype? READ PINNED MESSAGE](https://youtu.be/rCiq5CyFFhA)
+  - [How to setup the Ghostty terminal, is it just hype? READ PINNED MESSAGE](https://youtu.be/rCiq5CyFFhA){:target="\_blank"}
 
 {% include embed/youtube.html id='rCiq5CyFFhA' %}
 
@@ -805,7 +805,7 @@ gsaiw`
 
 - Remember that I use the `lazyvim.org` distro
 - That distro already comes with some Default keymaps configured
-  [that you can find here](https://www.lazyvim.org/configuration/general#keymaps)
+  [that you can find here](https://www.lazyvim.org/configuration/general#keymaps){:target="\_blank"}
 - Some of these default keymaps are the `better up/down` ones found below:
 
 ```lua
