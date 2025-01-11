@@ -40,15 +40,20 @@ tags:
     + [Folding basics](#folding-basics)
   * [Add markdown link from clipboard](#add-markdown-link-from-clipboard)
   * [Copy current file path to clipboard](#copy-current-file-path-to-clipboard)
+  * [Open current file in Github on the browser](#open-current-file-in-github-on-the-browser)
+  * [Terminal toggle](#terminal-toggle)
   * [Alternate file](#alternate-file)
   * [Use the dictionary with blink.cmp](#use-the-dictionary-with-blinkcmp)
   * [Spell checking (works in tmux)](#spell-checking-works-in-tmux)
     + [Fix undercurl in tmux](#fix-undercurl-in-tmux)
     + [Lazyvim spell defaults](#lazyvim-spell-defaults)
   * [Use alt for keymaps](#use-alt-for-keymaps)
-  * [Add markdown TOC](#add-markdown-toc)
-  * [Delete current file](#delete-current-file)
   * [I need help](#i-need-help)
+  * [Add markdown TOC](#add-markdown-toc)
+  * [Upload images to my own imgur account (authenticated)](#upload-images-to-my-own-imgur-account-authenticated)
+  * [Delete newlines in between (markdown join)](#delete-newlines-in-between-markdown-join)
+  * [Toggle bulletpoint](#toggle-bulletpoint)
+  * [Delete current file](#delete-current-file)
   * [See key maps](#see-key-maps)
   * [See messages history](#see-messages-history)
   * [Accept completion with `ctrl+y` instead of enter](#accept-completion-with-ctrly-instead-of-enter)
@@ -77,6 +82,7 @@ tags:
 - [Markdown plugins](#markdown-plugins)
   * [MeanderingProgrammer/render-markdown.nvim](#meanderingprogrammerrender-markdownnvim)
   * [bullets-vim/bullets.vim](#bullets-vimbulletsvim)
+  * [echasnovski/mini.files](#echasnovskiminifiles)
   * [echasnovski/mini.surround](#echasnovskiminisurround)
   * [echasnovski/mini.ai](#echasnovskiminiai)
   * [arnamak/stay-centered.nvim](#arnamakstay-centerednvim)
@@ -91,6 +97,7 @@ tags:
   * [~~jlanzarotta/bufexplorer~~](#jlanzarottabufexplorer)
   * [nvim-telescope/telescope.nvim](#nvim-telescopetelescopenvim)
   * [nvim-treesitter/nvim-treesitter](#nvim-treesitternvim-treesitter)
+  * [nvim-treesitter/nvim-treesitter-context](#nvim-treesitternvim-treesitter-context)
   * [mfussenegger/nvim-lint](#mfusseneggernvim-lint)
   * [LazyExtras](#lazyextras)
     + [lang.markdown](#langmarkdown)
@@ -488,6 +495,21 @@ alias neobean='NVIM_APPNAME=linkarzu/dotfiles-latest/neovim/neobean nvim'
 
 {% include embed/youtube.html id='BzblG2eV8dU' %}
 
+### Open current file in Github on the browser
+
+- `<leader>fG` - file GitHub
+
+### Terminal toggle
+
+- Sometimes you're working in a file, and you need to quickly toggle your
+  terminal and do something in the command line
+- I created a keymap `<M-t>` that toggles the terminal and follows the directory
+  I'm on
+- Full details for this can be found in the video:
+  - [Neovim Toggle Terminal on Tmux Pane at the Bottom (or Right)](https://youtu.be/33gQ9p-Zp0I){:target="\_blank"}
+
+{% include embed/youtube.html id='33gQ9p-Zp0I' %}
+
 ### Alternate file
 
 - This is not strictly markdown related, but if greatly improves your markdown
@@ -644,16 +666,60 @@ macos-option-as-alt = right
 
 {% include embed/youtube.html id='rCiq5CyFFhA' %}
 
+### I need help
+
+- My entire markdown config is a bit complex and will probably raise some
+  questions that need to do some troubleshooting or hand holding
+- Remember to join the
+  [YouTube members only discord](https://www.youtube.com/channel/UCrSIvbFncPSlK6AdwE2QboA/join){:target="\_blank"}
+
 ### Add markdown TOC
 
-- `<leader>mt`
+- ~~`<leader>mt`~~ `<leader>mtt` (English) and `<leader>mts` (Spanish)
 - This is to create a Table Of Contents
-- It will add it at the top of the file if there's not one, and if there is a
-  TOC already, it will update it
+- **UPDATE:** Insert the TOC inside a H2 and H3 heading right below the main H1
+  at the top
+- If there is a TOC already, it will update it
 - It doesn't matter if the file has **front matter at the top** or not, the
   keymap will detect it and not cause problems
 - To generate the TOC I use the `markdown-toc` plugin, and it's installed as a
-  LazyExtra, you'll understand later
+  LazyExtra
+
+### Upload images to my own imgur account (authenticated)
+
+- Sometimes you need to share an image, but through a link
+- `<M-i>`
+- This script uploads images to Imgur using an access token, and refreshes the
+  token if it's expired. It reads environment variables from a specified file
+  and updates them as needed.
+- I have a video in which all of this is explained in detail:
+  - [Upload images from Neovim to Imgur](https://youtu.be/Lzl_0SzbUBo){:target="\_blank"}
+
+{% include embed/youtube.html id='Lzl_0SzbUBo' %}
+
+### Delete newlines in between (markdown join)
+
+- Sometimes you have multiple separate bulletpoint lines, and they could even be
+  paragraphs, like this first one which spans across more than one line
+
+- And you would like to keep them consistent
+
+- I created a keymap `<leader>mj`
+
+- There must be some default Vim command that takes care of it, but I don't know
+  it, still issue
+
+### Toggle bulletpoint
+
+- `<leader>md` - (d as in dash)
+
+Sometimes you start writing a paragraph, but you forgot to start it as a
+bulletpoint, notice that I use bulletpoints for basically everything
+
+So this allows me to turn those lines into bulletpoints, which I can then join
+with `<leader>mj`
+
+Use it in normal mode at the top of the current paragraph
 
 ### Delete current file
 
@@ -662,13 +728,6 @@ macos-option-as-alt = right
 - `<leader>fD`
 - **This is for macOS and uses the trash app, if you're on Linux, modify the
   keymap**
-
-### I need help
-
-- My entire markdown config is a bit complex and will probably raise some
-  questions that need to do some troubleshooting or hand holding
-- Remember to join the
-  [YouTube members only discord](https://www.youtube.com/channel/UCrSIvbFncPSlK6AdwE2QboA/join){:target="\_blank"}
 
 ### See key maps
 
@@ -1015,6 +1074,20 @@ Minim tempor ullamco do eu pariatur minim.
 - Currently I use it a lot with my **tasks** as well
 - `M-l` to add new task and press enter to keep creating them below
 
+### echasnovski/mini.files
+
+- [echasnovski/mini.files](https://github.com/echasnovski/mini.files){:target="\_blank"}
+- My default and favorite file explorer
+- I like that it allows me to preview the file I'm about to open
+- I created a few keymaps that allow me for example grab a directory, it could
+  be a markdown file with images inside, zip it and copy it to the system
+  clipboard that I can then share in another application, like slack for
+  example.
+- I have a video on these keymaps for mini.files:
+  - [Advanced MINI.FILES Keymaps for Neovim – System Clipboard Integration and More](https://youtu.be/BzblG2eV8dU){:target="\_blank"}
+
+{% include embed/youtube.html id='BzblG2eV8dU' %}
+
 ### echasnovski/mini.surround
 
 - [echasnovski/mini.surround](https://github.com/echasnovski/mini.surround){:target="\_blank"}
@@ -1325,6 +1398,16 @@ body {
   color: #333;
 }
 ```
+
+### nvim-treesitter/nvim-treesitter-context
+
+- [nvim-treesitter/nvim-treesitter-context](https://github.com/nvim-treesitter/nvim-treesitter-context){:target="\_blank"}
+- I've been asked what this plugin is a few times
+- If on a markdown file, and you're inside a level 4 heading, this plugin shows
+  you the level 2 and 3 heading that you're under at the top of the screen
+  Really useful to know where you're at
+- This plugin used to be enabled by default in lazyvim, but it was moved to
+  extras
 
 ### mfussenegger/nvim-lint
 
