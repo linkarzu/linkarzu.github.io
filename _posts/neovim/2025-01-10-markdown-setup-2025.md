@@ -31,8 +31,14 @@ tags:
   * [Use snippets](#use-snippets)
   * [Todo items (tasks)](#todo-items-tasks)
   * [Add images to assets dir](#add-images-to-assets-dir)
-  * [Create or jump daily note `hyper+t+r`](#create-or-jump-daily-note-hypertr)
-  * [Better bullet points](#better-bullet-points)
+  * [Create or jump daily note hyper+t+r](#create-or-jump-daily-note-hypertr)
+  * [How do I do the hyper+t+r and hyper+t+j](#how-do-i-do-the-hypertr-and-hypertj)
+  * [Fold all level 2 or 3 headings](#fold-all-level-2-or-3-headings)
+    + [Folding basics](#folding-basics)
+  * [Add markdown link from clipboard](#add-markdown-link-from-clipboard)
+  * [Copy current file path to clipboard](#copy-current-file-path-to-clipboard)
+  * [Alternate file](#alternate-file)
+  * [Use the dictionary with blink.cmp](#use-the-dictionary-with-blinkcmp)
   * [Spell checking (works in tmux)](#spell-checking-works-in-tmux)
     + [Fix undercurl in tmux](#fix-undercurl-in-tmux)
     + [Lazyvim spell defaults](#lazyvim-spell-defaults)
@@ -40,33 +46,27 @@ tags:
   * [Add markdown TOC](#add-markdown-toc)
   * [Delete current file](#delete-current-file)
   * [I need help](#i-need-help)
+  * [See key maps](#see-key-maps)
+  * [See messages history](#see-messages-history)
+  * [Accept completion with `ctrl+y` instead of enter](#accept-completion-with-ctrly-instead-of-enter)
   * [Bold easily](#bold-easily)
+  * [Inline code](#inline-code)
   * [Jump between markdown headings](#jump-between-markdown-headings)
     + [lazyvim already uses default `gj` and `gk` mappings](#lazyvim-already-uses-default-gj-and-gk-mappings)
-  * [Use the dictionary with blink.cmp](#use-the-dictionary-with-blinkcmp)
-  * [Fold all level 2 or 3 headings](#fold-all-level-2-or-3-headings)
-    + [Folding basics](#folding-basics)
   * [Fold with enter](#fold-with-enter)
-  * [Accept completion with `ctrl+y` instead of enter](#accept-completion-with-ctrly-instead-of-enter)
-  * [Add markdown link from clipboard](#add-markdown-link-from-clipboard)
-  * [Increase decrease all markdown headings](#increase-decrease-all-markdown-headings)
   * [Line wrapping at 80 characters](#line-wrapping-at-80-characters)
     + [`textwidth = 80`](#textwidth--80)
     + [ProseWrap and .prettierrc.yaml](#prosewrap-and-prettierrcyaml)
   * [Disable autoformatting in certain sections](#disable-autoformatting-in-certain-sections)
   * [Add file path to current file](#add-file-path-to-current-file)
-  * [Copy current file path to clipboard](#copy-current-file-path-to-clipboard)
   * [Navigate the help pages](#navigate-the-help-pages)
-  * [See key maps](#see-key-maps)
   * [Paste with "p" in visual mode](#paste-with-p-in-visual-mode)
-  * [Select text in a bullet point](#select-text-in-a-bullet-point)
+  * [Increase decrease all markdown headings](#increase-decrease-all-markdown-headings)
   * [Don't indent with tab](#dont-indent-with-tab)
   * [Open current file in finder](#open-current-file-in-finder)
-  * [Alternate file](#alternate-file)
-  * [How do I do the hyper+t+r and hyper+t+j](#how-do-i-do-the-hypertr-and-hypertj)
-  * [See messages history](#see-messages-history)
   * [Dismiss all messages](#dismiss-all-messages)
   * [Paste github repo as link](#paste-github-repo-as-link)
+  * [Select text in a bullet point](#select-text-in-a-bullet-point)
   * [Create headings and daily note](#create-headings-and-daily-note)
   * [Working with marks](#working-with-marks)
 - [What plugins and tips do you use?](#what-plugins-and-tips-do-you-use)
@@ -76,7 +76,7 @@ tags:
   * [echasnovski/mini.ai](#echasnovskiminiai)
   * [arnamak/stay-centered.nvim](#arnamakstay-centerednvim)
   * [hedyhli/outline.nvim](#hedyhlioutlinenvim)
-  * [lukas-reineke/headlines.nvim](#lukas-reinekeheadlinesnvim)
+  * [~~lukas-reineke/headlines.nvim~~](#lukas-reinekeheadlinesnvim)
   * [nvim-pack/nvim-spectre](#nvim-packnvim-spectre)
   * [okuuva/auto-save.nvim](#okuuvaauto-savenvim)
   * [iamcco/markdown-preview.nvim](#iamccomarkdown-previewnvim)
@@ -217,6 +217,8 @@ alias neobean='NVIM_APPNAME=linkarzu/dotfiles-latest/neovim/neobean nvim'
 
 ## Markdown tips
 
+- These are sorted by my **personal preference**, most preferred ones at the top
+
 ### Use snippets
 
 - Snippets is one of my favorite things
@@ -231,7 +233,7 @@ alias neobean='NVIM_APPNAME=linkarzu/dotfiles-latest/neovim/neobean nvim'
 - Do you want to learn more about luasnip and how I configure my snippets? Watch
   the video below (just notice that we now use `blink.cmp` instead of
   `nvim-cmp`):
-  - [Custom Snippets with LuaSnip in Neovim and Configure completion priority on nvim-cmp](https://youtu.be/GxnBIRl9UmA){:target="_blank"}
+  - [Custom Snippets with LuaSnip in Neovim and Configure completion priority on nvim-cmp](https://youtu.be/GxnBIRl9UmA){:target="\_blank"}
 
 {% include embed/youtube.html id='GxnBIRl9UmA' %}
 
@@ -262,6 +264,7 @@ alias neobean='NVIM_APPNAME=linkarzu/dotfiles-latest/neovim/neobean nvim'
   - `M-x` - toggle task
   - `<leader>tt` - list uncompleted tasks
   - `<leader>tc` - list completed tasks
+- To create a task below I use the [[#bullets-vim/bullets.vim]] plugin
 
 ---
 
@@ -294,7 +297,7 @@ alias neobean='NVIM_APPNAME=linkarzu/dotfiles-latest/neovim/neobean nvim'
 
 {% include embed/youtube.html id='a3CsyZGxHrs' %}
 
-### Create or jump daily note `hyper+t+r`
+### Create or jump daily note hyper+t+r
 
 - I use the daily note every day, usually for example if I need to upload a new
   video, I have a template in LuaSnip to get me started, and I do this in my
@@ -332,7 +335,7 @@ alias neobean='NVIM_APPNAME=linkarzu/dotfiles-latest/neovim/neobean nvim'
 <!-- prettier-ignore-end -->
 <!-- markdownlint-restore -->
 
----
+### How do I do the hyper+t+r and hyper+t+j
 
 - In case you're wondering, what is this `hyper+t+r` keymap, why does it have
   like a sub layer?
@@ -347,228 +350,22 @@ alias neobean='NVIM_APPNAME=linkarzu/dotfiles-latest/neovim/neobean nvim'
 
 {% include embed/youtube.html id='dqEiDVYRWLk' %}
 
-### Better bullet points
+---
 
-- I 100% love this plugin, and I still use it daily for bulletpoints
-- Currently I use it a lot with my **tasks** as well
-- `M-l` to add new task and press enter to keep creating them below
-- We'll see how I now manage tasks later on
+- To switch between tmux sessions I'm using Prime's tmux sessionizer script
+- I explain everything in detail in the video below:
+  - [Primeagen's tmux-sessionizer and tmux-sshonizer-agen](https://youtu.be/MCbEPylDEWU){:target="\_blank"}
 
-### Spell checking (works in tmux)
-
-- To toggle spelling `<Leader>us`
-- Created keymaps to switch spelling languages:
-  - English `<leader>msle`
-  - Spanish `<leader>msls`
-  - Both languages `<leader>mslb`
-- To jump between misspelled words use `[s` and `]s`
-- To correct a word `<leader>mss` (markdown spelling)
-  - **UPDATE: This keymap now accepts the 1st suggestion on the list, which is
-    99.99% of the times what I need**
+{% include embed/youtube.html id='MCbEPylDEWU' %}
 
 ---
 
-- I created a video dedicated to spell and how do do it in multiple languages:
-  - [neovim spell multiple languages](https://youtu.be/uLFAMYFmpkE)
+- If on macOS, I also use the BetterTouchTool app, which allows me to run
+  hyper+t+j from any app, not just from the terminal itself
+- I have a video in which I go over BetterTouchTool in great detail:
+  - [Advanced BetterTouchTool shortcuts that execute a set of actions like scripts](https://youtu.be/RBHCgEEluD0){:target="\_blank"}
 
-{% include embed/youtube.html id='uLFAMYFmpkE' %}
-
----
-
-- Same stuff I still use:
-  - `<leader>msg` add word to spell (markdown good)
-  - `<leader>msu` remove word added by mistake
-  - Spell dictionary, I still don't manually add entries
-
-#### Fix undercurl in tmux
-
-- I recently switched from Kitty, to WezTerm and then to Ghostty
-- I'm not sure the config below is still needed in Ghostty when using Tmux,
-  which was the case with Kitty
-- I removed the 2 `terminal-overrides` lines below, saved my tmux config,
-  reloaded it and undercurl works in Ghostty
-- In case you're using a different terminal, **you use tmux**, and are having
-  undercurl issues
-
-```bash
-# Undercurl support (works with kitty)
-# Fix found below in Folke's tokyonight theme :heart:
-# https://github.com/folke/tokyonight.nvim#fix-undercurls-in-tmux
-#
-# After reloading the configuration, you also have to kill the tmux session for
-# these changes to take effect
-set -g default-terminal "${TERM}"
-# undercurl support
-set -as terminal-overrides ',*:Smulx=\E[4::%p1%dm'
-# underscore colours - needs tmux-3.0
-set -as terminal-overrides ',*:Setulc=\E[58::2::%p1%{65536}%/%d::%p1%{256}%/%{255}%&%d::%p1%{255}%&%d%;m'
-```
-
-- I change the undercurl color and style in my neovim colorscheme settings,
-  every time you make a change there you have to reload the tmux config, but
-  also **kill the tmux session** or it won't work
-
----
-
-- If you want to setup Ghostty the way I do, and learn why I chose it as my
-  default terminal, check this video out:
-  - [How to setup the Ghostty terminal, is it just hype? READ PINNED MESSAGE](https://youtu.be/rCiq5CyFFhA)
-
-{% include embed/youtube.html id='rCiq5CyFFhA' %}
-
-#### Lazyvim spell defaults
-
-- There's a default
-  [Auto Command](https://www.lazyvim.org/configuration/general#auto-commands){:target="\_blank"}
-  (autocmd) in Folke's lazyvim.org distro that is what enables spelling
-- Also the lazyvim.org comes preconfigured with the
-  [Option](https://www.lazyvim.org/configuration/general#options){:target="\_blank"}
-  `opt.spelllang = { "en" }` (English) but remember I have keymaps to set that
-  above
-- UPDATE:
-  - Wrap is set to true by default on this `autocmd` and I don't want that, so
-    added the autocmd to my
-    `~/github/dotfiles-latest/neovim/neobean/lua/config/autocmds.lua` file and
-    removed that
-
-```lua
--- wrap and check for spell in text filetypes
-vim.api.nvim_create_autocmd("FileType", {
-  group = augroup("wrap_spell"),
-  pattern = { "text", "plaintex", "typst", "gitcommit", "markdown" },
-  callback = function()
-    -- -- By default wrap is set to true regardless of what I chose in my options.lua file,
-    -- -- This sets wrapping for my skitty-notes and I don't want to have
-    -- -- wrapping there, I want to decide this in the options.lua file
-    -- vim.opt_local.wrap = false
-    vim.opt_local.spell = true
-  end,
-})
-```
-
-### Use alt for keymaps
-
-- They keymaps that I use the most have been configured with alt, for example
-  `alt+g` opens LazyGit
-- Before this, all my keymaps started with `<leader>`, but sometimes I need to
-  start them when in `insert` mode and it's also less keystrokes
-- I speak Spanish and write notes in Spanish, so the `left alt` key is used for
-  something else, so I added this to my Ghostty config
-
-```bash
-# If `true`, the *Option* key will be treated as *Alt*. This makes terminal
-# sequences expecting *Alt* to work properly, but will break Unicode input
-# sequences on macOS if you use them via the *Alt* key. You may set this to
-# `false` to restore the macOS *Alt* key unicode sequences but this will break
-# terminal sequences expecting *Alt* to work.
-#
-# The values `left` or `right` enable this for the left or right *Option*
-# key, respectively.
-#
-# Note that if an *Option*-sequence doesn't produce a printable character, it
-# will be treated as *Alt* regardless of this setting. (i.e. `alt+ctrl+a`).
-#
-# This does not work with GLFW builds.
-macos-option-as-alt = right
-```
-
-- If you want to setup Ghostty the way I do, and learn why I chose it as my
-  default terminal, check this video out:
-  - [How to setup the Ghostty terminal, is it just hype? READ PINNED MESSAGE](https://youtu.be/rCiq5CyFFhA)
-
-{% include embed/youtube.html id='rCiq5CyFFhA' %}
-
-### Add markdown TOC
-
-- `<leader>mt`
-- This is to create a Table Of Contents
-- It will add it at the top of the file if there's not one, and if there is a
-  TOC already, it will update it
-- It doesn't matter if the file has **front matter at the top** or not, the
-  keymap will detect it and not cause problems
-- To generate the TOC I use the `markdown-toc` plugin, and it's installed as a
-  LazyExtra, you'll understand later
-
-### Delete current file
-
-- A lot of times, I want to remove the file I'm on without going out of neovim
-  or without even opening my neovim file explorer
-- `<leader>fD`
-- **This is for macOS and uses the trash app, if you're on Linux, modify the
-  keymap**
-
-### I need help
-
-- My entire markdown config is a bit complex and will probably raise some
-  questions that need to do some troubleshooting or hand holding
-- Remember to join the
-  [YouTube members only discord](https://www.youtube.com/channel/UCrSIvbFncPSlK6AdwE2QboA/join){:target="\_blank"}
-
-### Bold easily
-
-- This is still relevant and I use it sometimes
-- If I'm on a word and press `<leader>mb` it will toggle bold on the single word
-- If try to bold on a `*` it will let me know that I need to move the cursor
-- Can bold a paragraph in visual mode
-- If in a bold area (paragraph) and run `<leader>mb` will unbold that section
-  - need to be on the first line
-
----
-
-- It needs the `mini.surround` plugin
-- By default if you want to **bold some text**, you select it and do `2gsa*` or
-  if you want to "unbold" it I normally do `gsd*.`
-- I configured keymap `<leader>mb`
-
----
-
-This is just a random paragraph with random text in it, it doesn't serve any
-purpose but I just want to use it to demonstrate how multi line bold and unbold
-works
-
-This is just a single line of text
-
-### Jump between markdown headings
-
-- **Follow markdown convention and use a single H1 heading in your file for this
-  to work**
-- I tend to fold items and navigate that way, or use the outline plugin, but
-  sometimes I do still use `gj` and `gk` when unfolded to navigate between
-  headings
-
-#### lazyvim already uses default `gj` and `gk` mappings
-
-- Remember that I use the `lazyvim.org` distro
-- That distro already comes with some Default keymaps configured
-  [that you can find here](https://www.lazyvim.org/configuration/general#keymaps)
-- Some of these default keymaps are the `better up/down` ones found below:
-
-```lua
--- better up/down
--- If there is no count (v:count == 0), pressing j will execute gj
-  -- Useful when dealing with wrapped lines in the buffer.
--- If there is a count (v:count != 0), pressing j will execute j.
-  -- For example, if you press 3j to move down three lines
-map({ "n", "x" }, "j", "v:count == 0 ? 'gj' : 'j'", { expr = true, silent = true })
-map({ "n", "x" }, "<Down>", "v:count == 0 ? 'gj' : 'j'", { expr = true, silent = true })
-map({ "n", "x" }, "k", "v:count == 0 ? 'gk' : 'k'", { expr = true, silent = true })
-map({ "n", "x" }, "<Up>", "v:count == 0 ? 'gk' : 'k'", { expr = true, silent = true })
-```
-
-- So by default my neovim "sends" `gj` when I press `j` and I can navigate
-  through wrapped lines easily
-- You might think that `gj` and `gk` mappings I added would break the default
-  keymaps, but for some reason it still keeps working
-  - So with `j` and `k` I navigate through wrapped lines without issues
-
-### Use the dictionary with blink.cmp
-
-- You can search a dictionary to autocomplete words when typing, allows you to
-  avoid typos and understand what a word means
-- I explain how the dictionary works in detail in this video:
-  - [blink.cmp updates - Remove LuaSnip - Emoji and Dictionary Sources - Fix Jump Autosave Issue](https://youtu.be/JrgfpWap_Pg)
-
-{% include embed/youtube.html id='JrgfpWap_Pg' %}
+{% include embed/youtube.html id='RBHCgEEluD0' %}
 
 ### Fold all level 2 or 3 headings
 
@@ -635,17 +432,6 @@ map({ "n", "x" }, "<Up>", "v:count == 0 ? 'gk' : 'k'", { expr = true, silent = t
 :set foldtext?
 ```
 
-### Fold with enter
-
-- Normally you fold with `za` but I changed it to use enter `<CR>`
-
-### Accept completion with `ctrl+y` instead of enter
-
-- I really hated this behaviour, maybe skill issue, but every time I was at the
-  end of a line and hit enter, it would autocomplete a word instead of moving to
-  the line below
-- I change this in the `keymap` section of the `blink-cmp.lua` file
-
 ### Add markdown link from clipboard
 
 - These weren't as reliable, and the code was just farts and have been
@@ -667,13 +453,302 @@ map({ "n", "x" }, "<Up>", "v:count == 0 ? 'gk' : 'k'", { expr = true, silent = t
 - ~~Regular link `<leader>mll` (markdown link)~~
 - ~~Link that opens in new tab `<leader>mlt` (markdown link tab)~~
 
-### Increase decrease all markdown headings
+### Copy current file path to clipboard
 
-- I have several **old** `.md` documents that do not follow markdown guidelines
-- Some have more than one H1 heading, so I want to add one more `#` to each
-  heading
-- `<leader>mhI` and `<leader>mhD`
-  - These 2 don't ask for confirmation and just increase all the headings
+- To copy the file path to the clipboard use ~~`<leader>fp`~~ `<M-c>`
+- This is useful in case I need to reference a file from another file, then I
+  can open this link I paste in the new file pressing `gx` in **neovide**
+- I use the same keymap in `mini.files`
+  - [Advanced MINI.FILES Keymaps for Neovim – System Clipboard Integration and More](https://youtu.be/BzblG2eV8dU)
+- I use the same keymap in the `zen browser`:
+  - [Switching from Google Chrome to Zen Browser - Vertical tabs - Raindrop - OpenIn](https://youtu.be/ca1csvxfu0Q)
+
+{% include embed/youtube.html id='ca1csvxfu0Q' %}
+
+{% include embed/youtube.html id='BzblG2eV8dU' %}
+
+### Alternate file
+
+- This is not strictly markdown related, but if greatly improves your markdown
+  workflow if you need to be switching between files and projects
+- With `<leader>+space` I alternate between the last 2 buffers
+- With ~~`ctrl+b space`~~ `Left Shift` I alternate between the last 2 tmux
+  sessions
+- - I have a video about this:
+  * [Alternate between the last 2 tmux sessions or neovim buffers, blazingly fast, with a keymap](https://youtu.be/HWs3YEj05K4){:target="\_blank"}
+
+{% include embed/youtube.html id='HWs3YEj05K4' %}
+
+---
+
+- The trick to alternate tmux sessions by tapping `Left Shift` is discussed in
+  my karabiner-elements video:
+  - [karabiner-elements configuration updates 2024](https://youtu.be/dqEiDVYRWLk){:target="\_blank"}
+
+{% include embed/youtube.html id='dqEiDVYRWLk' %}
+
+### Use the dictionary with blink.cmp
+
+- You can search a dictionary to autocomplete words when typing, allows you to
+  avoid typos and understand what a word means
+- I explain how the dictionary works in detail in this video:
+  - [blink.cmp updates - Remove LuaSnip - Emoji and Dictionary Sources - Fix Jump Autosave Issue](https://youtu.be/JrgfpWap_Pg)
+
+{% include embed/youtube.html id='JrgfpWap_Pg' %}
+
+### Spell checking (works in tmux)
+
+- To toggle spelling `<Leader>us`
+- Created keymaps to switch spelling languages because I write in español:
+  - English `<leader>msle`
+  - Spanish `<leader>msls`
+  - Both languages `<leader>mslb`
+  - **You can see the language in lualine**
+- To jump between misspelled words use `[s` and `]s`
+- To correct a word `<leader>mss` (markdown spelling)
+  - **UPDATE: This keymap now accepts the 1st suggestion on the list, which is
+    99.99% of the times what I need**
+
+---
+
+- I created a video dedicated to spell and how do do it in multiple languages:
+  - [neovim spell multiple languages](https://youtu.be/uLFAMYFmpkE)
+
+{% include embed/youtube.html id='uLFAMYFmpkE' %}
+
+---
+
+- Same stuff I still use:
+  - `<leader>msg` add word to spell (markdown good)
+  - `<leader>msu` remove word added by mistake
+  - Spell dictionary, I still don't manually add entries
+
+#### Fix undercurl in tmux
+
+- I recently switched from Kitty, to WezTerm and then to Ghostty
+- I'm not sure the config below is still needed in Ghostty when using Tmux,
+  which was the case with Kitty
+- I removed the 2 `terminal-overrides` lines below, saved my tmux config,
+  reloaded it and undercurl works in Ghostty
+- In case you're using a different terminal, **you also use tmux**, and are
+  having undercurl issues, try adding this to your `tmux.conf` file
+
+```bash
+# Undercurl support (works with kitty)
+# Fix found below in Folke's tokyonight theme :heart:
+# https://github.com/folke/tokyonight.nvim#fix-undercurls-in-tmux
+#
+# After reloading the configuration, you also have to kill the tmux session for
+# these changes to take effect
+set -g default-terminal "${TERM}"
+# undercurl support
+set -as terminal-overrides ',*:Smulx=\E[4::%p1%dm'
+# underscore colours - needs tmux-3.0
+set -as terminal-overrides ',*:Setulc=\E[58::2::%p1%{65536}%/%d::%p1%{256}%/%{255}%&%d::%p1%{255}%&%d%;m'
+```
+
+- I change the undercurl color and style in my neovim colorscheme settings,
+  every time you make a change there you have to reload the tmux config, but
+  also **kill the tmux session** or it won't work
+
+---
+
+- If you want to setup Ghostty the way I do, and learn why I chose it as my
+  default terminal, check this video out:
+  - [How to setup the Ghostty terminal, is it just hype? READ PINNED MESSAGE](https://youtu.be/rCiq5CyFFhA)
+
+{% include embed/youtube.html id='rCiq5CyFFhA' %}
+
+#### Lazyvim spell defaults
+
+- There's a default
+  [Auto Command](https://www.lazyvim.org/configuration/general#auto-commands){:target="\_blank"}
+  (autocmd) in Folke's lazyvim.org distro that is what enables spelling
+- Also the lazyvim.org comes preconfigured with the
+  [Option](https://www.lazyvim.org/configuration/general#options){:target="\_blank"}
+  `opt.spelllang = { "en" }` (English) but remember I have keymaps to set that
+  above
+- UPDATE:
+  - Wrap is set to true by default on this `autocmd` and I don't want that, so
+    added the autocmd to my
+    `~/github/dotfiles-latest/neovim/neobean/lua/config/autocmds.lua` file and
+    removed that
+
+```lua
+-- wrap and check for spell in text filetypes
+vim.api.nvim_create_autocmd("FileType", {
+  group = augroup("wrap_spell"),
+  pattern = { "text", "plaintex", "typst", "gitcommit", "markdown" },
+  callback = function()
+    -- -- By default wrap is set to true regardless of what I chose in my options.lua file,
+    -- -- This sets wrapping for my skitty-notes and I don't want to have
+    -- -- wrapping there, I want to decide this in the options.lua file
+    -- vim.opt_local.wrap = false
+    vim.opt_local.spell = true
+  end,
+})
+```
+
+### Use alt for keymaps
+
+- They keymaps that I use the most have been configured with alt, for example
+  `alt+g` opens LazyGit
+- Before this, all my keymaps started with `<leader>`, and some of them with
+  `Ctrl` but sometimes I need to start them when in `insert` mode and it's also
+  less keystrokes
+- I speak Spanish and sometimes write notes in Spanish, so the `left alt` key is
+  used for something else, so I added this to my Ghostty config:
+  - This config is also available for `kitty` and `wezterm`, see my config files
+
+```bash
+# If `true`, the *Option* key will be treated as *Alt*. This makes terminal
+# sequences expecting *Alt* to work properly, but will break Unicode input
+# sequences on macOS if you use them via the *Alt* key. You may set this to
+# `false` to restore the macOS *Alt* key unicode sequences but this will break
+# terminal sequences expecting *Alt* to work.
+#
+# The values `left` or `right` enable this for the left or right *Option*
+# key, respectively.
+#
+# Note that if an *Option*-sequence doesn't produce a printable character, it
+# will be treated as *Alt* regardless of this setting. (i.e. `alt+ctrl+a`).
+#
+# This does not work with GLFW builds.
+macos-option-as-alt = right
+```
+
+- If you want to setup Ghostty the way I do, and learn why I chose it as my
+  default terminal, check this video out:
+  - [How to setup the Ghostty terminal, is it just hype? READ PINNED MESSAGE](https://youtu.be/rCiq5CyFFhA)
+
+{% include embed/youtube.html id='rCiq5CyFFhA' %}
+
+### Add markdown TOC
+
+- `<leader>mt`
+- This is to create a Table Of Contents
+- It will add it at the top of the file if there's not one, and if there is a
+  TOC already, it will update it
+- It doesn't matter if the file has **front matter at the top** or not, the
+  keymap will detect it and not cause problems
+- To generate the TOC I use the `markdown-toc` plugin, and it's installed as a
+  LazyExtra, you'll understand later
+
+### Delete current file
+
+- A lot of times, I want to remove the file I'm on without going out of neovim
+  or without even opening my neovim file explorer
+- `<leader>fD`
+- **This is for macOS and uses the trash app, if you're on Linux, modify the
+  keymap**
+
+### I need help
+
+- My entire markdown config is a bit complex and will probably raise some
+  questions that need to do some troubleshooting or hand holding
+- Remember to join the
+  [YouTube members only discord](https://www.youtube.com/channel/UCrSIvbFncPSlK6AdwE2QboA/join){:target="\_blank"}
+
+### See key maps
+
+- You will forget your keymaps, trust me
+- ~~`<leader>sk`~~ `M-k`
+
+### See messages history
+
+- This comes by default with lazyvim, but you will forget
+- These are the messages that show up with
+  [folke/noice.nvim](https://github.com/folke/noice.nvim){:target="\_blank"}
+- You'll see the pop-up, but a lot of times you will want to see them again
+- There's a **default** lazyvim keymap `<leader>snh` (search noice history)
+  - **I use `<M-h>`**
+  * Close the window that shows below with `<leader>wd` (window delete)
+- Or use the command `:NoiceHistory`
+
+### Accept completion with `ctrl+y` instead of enter
+
+- I really hated this behaviour, maybe skill issue, but every time I was at the
+  end of a line and hit enter, it would autocomplete a word instead of moving to
+  the line below
+- I change this in the `keymap` section of the `blink-cmp.lua` file
+
+### Bold easily
+
+- This is still relevant and I use it sometimes
+- If I'm on a word and press `<leader>mb` it will toggle bold on the single word
+- If try to bold on a `*` it will let me know that I need to move the cursor
+- Can bold a paragraph in visual mode
+- If in a bold area (paragraph) and run `<leader>mb` will unbold that section
+  - need to be on the first line
+
+---
+
+- It needs the `mini.surround` plugin
+- By default if you want to **bold some text**, you select it and do `2gsa*` or
+  if you want to "unbold" it I normally do `gsd*.`
+- I configured keymap `<leader>mb`
+
+---
+
+This is just a random paragraph with random text in it, it doesn't serve any
+purpose but I just want to use it to demonstrate how multi line bold and unbold
+works
+
+This is just a single line of text
+
+### Inline code
+
+- I have 2 keymaps, one for `normal` mode and 1 for `visual` mode
+- If I'm on a word in normal mode and type `gss` formats is as inline code
+- By `default` this is done with
+
+```text
+# In visual mode
+gsa`
+
+# For the word you're in
+gsaiw`
+```
+
+- But notice all the characters you need to press, and I just use this way too
+  much
+
+### Jump between markdown headings
+
+- **Follow markdown convention and use a single H1 heading in your file for this
+  to work**
+- I tend to fold items and navigate that way, or use the outline plugin, but
+  sometimes I do still use `gj` and `gk` when unfolded to navigate between
+  headings
+
+#### lazyvim already uses default `gj` and `gk` mappings
+
+- Remember that I use the `lazyvim.org` distro
+- That distro already comes with some Default keymaps configured
+  [that you can find here](https://www.lazyvim.org/configuration/general#keymaps)
+- Some of these default keymaps are the `better up/down` ones found below:
+
+```lua
+-- better up/down
+-- If there is no count (v:count == 0), pressing j will execute gj
+  -- Useful when dealing with wrapped lines in the buffer.
+-- If there is a count (v:count != 0), pressing j will execute j.
+  -- For example, if you press 3j to move down three lines
+map({ "n", "x" }, "j", "v:count == 0 ? 'gj' : 'j'", { expr = true, silent = true })
+map({ "n", "x" }, "<Down>", "v:count == 0 ? 'gj' : 'j'", { expr = true, silent = true })
+map({ "n", "x" }, "k", "v:count == 0 ? 'gk' : 'k'", { expr = true, silent = true })
+map({ "n", "x" }, "<Up>", "v:count == 0 ? 'gk' : 'k'", { expr = true, silent = true })
+```
+
+- So by default my neovim "sends" `gj` when I press `j` and I can navigate
+  through wrapped lines easily
+- You might think that `gj` and `gk` mappings I added would break the default
+  keymaps, but for some reason it still keeps working
+  - So with `j` and `k` I navigate through wrapped lines without issues
+
+### Fold with enter
+
+- Normally you fold with `za` but I changed it to use enter `<CR>`
 
 ### Line wrapping at 80 characters
 
@@ -724,7 +799,10 @@ map({ "n", "x" }, "<Up>", "v:count == 0 ? 'gk' : 'k'", { expr = true, silent = t
 - Prettier is enabled and will autoformat your file, but there are some times
   that you don't need prettier to autoformat, example below:
   - Notice that I'm also disabling markdownlint
-  - I have a keymap to add this `snippet`
+  - ~~I have a keymap to add this `snippet`~~
+  - I add this text with a `LuaSnip` snippet, remember to check the related
+    video for that:
+    [Custom Snippets with LuaSnip in Neovim and Configure completion priority on nvim-cmp](https://youtu.be/GxnBIRl9UmA){:target="\_blank"}
 
 <!-- markdownlint-disable -->
 <!-- prettier-ignore-start -->
@@ -750,18 +828,6 @@ map({ "n", "x" }, "<Up>", "v:count == 0 ? 'gk' : 'k'", { expr = true, silent = t
 - `<C-z>`
 - `Insert filename with path`
 
-### Copy current file path to clipboard
-
-- To copy the file path to the clipboard use ~~`<leader>fp`~~ `<M-c>`
-- I use the same keymap in `mini.files`
-  - [Advanced MINI.FILES Keymaps for Neovim – System Clipboard Integration and More](https://youtu.be/BzblG2eV8dU)
-- I use the same keymap in the `zen browser`:
-  - [Switching from Google Chrome to Zen Browser - Vertical tabs - Raindrop - OpenIn](https://youtu.be/ca1csvxfu0Q)
-
-{% include embed/youtube.html id='ca1csvxfu0Q' %}
-
-{% include embed/youtube.html id='BzblG2eV8dU' %}
-
 ### Navigate the help pages
 
 - This hasn't changed
@@ -773,14 +839,10 @@ map({ "n", "x" }, "<Up>", "v:count == 0 ? 'gk' : 'k'", { expr = true, silent = t
 - To go back to where you were after navigating to a tag, use `Ctrl-o`
 - Close that pane with `<leader>wd` (window delete)
 
-### See key maps
-
-- ~~`<leader>sk`~~ `M-k`
-
 ### Paste with "p" in visual mode
 
 - This is not markdown specific, but overall neovim specific
-- **DON'T** use `cmd+v` (macOS) to paste
+- **DON'T** use `cmd+v` (macOS) to paste or the line below will be deleted
 - Paste with `p` (lowercase) or `P` (uppercase)
 
 ```bash
@@ -794,18 +856,13 @@ Minim tempor ullamco do eu pariatur minim.
 Minim tempor ullamco do eu pariatur minim.
 ```
 
-### Select text in a bullet point
+### Increase decrease all markdown headings
 
-- Press `ctrl+space`
-  - Keep pressing it to keep selecting
-  - To go back use `backspace`
-- Adding 2nd bullet point just for testing
-
----
-
-- This breaks if you have a markdown comment below in the file, it will jump
-  there, not sure why
-  - **If you know why this is, let me know down in the comments**
+- I have several **old** `.md` documents that do not follow markdown guidelines
+- Some have more than one H1 heading, so I want to add one more `#` to each
+  heading
+- `<leader>mhI` and `<leader>mhD`
+  - These 2 don't ask for confirmation and just increase all the headings
 
 ### Don't indent with tab
 
@@ -818,46 +875,16 @@ Minim tempor ullamco do eu pariatur minim.
 
 ### Open current file in finder
 
-- `<leader>fO` (uppercase O as in "Oscar")
+- `<leader>fO` or `<M-f>` (uppercase O as in "Oscar")
+- Update: I now open the file in `ForkLift` instead of finder
 - This is for macOS, not sure if works on Linux, but modify it
-
-### Alternate file
-
-- I have a video about this
-- [Alternate between the last 2 tmux sessions or neovim buffers, blazingly fast, with a keymap](https://youtu.be/HWs3YEj05K4){:target="\_blank"}
-- With `space+space` I alternate between the last 2 buffers
-- With `ctrl+b space` I alternate between the last 2 tmux sessions
-
-### How do I do the hyper+t+r and hyper+t+j
-
-- These are tmux commands that I'm executing
-- I'm using The Primeagen's tmux sessionizer script, I explain everything in
-  detail in the video below
-- [Primeagen's tmux-sessionizer and tmux-sshonizer-agen](https://youtu.be/MCbEPylDEWU){:target="\_blank"}
-
----
-
-- If on macOS, I also use the BetterTouchTool app, which allows me to run
-  hyper+t+j from any app, not just from the terminal itself
-- I have a video in which I go over BetterTouchTool in great detail:
-  - [Advanced BetterTouchTool shortcuts that execute a set of actions like scripts](https://youtu.be/RBHCgEEluD0){:target="\_blank"}
-
-### See messages history
-
-- This comes by default with lazyvim, but you will forget
-- These are the messages that show up with
-  [folke/noice.nvim](https://github.com/folke/noice.nvim){:target="\_blank"}
-- You'll see the pop-up, but a lot of times you will want to see them again
-- There's a **default** lazyvim keymap `<leader>snh` (search noice history)
-  - Close the window that shows below with `<leader>wd` (window delete)
-- Or use the command `:NoiceHistory`
 
 ### Dismiss all messages
 
 - If you open neovim on an old outdated machine, you will get hundreds of noice
   messages on the screen, sometimes occupying the entire screen and you won't be
   able to read
-- Clear them all with `<leader>snd` (search noice dismiss)
+- Clear them all with ~~`<leader>snd`~~ `<M-d>` (search noice dismiss)
 
 <!-- markdownlint-disable -->
 
@@ -871,6 +898,20 @@ Minim tempor ullamco do eu pariatur minim.
 
 - ~~`<C-g>`~~ `M-;` (since you run it with `alt`, can run it in insert mode)
 - Make sure you have **the main** github repo link in your clipboard first
+
+### Select text in a bullet point
+
+- Press `ctrl+space`
+  - Keep pressing it to keep selecting
+  - To go back use `backspace`
+
+---
+
+> [!WARNING] I still don't know why this breaks
+
+- This breaks if you have a markdown comment below in the file, it will jump
+  there, not sure why
+  - **If you know why this is, let me know down in the comments**
 
 ### Create headings and daily note
 
@@ -927,8 +968,7 @@ Minim tempor ullamco do eu pariatur minim.
 
 ## What do you want to see next?
 
-- Video in which I go over the colorscheme I use in neovim, SketchyBar, kitty,
-  tmux, markdown headings, etc
+- Let me know in the youtube comments, what you'd like to see next
 
 ## Markdown plugins
 
@@ -939,6 +979,9 @@ Minim tempor ullamco do eu pariatur minim.
 
 - [bullets-vim/bullets.vim](https://github.com/bullets-vim/bullets.vim){:target="\_blank"}
 - This is one of my favorite ones
+- I 100% love this plugin, and I still use it daily for bulletpoints
+- Currently I use it a lot with my **tasks** as well
+- `M-l` to add new task and press enter to keep creating them below
 
 ### echasnovski/mini.ai
 
@@ -950,7 +993,7 @@ Minim tempor ullamco do eu pariatur minim.
   - `Text inside backticks`
   - "Text inside double quotes"
   - 'Text inside single quotes'
-- `vig` select entire file
+- `vig` or `yig` select entire file
 - `vio` or `vao`
   - I select text inside code blocks A LOT, and I mean A LOT
   - So this is definitely one of my personal favorites
@@ -981,8 +1024,7 @@ tmux_session_name=${note_name}
 - [arnamak/stay-centered.nvim](https://github.com/arnamak/stay-centered.nvim){:target="\_blank"}
 - I like my cursor to always be in the middle, specially if I'm at the bottom of
   a file, yes, you can configure a keymap, but this plugin works great for me
-- I recently noticed there's a new plugin inspired by this one but I haven't
-  tried it
+- I haven't tried the other plugin below yet
   [joshuadanpeterson/typewriter.nvim](https://github.com/joshuadanpeterson/typewriter.nvim){:target="\_blank"}
 - [Discussion in reddit](https://www.reddit.com/r/neovim/comments/1dg8myh/introducing_typewriternvim_a_neovim_plugin_that/){:target="\_blank"}
 
@@ -990,13 +1032,15 @@ tmux_session_name=${note_name}
 
 - [hedyhli/outline.nvim](https://github.com/hedyhli/outline.nvim){:target="\_blank"}
 - I open it with `<leader>o`
-- I have a video about this plugin
-- [markdown outline in lazyvim](https://youtu.be/UqLEKe7o2zg){:target="\_blank"}
+- I have a video about this plugin:
+  - [markdown outline in lazyvim](https://youtu.be/UqLEKe7o2zg){:target="\_blank"}
 
-### lukas-reineke/headlines.nvim
+{% include embed/youtube.html id='UqLEKe7o2zg' %}
 
-- [lukas-reineke/headlines.nvim](https://github.com/lukas-reineke/headlines.nvim){:target="\_blank"}
-- You like the way these beautiful headlines look too?
+### ~~lukas-reineke/headlines.nvim~~
+
+- ~~[lukas-reineke/headlines.nvim](https://github.com/lukas-reineke/headlines.nvim){:target="\_blank"}~~
+- ~~You like the way these beautiful headlines look too?~~
 
 ### nvim-pack/nvim-spectre
 
