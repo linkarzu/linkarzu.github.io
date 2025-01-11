@@ -48,8 +48,7 @@ tags:
     + [Folding basics](#folding-basics)
   * [Fold with enter](#fold-with-enter)
   * [Accept completion with `ctrl+y` instead of enter](#accept-completion-with-ctrly-instead-of-enter)
-  * [Make selected text a link](#make-selected-text-a-link)
-  * [Paste github repo as link](#paste-github-repo-as-link)
+  * [Add markdown link from clipboard](#add-markdown-link-from-clipboard)
   * [Increase decrease all markdown headings](#increase-decrease-all-markdown-headings)
   * [Line wrapping at 80 characters](#line-wrapping-at-80-characters)
     + [`textwidth = 80`](#textwidth--80)
@@ -67,6 +66,7 @@ tags:
   * [How do I do the hyper+t+r and hyper+t+j](#how-do-i-do-the-hypertr-and-hypertj)
   * [See messages history](#see-messages-history)
   * [Dismiss all messages](#dismiss-all-messages)
+  * [Paste github repo as link](#paste-github-repo-as-link)
   * [Create headings and daily note](#create-headings-and-daily-note)
   * [Working with marks](#working-with-marks)
 - [What plugins and tips do you use?](#what-plugins-and-tips-do-you-use)
@@ -224,6 +224,16 @@ alias neobean='NVIM_APPNAME=linkarzu/dotfiles-latest/neovim/neobean nvim'
   - Add one of my YouTube videos
   - Add a code block
   - Create a link from a URL I have in the clipboard `;lincex`
+    - I'll demo this later
+
+---
+
+- Do you want to learn more about luasnip and how I configure my snippets? Watch
+  the video below (just notice that we now use `blink.cmp` instead of
+  `nvim-cmp`):
+  - [Custom Snippets with LuaSnip in Neovim and Configure completion priority on nvim-cmp](https://youtu.be/GxnBIRl9UmA){:target="_blank"}
+
+{% include embed/youtube.html id='GxnBIRl9UmA' %}
 
 ---
 
@@ -236,13 +246,12 @@ alias neobean='NVIM_APPNAME=linkarzu/dotfiles-latest/neovim/neobean nvim'
 
 ### Todo items (tasks)
 
-- Old stuff:
-  - ~~I use the `todo` snippet to add it~~
-  - ~~`<leader>td` (todo done)~~
-    - ~~Configured in my keymaps~~
-    - ~~`<leader>ta` (todo all)~~
-  - ~~`<leader>tl` (todo list)~~
-    - ~~Configured these keymaps in the telescope plugin~~
+- ~~I use the `todo` snippet to add it~~
+- ~~`<leader>td` (todo done)~~
+  - ~~Configured in my keymaps~~
+  - ~~`<leader>ta` (todo all)~~
+- ~~`<leader>tl` (todo list)~~
+  - ~~Configured these keymaps in the telescope plugin~~
 
 ---
 
@@ -281,6 +290,9 @@ alias neobean='NVIM_APPNAME=linkarzu/dotfiles-latest/neovim/neobean nvim'
 
 - The "assets" directory is a pretty neat workflow that required a video on its
   own, so I created a video and I cover how I do stuff there in detail:
+  - [img-clip.nvim - Add images to "assets" directory in Neovim - Drag images - Paste images and more](https://youtu.be/a3CsyZGxHrs)
+
+{% include embed/youtube.html id='a3CsyZGxHrs' %}
 
 ### Create or jump daily note `hyper+t+r`
 
@@ -290,12 +302,7 @@ alias neobean='NVIM_APPNAME=linkarzu/dotfiles-latest/neovim/neobean nvim'
 - I don't keep a journal, like in `The Princess Diaries` movie, I just use my
   daily note as a temp location to edit stuff that needs to be placed somewhere
   else
-- I normally handle my notes as large files (kubernetes, docker, xcp-ng, etc),
-  but there are times I don't want to add stuff to one of those files and
-  instead add it to my daily note
-- Useful if for example if I want to add TODO items, they'll be in my obsidian
-  vault and I can see which ones are pending
-- This will:
+- When I press `hyper+t+r` it will:
   - Create a daily note with the `date-day` for example `2024-06-30-Sunday`
     inside the `obsidian_main/250-daily/2024/06-Jun` directory
     - If the directories do not exist it will create them
@@ -306,7 +313,11 @@ alias neobean='NVIM_APPNAME=linkarzu/dotfiles-latest/neovim/neobean nvim'
 
 ---
 
-- I'll let you know how I do `hyper+t+r` later on
+- I created a dedicated video explaining how the daily note works and how to set
+  it up:
+  - [Open your daily note in Neovim with a single keymap](https://youtu.be/W3hgsMoUcqo)
+
+{% include embed/youtube.html id='W3hgsMoUcqo' %}
 
 ---
 
@@ -320,6 +331,21 @@ alias neobean='NVIM_APPNAME=linkarzu/dotfiles-latest/neovim/neobean nvim'
  
 <!-- prettier-ignore-end -->
 <!-- markdownlint-restore -->
+
+---
+
+- In case you're wondering, what is this `hyper+t+r` keymap, why does it have
+  like a sub layer?
+- I have a lot of keymaps and several sub layers, for example:
+  - The sub layer to switch to each one of my apps is `a`, so `hyper+a+j` takes
+    me to my terminal application
+  - The sub layer to switch to my tmux sessions is `t`, so `hyper+t+r` takes me
+    to my daily note tmux session or `hyper+t+u` takes me to my obsidian tmux
+    session
+- I explain everything in detail in the video:
+  - [karabiner-elements configuration updates 2024](https://youtu.be/dqEiDVYRWLk)
+
+{% include embed/youtube.html id='dqEiDVYRWLk' %}
 
 ### Better bullet points
 
@@ -620,7 +646,7 @@ map({ "n", "x" }, "<Up>", "v:count == 0 ? 'gk' : 'k'", { expr = true, silent = t
   the line below
 - I change this in the `keymap` section of the `blink-cmp.lua` file
 
-### Make selected text a link
+### Add markdown link from clipboard
 
 - These weren't as reliable, and the code was just farts and have been
   deprecated
@@ -631,16 +657,15 @@ map({ "n", "x" }, "<Up>", "v:count == 0 ? 'gk' : 'k'", { expr = true, silent = t
 
 ---
 
+- Do you want to learn more about luasnip and how I configure my snippets? Watch
+  the video below (just remember that we now use `blink.cmp` instead of
+  `nvim-cmp`):
+  - [Custom Snippets with LuaSnip in Neovim and Configure completion priority on nvim-cmp](https://youtu.be/GxnBIRl9UmA)
+
+---
+
 - ~~Regular link `<leader>mll` (markdown link)~~
 - ~~Link that opens in new tab `<leader>mlt` (markdown link tab)~~
-
-### Paste github repo as link
-
-- I use this quite a lot, so decided to create a keymap
-- `<C-g>` (github, and since you run it with ctrl, can run it in insert mode)
-- Make sure you have **the main** github repo link in your clipboard first
-- [folke/noice.nvim](https://github.com/folke/noice.nvim){:target="\_blank"}
-- [linkarzu/dotfiles-latest](https://github.com/linkarzu/dotfiles-latest){:target="\_blank"}
 
 ### Increase decrease all markdown headings
 
@@ -841,6 +866,11 @@ Minim tempor ullamco do eu pariatur minim.
 ```
 
 <!-- markdownlint-restore -->
+
+### Paste github repo as link
+
+- ~~`<C-g>`~~ `M-;` (since you run it with `alt`, can run it in insert mode)
+- Make sure you have **the main** github repo link in your clipboard first
 
 ### Create headings and daily note
 
