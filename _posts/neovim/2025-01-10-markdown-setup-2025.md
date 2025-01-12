@@ -23,6 +23,7 @@ tags:
 - [YouTube video](#youtube-video)
 - [Disclaimer](#disclaimer)
 - [Pre-requisites](#pre-requisites)
+- [Last year video](#last-year-video)
 - [If you like this, and want to support me](#if-you-like-this-and-want-to-support-me)
 - [Discord server](#discord-server)
 - [Follow me on Twitter](#follow-me-on-twitter)
@@ -56,14 +57,15 @@ tags:
   * [Delete current file](#delete-current-file)
   * [See key maps](#see-key-maps)
   * [See messages history](#see-messages-history)
-  * [Accept completion with `ctrl+y` instead of enter](#accept-completion-with-ctrly-instead-of-enter)
+  * [Accept completion with ctrl+y instead of enter](#accept-completion-with-ctrly-instead-of-enter)
   * [Bold easily](#bold-easily)
   * [Inline code](#inline-code)
+  * [Remember to star my dots](#remember-to-star-my-dots)
   * [Jump between markdown headings](#jump-between-markdown-headings)
     + [lazyvim already uses default `gj` and `gk` mappings](#lazyvim-already-uses-default-gj-and-gk-mappings)
   * [Fold with enter](#fold-with-enter)
   * [Line wrapping at 80 characters](#line-wrapping-at-80-characters)
-    + [`textwidth = 80`](#textwidth--80)
+    + [textwidth = 80](#textwidth--80)
     + [ProseWrap and .prettierrc.yaml](#prosewrap-and-prettierrcyaml)
   * [Disable autoformatting in certain sections](#disable-autoformatting-in-certain-sections)
   * [Add file path to current file](#add-file-path-to-current-file)
@@ -79,6 +81,7 @@ tags:
   * [Working with marks](#working-with-marks)
 - [What plugins and tips do you use?](#what-plugins-and-tips-do-you-use)
 - [What do you want to see next?](#what-do-you-want-to-see-next)
+- [What's that keyboard?](#whats-that-keyboard)
 - [Markdown plugins](#markdown-plugins)
   * [MeanderingProgrammer/render-markdown.nvim](#meanderingprogrammerrender-markdownnvim)
   * [bullets-vim/bullets.vim](#bullets-vimbulletsvim)
@@ -108,6 +111,7 @@ tags:
   * [~~epwalsh/obsidian.nvim (uninstalled)~~](#epwalshobsidiannvim-uninstalled)
 - [Improve the video next year](#improve-the-video-next-year)
 - [Timeline](#timeline)
+- [Completed tasks](#completed-tasks)
 
 <!-- tocstop -->
 
@@ -171,6 +175,14 @@ alias neobean='NVIM_APPNAME=linkarzu/dotfiles-latest/neovim/neobean nvim'
   - [View and paste images in Neovim like in Obsidian](https://youtu.be/0O3kqGwNzTI){:target="\_blank"}
 
 {% include embed/youtube.html id='0O3kqGwNzTI' %}
+
+## Last year video
+
+- This is an update to the video I made last year, so if you have questions for
+  the things that have not changed, go and check them in that video:
+  - [My complete Neovim markdown setup and workflow in 2024](https://youtu.be/c0cuvzK1SDo){:target="\_blank"}
+
+{% include embed/youtube.html id='c0cuvzK1SDo' %}
 
 ## If you like this, and want to support me
 
@@ -238,8 +250,8 @@ alias neobean='NVIM_APPNAME=linkarzu/dotfiles-latest/neovim/neobean nvim'
 - I use these in case I want to:
   - Add one of my YouTube videos
   - Add a code block
-  - Create a link from a URL I have in the clipboard `;lincex`
-    - I'll demo this later
+- Create a link from a URL I have in the clipboard `;lincex`
+  - I'll demo this later
 
 ---
 
@@ -282,7 +294,6 @@ alias neobean='NVIM_APPNAME=linkarzu/dotfiles-latest/neovim/neobean nvim'
 ---
 
 - Here I'll create some sample tasks and complete them in the video
-- Show how these are useful in my skitty-notes to move stuff out of the way
 
 ---
 
@@ -462,12 +473,16 @@ alias neobean='NVIM_APPNAME=linkarzu/dotfiles-latest/neovim/neobean nvim'
 
 ### Add markdown link from clipboard
 
+- ~~Regular link `<leader>mll` (markdown link)~~
+- ~~Link that opens in new tab `<leader>mlt` (markdown link tab)~~
 - These weren't as reliable, and the code was just farts and have been
   deprecated
 - I've replaced them with luasnip snippets `;linkc` and `;linkcex`
 - (You thought I wasn't going to provide an alternative? 😉)
 - These 2 new snippets add the link that you have in your clipboard as a
   markdown link and put your cursor in the alternative text section
+- [dotfiles](https://github.com/linkarzu/dotfiles-latest)
+- [dotfiles ext](https://github.com/linkarzu/dotfiles-latest){:target="\_blank"}
 
 ---
 
@@ -476,10 +491,7 @@ alias neobean='NVIM_APPNAME=linkarzu/dotfiles-latest/neovim/neobean nvim'
   `nvim-cmp`):
   - [Custom Snippets with LuaSnip in Neovim and Configure completion priority on nvim-cmp](https://youtu.be/GxnBIRl9UmA){:target="\_blank"}
 
----
-
-- ~~Regular link `<leader>mll` (markdown link)~~
-- ~~Link that opens in new tab `<leader>mlt` (markdown link tab)~~
+{% include embed/youtube.html id='GxnBIRl9UmA' %}
 
 ### Copy current file path to clipboard
 
@@ -684,6 +696,10 @@ macos-option-as-alt = right
   keymap will detect it and not cause problems
 - To generate the TOC I use the `markdown-toc` plugin, and it's installed as a
   LazyExtra
+- I have a video in which I go over this in detail:
+  - [Create table of contents in neovim with markdown-toc](https://youtu.be/BVyrXsZ_ViA){:target="\_blank"}
+
+{% include embed/youtube.html id='BVyrXsZ_ViA' %}
 
 ### Upload images to my own imgur account (authenticated)
 
@@ -701,25 +717,19 @@ macos-option-as-alt = right
 
 - Sometimes you have multiple separate bulletpoint lines, and they could even be
   paragraphs, like this first one which spans across more than one line
-
 - And you would like to keep them consistent
-
 - I created a keymap `<leader>mj`
-
 - There must be some default Vim command that takes care of it, but I don't know
   it, still issue
 
 ### Toggle bulletpoint
 
 - `<leader>md` - (d as in dash)
-
-Sometimes you start writing a paragraph, but you forgot to start it as a
-bulletpoint, notice that I use bulletpoints for basically everything
-
-So this allows me to turn those lines into bulletpoints, which I can then join
-with `<leader>mj`
-
-Use it in normal mode at the top of the current paragraph
+- Sometimes you start writing a paragraph, but you forgot to start it as a
+  bulletpoint, notice that I use bulletpoints for basically everything
+- So this allows me to turn those lines into bulletpoints, which I can then join
+  with `<leader>mj`
+- Use it in normal mode at the top of the current paragraph
 
 ### Delete current file
 
@@ -745,7 +755,7 @@ Use it in normal mode at the top of the current paragraph
   - Close the window that shows below with `<leader>wd` (window delete)
 - Or use the command `:NoiceHistory`
 
-### Accept completion with `ctrl+y` instead of enter
+### Accept completion with ctrl+y instead of enter
 
 - I really hated this behaviour, maybe skill issue, but every time I was at the
   end of a line and hit enter, it would autocomplete a word instead of moving to
@@ -793,6 +803,12 @@ gsaiw`
 - But notice all the characters you need to press, and I just use this way too
   much
 
+### Remember to star my dots
+
+- ⭐⭐⭐ If you like what you find in my dotfiles, including my `neobean`
+  configuration and keymaps, star
+  [my dotfiles](https://github.com/linkarzu/dotfiles-latest)
+
 ### Jump between markdown headings
 
 - **Follow markdown convention and use a single H1 heading in your file for this
@@ -838,7 +854,7 @@ map({ "n", "x" }, "<Up>", "v:count == 0 ? 'gk' : 'k'", { expr = true, silent = t
   place, so I prefer to follow the markdown guidelines.
 - To achieve this I do 2 things:
 
-#### `textwidth = 80`
+#### textwidth = 80
 
 - Set the option `vim.opt.textwidth = 80` in `lua/config/options.lua`
   - When text reaches this limit, it automatically wraps to the next line.
@@ -905,8 +921,7 @@ map({ "n", "x" }, "<Up>", "v:count == 0 ? 'gk' : 'k'", { expr = true, silent = t
   [echasnovski/mini.comment](https://github.com/echasnovski/mini.comment){:target="\_blank"}
   - So make sure that plugin is installed, comes with lazyvim.org distro by
     default
-- `<C-z>`
-- `Insert filename with path`
+- ~~`<C-z>`~~ `<M-z>`
 
 ### Navigate the help pages
 
@@ -1049,6 +1064,13 @@ Minim tempor ullamco do eu pariatur minim.
 ## What do you want to see next?
 
 - Let me know in the youtube comments, what you'd like to see next
+
+## What's that keyboard?
+
+- Are you wondering what they keyboard I use is? I recently reviewed it:
+  - [Thoughts after 5 months of using the Glove80 - Firmware upload - Layouts - Battery life](https://youtu.be/Yvn2V-Bij44)
+
+{% include embed/youtube.html id='Yvn2V-Bij44' %}
 
 ## Markdown plugins
 
@@ -1227,7 +1249,10 @@ tmux_session_name=${note_name}
 
 - [3rd/image.nvim](https://github.com/3rd/image.nvim){:target="\_blank"}
 - View images in neovim
-- I use this plugin with the one below `HakonHarnes/img-clip.nvim`
+- I have a full tutorial on how to set this up in the video:
+  - [View and paste images in Neovim like in Obsidian](https://youtu.be/0O3kqGwNzTI)
+
+{% include embed/youtube.html id='0O3kqGwNzTI' %}
 
 ### HakonHarnes/img-clip.nvim
 
@@ -1236,11 +1261,10 @@ tmux_session_name=${note_name}
   `.webp` as their size is way smaller compared to `.png` when dealing with
   images with transparent backgrounds
 - I use this plugin always with `3rd/image.nvim`
+- I go over a demo on how and what I use this plugin for in the video:
+  - [img-clip.nvim - Add images to "assets" directory in Neovim - Drag images - Paste images and more](https://youtu.be/a3CsyZGxHrs)
 
----
-
-- I go over how to set up both plugins in my video:
-- [View and paste images in Neovim like in Obsidian](https://youtu.be/0O3kqGwNzTI){:target="\_blank"}
+{% include embed/youtube.html id='a3CsyZGxHrs' %}
 
 ### ~~jlanzarotta/bufexplorer~~
 
@@ -1267,6 +1291,14 @@ tmux_session_name=${note_name}
   - [How I navigate between buffers in neovim](https://youtu.be/ldfxEda_mzc){:target="\_blank"}
 
 {% include embed/youtube.html id='ldfxEda_mzc' %}
+
+---
+
+- If you're a fan of harpoon, I'd recommend you to also check out the snipe
+  plugin, I have a video for it:
+  - [Snipe vs Harpoon in Neovim](https://youtu.be/SuKhJlqGb5A){:target="\_blank"}
+
+{% include embed/youtube.html id='SuKhJlqGb5A' %}
 
 ### nvim-telescope/telescope.nvim
 
@@ -1516,70 +1548,16 @@ body {
 ## Timeline
 
 ```bash
-0:00 - Bullet points
-0:57 - Spell checking
-4:12 - Where are the files?
-4:51 - todo items
-6:34 - add TOC
-7:49 - Delete current file
-8:27 - Daily note with hyper+t+r
-9:38 - Add headings and daily note
-11:11 - View and paste images
-12:00 - Snippets
-13:11 - Bold
-14:33 - Jump markdown headings
-15:33 - Fold all headings
-17:09 - Fold with enter
-17:23 - If you want to support me, I appreciate it
-18:50 - Completion with ctrl+y
-19:24 - Marks
-20:13 - Make selected text a link
-20:44 - Paste github repo link
-21:06 - Increase or decrease headings
-21:45 - Line wrapping
-23:33 - Disable autoformatting in sections
-24:23 - Add file path to file
-24:42 - Copy file path to clipboard
-25:07 - Navigate the help pages
-25:57 - Search key maps
-26:20 - Paste with p
-26:56 - Select text in a bulletpoint
-27:40 - Dont indent with tab
-28:24 - Open current file in finder
-28:35 - Alternate file
-29:26 - How do I hyper+t+r
-30:15 - See messages history
-30:37 - Dismiss all messages
-31:03 - Share your plugins
-31:28 - Plugins section
-31:57 - bullets.vim
-32:10 - mini.ai
-33:24 - stay-centered.nvim
-33:50 - outline.nvim
-34:15 - headlines.nvim
-34:45 - nvim-spectre
-36:01 - auto-save.nvim
-36:35 - markdown-preview.nvim
-37:01 - mini.surround
-38:19 - image.nvim and img-clip.nvim
-38:47 - BufExplorer
-40:10 - Telescope.nvim
-40:50 - nvim-treesitter
-41:19 - LazyExtras
-43:14 - markdownlint-cli2
-45:40 - marksman
-46:41 - prettier
-47:46 - obsidian.nvim
-48:23 - see you next year
-48:44 - outro
+
 ```
 
 ```bash
-29:23 - RECOMMENDATION alternate file
-29:36 - RECOMMENDATION tmux-sessionizer
-29:48 - RECOMMENDATION BetterTouchTool
-34:11 - RECOMMENDATION outline.nvim
-36:30 - RECOMMENDATION auto-save.nvim
-38:44 - RECOMMENDATION view paste images neovim
+
 ```
+
+## Completed tasks
+
+- [x] `done: 250111` task3
+- [x] `done: 250111` task2
+- [x] `done: 250111` task1
 
