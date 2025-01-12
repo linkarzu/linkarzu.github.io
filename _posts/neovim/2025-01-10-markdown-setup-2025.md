@@ -147,8 +147,7 @@ tags:
 - If you **don't** want to watch the video above, and you already have your own
   neovim config, and want to quickly get started and follow along in this
   tutorial
-- This repo contains all my dotfiles, so watch the video if you want to just
-  download my neobean dir
+- Run the commands below to clone my dotfiles in your .config directory and we will run my config below
 
 ```bash
 mkdir -p ~/.config
