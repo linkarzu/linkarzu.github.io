@@ -1,9 +1,10 @@
 ---
 title: My neovim markdown setup in 2025
-description: Updates from my markdown worflow setup in 2024
+description: >-
+  Here I list all the plugins, tips and tricks I use for taking markdown notes
+  in neovim as of January 2025
 image:
-  path: >-
-    https://res.cloudinary.com/daqwsgmx6/image/upload/q_75/v1717456413/youtube/neovim/markdown-setup-2024.avif
+  path: ../../assets/img/imgs/250111-thux-markdown-setup-2025.avif
 date: '2025-01-10 06:10:00 +0000'
 categories:
   - neovim
@@ -117,7 +118,7 @@ tags:
 
 ## YouTube video
 
-{% include embed/youtube.html id='c0cuvzK1SDo' %}
+{% include embed/youtube.html id='1YEbKDlxfss' %}
 
 ## Disclaimer
 
@@ -1548,11 +1549,76 @@ body {
 ## Timeline
 
 ```bash
-
-```
-
-```bash
-
+0:00 - intro
+0:16 - disclaimer
+0:29 - instal neobean
+1:30 - pre-requisites images
+1:56 - support and discord
+3:00 - dotfiles
+4:17 - snippets luasnip
+6:03 - todo and tasks
+8:40 - skitty notes
+9:36 - image assets
+12:30 - daily note
+13:36 - hyper sublayers
+14:39 - folds new mappings
+15:57 - markdown link from clipboard
+17:18 - file path to clipboard
+19:02 - open file in github
+19:30 - toggle terminal
+20:37 - alternate file
+21:40 - blink.cmp dictionary
+22:07 - spell check
+23:04 - alt for keymaps
+23:47 - need help
+24:02 - markdown TOC
+24:55 - images to imgur
+26:08 - delete newlines
+26:35 - toggle bulletpoints
+27:04 - delete current file
+27:21 - list keymaps
+27:43 - message history
+28:07 - completion ctrl+y
+28:33 - bold text
+28:59 - inline code
+29:32 - star
+29:44 - jump headings
+30:02 - fold with enter
+30:11 - wrap at 80
+30:23 - disable autoformat
+31:14 - add file path as comment
+31:38 - help pages
+32:23 - dismiss notifications
+32:39 - github repo as link
+33:02 - select bulletpoint text
+33:16 - headings linked to daily note
+33:33 - marks
+33:45 - plugin suggestions
+34:04 - glove80
+34:16 - plugins section
+34:35 - render-markdown.nvim
+35:03 - bullets.vim
+35:22 - mini.files
+35:59 - mini.surround
+36:13 - mini.ai
+36:34 - stay-centered.nvim
+36:40 - outline.nvim
+36:54 - headlines.nvim
+37:09 - grug-far.nvim
+37:29 - nvim-spectre
+37:46 - auto-save.nvim
+38:26 - markdown-preview.nvim
+38:38 - image.nvim
+38:48 - img-clip.nvim
+39:02 - bufexplorer
+39:45 - telescope-frecency.nvim
+40:42 - nvim-treesitter
+40:48 - nvim-treesitter-context
+41:13 - nvim-lint
+42:51 - markdownlint-cli2 markdown-toc marksman
+43:06 - prettier
+43:22 - obsidian.nvim
+43:45 - see you next year
 ```
 
 ## Completed tasks
