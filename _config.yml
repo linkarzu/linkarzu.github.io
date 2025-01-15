@@ -21,7 +21,7 @@ tagline: Personal blog # it will display as the sub-title
 description: >- # used by seo meta and the atom feed
   Personal blog in which I post about technical related topics I like to explore
 
-# fill in the protocol & hostname for your site, e.g., 'https://username.github.io'
+# fill in the protocol & hostname for your site, e.g., 'https://username.github.io' note that it does not end with a '/'.
 # Configure this ONLY if you already have your cname, I set mine to url: "https://linkarzu.com"
 url: https://linkarzu.com
 
@@ -72,8 +72,10 @@ analytics:
     domain: # fill in your Matomo domain
   cloudflare:
     id: # fill in your Cloudflare Web Analytics token
+  fathom:
+    id: # fill in your Fathom Site ID
 
-# Pageviews settings
+# Page views settings
 pageviews:
   provider: # now only supports 'goatcounter'
 
@@ -110,7 +112,7 @@ toc: true
 comments:
   # Global switch for the post comment system. Keeping it empty means disabled.
   provider: giscus
-  # The active options are as follows:
+  # The provider options are as follows:
   disqus:
     shortname: # fill with the Disqus shortname. › https://help.disqus.com/en/articles/1717111-what-s-a-shortname
   # utterances settings › https://utteranc.es/
@@ -138,9 +140,9 @@ assets:
     env: # [development | production]
 
 pwa:
-  enabled: true # the option for PWA feature (installable)
+  enabled: true # The option for PWA feature (installable)
   cache:
-    enabled: true # the option for PWA offline cache
+    enabled: true # The option for PWA offline cache
     # Paths defined here will be excluded from the PWA cache.
     # Usually its value is the `baseurl` of another website that
     # shares the same domain name as the current website.
@@ -224,6 +226,8 @@ exclude:
   - node_modules
   - "*.config.js"
   - package*.json
+  - docs
+  - purgecss.js
 
 jekyll-archives:
   enabled: [categories, tags]
