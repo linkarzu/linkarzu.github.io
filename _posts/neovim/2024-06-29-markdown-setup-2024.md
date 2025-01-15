@@ -21,7 +21,9 @@ tags:
 <!-- toc -->
 
 - [YouTube video](#youtube-video)
+- [IMPORTANT: 2025 version of this video](#important-2025-version-of-this-video)
 - [If you like this, and want to support me](#if-you-like-this-and-want-to-support-me)
+- [Discord server](#discord-server)
 - [Follow me on Twitter](#follow-me-on-twitter)
 - [Disclaimer](#disclaimer)
 - [All links to my YouTube videos in video description](#all-links-to-my-youtube-videos-in-video-description)
@@ -102,14 +104,38 @@ tags:
 
 {% include embed/youtube.html id='c0cuvzK1SDo' %}
 
+## IMPORTANT: 2025 version of this video
+
+<!-- markdownlint-disable -->
+<!-- prettier-ignore-start -->
+ 
+<!-- tip=green, info=blue, warning=yellow, danger=red -->
+ 
+> I recently created the 2025 version of my markdown setup and workflow video
+{: .prompt-danger }
+ 
+<!-- prettier-ignore-end -->
+<!-- markdownlint-restore -->
+
+- Keep in mind that the 2024 guide is still relevant, as I only cover the new
+  stuff in the 2025 video, for the things that haven't changed, I still refer
+  you to this 2024 guide
+- The 2025 guide can be found here:
+  [My complete Neovim markdown setup and workflow in 2025](https://youtu.be/1YEbKDlxfss)
+
+{% include embed/youtube.html id='1YEbKDlxfss' %}
+
 ## If you like this, and want to support me
 
-- I create and edit my videos in an m1 mac mini, and it's starting to stay behind in the editing side of things, tends to slow me down a bit, I'd like to upgrade the machine I use for all my videos to a `mac mini` with these specs:
+- I create and edit my videos in an m1 mac mini, and it's starting to stay
+  behind in the editing side of things, tends to slow me down a bit, I'd like to
+  upgrade the machine I use for all my videos to a `mac mini` with these specs:
   - Apple M4 Pro chip with 14‑core CPU, 20‑core GPU, 16-core Neural Engine
   - 24GB unified memory
   - 1TB SSD storage
   - 10 Gigabit Ethernet
-- If you want to help me reach my goal, you can [donate here](https://ko-fi.com/linkarzu/goal?g=6){:target="\_blank"}
+- If you want to help me reach my goal, you can
+  [donate here](https://ko-fi.com/linkarzu/goal?g=6){:target="\_blank"}
 
 <!-- prettier-ignore -->
 [![Image](../../assets/img/imgs/250103-ko-fi-donate.avif){: width="400" }](https://ko-fi.com/linkarzu/goal?g=6){:target="_blank"}
@@ -119,13 +145,14 @@ tags:
 - After following this guide or even watching the related video, you:
   - Have questions related to one of the tools, configs or scripts that I use
   - Would like me to expand a bit more on how something is done
-  - Or simply would like to talk and meet other community members that share your same interests
-- join the [discord server in this link](https://www.youtube.com/channel/UCrSIvbFncPSlK6AdwE2QboA/join){:target="\_blank"}
+  - Or simply would like to talk and meet other community members that share
+    your same interests
+- join the
+  [discord server in this link](https://www.youtube.com/channel/UCrSIvbFncPSlK6AdwE2QboA/join){:target="\_blank"}
 - Access to the discord server is only for YouTube community members
 
 <!-- prettier-ignore -->
 [![Image](../../assets/img/imgs/250101-discord-server.avif){: width="400" }](https://www.youtube.com/channel/UCrSIvbFncPSlK6AdwE2QboA/join){:target="_blank"}
-
 
 ## Follow me on Twitter
 
@@ -309,7 +336,7 @@ set -as terminal-overrides ',*:Setulc=\E[58::2::%p1%{65536}%/%d::%p1%{256}%/%{25
     inside the `obsidian_main/250-daily/2024/06-Jun` directory
     - If the directories do not exist it will create them
     - If the daily note doesn't exist it will create it
-  * Create a new tmux session with the note name in detached mode and start
+  - Create a new tmux session with the note name in detached mode and start
     neovim with the daily note
     - If a tmux session with that name already exists, just switch to it
 
@@ -417,10 +444,10 @@ map({ "n", "x" }, "<Up>", "v:count == 0 ? 'gk' : 'k'", { expr = true, silent = t
 
 - I created 4 keymaps to fold:
   - `<leader>mfj` (markdown fold 1)
-  * `<leader>mfk` (markdown fold 2)
+  - `<leader>mfk` (markdown fold 2)
     - I know, it looks like `madafaka`, but it's just the 2nd letter
-  * `<leader>mfl` (markdown fold 3)
-  * `<leader>mf;` (markdown fold 4)
+  - `<leader>mfl` (markdown fold 3)
+  - `<leader>mf;` (markdown fold 4)
 - And to unfold:
   - `<leader>mfu` (markdown fold undo)
 - See the `Folding section` in the keymaps file
@@ -441,23 +468,23 @@ map({ "n", "x" }, "<Up>", "v:count == 0 ? 'gk' : 'k'", { expr = true, silent = t
 - There are several fold options worth knowing about
 - `opt.foldlevel = 99`
   - (default LazyVim)
-  * Sets the initial fold level when opening a file.
-  * With a high value like 99, it ensures that almost all folds are open when a
+  - Sets the initial fold level when opening a file.
+  - With a high value like 99, it ensures that almost all folds are open when a
     file is opened.
 - `opt.foldmethod = "expr"`
   - (default LazyVim 0.10)
-  * Sets the method for defining folds
-  * Uses the expression defined in `foldexpr` to create folds. This method
+  - Sets the method for defining folds
+  - Uses the expression defined in `foldexpr` to create folds. This method
     allows for highly customizable folding behavior based on the evaluated
     expression.
 - `opt.foldexpr = "v:lua.require'lazyvim.util'.ui.foldexpr()"`
   - (default LazyVim 0.10)
-  * Specifies the expression used to define folds
-  * Uses a lazyvim Lua function to dynamically determine fold levels
+  - Specifies the expression used to define folds
+  - Uses a lazyvim Lua function to dynamically determine fold levels
 - `opt.foldtext = ""`
   - (default LazyVim 0.10)
-  * Defines the text displayed for a closed fold
-  * An empty string means `foldtext` is disabled, and the line is displayed
+  - Defines the text displayed for a closed fold
+  - An empty string means `foldtext` is disabled, and the line is displayed
     normally with highlighting and no line wrapping.
 
 ```bash
@@ -872,7 +899,7 @@ tmux_session_name=${note_name}
   the same, can navigate using `j` and `k` in both tools
   - I use the same sorting in my tmux sessions, sort them by time so that the
     last used ones show at the top, this is covered in my video:
-  * [Alternate between the last 2 tmux sessions or neovim buffers, blazingly fast, with a keymap](https://youtu.be/HWs3YEj05K4){:target="\_blank"}
+  - [Alternate between the last 2 tmux sessions or neovim buffers, blazingly fast, with a keymap](https://youtu.be/HWs3YEj05K4){:target="\_blank"}
 - By default, in lazyvim with `<S-h>` and `<S-l>` you navigate between the prev
   and next buffers, but I changed both of those to open BufExplorer instead
 - You can also use telescope `<leader>fb` but I'm used to BufExplorer
