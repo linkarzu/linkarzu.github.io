@@ -4,7 +4,7 @@ description: >-
   I've been a SketchyBar user for quite some time now, I love it, but I recently
   discovered the simple-bar uebersicht widget
 image:
-  path: ../../assets/img/imgs/250111-thux-markdown-setup-2025.avif
+  path: ./../../assets/img/imgs/250117-thux-simple-bar-sketchybar.avif
 date: '2025-01-16 06:10:00 +0000'
 categories:
   - macos
@@ -14,7 +14,8 @@ tags:
   - youtube
   - video
   - sketchybar
-  - ubersicht
+  - uebersicht
+  - simple-bar
 ---
 ## Contents
 
@@ -50,7 +51,7 @@ tags:
 
 ## YouTube video
 
-{% include embed/youtube.html id='' %}
+{% include embed/youtube.html id='hybbQI6CRek' %}
 
 ## Pre-requisites
 
