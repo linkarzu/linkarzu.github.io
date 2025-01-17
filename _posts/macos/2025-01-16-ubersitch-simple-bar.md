@@ -145,7 +145,7 @@ brew install --cask ubersicht
 ## Install simple-bar
 
 - Link to the documentation
-  [is here](https://www.jeantinland.com/toolbox/simple-bar/documentation/installation/)
+  [is here](https://www.jeantinland.com/toolbox/simple-bar/documentation/installation/){:target="\_blank"}
 - Be careful, the folder containing the widget **must be named simple-bar**,
   otherwise, simple-bar will never launch
 
@@ -307,7 +307,7 @@ osascript -e 'tell application id "tracesOf.Uebersicht" to refresh'
 ```
 
 - This file can be found in
-  [my dotfiles](https://github.com/linkarzu/dotfiles-latest/blob/main/yabai/yabairc)
+  [my dotfiles](https://github.com/linkarzu/dotfiles-latest/blob/main/yabai/yabairc){:target="\_blank"}
 - **⭐⭐⭐⭐ Remember to star my dotfiles ⭐⭐⭐⭐**
 
 ## Things to figure out
@@ -369,7 +369,7 @@ curl http://localhost:7776/widget/cpu/enable
     I have to export the file, if I want to make a change in the file, then I
     have to go to the GUI and import the file again, and I think it does not
     recognize `symlinks` when you try to import them, but see
-    [issue 385](https://github.com/Jean-Tinland/simple-bar/issues/385)
+    [issue 385](https://github.com/Jean-Tinland/simple-bar/issues/385){:target="\_blank"}
   - Hopefully there will be a way to modify a file in your dotfiles repo that is
     symlinked to a config file, and the app will be able to read the config even
     if it's from a symlink without you importing anything, we'll see what
