@@ -2,7 +2,7 @@
 title: Ubersitch simple-bar vs SketchyBar
 description: >-
   I've been a SketchyBar user for quite some time now, I love it, but I recently
-  discovered the simple-bar Ubersicht widget
+  discovered the simple-bar uebersicht widget
 image:
   path: ../../assets/img/imgs/250111-thux-markdown-setup-2025.avif
 date: '2025-01-16 06:10:00 +0000'
@@ -30,8 +30,8 @@ tags:
 - [Discord server](#discord-server)
 - [Follow me on Twitter](#follow-me-on-twitter)
 - [All links to my YouTube videos in video description](#all-links-to-my-youtube-videos-in-video-description)
-- [What is Ubersicht](#what-is-ubersicht)
-- [Install Ubersicht](#install-ubersicht)
+- [What is uebersicht](#what-is-uebersicht)
+- [Install uebersicht](#install-uebersicht)
 - [Install simple-bar](#install-simple-bar)
 - [Stop SketchyBar](#stop-sketchybar)
 - [SketchyBar and simple-bar differences](#sketchybar-and-simple-bar-differences)
@@ -76,7 +76,7 @@ tags:
 
 ## If you like this, and want to support me
 
-- I create and edit my videos in an m1 mac mini, and it's starting to stay
+- I create and edit my videos in an M1 mac mini, and it's starting to stay
   behind in the editing side of things, tends to slow me down a bit, I'd like to
   upgrade the machine I use for all my videos to a `mac mini` with these specs:
   - Apple M4 Pro chip with 14‑core CPU, 20‑core GPU, 16-core Neural Engine
@@ -112,7 +112,7 @@ tags:
 
 - All of the links will also be in my blogpost
 
-## What is Ubersicht
+## What is uebersicht
 
 - It's the app that allows you to display widgets on macos, they're written in
   HTML5
@@ -129,7 +129,7 @@ tags:
 
 {% include embed/youtube.html id='CY0gU_iPRTk' %}
 
-## Install Ubersicht
+## Install uebersicht
 
 - Install through brew
 - Then I had to restart as the preferences menu wasn't showing up
@@ -138,7 +138,7 @@ tags:
 brew install --cask ubersicht
 ```
 
-- I then configured Ubersicht's preferences (right click on the macOS menu bar)
+- I then configured uebersicht's preferences (right click on the macOS menu bar)
   so that it's widgets folders points to
   `~/github/dotfiles-latest/ubersicht/widgets`
 
