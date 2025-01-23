@@ -147,7 +147,8 @@ tags:
 - If you **don't** want to watch the video above, and you already have your own
   neovim config, and want to quickly get started and follow along in this
   tutorial
-- Run the commands below to clone my dotfiles in your .config directory and we will run my config below
+- Run the commands below to clone my dotfiles in your .config directory and we
+  will run my config below
 
 ```bash
 mkdir -p ~/.config
