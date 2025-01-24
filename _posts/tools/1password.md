@@ -1,0 +1,157 @@
+---
+title: How I use 1password to keep all my account safe
+description: >-
+  I've used many password managers in the past, I ended up going with
+  1passwords, here are the reasons why
+image:
+  path: ./../../assets/img/imgs/250117-thux-simple-bar-sketchybar.avif
+date: '2025-01-16 06:10:00 +0000'
+categories:
+  - 1password
+tags:
+  - macos
+  - tutorial
+  - 1password
+  - security
+  - password-manager
+---
+## Contents
+
+### Table of contents
+
+<!-- toc -->
+
+- [Do you manage your passwords the same way my wife does?](#do-you-manage-your-passwords-the-same-way-my-wife-does)
+- [What are password managers?](#what-are-password-managers)
+- [Which password manager should I choose?](#which-password-manager-should-i-choose)
+- [What do I like about 1password](#what-do-i-like-about-1password)
+- [I'm ahead of the game, I store my passwords in the browser](#im-ahead-of-the-game-i-store-my-passwords-in-the-browser)
+- [You want to help me keep this blogpost ad free?](#you-want-to-help-me-keep-this-blogpost-ad-free)
+- [Start your 14 day free trial](#start-your-14-day-free-trial)
+
+<!-- tocstop -->
+
+## Do you manage your passwords the same way my wife does?
+
+- Let me guess:
+  - You use the same `but very strong unhackable password` for all your
+    different services?
+  - Or better yet:
+    - You have a "system" that helps you set the password for every different
+      service, but somehow you keep forgetting them all the time and have to
+      reset them often?
+- Have you ever wondered:
+  - What if your `very strong unhackable password` gets compromised or leaked by
+    one of those companies that don't take security too seriously, will your
+    bank accounts and email also be compromised?
+  - Spoiler alert: **Sure they will**
+
+## What are password managers?
+
+- They're a service (application) that allows you to set random but secure
+  passwords on each one of your apps/services, and keeps them stored locally and
+  securely in your devices, so you don't have to remember multiple passwords
+  anymore
+- You just login to your password manager, and it will automatically fill out
+  the passwords for you, when you go to a website
+- So for example, let's say I'm setting up a new `gmail` account, I go through
+  the setup process, when I get asked to set a new password, the password
+  manager will automatically create it for me and store it.
+- The next time I log into that email account, the password manager will
+  automatically fill it up for me
+- For obvious reasons, you **SHOULD NEVER** use the `master password` in your
+  password manager, as the password in any of your other apps, in case that
+  those other apps leak your `master password`
+
+## Which password manager should I choose?
+
+- That's up to you to decide, the great thing is that most of them offer **free
+  trials**, so you can compare
+- I have used several in the past, for many years, `LastPass` (the company I
+  used to work for), I also used `Dashlane` for quite some time until they
+  increased their prices way too much, so I decided to try `1password`
+- I could be biased, and recommend `LastPass` for example, but out of all of
+  them, I would only recommend the one that I personally like the best, and that
+  is `1password`
+
+## What do I like about 1password
+
+- On my computer, I have `both` the `desktop` macOS app and also the browser
+  extension
+  - So when I need to create a new password in a new site, I easily do it from
+    the browser extension and it's automatically stored in 1password
+  - If I need to log in to a site on my browser, the extension automatically
+    fills out the password for me
+- I have the app on the phone as well, so I never have to be typing any
+  passwords on the hideous phone keyboard
+- I use an apple watch, so every time I need to unlock 1password, I just double
+  tap on my watch and my password is autocompleted
+- It includes a **2FA (2 factor authentication option)** that allows me to use
+  the same app for `one-time passwords`. So it autocompletes my password, but
+  then it also automatically completes my one time password in the sites I have
+  enabled 2FA
+  - This is a time saver, because I don't have to go to another application like
+    `Microsoft Authenticator` or `Google Authenticator` to get the code, after
+    doing it for a while, it gets annoying
+- And last but not least, the price 💵, it's actually really affordable for the
+  value it offers and the quality of the product
+
+## I'm ahead of the game, I store my passwords in the browser
+
+- You want to see how easy it is to extract the passwords from a browser?
+- Check out the video below
+
+{% include embed/youtube.html id='CIOsemj3kl4' %}
+
+## You want to help me keep this blogpost ad free?
+
+- I'm not sponsored by `1password` (I wish I was), but I do have affiliate links
+- That means that if you get a `free trial` through one of the links below,
+  **you help me keep this blogpost free of google ads, which tend to be very
+  annoying and distracting**
+
+---
+
+- If you use an `ad blocker`, the link will be detected as an ad, because
+  affiliate links are usually used for ads, but if you want to double check and
+  make sure that the links are safe, you can use a tool like
+  [VIRUSTOTAL](https://www.virustotal.com/gui/home/url){:target="\_blank"} to
+  inspect the links
+- Here are my 2 links if you would like to copy and paste them:
+  - For individuals and families
+    - `https://www.dpbolvw.net/click-101327218-15917064`
+  - For Business accounts
+    - `https://www.jdoqocy.com/click-101327218-15864752`
+
+<!-- markdownlint-disable -->
+<!-- prettier-ignore-start -->
+ 
+<!-- tip=green, info=blue, warning=yellow, danger=red -->
+ 
+> If you want to support me, make sure you get the `14 day FREE trial` through one
+> of my links, otherwise, it does not count for me 😢
+{: .prompt-warning }
+ 
+<!-- prettier-ignore-end -->
+<!-- markdownlint-restore -->
+
+## Start your 14 day free trial
+
+- If you are an `individual`, and want to start your `14 day FREE trial` to
+  check out 1password and see if you like it or not, click on the image below
+  (it will take you through my link)
+- **`CLICK ON THE IMAGE BELOW`**
+
+<!-- prettier-ignore -->
+[![Image](../../assets/img/imgs/250123-1password-individuals.avif){: width="400" }](https://www.dpbolvw.net/click-101327218-15917064){:target="_blank"}
+
+---
+
+- If on the other hand, you are a `business`, and want to start your
+  `14 day FREE trial` to check out 1password and see if you like it or not,
+  click on the image below (it will take you through my link)
+- **`CLICK ON THE IMAGE BELOW`**
+
+<!-- prettier-ignore -->
+[![Image](../../assets/img/imgs/250123-1password-businesses.avif){: width="400" }](https://www.jdoqocy.com/click-101327218-15864752){:target="_blank"}
+
