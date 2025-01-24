@@ -67,6 +67,15 @@ tags:
 - Or as kids call it these days "X"
 - [Here's the link](https://x.com/link_arzu){:target="\_blank"}
 
+## How do you manage your passwords?
+
+- I've tried many different password managers in the past, I've switched from
+  `LastPass` to `Dashlane` and finally ended up in `1password`
+- You want to find out why? More info in my article:
+  - [How I use 1password to keep all my account safe](https://chirpy.home.linkarzu.com/posts/1password/1password/){:target="\_blank"}
+
+[![Image](../../assets/img/imgs/250124-1password-banner.avif){: width="300" }](https://www.dpbolvw.net/click-101327218-15917064){:target="\_blank"}
+
 ## Why I use yabai?
 
 - Notice that when we open apps they're all over the screen, some of them are

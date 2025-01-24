@@ -47,6 +47,15 @@ title: About this blog
 <!-- prettier-ignore -->
 [![Image](../../assets/img/imgs/250101-discord-server.avif){: width="400" }](https://www.youtube.com/channel/UCrSIvbFncPSlK6AdwE2QboA/join){:target="_blank"}
 
+## How do you manage your passwords?
+
+- I've tried many different password managers in the past, I've switched from
+  `LastPass` to `Dashlane` and finally ended up in `1password`
+- You want to find out why? More info in my article:
+  - [How I use 1password to keep all my account safe](https://chirpy.home.linkarzu.com/posts/1password/1password/){:target="\_blank"}
+
+[![Image](../../assets/img/imgs/250124-1password-banner.avif){: width="300" }](https://www.dpbolvw.net/click-101327218-15917064){:target="\_blank"}
+
 ## A bit about me
 
 - My journey in the IT world started when I decided to get my Cisco CCNA
