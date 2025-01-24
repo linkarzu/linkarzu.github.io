@@ -284,6 +284,7 @@ alias neobean='NVIM_APPNAME=linkarzu/dotfiles-latest/neovim/neobean nvim'
 - If you are an `individual`, and want to start your `14 day FREE trial` to
   check out 1password and see if you like it or not, click on the image below
   (it will take you through my link)
+- **`CLICK ON THE IMAGE BELOW`**
 
 <!-- prettier-ignore -->
 [![Image](../../assets/img/imgs/250123-1password-individuals.avif){: width="400" }](https://www.dpbolvw.net/click-101327218-15917064){:target="_blank"}
@@ -293,6 +294,7 @@ alias neobean='NVIM_APPNAME=linkarzu/dotfiles-latest/neovim/neobean nvim'
 - If on the other hand, you are a `business`, and want to start your
   `14 day FREE trial` to check out 1password and see if you like it or not,
   click on the image below (it will take you through my link)
+- **`CLICK ON THE IMAGE BELOW`**
 
 <!-- prettier-ignore -->
 [![Image](../../assets/img/imgs/250123-1password-businesses.avif){: width="400" }](https://www.jdoqocy.com/click-101327218-15864752){:target="_blank"}
