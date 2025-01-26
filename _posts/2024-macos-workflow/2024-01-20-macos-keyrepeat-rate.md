@@ -19,7 +19,7 @@ tags:
 
 - [YouTube video](#youtube-video)
 - [If you like this, and want to support me](#if-you-like-this-and-want-to-support-me)
-- [Follow me on Twitter](#follow-me-on-twitter)
+- [Follow me on social media](#follow-me-on-social-media)
 - [Increase macOS key repeat rate](#increase-macos-key-repeat-rate)
 
 <!-- tocstop -->

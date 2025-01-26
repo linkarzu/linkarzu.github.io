@@ -21,7 +21,7 @@ tags:
 
 - [YouTube video](#youtube-video)
 - [If you like this, and want to support me](#if-you-like-this-and-want-to-support-me)
-- [Follow me on Twitter](#follow-me-on-twitter)
+- [Follow me on social media](#follow-me-on-social-media)
 - [What is alacritty and why?](#what-is-alacritty-and-why)
 - [How do I install alacritty?](#how-do-i-install-alacritty)
 

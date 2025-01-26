@@ -20,7 +20,7 @@ tags:
 
 - [YouTube video](#youtube-video)
 - [If you like this, and want to support me](#if-you-like-this-and-want-to-support-me)
-- [Follow me on Twitter](#follow-me-on-twitter)
+- [Follow me on social media](#follow-me-on-social-media)
 - [Install multiple apps using brew](#install-multiple-apps-using-brew)
   * [How to generate a Brewfile](#how-to-generate-a-brewfile)
   * [Install the apps listed in a Brewfile](#install-the-apps-listed-in-a-brewfile)

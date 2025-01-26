@@ -25,7 +25,7 @@ tags:
 - [A link to my guide will be in the video description](#a-link-to-my-guide-will-be-in-the-video-description)
 - [If you like this, and want to support me](#if-you-like-this-and-want-to-support-me)
 - [Discord server](#discord-server)
-- [Follow me on Twitter](#follow-me-on-twitter)
+- [Follow me on social media](#follow-me-on-social-media)
 - [Help me reach more people](#help-me-reach-more-people)
 - [Installation requirements](#installation-requirements)
 - [Download multiple configs](#download-multiple-configs)

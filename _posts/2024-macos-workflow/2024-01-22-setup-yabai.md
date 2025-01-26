@@ -20,7 +20,7 @@ tags:
 
 - [YouTube video](#youtube-video)
 - [If you like this, and want to support me](#if-you-like-this-and-want-to-support-me)
-- [Follow me on Twitter](#follow-me-on-twitter)
+- [Follow me on social media](#follow-me-on-social-media)
 - [Why I use yabai?](#why-i-use-yabai)
 - [Configure macos background and finder settings](#configure-macos-background-and-finder-settings)
 - [What is SIP in macOS and why we need to disable it?](#what-is-sip-in-macos-and-why-we-need-to-disable-it)

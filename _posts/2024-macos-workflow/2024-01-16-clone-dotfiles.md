@@ -21,7 +21,7 @@ tags:
 - [YouTube video](#youtube-video)
 - [If you like this, and want to support me](#if-you-like-this-and-want-to-support-me)
 - [Discord server](#discord-server)
-- [Follow me on Twitter](#follow-me-on-twitter)
+- [Follow me on social media](#follow-me-on-social-media)
 - [What are dotfiles?](#what-are-dotfiles)
 - [Importance of the .zshrc file](#importance-of-the-zshrc-file)
 - [Clone the dotfiles](#clone-the-dotfiles)

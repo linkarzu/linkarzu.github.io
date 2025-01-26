@@ -28,7 +28,7 @@ tags:
 - [A link to my guide will be in the video description](#a-link-to-my-guide-will-be-in-the-video-description)
 - [If you like this, and want to support me](#if-you-like-this-and-want-to-support-me)
 - [Discord server](#discord-server)
-- [Follow me on Twitter](#follow-me-on-twitter)
+- [Follow me on social media](#follow-me-on-social-media)
 - [Setup macOS](#setup-macos)
   * [System settings](#system-settings)
   * [With touch ID](#with-touch-id)

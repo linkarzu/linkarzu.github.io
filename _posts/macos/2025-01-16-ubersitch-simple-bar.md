@@ -25,12 +25,13 @@ tags:
 
 - [YouTube video](#youtube-video)
 - [Pre-requisites](#pre-requisites)
-  * [Hide macos menubar](#hide-macos-menubar)
-  * [Homebrew](#homebrew)
+  - [Hide macos menubar](#hide-macos-menubar)
+  - [Homebrew](#homebrew)
 - [If you like this, and want to support me](#if-you-like-this-and-want-to-support-me)
 - [Discord server](#discord-server)
-- [Follow me on Twitter](#follow-me-on-twitter)
-- [All links to my YouTube videos in video description](#all-links-to-my-youtube-videos-in-video-description)
+- [Follow me on social media](#follow-me-on-social-media)
+- [How do you manage your passwords?](#how-do-you-manage-your-passwords)
+- [All links in the video description](#all-links-in-the-video-description)
 - [What is uebersicht](#what-is-uebersicht)
 - [Install uebersicht](#install-uebersicht)
 - [Install simple-bar](#install-simple-bar)
@@ -438,4 +439,5 @@ curl http://localhost:7776/widget/cpu/enable
 - [x] `done: 250117-0756` Apply my own theme colors
 - [x] `done: 250117-0755` Brew outdated packages counter
 - [x] `done: 250117-0754` CPU usage preferably with a graph and percentage
+
 

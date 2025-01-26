@@ -27,7 +27,7 @@ tags:
 - [Introduction](#introduction)
 - [A link to my guide will be in the video description](#a-link-to-my-guide-will-be-in-the-video-description)
 - [If you like this, and want to support me](#if-you-like-this-and-want-to-support-me)
-- [Follow me on Twitter](#follow-me-on-twitter)
+- [Follow me on social media](#follow-me-on-social-media)
 - [Quit and save](#quit-and-save)
 - [If you want to try the configuration you're looking at](#if-you-want-to-try-the-configuration-youre-looking-at)
 - [Neovim modes](#neovim-modes)

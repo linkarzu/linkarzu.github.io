@@ -25,7 +25,7 @@ tags:
 - [YouTube video](#youtube-video)
 - [If you like this, and want to support me](#if-you-like-this-and-want-to-support-me)
 - [Discord server](#discord-server)
-- [Follow me on Twitter](#follow-me-on-twitter)
+- [Follow me on social media](#follow-me-on-social-media)
 - [Why the switch?](#why-the-switch)
 - [What is alacritty?](#what-is-alacritty)
   * [Why have I used Alacritty so far?](#why-have-i-used-alacritty-so-far)

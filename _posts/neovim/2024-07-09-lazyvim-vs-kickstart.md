@@ -25,7 +25,7 @@ tags:
 - [Introduction](#introduction)
 - [A link to my guide will be in the video description](#a-link-to-my-guide-will-be-in-the-video-description)
 - [If you like this, and want to support me](#if-you-like-this-and-want-to-support-me)
-- [Follow me on Twitter](#follow-me-on-twitter)
+- [Follow me on social media](#follow-me-on-social-media)
 - [Pros and cons of each](#pros-and-cons-of-each)
   * [Using a distribution](#using-a-distribution)
   * [Using kickstart.nvim](#using-kickstartnvim)

@@ -20,7 +20,7 @@ tags:
 
 - [YouTube video](#youtube-video)
 - [If you like this, and want to support me](#if-you-like-this-and-want-to-support-me)
-- [Follow me on Twitter](#follow-me-on-twitter)
+- [Follow me on social media](#follow-me-on-social-media)
 - [What is brew and what is it for?](#what-is-brew-and-what-is-it-for)
   * [(Optional) create ll alias](#optional-create-ll-alias)
 - [Install brew](#install-brew)

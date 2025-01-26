@@ -22,7 +22,7 @@ tags:
 <!-- toc -->
 
 - [YouTube video](#youtube-video)
-- [Follow me on Twitter](#follow-me-on-twitter)
+- [Follow me on social media](#follow-me-on-social-media)
 - [Where are all these files?](#where-are-all-these-files)
 - [Introduction](#introduction)
 - [A link to my guide will be in the video description](#a-link-to-my-guide-will-be-in-the-video-description)

@@ -20,7 +20,7 @@ tags:
 
 - [YouTube video](#youtube-video)
 - [If you like this, and want to support me](#if-you-like-this-and-want-to-support-me)
-- [Follow me on Twitter](#follow-me-on-twitter)
+- [Follow me on social media](#follow-me-on-social-media)
 - [What is karabiner-elements and how to configure the mappings](#what-is-karabiner-elements-and-how-to-configure-the-mappings)
 - [Install and configure Karabiner-Elements](#install-and-configure-karabiner-elements)
 - [configure automatic typescript to json translation](#configure-automatic-typescript-to-json-translation)
