@@ -228,9 +228,11 @@ alias neobean='NVIM_APPNAME=linkarzu/dotfiles-latest/neovim/neobean nvim'
 
 [![Image](../../assets/img/imgs/250124-1password-banner.avif){: width="300" }](https://www.dpbolvw.net/click-101327218-15917064){:target="\_blank"}
 
-## All links to my YouTube videos in video description
+## All links in the video description
 
-- All of the links will also be in my blogpost
+- The following links will be in the YouTube video description:
+  - Each one of the videos shown
+  * A link to this blogpost
 
 ## The stuff you'll see here, is the stuff that I use as of today
 

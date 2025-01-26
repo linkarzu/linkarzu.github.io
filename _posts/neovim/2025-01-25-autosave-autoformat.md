@@ -25,7 +25,7 @@ tags:
 - [If you like this, and want to support me](#if-you-like-this-and-want-to-support-me)
 - [Discord server](#discord-server)
 - [Follow me on Twitter](#follow-me-on-twitter)
-- [All links to my YouTube videos in video description](#all-links-to-my-youtube-videos-in-video-description)
+- [All links in the video description](#all-links-in-the-video-description)
 - [How do you manage your passwords?](#how-do-you-manage-your-passwords)
 - [Auto format](#auto-format)
   * [Why do I auto format](#why-do-i-auto-format)
@@ -127,9 +127,11 @@ alias neobean='NVIM_APPNAME=linkarzu/dotfiles-latest/neovim/neobean nvim'
 - Or as kids call it these days "X"
 - [Here's the link](https://x.com/link_arzu){:target="\_blank"}
 
-## All links to my YouTube videos in video description
+## All links in the video description
 
-- All of the links will also be in my blogpost
+- The following links will be in the YouTube video description:
+  - Each one of the videos shown
+  * A link to this blogpost
 
 ## How do you manage your passwords?
 

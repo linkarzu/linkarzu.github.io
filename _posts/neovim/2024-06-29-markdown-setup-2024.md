@@ -181,9 +181,11 @@ tags:
   expect to see changes
 - My entire neovim setup is in my github repo, so you can also grab it
 
-## All links to my YouTube videos in video description
+## All links in the video description
 
-- All of the links will also be in my blogpost
+- The following links will be in the YouTube video description:
+  - Each one of the videos shown
+  * A link to this blogpost
 
 ## Pending items
 
