@@ -99,6 +99,14 @@ alias neobean='NVIM_APPNAME=linkarzu/dotfiles-latest/neovim/neobean nvim'
 
 {% include embed/youtube.html id='0O3kqGwNzTI' %}
 
+---
+
+- If you don't even have neovim yet, of course you will need to install it
+  first, so if you're just getting started, I have a video for you:
+  - [How to install neovim on macos](https://youtu.be/un7DhE71EeY){:target="\_blank"}
+
+{% include embed/youtube.html id='un7DhE71EeY' %}
+
 ## If you like this, and want to support me
 
 - I create and edit my videos in an M1 mac mini, and it's starting to stay
@@ -230,6 +238,14 @@ _auto format after auto save triggered by normal mode_
 - I use this plugin with the default config, I make a small change and add this
   autocmd to the top of my plugin config file
 - This is what I demoed above, format when `FocusLost` and `BufLeave`
+- Notice that I have a condition:
+  - **DEMO** Only format if the current mode is normal mode
+  - **DEMO** Only format if autoformat is enabled for for the buffer or globally
+  - **DEMO** In the LazyVim distro run `:LazyFormatInfo` to see the status of
+    formatting
+  - Also you can use the keymaps to toggle formatting:
+    - `<leader>uf` - Toggle auto format (Global)
+    - `<leader>uF` - Toggle auto format (Buffer)
 
 ```lua
 -- Auto-format when focus is lost or I leave the buffer
@@ -263,6 +279,8 @@ vim.api.nvim_create_autocmd({ "FocusLost", "BufLeave" }, {
 
 - My config can be found in my dotfiles in
   [plugins/conform.lua](https://github.com/linkarzu/dotfiles-latest/blob/main/neovim/neobean/lua/plugins/conform.lua){:target="\_blank"}
+- The file is
+  - `~/github/dotfiles-latest/neovim/neobean/lua/plugins/conform.lua`
 - **⭐⭐⭐⭐ Remember to star my dotfiles ⭐⭐⭐⭐**
 
 ### Line wrapping at 80 characters
@@ -309,6 +327,8 @@ vim.api.nvim_create_autocmd({ "FocusLost", "BufLeave" }, {
   directory
 - I keep the file in my dotfiles and create a symlink in my home directory that
   points to the `.prettierrc.yaml` file
+- My `.prettierrc.yaml` is here in my dots ->
+  [main/.prettierrc.yaml](https://github.com/linkarzu/dotfiles-latest/blob/main/.prettierrc.yaml){:target="\_blank"}
 
 ---
 
@@ -365,6 +385,7 @@ vim.api.nvim_create_autocmd({ "FocusLost", "BufLeave" }, {
       need to revert, I revert a git commit, so I really don't care if saves are
       performed often by a plugin, as long as I don't need to do the saves
       myself
+    - **DEMO** fuck up the article and discard github changes
 
 ### Auto-save features and demo
 
@@ -545,9 +566,11 @@ noautocmd = false,
 <!-- prettier-ignore-end -->
 <!-- markdownlint-restore -->
 
-- You will be able to find my configuration in
-  [my dotfiles](https://github.com/linkarzu/dotfiles-latest), the file is:
+- You will be able to find my configuration in my dotfiles
+  [plugins/auto-save.lua](https://github.com/linkarzu/dotfiles-latest/blob/main/neovim/neobean/lua/plugins/auto-save.lua){:target="\_blank"}
+- The file is:
   - `~/github/dotfiles-latest/neovim/neobean/lua/plugins/auto-save.lua`
+- **⭐⭐⭐⭐ Remember to star my dotfiles ⭐⭐⭐⭐**
 
 ---
 
