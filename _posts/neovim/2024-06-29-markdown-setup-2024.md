@@ -24,9 +24,10 @@ tags:
 - [IMPORTANT: 2025 version of this video](#important-2025-version-of-this-video)
 - [If you like this, and want to support me](#if-you-like-this-and-want-to-support-me)
 - [Discord server](#discord-server)
-- [Follow me on Twitter](#follow-me-on-twitter)
+- [Follow me on social media](#follow-me-on-social-media)
+- [How do you manage your passwords?](#how-do-you-manage-your-passwords)
 - [Disclaimer](#disclaimer)
-- [All links to my YouTube videos in video description](#all-links-to-my-youtube-videos-in-video-description)
+- [All links in the video description](#all-links-in-the-video-description)
 - [Pending items](#pending-items)
 - [Where are all these files?](#where-are-all-these-files)
 - [Markdown tips](#markdown-tips)
@@ -154,10 +155,17 @@ tags:
 <!-- prettier-ignore -->
 [![Image](../../assets/img/imgs/250101-discord-server.avif){: width="300" }](https://www.youtube.com/channel/UCrSIvbFncPSlK6AdwE2QboA/join){:target="_blank"}
 
-## Follow me on Twitter
+## Follow me on social media
 
-- Or as kids call it these days "X"
-- [Here's the link](https://x.com/link_arzu){:target="\_blank"}
+- [Twitter (or "X")](https://x.com/link_arzu){:target="\_blank"}
+- [LinkedIn](https://www.linkedin.com/in/christianarzu){:target="\_blank"}
+- [TikTok](https://www.tiktok.com/@linkarzu){:target="\_blank"}
+- [Instagram](https://www.instagram.com/link_arzu){:target="\_blank"}
+- [GitHub](https://github.com/linkarzu){:target="\_blank"}
+- [Threads](https://www.threads.net/@link_arzu){:target="\_blank"}
+- [OnlyFans 🍆](https://i.imgur.com/SAl7anI.png){:target="\_blank"}
+- [YouTube (subscribe MF, subscribe)](https://www.youtube.com/@linkarzu){:target="\_blank"}
+- [Ko-Fi](https://ko-fi.com/linkarzu/goal?g=6){:target="\_blank"}
 
 ## How do you manage your passwords?
 
@@ -185,7 +193,7 @@ tags:
 
 - The following links will be in the YouTube video description:
   - Each one of the videos shown
-  * A link to this blogpost
+  - A link to this blogpost
 
 ## Pending items
 

@@ -24,7 +24,7 @@ tags:
 - [Pre-requisites](#pre-requisites)
 - [If you like this, and want to support me](#if-you-like-this-and-want-to-support-me)
 - [Discord server](#discord-server)
-- [Follow me on Twitter](#follow-me-on-twitter)
+- [Follow me on social media](#follow-me-on-social-media)
 - [All links in the video description](#all-links-in-the-video-description)
 - [How do you manage your passwords?](#how-do-you-manage-your-passwords)
 - [Auto format](#auto-format)
@@ -122,16 +122,23 @@ alias neobean='NVIM_APPNAME=linkarzu/dotfiles-latest/neovim/neobean nvim'
 <!-- prettier-ignore -->
 [![Image](../../assets/img/imgs/250101-discord-server.avif){: width="400" }](https://www.youtube.com/channel/UCrSIvbFncPSlK6AdwE2QboA/join){:target="_blank"}
 
-## Follow me on Twitter
+## Follow me on social media
 
-- Or as kids call it these days "X"
-- [Here's the link](https://x.com/link_arzu){:target="\_blank"}
+- [Twitter (or "X")](https://x.com/link_arzu){:target="\_blank"}
+- [LinkedIn](https://www.linkedin.com/in/christianarzu){:target="\_blank"}
+- [TikTok](https://www.tiktok.com/@linkarzu){:target="\_blank"}
+- [Instagram](https://www.instagram.com/link_arzu){:target="\_blank"}
+- [GitHub](https://github.com/linkarzu){:target="\_blank"}
+- [Threads](https://www.threads.net/@link_arzu){:target="\_blank"}
+- [OnlyFans 🍆](https://i.imgur.com/SAl7anI.png){:target="\_blank"}
+- [YouTube (subscribe MF, subscribe)](https://www.youtube.com/@linkarzu){:target="\_blank"}
+- [Ko-Fi](https://ko-fi.com/linkarzu/goal?g=6){:target="\_blank"}
 
 ## All links in the video description
 
 - The following links will be in the YouTube video description:
   - Each one of the videos shown
-  * A link to this blogpost
+  - A link to this blogpost
 
 ## How do you manage your passwords?
 
@@ -195,7 +202,7 @@ _auto format after auto save triggered by normal mode_
 - What auto-formats my markdown `.lua` files is `stylua`
   - See this one for example
     `~/github/dotfiles-latest/neovim/neobean/lua/plugins/render-markdown.lua`
-  * That `stylua` config comes from the lazyvim distro
+  - That `stylua` config comes from the lazyvim distro
     [see here](https://www.lazyvim.org/plugins/formatting#conformnvim){:target="\_blank"}
 
 ---

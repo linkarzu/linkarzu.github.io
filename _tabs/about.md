@@ -47,6 +47,18 @@ title: About this blog
 <!-- prettier-ignore -->
 [![Image](../../assets/img/imgs/250101-discord-server.avif){: width="300" }](https://www.youtube.com/channel/UCrSIvbFncPSlK6AdwE2QboA/join){:target="_blank"}
 
+## Follow me on social media
+
+- [Twitter (or "X")](https://x.com/link_arzu){:target="\_blank"}
+- [LinkedIn](https://www.linkedin.com/in/christianarzu){:target="\_blank"}
+- [TikTok](https://www.tiktok.com/@linkarzu){:target="\_blank"}
+- [Instagram](https://www.instagram.com/link_arzu){:target="\_blank"}
+- [GitHub](https://github.com/linkarzu){:target="\_blank"}
+- [Threads](https://www.threads.net/@link_arzu){:target="\_blank"}
+- [OnlyFans 🍆](https://i.imgur.com/SAl7anI.png){:target="\_blank"}
+- [YouTube (subscribe MF, subscribe)](https://www.youtube.com/@linkarzu){:target="\_blank"}
+- [Ko-Fi](https://ko-fi.com/linkarzu/goal?g=6){:target="\_blank"}
+
 ## How do you manage your passwords?
 
 - I've tried many different password managers in the past, I've switched from
