@@ -61,7 +61,7 @@ tags:
 - [Instagram](https://www.instagram.com/link_arzu){:target="\_blank"}
 - [GitHub](https://github.com/linkarzu){:target="\_blank"}
 - [Threads](https://www.threads.net/@link_arzu){:target="\_blank"}
-- [OnlyFans 🍆](https://i.imgur.com/SAl7anI.png){:target="\_blank"}
+- [OnlyFans 🍆](https://i.imgur.com/HmM81KD.png){:target="\_blank"}
 - [YouTube (subscribe MF, subscribe)](https://www.youtube.com/@linkarzu){:target="\_blank"}
 - [Ko-Fi](https://ko-fi.com/linkarzu/goal?g=6){:target="\_blank"}
 
