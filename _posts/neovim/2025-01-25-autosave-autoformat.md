@@ -36,6 +36,7 @@ tags:
     + [ProseWrap](#prosewrap)
     + [.prettierrc.yaml](#prettierrcyaml)
     + [Disable autoformatting in certain sections](#disable-autoformatting-in-certain-sections)
+    + [Paste unformatted text](#paste-unformatted-text)
 - [Auto save](#auto-save)
   * [Why do I auto save?](#why-do-i-auto-save)
   * [Auto-save features and demo](#auto-save-features-and-demo)
@@ -251,7 +252,7 @@ _auto format after auto save triggered by normal mode_
 - This is what I demoed above, format when `FocusLost` and `BufLeave`
 - Notice that I have a condition:
   - **DEMO** Only format if the current mode is normal mode
-  - **DEMO** Only format if autoformat is enabled for for the buffer or globally
+  - **DEMO** Only format if autoformat is enabled for the buffer or globally
   - **DEMO** In the LazyVim distro run `:LazyFormatInfo` to see the status of
     formatting
   - Also you can use the keymaps to toggle formatting:
@@ -374,6 +375,21 @@ vim.api.nvim_create_autocmd({ "FocusLost", "BufLeave" }, {
 - I add this text with a `LuaSnip` snippet, remember to check the related video
   for that:
   [Custom Snippets with LuaSnip in Neovim and Configure completion priority on nvim-cmp](https://youtu.be/GxnBIRl9UmA){:target="\_blank"}
+
+#### Paste unformatted text
+
+- After enabling this formatting for markdown files, since lines are broken at
+  80 characters, you're going to notice that when you copy text from a markdown
+  file into slack, all the lines are going to be broken, and your messages will
+  be formatted like crap, and we don't want that
+- I shared this solution in
+  [the neovim subreddit](https://www.reddit.com/r/neovim/comments/1fynyag/paste_unformatted_text_from_neovim_to_slack/){:target="\_blank"}
+  but it was too advanced for MFs to understand, so they didn't get it, but if
+  you follow my config, you'll understand what I'm talking about
+- I came up with a solution and I go over this solution in detail in this video:
+  - [Paste unformatted text from Neovim to Slack, Discord, Word or any other app](https://youtu.be/S3drTCO7Ct4){:target="\_blank"}
+
+{% include embed/youtube.html id='S3drTCO7Ct4' %}
 
 ## Auto save
 
