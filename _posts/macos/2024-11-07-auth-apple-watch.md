@@ -158,7 +158,7 @@ _auth request sent from terminal to apple watch_
 - [Instagram](https://www.instagram.com/link_arzu){:target="\_blank"}
 - [GitHub](https://github.com/linkarzu){:target="\_blank"}
 - [Threads](https://www.threads.net/@link_arzu){:target="\_blank"}
-- [OnlyFans 🍆](https://home.linkarzu.com/assets/img/imgs/250126-whyugae.avif){:target="\_blank"}
+- [OnlyFans 🍆](https://linkarzu.com/assets/img/imgs/250126-whyugae.avif){:target="\_blank"}
 - [YouTube (subscribe MF, subscribe)](https://www.youtube.com/@linkarzu){:target="\_blank"}
 - [Ko-Fi](https://ko-fi.com/linkarzu/goal?g=6){:target="\_blank"}
 
