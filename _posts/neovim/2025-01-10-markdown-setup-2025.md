@@ -28,7 +28,7 @@ tags:
 - [If you like this, and want to support me](#if-you-like-this-and-want-to-support-me)
 - [Discord server](#discord-server)
 - [Follow me on social media](#follow-me-on-social-media)
-- [All links to my YouTube videos in video description](#all-links-to-my-youtube-videos-in-video-description)
+- [All links in the video description](#all-links-in-the-video-description)
 - [The stuff you'll see here, is the stuff that I use as of today](#the-stuff-youll-see-here-is-the-stuff-that-i-use-as-of-today)
 - [Where are all these files?](#where-are-all-these-files)
 - [Markdown tips](#markdown-tips)
