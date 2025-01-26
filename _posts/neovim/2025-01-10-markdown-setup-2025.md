@@ -28,6 +28,7 @@ tags:
 - [If you like this, and want to support me](#if-you-like-this-and-want-to-support-me)
 - [Discord server](#discord-server)
 - [Follow me on social media](#follow-me-on-social-media)
+- [How do you manage your passwords?](#how-do-you-manage-your-passwords)
 - [All links in the video description](#all-links-in-the-video-description)
 - [The stuff you'll see here, is the stuff that I use as of today](#the-stuff-youll-see-here-is-the-stuff-that-i-use-as-of-today)
 - [Where are all these files?](#where-are-all-these-files)
@@ -231,7 +232,7 @@ alias neobean='NVIM_APPNAME=linkarzu/dotfiles-latest/neovim/neobean nvim'
 - I've tried many different password managers in the past, I've switched from
   `LastPass` to `Dashlane` and finally ended up in `1password`
 - You want to find out why? More info in my article:
-  - [How I use 1password to keep all my accounts safe](https://chirpy.home.linkarzu.com/posts/1password/1password/){:target="\_blank"}
+  - [How I use 1password to keep all my accounts safe](https://linkarzu.com/posts/1password/1password/){:target="\_blank"}
 
 [![Image](../../assets/img/imgs/250124-1password-banner.avif){: width="300" }](https://www.dpbolvw.net/click-101327218-15917064){:target="\_blank"}
 

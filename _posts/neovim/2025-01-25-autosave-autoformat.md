@@ -1,5 +1,5 @@
 ---
-title: I found the perfect auto-save and auto-format settings for Neovim
+title: I Found the Perfect Auto-save and Auto-format Settings for Neovim
 description: >-
   Do you come from Obsidian for taking notes and are used to auto-save, you
   don't know what auto-format is and how it can benefit you?
@@ -31,6 +31,11 @@ tags:
   * [Why do I auto format](#why-do-i-auto-format)
   * [Auto-format features and demo](#auto-format-features-and-demo)
   * [conform.nvim plugin](#conformnvim-plugin)
+  * [Line wrapping at 80 characters](#line-wrapping-at-80-characters)
+  * [Configure prettier](#configure-prettier)
+    + [ProseWrap](#prosewrap)
+    + [.prettierrc.yaml](#prettierrcyaml)
+    + [Disable autoformatting in certain sections](#disable-autoformatting-in-certain-sections)
 - [Auto save](#auto-save)
   * [Why do I auto save?](#why-do-i-auto-save)
   * [Auto-save features and demo](#auto-save-features-and-demo)
@@ -38,7 +43,7 @@ tags:
     + [Events that trigger a defer save](#events-that-trigger-a-defer-save)
     + [Events that cancel a defer save](#events-that-cancel-a-defer-save)
     + [Set a condition on when or not to save](#set-a-condition-on-when-or-not-to-save)
-    + [don't execute autocmds when saving](#dont-execute-autocmds-when-saving)
+    + [Don't auto-format after auto-save](#dont-auto-format-after-auto-save)
     + [debounce_delay](#debounce_delay)
   * [auto-save.nvim plugin](#auto-savenvim-plugin)
 
@@ -50,6 +55,7 @@ tags:
 
 ## Pre-requisites
 
+- > **Do you want to test this but not spend time configuring it?**
 - My entire `neobean` setup is in my github repo, so you can grab it from there
 - I have a video in which I show you how to download and setup my `neobean`
   config, but also other neovim distributions, so I highly recommend you check
@@ -145,7 +151,7 @@ alias neobean='NVIM_APPNAME=linkarzu/dotfiles-latest/neovim/neobean nvim'
 - I've tried many different password managers in the past, I've switched from
   `LastPass` to `Dashlane` and finally ended up in `1password`
 - You want to find out why? More info in my article:
-  - [How I use 1password to keep all my accounts safe](https://chirpy.home.linkarzu.com/posts/1password/1password/){:target="\_blank"}
+  - [How I use 1password to keep all my accounts safe](https://linkarzu.com/posts/1password/1password/){:target="\_blank"}
 
 [![Image](../../assets/img/imgs/250124-1password-banner.avif){: width="300" }](https://www.dpbolvw.net/click-101327218-15917064){:target="\_blank"}
 
@@ -171,9 +177,12 @@ _auto format not applied YET as I'm in insert mode_
 _auto format after auto save triggered by normal mode_
 
 - This is very important for you to keep in mind related to my config
-- Every time I save a file, it is auto formatted
+- Every time I `auto-save` a file, it is `auto-formatted`
 - This is configurable and can be disabled, you can auto-save but not
   auto-format, and then format when you desire
+
+---
+
 - I like auto-formatting because it keeps my markdown documents on point and
   uniform, also if editing lua files usually related to my neovim config,
   auto-formatting helps me quickly see if I made a mistake and keep indentation
@@ -216,12 +225,11 @@ _auto format after auto save triggered by normal mode_
 ### conform.nvim plugin
 
 - [stevearc/conform.nvim](https://github.com/stevearc/conform.nvim){:target="\_blank"}
+- This is the plugin used for formatting, you can configure it to use different
+  formatters for different file types
 - I use this plugin with the default config, I make a small change and add this
   autocmd to the top of my plugin config file
 - This is what I demoed above, format when `FocusLost` and `BufLeave`
-- My config can be found in my dotfiles in
-  [plugins/conform.lua](https://github.com/linkarzu/dotfiles-latest/blob/main/neovim/neobean/lua/plugins/conform.lua){:target="\_blank"}
-- **⭐⭐⭐⭐ Remember to star my dotfiles ⭐⭐⭐⭐**
 
 ```lua
 -- Auto-format when focus is lost or I leave the buffer
@@ -252,6 +260,89 @@ vim.api.nvim_create_autocmd({ "FocusLost", "BufLeave" }, {
   end,
 })
 ```
+
+- My config can be found in my dotfiles in
+  [plugins/conform.lua](https://github.com/linkarzu/dotfiles-latest/blob/main/neovim/neobean/lua/plugins/conform.lua){:target="\_blank"}
+- **⭐⭐⭐⭐ Remember to star my dotfiles ⭐⭐⭐⭐**
+
+### Line wrapping at 80 characters
+
+- I don't like my **lines** to be longer than **80 characters**, helps me with
+  readability and overall consistency of my files.
+- If I open an obsidian markdown file in neovim, line lengths are all over the
+  place, so I prefer to follow the markdown guidelines.
+- Set the option `vim.opt.textwidth = 80` in
+  `~/github/dotfiles-latest/neovim/neobean/lua/config/options.lua`
+- When text reaches this `textwidth` limit, it automatically wraps to the next
+  line.
+- This will automatically switch to the line below as you are typing and reach
+  the 80 characters
+- **This will NOT auto wrap:**
+  - Existing lines in a document after you enable the option
+  - Long lines that you paste into a file
+  - This is handled by prettier as seen below
+
+### Configure prettier
+
+- Remember that `prettier` is one of the formatters that `conform.nvim` uses, if
+  you use a different formatter for a different type of file, and want to update
+  the formatting rules, you have to update that other formatter.
+- In this video I will quickly show you how it's done for prettier so you can
+  get the idea
+
+#### ProseWrap
+
+- This will autoformat existing lines over 80 characters and also long lines
+  that you paste that exceed the 80 characters
+- We configure it in the `.prettierrc.yaml` file, see below
+
+#### .prettierrc.yaml
+
+- Remember that I install prettier as a `:LazyExtra`
+- **This is the file in which you configure the different formatting rules for
+  prettier, not only for markdown but for other file types**
+  - Do you like indenting with tabs instead of spaces?
+  - Do you want to set the indentation to 4 spaces for a specific project?
+  - [prettier options in the official documentation](https://prettier.io/docs/en/options){:target="\_blank"}
+- This is where I enable `ProseWrap`
+- I add the `~/github/dotfiles-latest/.prettierrc.yaml` file, to my `$HOME`
+  directory
+- I keep the file in my dotfiles and create a symlink in my home directory that
+  points to the `.prettierrc.yaml` file
+
+---
+
+- [Source for the text below](https://prettier.io/docs/en/configuration.html){:target="\_blank"}
+- The configuration file will be resolved starting from the location of the file
+  being formatted, and searching up the file tree until a config file is (or
+  isn't) found.
+- **Prettier intentionally doesn't support any kind of global configuration**.
+  This is to make sure that when a project is copied to another computer,
+  Prettier’s behavior stays the same. Otherwise, Prettier wouldn't be able to
+  guarantee that everybody in a team gets the same consistent results.
+
+#### Disable autoformatting in certain sections
+
+- Prettier is enabled and will autoformat your file, but there are some times
+  that you don't need prettier to autoformat, example below:
+  - Notice that I'm also disabling markdownlint
+  - **DEMO** so you see what happens when I remove this
+
+<!-- markdownlint-disable -->
+<!-- prettier-ignore-start -->
+
+<!-- tip=green, info=blue, warning=yellow, danger=red -->
+
+> This is a message that renders correctly in the page because it's not
+> autoformatted
+{: .prompt-tip }
+
+<!-- prettier-ignore-end -->
+<!-- markdownlint-restore -->
+
+- I add this text with a `LuaSnip` snippet, remember to check the related video
+  for that:
+  [Custom Snippets with LuaSnip in Neovim and Configure completion priority on nvim-cmp](https://youtu.be/GxnBIRl9UmA){:target="\_blank"}
 
 ## Auto save
 
@@ -413,7 +504,7 @@ end
 
 {% include embed/youtube.html id='JrgfpWap_Pg' %}
 
-#### don't execute autocmds when saving
+#### Don't auto-format after auto-save
 
 - If for example, you do not want to trigger auto-format when you save, you can
   set the option
@@ -439,10 +530,21 @@ noautocmd = false,
 ### auto-save.nvim plugin
 
 - [okuuva/auto-save.nvim](https://github.com/okuuva/auto-save.nvim){:target="\_blank"}
-- Be really careful in choosing the correct plugin, because the one I'm
-  currently using is a fork of `Pocco81/auto-save.nvim` and this `Pocco81`
-  plugin hasn't been maintained in years, and causes issues when you try to
+
+<!-- markdownlint-disable -->
+<!-- prettier-ignore-start -->
+ 
+<!-- tip=green, info=blue, warning=yellow, danger=red -->
+ 
+> Be really careful in choosing the correct plugin, because the one I'm
+  currently using is a `fork` of `Pocco81/auto-save.nvim` and this `Pocco81`
+  plugin hasn't been maintained in years, so it causes issues when you try to
   `undo` and `redo`
+{: .prompt-warning }
+ 
+<!-- prettier-ignore-end -->
+<!-- markdownlint-restore -->
+
 - You will be able to find my configuration in
   [my dotfiles](https://github.com/linkarzu/dotfiles-latest), the file is:
   - `~/github/dotfiles-latest/neovim/neobean/lua/plugins/auto-save.lua`
