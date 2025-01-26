@@ -78,6 +78,17 @@ tags:
 - join the [discord server in this link](https://www.youtube.com/channel/UCrSIvbFncPSlK6AdwE2QboA/join){:target="\_blank"}
 - Access to the discord server is only for YouTube community members
 
+<!-- markdownlint-disable -->
+<!-- prettier-ignore-start -->
+
+<!-- tip=green, info=blue, warning=yellow, danger=red -->
+
+> I'm opening the discord channel to the public, I think that for at least 3
+> months, I'm only accepting a few members at the moment, to get used to things
+> and manage it, so if you want to join, **please reach out via one of my social
+> media links below and I'll add you** 
+{: .prompt-warning }
+
 <!-- prettier-ignore -->
 [![Image](../../assets/img/imgs/250101-discord-server.avif){: width="300" }](https://www.youtube.com/channel/UCrSIvbFncPSlK6AdwE2QboA/join){:target="_blank"}
 
