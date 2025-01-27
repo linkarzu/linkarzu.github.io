@@ -47,6 +47,7 @@ tags:
     + [Don't auto-format after auto-save](#dont-auto-format-after-auto-save)
     + [debounce_delay](#debounce_delay)
   * [auto-save.nvim plugin](#auto-savenvim-plugin)
+- [What do you think about autosave and autoformat?](#what-do-you-think-about-autosave-and-autoformat)
 
 <!-- tocstop -->
 
@@ -607,4 +608,14 @@ noautocmd = false,
   - [Is Neovide just for Visual Effects? - Open LazyGit files, Disable Plugins, TMUX and more](https://youtu.be/rNYtfA4zlO4){:target="\_blank"}
 
 {% include embed/youtube.html id='rNYtfA4zlO4' %}
+
+## What do you think about autosave and autoformat?
+
+- Do you like them?
+- Do you hate them?
+- You use them?
+- I'd like to know what people think about these features, so let me know in the
+  YouTube comments
+- Also, remember to Join the discord channel to troubleshoot, talk to others,
+  offer help or just hang out
 
