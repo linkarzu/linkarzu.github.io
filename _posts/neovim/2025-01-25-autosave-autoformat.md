@@ -1,10 +1,12 @@
 ---
-title: I Found the Perfect Auto-save and Auto-format Settings for Neovim
+title: >-
+  Neovim Auto-Format (conform.nvim) & Auto-Save (auto-save.nvim) Masterclass You
+  didn't Know you Need
 description: >-
   Do you come from Obsidian for taking notes and are used to auto-save, you
   don't know what auto-format is and how it can benefit you?
 image:
-  path: ./../../assets/img/imgs/250117-thux-simple-bar-sketchybar.avif
+  path: ./../../assets/img/imgs/250126-thux-autosave-autoformat.avif
 date: '2025-01-25 06:10:00 +0000'
 categories:
   - macos
@@ -53,7 +55,7 @@ tags:
 
 ## YouTube video
 
-{% include embed/youtube.html id='' %}
+{% include embed/youtube.html id='oq-0ioaI5V4' %}
 
 ## Pre-requisites
 
