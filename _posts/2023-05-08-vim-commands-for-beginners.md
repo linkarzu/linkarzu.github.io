@@ -228,5 +228,8 @@ This is by no means a complete Vim guide, as more advanced topics are not
 covered. But I think it's enough to get you started and interested in your
 journey to continue learning about Vim.
 
-<!-- very end of the file -->
+---
 
+[Start your 14 day FREE trial](https://www.dpbolvw.net/click-101327218-15917064){:target="\_blank"}
+
+[![Image](../../assets/img/imgs/250124-1password-banner-bottom.avif){: width="300" }](https://www.dpbolvw.net/click-101327218-15917064){:target="\_blank"}

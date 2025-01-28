@@ -498,6 +498,9 @@ auth       sufficient     pam_tid.so
   - Then navigate to the directory `/Volumes/Macintosh HD/private/etc/pam.d`
   - And fix your sudo_local file there
 
-<!-- very end of the file -->
+---
 
+[Start your 14 day FREE trial](https://www.dpbolvw.net/click-101327218-15917064){:target="\_blank"}
+
+[![Image](../../assets/img/imgs/250124-1password-banner-bottom.avif){: width="300" }](https://www.dpbolvw.net/click-101327218-15917064){:target="\_blank"}
 

@@ -62,6 +62,9 @@ tags:
 - Yeah right, have you seen the `sure grandma, let's get you to bed` meme?
 <!-- TODO: Item about a future video -->
 
-<!-- very end of the file -->
+---
 
+[Start your 14 day FREE trial](https://www.dpbolvw.net/click-101327218-15917064){:target="\_blank"}
+
+[![Image](../../assets/img/imgs/250124-1password-banner-bottom.avif){: width="300" }](https://www.dpbolvw.net/click-101327218-15917064){:target="\_blank"}
 
