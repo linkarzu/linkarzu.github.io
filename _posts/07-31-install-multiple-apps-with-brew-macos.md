@@ -36,7 +36,7 @@ tags:
 
 {% include embed/youtube.html id='e7Bb1uUHpa8' %}
 
-## If you like this, and want to support me
+## If you like my content, and want to support me
 
 - I create and edit my videos in an M1 mac mini, and it's starting to stay
   behind in the editing side of things, tends to slow me down a bit, I'd like to
