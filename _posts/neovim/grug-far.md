@@ -20,7 +20,7 @@ tags:
 
 - [YouTube video](#youtube-video)
 - [Pre-requisites](#pre-requisites)
-- [If you like this, and want to support me](#if-you-like-this-and-want-to-support-me)
+- [If you like my content, and want to support me](#if-you-like-my-content-and-want-to-support-me)
 - [Discord server](#discord-server)
 - [Follow me on social media](#follow-me-on-social-media)
 - [All links in the video description](#all-links-in-the-video-description)
@@ -48,7 +48,7 @@ tags:
 - If you want to help me reach my goal, you can
   [donate here](https://ko-fi.com/linkarzu/goal?g=6){:target="\_blank"}
 
-[![Image](../../assets/img/imgs/250103-ko-fi-donate.avif){: width="300" }](https://ko-fi.com/linkarzu/goal?g=6){:target="_blank"}
+[![Image](../../assets/img/imgs/250103-ko-fi-donate.avif){: width="300" }](https://ko-fi.com/linkarzu/goal?g=6){:target="\_blank"}
 
 ## Discord server
 
@@ -75,8 +75,7 @@ tags:
 <!-- prettier-ignore-end -->
 <!-- markdownlint-restore -->
 
-<!-- prettier-ignore -->
-[![Image](../../assets/img/imgs/250101-discord-server.avif){: width="300" }](https://www.youtube.com/channel/UCrSIvbFncPSlK6AdwE2QboA/join){:target="_blank"}
+[![Image](../../assets/img/imgs/250101-discord-server.avif){: width="300" }](https://www.youtube.com/channel/UCrSIvbFncPSlK6AdwE2QboA/join){:target="\_blank"}
 
 ## Follow me on social media
 
@@ -101,7 +100,7 @@ tags:
 - I've tried many different password managers in the past, I've switched from
   `LastPass` to `Dashlane` and finally ended up in `1password`
 - You want to find out why? More info in my article:
-  - [How I use 1password to keep all my accounts safe](https://chirpy.home.linkarzu.com/posts/1password/1password/){:target="\_blank"}
+  - [How I use 1password to keep all my accounts safe](https://linkarzu.com/posts/1password/1password/){:target="\_blank"}
 
 [![Image](../../assets/img/imgs/250124-1password-banner.avif){: width="300" }](https://www.dpbolvw.net/click-101327218-15917064){:target="\_blank"}
 
