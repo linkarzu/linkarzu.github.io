@@ -25,6 +25,8 @@ tags:
 - [Follow me on social media](#follow-me-on-social-media)
 - [All links in the video description](#all-links-in-the-video-description)
 - [How do you manage your passwords?](#how-do-you-manage-your-passwords)
+- [Examples](#examples)
+  * [Add a line at the end of every file](#add-a-line-at-the-end-of-every-file)
 
 <!-- tocstop -->
 
@@ -103,4 +105,15 @@ tags:
   - [How I use 1password to keep all my accounts safe](https://linkarzu.com/posts/1password/1password/){:target="\_blank"}
 
 [![Image](../../assets/img/imgs/250124-1password-banner.avif){: width="300" }](https://www.dpbolvw.net/click-101327218-15917064){:target="\_blank"}
+
+## Examples
+
+### Add a line at the end of every file
+
+```regex
+(\n|.)*
+return match .. "<!-- very end of the file -->"
+--multiline
+\x (lua interpreter)
+```
 
