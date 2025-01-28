@@ -22,7 +22,7 @@ tags:
 
 - [YouTube video](#youtube-video)
 - [IMPORTANT: 2025 version of this video](#important-2025-version-of-this-video)
-- [If you like this, and want to support me](#if-you-like-this-and-want-to-support-me)
+- [If you like my content, and want to support me](#if-you-like-my-content-and-want-to-support-me)
 - [Discord server](#discord-server)
 - [Follow me on social media](#follow-me-on-social-media)
 - [How do you manage your passwords?](#how-do-you-manage-your-passwords)
@@ -138,7 +138,7 @@ tags:
 - If you want to help me reach my goal, you can
   [donate here](https://ko-fi.com/linkarzu/goal?g=6){:target="\_blank"}
 
-[![Image](../../assets/img/imgs/250103-ko-fi-donate.avif){: width="300" }](https://ko-fi.com/linkarzu/goal?g=6){:target="_blank"}
+[![Image](../../assets/img/imgs/250103-ko-fi-donate.avif){: width="300" }](https://ko-fi.com/linkarzu/goal?g=6){:target="\_blank"}
 
 ## Discord server
 

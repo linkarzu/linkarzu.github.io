@@ -26,7 +26,7 @@ tags:
 - [Disclaimer](#disclaimer)
 - [Introduction](#introduction)
 - [A link to my guide will be in the video description](#a-link-to-my-guide-will-be-in-the-video-description)
-- [If you like this, and want to support me](#if-you-like-this-and-want-to-support-me)
+- [If you like my content, and want to support me](#if-you-like-my-content-and-want-to-support-me)
 - [Discord server](#discord-server)
 - [Follow me on social media](#follow-me-on-social-media)
 - [How do you manage your passwords?](#how-do-you-manage-your-passwords)
@@ -115,7 +115,7 @@ tags:
 - If you want to help me reach my goal, you can
   [donate here](https://ko-fi.com/linkarzu/goal?g=6){:target="\_blank"}
 
-[![Image](../../assets/img/imgs/250103-ko-fi-donate.avif){: width="300" }](https://ko-fi.com/linkarzu/goal?g=6){:target="_blank"}
+[![Image](../../assets/img/imgs/250103-ko-fi-donate.avif){: width="300" }](https://ko-fi.com/linkarzu/goal?g=6){:target="\_blank"}
 
 ## Discord server
 
@@ -142,7 +142,7 @@ tags:
 <!-- prettier-ignore-end -->
 <!-- markdownlint-restore -->
 
-[![Image](../../assets/img/imgs/250101-discord-server.avif){: width="300" }](https://www.youtube.com/channel/UCrSIvbFncPSlK6AdwE2QboA/join){:target="_blank"}
+[![Image](../../assets/img/imgs/250101-discord-server.avif){: width="300" }](https://www.youtube.com/channel/UCrSIvbFncPSlK6AdwE2QboA/join){:target="\_blank"}
 
 ## Follow me on social media
 

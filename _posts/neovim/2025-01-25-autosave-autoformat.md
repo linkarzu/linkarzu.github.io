@@ -24,7 +24,7 @@ tags:
 
 - [YouTube video](#youtube-video)
 - [Pre-requisites](#pre-requisites)
-- [If you like this, and want to support me](#if-you-like-this-and-want-to-support-me)
+- [If you like my content, and want to support me](#if-you-like-my-content-and-want-to-support-me)
 - [Discord server](#discord-server)
 - [Follow me on social media](#follow-me-on-social-media)
 - [All links in the video description](#all-links-in-the-video-description)
@@ -123,7 +123,7 @@ alias neobean='NVIM_APPNAME=linkarzu/dotfiles-latest/neovim/neobean nvim'
 - If you want to help me reach my goal, you can
   [donate here](https://ko-fi.com/linkarzu/goal?g=6){:target="\_blank"}
 
-[![Image](../../assets/img/imgs/250103-ko-fi-donate.avif){: width="300" }](https://ko-fi.com/linkarzu/goal?g=6){:target="_blank"}
+[![Image](../../assets/img/imgs/250103-ko-fi-donate.avif){: width="300" }](https://ko-fi.com/linkarzu/goal?g=6){:target="\_blank"}
 
 ## Discord server
 
