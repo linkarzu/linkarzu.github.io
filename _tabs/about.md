@@ -18,7 +18,7 @@ title: About this blog
 - You can also `subscribe to my RSS feed` if you'd like to find out what I'm up
   to.
 
-## If you like my content, and want to support me
+## If you like this, and want to support me
 
 - I create and edit my videos in an M1 mac mini, and it's starting to stay
   behind in the editing side of things, tends to slow me down a bit, I'd like to
@@ -58,7 +58,7 @@ title: About this blog
 <!-- prettier-ignore-end -->
 <!-- markdownlint-restore -->
 
-[![Image](../../assets/img/imgs/250101-discord-server.avif){: width="300" }](https://www.youtube.com/channel/UCrSIvbFncPSlK6AdwE2QboA/join){:target="_blank"}
+[![Image](../../assets/img/imgs/250101-discord-server.avif){: width="300" }](https://www.youtube.com/channel/UCrSIvbFncPSlK6AdwE2QboA/join){:target="\_blank"}
 
 ## Follow me on social media
 
