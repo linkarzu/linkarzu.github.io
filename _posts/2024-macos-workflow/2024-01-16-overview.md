@@ -42,7 +42,6 @@ tags:
 - If you want to help me reach my goal, you can
   [donate here](https://ko-fi.com/linkarzu/goal?g=6){:target="\_blank"}
 
-<!-- prettier-ignore -->
 [![Image](../../assets/img/imgs/250103-ko-fi-donate.avif){: width="300" }](https://ko-fi.com/linkarzu/goal?g=6){:target="_blank"}
 
 ## Discord server
