@@ -27,6 +27,7 @@ tags:
 - [How do you manage your passwords?](#how-do-you-manage-your-passwords)
 - [Examples](#examples)
   * [Add a line at the end of every file](#add-a-line-at-the-end-of-every-file)
+  * [Replace only certain files in a sub path](#replace-only-certain-files-in-a-sub-path)
 
 <!-- tocstop -->
 
@@ -116,6 +117,19 @@ RIPGREP
 return match .. "\n<!-- very end of the file -->"
 --multiline
 \x (lua interpreter)
+```
+
+### Replace only certain files in a sub path
+
+- Use this in the `Files Filter` filter, the `path` filter only accepts fixed
+  paths
+- The `Files Filter` uses
+  [gitignore syntax](https://git-scm.com/docs/gitignore){:target="\_blank"}
+
+```regex
+_posts/**/*
+or
+_posts/*.md
 ```
 
 ---
