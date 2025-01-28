@@ -541,7 +541,8 @@ map({ "n", "x" }, "<Up>", "v:count == 0 ? 'gk' : 'k'", { expr = true, silent = t
  
 <!-- tip=green, info=blue, warning=yellow, danger=red -->
  
-> [If you like this, and want to support me](#if-you-like-this-and-want-to-support-me)
+> [If you like my content, and want to support me](#if-you-like-my-content-and-want-to-support-me)
+
 {: .prompt-tip }
  
 <!-- prettier-ignore-end -->
