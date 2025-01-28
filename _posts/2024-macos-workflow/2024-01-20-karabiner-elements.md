@@ -282,3 +282,6 @@ cat /tmp/karabiner_linkarzu.err.log
 
   {% include embed/youtube.html id='dqEiDVYRWLk' %}
 
+<!-- very end of the file -->
+
+

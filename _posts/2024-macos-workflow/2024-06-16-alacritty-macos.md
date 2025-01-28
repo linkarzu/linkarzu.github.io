@@ -149,3 +149,6 @@ vim ~/.config/alacritty/alacritty.toml
   "write and quit"
 - Quit and re-open Alacritty and that should take care of it
 
+<!-- very end of the file -->
+
+

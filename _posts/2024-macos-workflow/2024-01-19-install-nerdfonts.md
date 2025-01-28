@@ -136,3 +136,6 @@ fc-list | grep -i "MesloLGM Nerd Font"
 
 - After this, close and re-open alacritty
 
+<!-- very end of the file -->
+
+

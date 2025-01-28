@@ -270,3 +270,6 @@ echo g:neovide_cursor_animation_length
 6:31 - RECOMMENDATION markdown workflow
 ```
 
+<!-- very end of the file -->
+
+

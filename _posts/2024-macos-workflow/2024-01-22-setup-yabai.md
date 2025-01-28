@@ -324,3 +324,6 @@ yabai -m query --windows | jq -r '.[].app'
 - When on any browser or YouTube and do a find, can see that search box in other
   apps as well, don't know how to fix it
 
+<!-- very end of the file -->
+
+

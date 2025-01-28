@@ -247,3 +247,6 @@ the image at the top of the page
 
 - Shows you the full path, if you're on a GitHub repo and what branch, and if
   there are pending changes
+
+<!-- very end of the file -->
+

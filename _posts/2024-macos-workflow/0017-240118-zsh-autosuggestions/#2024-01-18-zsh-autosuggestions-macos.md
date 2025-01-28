@@ -19,3 +19,6 @@ tags: [macos, tutorial, youtube, video, zsh-autosuggestions, mactools]
 ```bash
 brew install zsh-autosuggestions
 ```
+
+<!-- very end of the file -->
+

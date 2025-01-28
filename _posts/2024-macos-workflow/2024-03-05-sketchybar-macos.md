@@ -443,3 +443,6 @@ osascript -e 'tell application "System Events" to set autohide menu bar of dock 
   - If you want to uninstall them just run a `brew uninstall` command instead of
     `brew install`
 
+<!-- very end of the file -->
+
+

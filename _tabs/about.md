@@ -95,3 +95,5 @@ title: About this blog
 - I used to manage my notes in Google Docs but it's too slow to load, so
   migrated all my notes to Obsidian, so now everything is handled as markdown
   files and automatically uploaded to my private GitHub repo.
+
+<!-- very end of the file -->

@@ -19,3 +19,6 @@ tags: [macos, tutorial, youtube, video, zsh-vi-mode, mactools]
 ```bash
 brew install zsh-vi-mode
 ```
+
+<!-- very end of the file -->
+

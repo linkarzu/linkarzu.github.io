@@ -452,3 +452,6 @@ curl http://localhost:7776/widget/cpu/enable
 - [x] `done: 250117-0755` Brew outdated packages counter
 - [x] `done: 250117-0754` CPU usage preferably with a graph and percentage
 
+<!-- very end of the file -->
+
+

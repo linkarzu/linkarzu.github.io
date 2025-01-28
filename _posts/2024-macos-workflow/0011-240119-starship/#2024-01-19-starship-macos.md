@@ -25,3 +25,6 @@ brew install starship
 ```bash
 cd ~/github/dotfiles-latest/karabiner/mxstbr
 ```
+
+<!-- very end of the file -->
+

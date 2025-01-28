@@ -227,3 +227,6 @@ word
 This is by no means a complete Vim guide, as more advanced topics are not
 covered. But I think it's enough to get you started and interested in your
 journey to continue learning about Vim.
+
+<!-- very end of the file -->
+

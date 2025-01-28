@@ -238,3 +238,6 @@ vim ~/.config/kitty/kitty.conf
 11:18 - outro
 ```
 
+<!-- very end of the file -->
+
+

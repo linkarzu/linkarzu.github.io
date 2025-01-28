@@ -533,3 +533,6 @@ cd ~/.local/share
   - You want to go over kickstart.nvim?
   - Explain something about my configuration?
 
+<!-- very end of the file -->
+
+

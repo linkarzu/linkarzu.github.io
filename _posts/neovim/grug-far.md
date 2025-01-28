@@ -111,9 +111,13 @@ tags:
 ### Add a line at the end of every file
 
 ```regex
+RIPGREP
 (\n|.)*
-return match .. "<!-- very end of the file -->"
+return match .. "\n<!-- very end of the file -->"
 --multiline
 \x (lua interpreter)
 ```
+
+<!-- very end of the file -->
+
 

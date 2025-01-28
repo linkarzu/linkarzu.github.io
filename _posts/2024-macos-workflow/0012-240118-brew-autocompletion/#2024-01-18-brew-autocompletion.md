@@ -17,3 +17,6 @@ tags: [macos, tutorial, youtube, video, brew]
   - Add the `# Autocompletion settings` section
   - Also add the `# Brew autocompletion settings` section
   - Demonstration in the video
+
+<!-- very end of the file -->
+
