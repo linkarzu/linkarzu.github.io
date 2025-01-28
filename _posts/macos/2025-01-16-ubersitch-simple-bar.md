@@ -25,8 +25,8 @@ tags:
 
 - [YouTube video](#youtube-video)
 - [Pre-requisites](#pre-requisites)
-  - [Hide macos menubar](#hide-macos-menubar)
-  - [Homebrew](#homebrew)
+  * [Hide macos menubar](#hide-macos-menubar)
+  * [Homebrew](#homebrew)
 - [If you like this, and want to support me](#if-you-like-this-and-want-to-support-me)
 - [Discord server](#discord-server)
 - [Follow me on social media](#follow-me-on-social-media)
@@ -453,5 +453,4 @@ curl http://localhost:7776/widget/cpu/enable
 - [x] `done: 250117-0756` Apply my own theme colors
 - [x] `done: 250117-0755` Brew outdated packages counter
 - [x] `done: 250117-0754` CPU usage preferably with a graph and percentage
-
 

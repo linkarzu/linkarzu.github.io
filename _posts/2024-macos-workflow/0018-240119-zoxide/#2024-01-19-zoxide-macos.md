@@ -17,7 +17,8 @@ tags: [macos, tutorial, youtube, video, zoxide, mactools]
   - Demonstration in the video
 - Each directory in zoxide is assigned a score, starting with 1 the first time
   it is accessed. Every subsequent access increases the score by 1. When a query
-  is made, we calculate frecency based on the last time the directory was accessed
+  is made, we calculate frecency based on the last time the directory was
+  accessed
   - To learn more about the matching algorithm, go to the link below
   - `https://github.com/ajeetdsouza/zoxide/wiki/Algorithm#matching`
 

@@ -7,7 +7,7 @@ description: >-
 image:
   path: https://res.cloudinary.com/daqwsgmx6/image/upload/q_75/v1683742199/blog/vim-tutorial_xdxvlf.avif
   alt: vim tutorial
-date: '2023-05-08 18:50:00 +0000'
+date: "2023-05-08 18:50:00 +0000"
 categories:
   - Editors
 tags:
@@ -17,6 +17,7 @@ tags:
   - tutorial
   - ssh
 ---
+
 I was once there all excited, following my network tutorial and doing my
 
 ```bash
@@ -226,4 +227,3 @@ word
 This is by no means a complete Vim guide, as more advanced topics are not
 covered. But I think it's enough to get you started and interested in your
 journey to continue learning about Vim.
-

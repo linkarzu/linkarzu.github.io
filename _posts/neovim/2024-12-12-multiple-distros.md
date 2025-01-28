@@ -26,6 +26,7 @@ tags:
 - [If you like this, and want to support me](#if-you-like-this-and-want-to-support-me)
 - [Discord server](#discord-server)
 - [Follow me on social media](#follow-me-on-social-media)
+- [How do you manage your passwords?](#how-do-you-manage-your-passwords)
 - [Help me reach more people](#help-me-reach-more-people)
 - [Installation requirements](#installation-requirements)
 - [Download multiple configs](#download-multiple-configs)
@@ -73,12 +74,15 @@ tags:
 
 ## If you like this, and want to support me
 
-- I create and edit my videos in an m1 mac mini, and it's starting to stay behind in the editing side of things, tends to slow me down a bit, I'd like to upgrade the machine I use for all my videos to a `mac mini` with these specs:
+- I create and edit my videos in an m1 mac mini, and it's starting to stay
+  behind in the editing side of things, tends to slow me down a bit, I'd like to
+  upgrade the machine I use for all my videos to a `mac mini` with these specs:
   - Apple M4 Pro chip with 14‑core CPU, 20‑core GPU, 16-core Neural Engine
   - 24GB unified memory
   - 1TB SSD storage
   - 10 Gigabit Ethernet
-- If you want to help me reach my goal, you can [donate here](https://ko-fi.com/linkarzu/goal?g=6){:target="\_blank"}
+- If you want to help me reach my goal, you can
+  [donate here](https://ko-fi.com/linkarzu/goal?g=6){:target="\_blank"}
 
 <!-- prettier-ignore -->
 [![Image](../../assets/img/imgs/250103-ko-fi-donate.avif){: width="300" }](https://ko-fi.com/linkarzu/goal?g=6){:target="_blank"}

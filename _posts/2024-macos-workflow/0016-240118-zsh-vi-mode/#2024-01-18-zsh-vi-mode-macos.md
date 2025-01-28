@@ -10,8 +10,8 @@ tags: [macos, tutorial, youtube, video, zsh-vi-mode, mactools]
 
 ## How I use zsh-vi-mode
 
-- vi(vim) mode plugin for ZSH, it allows you to navigate your terminal
-  commands using vim motions
+- vi(vim) mode plugin for ZSH, it allows you to navigate your terminal commands
+  using vim motions
   - To configure it go to my zshrc file
   - `~/github/dotfiles-latest/zshrc/zshrc-file.sh`
   - Demonstration in the video

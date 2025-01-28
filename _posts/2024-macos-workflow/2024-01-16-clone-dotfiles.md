@@ -22,6 +22,7 @@ tags:
 - [If you like this, and want to support me](#if-you-like-this-and-want-to-support-me)
 - [Discord server](#discord-server)
 - [Follow me on social media](#follow-me-on-social-media)
+- [How do you manage your passwords?](#how-do-you-manage-your-passwords)
 - [What are dotfiles?](#what-are-dotfiles)
 - [Importance of the .zshrc file](#importance-of-the-zshrc-file)
 - [Clone the dotfiles](#clone-the-dotfiles)

@@ -10,8 +10,8 @@ tags: [macos, tutorial, youtube, video, starship]
 
 ## Install starship
 
-- Starship is a customizable prompt, allows me to add time, date, github
-  status kubernetes information, etc to my prompt
+- Starship is a customizable prompt, allows me to add time, date, github status
+  kubernetes information, etc to my prompt
   - To see all the different options that can be configured, to this page
     `https://starship.rs/config/#prompt`
   - To configure it go to my zshrc file

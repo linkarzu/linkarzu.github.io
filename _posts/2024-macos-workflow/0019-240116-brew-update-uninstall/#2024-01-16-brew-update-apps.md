@@ -109,7 +109,8 @@ brew uninstall git
 
 - As seen in the **upgrade** example command above, a cleanup is performed when
   you upgrade the packages, but if still, you want to perform a manual cleanup
-  - This will show you which files will be deleted without actually deleting them
+  - This will show you which files will be deleted without actually deleting
+    them
 
 ```bash
 brew cleanup --dry-run

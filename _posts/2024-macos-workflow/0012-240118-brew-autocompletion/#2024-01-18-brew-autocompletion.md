@@ -10,8 +10,8 @@ tags: [macos, tutorial, youtube, video, brew]
 
 ## Brew autocompletion
 
-- Brew autocompletion does what it says, helps you autocompleting Brew
-  commands when you start typing a command and press tab
+- Brew autocompletion does what it says, helps you autocompleting Brew commands
+  when you start typing a command and press tab
   - To configure it go to my zshrc file
   - `https://github.com/linkarzu/dotfiles-latest/blob/main/zshrc/zshrc-file.sh`
   - Add the `# Autocompletion settings` section
