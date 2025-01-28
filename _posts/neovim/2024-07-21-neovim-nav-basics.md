@@ -143,7 +143,6 @@ tags:
 <!-- prettier-ignore-end -->
 <!-- markdownlint-restore -->
 
-<!-- prettier-ignore -->
 [![Image](../../assets/img/imgs/250101-discord-server.avif){: width="300" }](https://www.youtube.com/channel/UCrSIvbFncPSlK6AdwE2QboA/join){:target="_blank"}
 
 ## Follow me on social media
