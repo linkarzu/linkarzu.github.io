@@ -1,5 +1,7 @@
 ---
 title: 07 - Configure Karabiner-Elements in macOS
+redirect_from:
+  - /posts/macos/karabiner-updates
 description: null
 image:
   path: >-
