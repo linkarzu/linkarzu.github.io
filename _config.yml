@@ -229,8 +229,6 @@ exclude:
   - docs
   - purgecss.js
 
-include:
-  - _redirects
 
 jekyll-archives:
   enabled: [categories, tags]
