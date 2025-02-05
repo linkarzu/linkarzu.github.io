@@ -3,6 +3,9 @@
 source "https://rubygems.org"
 
 gem "jekyll-theme-chirpy", "~> 7.2", ">= 7.2.4"
+
+# All the instructions on how to configure this plugin can be found in
+# https://github.com/jekyll/jekyll-redirect-from
 gem "jekyll-redirect-from", "~> 0.16.0"
 
 gem "html-proofer", "~> 5.0", group: :test

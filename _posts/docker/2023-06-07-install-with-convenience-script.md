@@ -1,5 +1,7 @@
 ---
 title: Install docker using the convenience script
+redirect_from:
+  - /posts/install-docker/
 description: >-
   How to install docker on a Linux machine using the convenience script instead
   of the usual manual process

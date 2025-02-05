@@ -1,5 +1,7 @@
 ---
 title: Customize your shell prompt with Starship
+redirect_from:
+  - /posts/starship-configuration/
 description:
   Modify your shell prompt to show you GitHub repos and much more using
   Starship.

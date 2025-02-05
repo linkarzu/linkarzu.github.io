@@ -1,5 +1,7 @@
 ---
 title: 03 - Install multiple apps with brew in macOS
+redirect_from:
+  - /posts/install-multiple-apps-with-brew-macos/
 description: null
 image:
   path: >-
