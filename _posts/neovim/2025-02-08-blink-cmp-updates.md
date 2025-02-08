@@ -178,8 +178,12 @@ alias neobean='NVIM_APPNAME=linkarzu/dotfiles-latest/neovim/neobean nvim'
   page you will be able to see when there are breaking changes
 - This video is related to `v0.10.0`
 - One of the changes that caused issues for me was
-  `The luasnip source has been removed` as I needed to figure out how to set it
-  up properly
+  `The luasnip source has been removed`
+- In my case, this caused blink.cmp to break, and I needed to figure out how to
+  set it up properly
+- Notice that if you don't have time to troubleshoot breaking changes at a
+  specific time, you can pin your blink.cmp configuration to a previous working
+  version, you'll see how do to that in one of the sections below
 
 ## Where can you find my config?
 
