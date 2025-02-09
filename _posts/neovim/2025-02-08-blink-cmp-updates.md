@@ -216,9 +216,10 @@ return {
 
 ## Disabled LSP fallbacks
 
-- In the LSP provider you'll notice that the `fallbacks` line is commented, I
-  disabled this because my snippets wouldn't show up when editing lua files
+- In the LSP provider you'll notice that the `fallbacks` line is commented
+- I disabled this because my snippets wouldn't show up when editing lua files
 - Here's an example of the LSP provider just so you can have a better idea
+- Here right above `score_offset` you can see that `fallbacks` is commented out
 
 ```lua
       providers = {
