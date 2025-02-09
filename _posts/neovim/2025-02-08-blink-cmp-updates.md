@@ -201,6 +201,8 @@ alias neobean='NVIM_APPNAME=linkarzu/dotfiles-latest/neovim/neobean nvim'
   was `v0.9.3`
 - Remember that you can see the version in the releases page as mentioned below
 - You need to specify this in your plugin config file
+- In my case this file is in the path
+  `~/github/dotfiles-latest/neovim/neobean/lua/plugins/blink-cmp.lua`
 
 ```lua
 return {
