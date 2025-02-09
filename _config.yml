@@ -139,6 +139,10 @@ assets:
     # only works if `assets.self_host.enabled` is 'true'
     env: # [development | production]
 
+# Having this pwa enabled shows a pop-up "A new version of content is available"
+# with an "Update" button, page is refreshed until I click that button
+# Disablig this removes the button and page loads immediately
+# https://github.com/cotes2020/jekyll-theme-chirpy/discussions/2078
 pwa:
   enabled: false # The option for PWA feature (installable)
   cache:
