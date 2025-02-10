@@ -138,8 +138,10 @@ _auth request sent from terminal to apple watch_
 
 ## Discord server
 
-- My discord server is now open to the public, feel free to join and hang out with others
-- join the [discord server in this link](https://discord.gg/NgqMgwwtMH){:target="\_blank"}
+- My discord server is now open to the public, feel free to join and hang out
+  with others
+- join the
+  [discord server in this link](https://discord.gg/NgqMgwwtMH){:target="\_blank"}
 
 [![Image](./../../assets/img/imgs/250210-discord-free.avif){: width="300" }](https://discord.gg/NgqMgwwtMH){:target="\_blank"}
 
