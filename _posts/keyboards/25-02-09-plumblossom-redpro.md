@@ -74,30 +74,12 @@ _purchase receipt, in case you don't trust me_
 
 ## Discord server
 
-- After following this guide or even watching the related video, you:
-  - Have questions related to one of the tools, configs or scripts that I use
-  - Would like me to expand a bit more on how something is done
-  - Or simply would like to talk and meet other community members that share
-    your same interests
+- My discord server is now open to the public, feel free to join and hang out
+  with others
 - join the
-  [discord server in this link](https://www.youtube.com/channel/UCrSIvbFncPSlK6AdwE2QboA/join){:target="\_blank"}
-- Access to the discord server is only for YouTube community members
+  [discord server in this link](https://discord.gg/NgqMgwwtMH){:target="\_blank"}
 
-<!-- markdownlint-disable -->
-<!-- prettier-ignore-start -->
-
-<!-- tip=green, info=blue, warning=yellow, danger=red -->
-
-> I'm opening the discord channel to the public, I think that for at least 3
-> months, I'm only accepting a few members at the moment, to get used to things
-> and manage it, so if you want to join, **please reach out via one of my social
-> media links below and I'll add you** 
-{: .prompt-warning }
-
-<!-- prettier-ignore-end -->
-<!-- markdownlint-restore -->
-
-[![Image](../../assets/img/imgs/250101-discord-server.avif){: width="300" }](https://www.youtube.com/channel/UCrSIvbFncPSlK6AdwE2QboA/join){:target="\_blank"}
+[![Image](./../../assets/img/imgs/250210-discord-free.avif){: width="300" }](https://discord.gg/NgqMgwwtMH){:target="\_blank"}
 
 ## Follow me on social media
 
