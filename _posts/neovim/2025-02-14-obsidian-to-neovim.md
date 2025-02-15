@@ -38,10 +38,16 @@ tags:
 - [How to paste images in Neovim](#how-to-paste-images-in-neovim)
 - [How to upload images to imgur from neovim](#how-to-upload-images-to-imgur-from-neovim)
 - [How to Create and open the daily note in Neovim](#how-to-create-and-open-the-daily-note-in-neovim)
+- [How to mange tasks in Neovim](#how-to-mange-tasks-in-neovim)
 - [Script to auto-push to GitHub](#script-to-auto-push-to-github)
+- [Markdown preview in Neovim](#markdown-preview-in-neovim)
 - [How to enable vim motions in Obsidian](#how-to-enable-vim-motions-in-obsidian)
+- [What about the Dataview Obsidian plugin?](#what-about-the-dataview-obsidian-plugin)
+- [What about Excalidraw in Neovim?](#what-about-excalidraw-in-neovim)
+- [What about the Obsidian Mobile app?](#what-about-the-obsidian-mobile-app)
 - [What about Obsidian Graph view?](#what-about-obsidian-graph-view)
 - [How to search for files in Neovim compared to Obsidian](#how-to-search-for-files-in-neovim-compared-to-obsidian)
+- [My entire markdown workflow](#my-entire-markdown-workflow)
 - [It seems you're shitting on Obsidian, do you hate it?](#it-seems-youre-shitting-on-obsidian-do-you-hate-it)
 
 <!-- tocstop -->
@@ -312,6 +318,45 @@ _Markdown file with all the headings unfolded_
 
 {% include embed/youtube.html id='W3hgsMoUcqo' %}
 
+## How to mange tasks in Neovim
+
+- If you notice on the right hand side of each one of my videos, I keep an app
+  that I called `skitty-notes`, which is basically a customized version of my
+  Neovim setup running in the kitty terminal
+- I keep tasks there that I need to complete for the day, during a live stream,
+  etc, so I mark them as done and I want them gone from that section
+- I have 2 ways of completing tasks, with `<Leader>x` to just mark them as done,
+  and my most used one `Alt+x` to moved them to the completed section including
+  the date and time in which they were completed
+- I can then search for all the completed or uncompleted tasks in a project by
+  using `<Leader>tc` or `<Leader>tt` respectively
+  - You don't need to leave the tasks in a specific section, just leave them
+    scattered around throughout your documents and you'll be able to find it
+    with the keymaps I listed
+
+---
+
+- I have a full tutorial on how to set up `skitty-notes`, you can find it here:
+  - [skitty-notes - Markdown Sticky Notes app in Neovim in the Kitty Terminal](https://youtu.be/M0B_24d0MWw){:target="\_blank"}
+
+{% include embed/youtube.html id='M0B_24d0MWw' %}
+
+---
+
+- To learn about this task management in detail, go and check a video I created:
+  - [Manage Markdown tasks in Neovim similar to Obsidian - Telescope to List Completed and Pending Tasks](https://youtu.be/59hvZl077hM){:target="\_blank"}
+
+{% include embed/youtube.html id='59hvZl077hM' %}
+
+---
+
+- Also keep in mind that I recently switched from `Telescope` to the
+  `Snacks Picker`, and I explain how I migrated my custom picker searches and
+  how I configured the snacks plugin entirely in the video below:
+  - [Why I'm Moving from Telescope to Snacks Picker - Why I'm not Using fzf-lua - Frecency feature](https://youtu.be/7hEWG3GP6m0){:target="\_blank"}
+
+{% include embed/youtube.html id='7hEWG3GP6m0' %}
+
 ## Script to auto-push to GitHub
 
 - I created this script, remember that you can find it in my dotfiles, it
@@ -321,6 +366,12 @@ _Markdown file with all the headings unfolded_
   [mac/400-autoPushGithub.sh](https://github.com/linkarzu/dotfiles-latest/blob/main/scripts/macos/mac/400-autoPushGithub.sh){:target="\_blank"}
 - I'm not going to cover the script in this blogpost, but if you want me to
   create a video about it, let me know in the youtube comments
+
+## Markdown preview in Neovim
+
+- I use this plugin in case I need to print a markdown file as a PDF or also, in
+  case I need to scroll through a file in a smoother way
+- I can print the PDF in dark mode which looks cool as well
 
 ## How to enable vim motions in Obsidian
 
@@ -345,6 +396,79 @@ create_symlink ~/github/dotfiles-latest/vimrc/vimrc-file ~/github/obsidian_main/
 - **⭐⭐⭐⭐ Remember to star my dotfiles ⭐⭐⭐⭐**
 - So if you want to use your existing vimrc file, you can do something similar
 
+## What about the Dataview Obsidian plugin?
+
+- I was never a fan of the Dataview plugin in Obsidian, as it makes my markdown
+  files and also myself rely too much on a tool that I don't know I'm sticking
+  with for the rest of my life
+- Imagine me adding all the Dataview annotations and queries in markdown files
+  in Obsidian, but then decide to move to another markdown tool, all of that
+  will probably not be useful anymore. And this actually happened, I moved to
+  Neovim for markdown, but since I decided not to use Dataview from the
+  beginning, I don't have to worry about compatibility
+
+<!-- markdownlint-disable -->
+<!-- prettier-ignore-start -->
+
+<!-- tip=green, info=blue, warning=yellow, danger=red -->
+
+> If you use Dataview and find a `Neovim` alternative, feel free to share it with
+> other users in the YouTube comments 
+{: .prompt-tip }
+
+<!-- prettier-ignore-end -->
+<!-- markdownlint-restore -->
+
+---
+
+- If you don't know wtf the Dataview plugin is in Obsidian, check this vide by
+  [Nicole van der Hoeven](https://youtu.be/JTObSymEvWA?si=Gf4fqqgdMBTCFLFI){:target="\_blank"}
+
+{% include embed/youtube.html id='JTObSymEvWA' %}
+
+## What about Excalidraw in Neovim?
+
+- I don't use excalidraw extensively, I know that the Obsidian plugin is really
+  cool and it integrates really well
+- If I need to draw something, I just open excalidraw in the browser and go from
+  there
+- **It seems this MF just putting excuses for the things he don't use**
+  - nah bruh, frfr, I don't use it and when I do I just open the browser
+
+## What about the Obsidian Mobile app?
+
+- I suck at taking notes on my phone, so I never do that, I hate it because I'm
+  really slow and I make way to many typos
+- Also, I rarely use my phone to review my notes, but in case that I ever need
+  to do it, I use the github mobile app
+- Remember that I auto push my obsidian repo to github, so I can review the
+  notes in the mobile app
+- The GitHub mobile app allows you to view the notes in a nice HTML format
+
+<!-- prettier-ignore -->
+![Image](./../../assets/img/imgs/250215-github-notes-raw.avif){: width="300" }
+_Markdown file on the GitHub mobile app, raw version_
+
+<!-- prettier-ignore -->
+![Image](./../../assets/img/imgs/250215-github-to-html.avif){: width="300" }
+_Clicking on the "View as HTML option"_
+
+<!-- prettier-ignore -->
+![Image](./../../assets/img/imgs/250215-github-notes-html.avif){: width="300" }
+_Same file but in HTML view_
+
+<!-- markdownlint-disable -->
+<!-- prettier-ignore-start -->
+ 
+<!-- tip=green, info=blue, warning=yellow, danger=red -->
+ 
+> You can also directly edit a file within the github mobile app and `commit`
+> the change
+{: .prompt-tip }
+ 
+<!-- prettier-ignore-end -->
+<!-- markdownlint-restore -->
+
 ## What about Obsidian Graph view?
 
 - I'm pretty sure some folks love how the Graph view looks
@@ -357,7 +481,7 @@ create_symlink ~/github/dotfiles-latest/vimrc/vimrc-file ~/github/obsidian_main/
 ![Image](./../../assets/img/imgs/250214-seasmamon.avif){: width="200" }
 
 - But hey, maybe I'm just old and boring and some people to find it useful and
-  like it, this is just my personal opinion
+  like it, remember that this is just my personal opinion
 
 ## How to search for files in Neovim compared to Obsidian
 
@@ -377,12 +501,37 @@ create_symlink ~/github/dotfiles-latest/vimrc/vimrc-file ~/github/obsidian_main/
 
 {% include embed/youtube.html id='7hEWG3GP6m0' %}
 
+## My entire markdown workflow
+
+- I cannot cover all of the markdown stuff in do in Obsidian in this article,
+  because I've configured so many keymaps that do many different things, but if
+  you like what you see so far, I'd recommend you to check this video:
+  - [My complete Neovim markdown setup and workflow in 2025](https://youtu.be/1YEbKDlxfss){:target="\_blank"}
+
+{% include embed/youtube.html id='1YEbKDlxfss' %}
+
 ## It seems you're shitting on Obsidian, do you hate it?
 
 - Hell nah, it's just that I moved on, it has a special place in my heart, I
   used it for a long time, there's many many notes that I took in Obsidian
 - The only thing is that Neovim adapts more to my workflow and it allows me to
   stay in the terminal, which allows me to move faster
+
+---
+
+- Obsidian offers really nice features, for example if you don't want to deal
+  with github to sync your notes across devices, they have a paid feature,
+  called [obsidian sync](https://obsidian.md/sync){:target="\_blank"}
+  - **The only problem I see with that is that all these open source loving MFs
+    are just cheap ass MFs that don't like paying for stuff. MFs don't even like
+    donating a dime**
+- Obsidian also has a feature that allows you to publish your knowledge base or
+  documentation on the internet, similar to this blogpost you're looking at
+  right now, their solution is called
+  [Obsidian publish](https://obsidian.md/publish)
+  - The only difference is that I host my blogpost in github pages using a
+    jekyll theme, but if you don't want to go through all that setup, Obsidian
+    publish is the way to go
 
 ---
 
