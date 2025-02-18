@@ -33,9 +33,9 @@ tags:
 - [How do the images look?](#how-do-the-images-look)
 - [Why do I care about images in Neovim?](#why-do-i-care-about-images-in-neovim)
 - [Does this replace the `3rd/image.nvim` plugin](#does-this-replace-the-3rdimagenvim-plugin)
-- [Who is the creator of all this?](#who-is-the-creator-of-all-this)
-- [How did I find out about this plugin?](#how-did-i-find-out-about-this-plugin)
 - [How does it compare to image.nvim then?](#how-does-it-compare-to-imagenvim-then)
+- [Who is the creator of Snacks Image?](#who-is-the-creator-of-snacks-image)
+- [How did I find out about this plugin?](#how-did-i-find-out-about-this-plugin)
 - [Configure Snacks Image](#configure-snacks-image)
 - [Disable image.nvim](#disable-imagenvim)
 - [Caveats (tmux, wezterm, ImageMagick, Zellij)](#caveats-tmux-wezterm-imagemagick-zellij)
@@ -221,12 +221,23 @@ _Preview of a PDF file shown as an image_
 - [3rd/image.nvim](https://github.com/3rd/image.nvim){:target="\_blank"}
 - I have been using the `image.nvim` plugin for a long time, it's the only way
   you could see images in Neovim in the past
-- Yes, the snacks plugin replaces the `image.nvim` plugin
-- What are the differences between the 2 plugins?:
-  - The `snacks image` plugin has a pretty cool `floating` window option, ifyou
-    look at the images above
+- Yes, the snacks plugin replaces the `image.nvim` plugin, more on how below.
 
-## Who is the creator of all this?
+## How does it compare to image.nvim then?
+
+- [3rd/image.nvim](https://github.com/3rd/image.nvim){:target="\_blank"}
+- image.nvim is an awesome plugin, I loved it and used it for a long time,
+  there's 2 things I like more about the snacks image plugin:
+  - You get the preview of the image in a floating window, that's optional, you
+    don't need to do it that way. I personally feel this integrates with my
+    neovim workflow a little bit better. When not using the floating window, the
+    entire screen moves around when you pass over an image. You'll understand
+    this a bit better by watching the video
+  - The caching mechanism makes the images load way faster, the first time you
+    load it it will take a few seconds because ImageMagick is converting them to
+    the `png` format, but once they're cached, they'll load way faster
+
+## Who is the creator of Snacks Image?
 
 - If you're new to Neovim, his name is Folke
 - He's the creator of the LazyVim neovim distribution, also the lazy.nvim plugin
@@ -259,20 +270,6 @@ _Preview of a PDF file shown as an image_
   - [Why I'm Moving from Telescope to Snacks Picker - Why I'm not Using fzf-lua - Frecency feature](https://youtu.be/7hEWG3GP6m0){:target="\_blank"}
 
 {% include embed/youtube.html id='7hEWG3GP6m0' %}
-
-## How does it compare to image.nvim then?
-
-- [3rd/image.nvim](https://github.com/3rd/image.nvim){:target="\_blank"}
-- image.nvim is an awesome plugin, I loved it and used it for a long time,
-  there's 2 things I like more about the snacks image plugin:
-  - You get the preview of the image in a floating window, that's optional, you
-    don't need to do it that way. I personally feel this integrates with my
-    neovim workflow a little bit better. When not using the floating window, the
-    entire screen moves around when you pass over an image. You'll understand
-    this a bit better by watching the video
-  - The caching mechanism makes the images load way faster, the first time you
-    load it it will take a few seconds because ImageMagick is converting them to
-    the `png` format, but once they're cached, they'll load way faster
 
 ## Configure Snacks Image
 
@@ -340,7 +337,7 @@ _Preview of a PDF file shown as an image_
   during the day, or other days, video ideas, etc
 
 <!-- prettier-ignore -->
-![Image](./../../assets/img/imgs/250207-what-is-skitty.avif){: width="200" }
+![Image](./../../assets/img/imgs/250207-what-is-skitty.avif){: width="500" }
 _skitty-notes_
 
 - It's basically a sticky notes app, but the main reason I came up with it, is
