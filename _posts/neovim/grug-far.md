@@ -28,6 +28,7 @@ tags:
 - [Examples](#examples)
   * [Add a line at the end of every file](#add-a-line-at-the-end-of-every-file)
   * [Replace only certain files in a sub path](#replace-only-certain-files-in-a-sub-path)
+- [Start your 14 day FREE trial](#start-your-14-day-free-trial)
 
 <!-- tocstop -->
 
@@ -114,7 +115,7 @@ or
 _posts/*.md
 ```
 
----
+## Start your 14 day FREE trial
 
 [Start your 14 day FREE trial](https://www.dpbolvw.net/click-101327218-15917064){:target="\_blank"}
 

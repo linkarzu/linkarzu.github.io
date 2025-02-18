@@ -46,6 +46,7 @@ tags:
 - [Clean up](#clean-up)
 - [How to get your feet wet?](#how-to-get-your-feet-wet)
 - [What do you want to see next?](#what-do-you-want-to-see-next)
+- [Start your 14 day FREE trial](#start-your-14-day-free-trial)
 
 <!-- tocstop -->
 
@@ -515,7 +516,7 @@ cd ~/.local/share
   - You want to go over kickstart.nvim?
   - Explain something about my configuration?
 
----
+## Start your 14 day FREE trial
 
 [Start your 14 day FREE trial](https://www.dpbolvw.net/click-101327218-15917064){:target="\_blank"}
 

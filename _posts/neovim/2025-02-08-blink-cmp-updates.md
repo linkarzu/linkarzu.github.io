@@ -42,6 +42,7 @@ tags:
 - [Scroll documentation](#scroll-documentation)
 - [Task management in Neovim](#task-management-in-neovim)
 - [Fix auto-save issue](#fix-auto-save-issue)
+- [Start your 14 day FREE trial](#start-your-14-day-free-trial)
 
 <!-- tocstop -->
 
@@ -423,7 +424,7 @@ dependencies = { "moyiz/blink-emoji.nvim", "Kaiser-Yang/blink-cmp-dictionary", }
         end
 ```
 
----
+## Start your 14 day FREE trial
 
 [Start your 14 day FREE trial](https://www.dpbolvw.net/click-101327218-15917064){:target="\_blank"}
 

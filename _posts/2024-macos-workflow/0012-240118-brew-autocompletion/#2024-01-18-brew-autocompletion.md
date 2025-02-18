@@ -18,7 +18,7 @@ tags: [macos, tutorial, youtube, video, brew]
   - Also add the `# Brew autocompletion settings` section
   - Demonstration in the video
 
----
+## Start your 14 day FREE trial
 
 [Start your 14 day FREE trial](https://www.dpbolvw.net/click-101327218-15917064){:target="\_blank"}
 

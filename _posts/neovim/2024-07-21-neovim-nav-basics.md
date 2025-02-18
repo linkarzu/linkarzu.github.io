@@ -72,6 +72,7 @@ tags:
 - [echasnovski/mini.surround](#echasnovskiminisurround)
 - [Tutor](#tutor)
 - [Timeline](#timeline)
+- [Start your 14 day FREE trial](#start-your-14-day-free-trial)
 
 <!-- tocstop -->
 
@@ -689,7 +690,7 @@ word
 8:05 - RECOMMENDATION markdown workflow
 ```
 
----
+## Start your 14 day FREE trial
 
 [Start your 14 day FREE trial](https://www.dpbolvw.net/click-101327218-15917064){:target="\_blank"}
 

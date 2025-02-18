@@ -41,6 +41,7 @@ tags:
     + [Update .zshrc file](#update-zshrc-file)
   * [Option 2: CLONE dotfiles-latest repo](#option-2-clone-dotfiles-latest-repo)
 - [Uninstall sketchybar](#uninstall-sketchybar)
+- [Start your 14 day FREE trial](#start-your-14-day-free-trial)
 
 <!-- tocstop -->
 
@@ -425,7 +426,7 @@ osascript -e 'tell application "System Events" to set autohide menu bar of dock 
   - If you want to uninstall them just run a `brew uninstall` command instead of
     `brew install`
 
----
+## Start your 14 day FREE trial
 
 [Start your 14 day FREE trial](https://www.dpbolvw.net/click-101327218-15917064){:target="\_blank"}
 

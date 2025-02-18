@@ -33,6 +33,7 @@ tags:
 - [Install apps from a brewfile hosted in github](#install-apps-from-a-brewfile-hosted-in-github)
 - [Caveats](#caveats)
   * [See all the caveats using a script](#see-all-the-caveats-using-a-script)
+- [Start your 14 day FREE trial](#start-your-14-day-free-trial)
 
 <!-- tocstop -->
 
@@ -297,7 +298,7 @@ done;
   manually.
   - Don't worry about the caveats, we'll fix them in my dotfiles video
 
----
+## Start your 14 day FREE trial
 
 [Start your 14 day FREE trial](https://www.dpbolvw.net/click-101327218-15917064){:target="\_blank"}
 

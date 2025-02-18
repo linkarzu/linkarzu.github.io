@@ -43,6 +43,7 @@ tags:
 - [My complete Neovim markdown setup and workflow in 2024](#my-complete-neovim-markdown-setup-and-workflow-in-2024)
 - [Timeline](#timeline)
 - [Recommendations](#recommendations)
+- [Start your 14 day FREE trial](#start-your-14-day-free-trial)
 
 <!-- tocstop -->
 
@@ -304,7 +305,7 @@ https://youtu.be/QAKLsFGWmNU
 https://youtu.be/7oCjW4dqLj4
 ```
 
----
+## Start your 14 day FREE trial
 
 [Start your 14 day FREE trial](https://www.dpbolvw.net/click-101327218-15917064){:target="\_blank"}
 

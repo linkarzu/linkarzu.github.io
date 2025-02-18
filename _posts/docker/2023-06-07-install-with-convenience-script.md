@@ -35,6 +35,7 @@ tags:
   * [Run docker commands without sudo](#run-docker-commands-without-sudo)
 - [What's next?](#whats-next)
 - [Timeline](#timeline)
+- [Start your 14 day FREE trial](#start-your-14-day-free-trial)
 
 <!-- tocstop -->
 
@@ -436,7 +437,7 @@ CONTAINER ID   IMAGE     COMMAND   CREATED   STATUS    PORTS     NAMES
 9:39 - outro
 ```
 
----
+## Start your 14 day FREE trial
 
 [Start your 14 day FREE trial](https://www.dpbolvw.net/click-101327218-15917064){:target="\_blank"}
 

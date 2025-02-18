@@ -38,6 +38,7 @@ tags:
 - [I removed the palm rests](#i-removed-the-palm-rests)
 - [Should I try the voyager?](#should-i-try-the-voyager)
 - [Which switches should you get](#which-switches-should-you-get)
+- [Start your 14 day FREE trial](#start-your-14-day-free-trial)
 
 <!-- tocstop -->
 
@@ -253,7 +254,7 @@ _Some of the keys that perform particular actions_
 ![Image](./../../assets/img/imgs/250209-dora-send-switches.avif){: width="500" }
 _Cmon Stephen_
 
----
+## Start your 14 day FREE trial
 
 [Start your 14 day FREE trial](https://www.dpbolvw.net/click-101327218-15917064){:target="\_blank"}
 

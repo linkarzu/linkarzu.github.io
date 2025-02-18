@@ -53,6 +53,7 @@ tags:
   * [Configure img-clip.nvim](#configure-img-clipnvim)
 - [Tips and tricks](#tips-and-tricks)
 - [Petition (reminder)](#petition-reminder)
+- [Start your 14 day FREE trial](#start-your-14-day-free-trial)
 
 <!-- tocstop -->
 
@@ -507,7 +508,7 @@ brew install pngpaste
   finished watching it, please give it a like and comment
 - This helps me a lot so that YouTube shows the video to more people
 
----
+## Start your 14 day FREE trial
 
 [Start your 14 day FREE trial](https://www.dpbolvw.net/click-101327218-15917064){:target="\_blank"}
 

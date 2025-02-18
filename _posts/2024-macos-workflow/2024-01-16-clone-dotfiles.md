@@ -26,6 +26,7 @@ tags:
 - [What are dotfiles?](#what-are-dotfiles)
 - [Importance of the .zshrc file](#importance-of-the-zshrc-file)
 - [Clone the dotfiles](#clone-the-dotfiles)
+- [Start your 14 day FREE trial](#start-your-14-day-free-trial)
 
 <!-- tocstop -->
 
@@ -209,7 +210,7 @@ lla ~
 - **If you cloned my repo directly instead of forking, comment the auto update
   lines, demo in the video**
 
----
+## Start your 14 day FREE trial
 
 [Start your 14 day FREE trial](https://www.dpbolvw.net/click-101327218-15917064){:target="\_blank"}
 

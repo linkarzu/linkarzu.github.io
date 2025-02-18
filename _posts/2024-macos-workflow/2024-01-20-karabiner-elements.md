@@ -29,6 +29,7 @@ tags:
 - [Install and configure Karabiner-Elements](#install-and-configure-karabiner-elements)
 - [configure automatic typescript to json translation](#configure-automatic-typescript-to-json-translation)
 - [Karabiner updates 2024 - video](#karabiner-updates-2024---video)
+- [Start your 14 day FREE trial](#start-your-14-day-free-trial)
 
 <!-- tocstop -->
 
@@ -266,7 +267,7 @@ cat /tmp/karabiner_linkarzu.err.log
 
   {% include embed/youtube.html id='dqEiDVYRWLk' %}
 
----
+## Start your 14 day FREE trial
 
 [Start your 14 day FREE trial](https://www.dpbolvw.net/click-101327218-15917064){:target="\_blank"}
 

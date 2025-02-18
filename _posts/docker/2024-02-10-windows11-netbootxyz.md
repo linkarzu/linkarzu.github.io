@@ -87,6 +87,7 @@ tags:
   * [Configure autoattend.xml file](#configure-autoattendxml-file)
   * [Disable secure boot](#disable-secure-boot)
   * [Install windows via netboot.xyz](#install-windows-via-netbootxyz)
+- [Start your 14 day FREE trial](#start-your-14-day-free-trial)
 
 <!-- tocstop -->
 
@@ -1220,7 +1221,7 @@ docker restart samba
 - Add a password for the user and that's it, you successfully installed Windows
   11 over the network
 
----
+## Start your 14 day FREE trial
 
 [Start your 14 day FREE trial](https://www.dpbolvw.net/click-101327218-15917064){:target="\_blank"}
 

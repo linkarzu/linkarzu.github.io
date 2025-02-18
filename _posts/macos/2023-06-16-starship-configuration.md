@@ -250,7 +250,7 @@ the image at the top of the page
 - Shows you the full path, if you're on a GitHub repo and what branch, and if
   there are pending changes
 
----
+## Start your 14 day FREE trial
 
 [Start your 14 day FREE trial](https://www.dpbolvw.net/click-101327218-15917064){:target="\_blank"}
 

@@ -35,6 +35,7 @@ tags:
 - [How do I install and configure Kitty?](#how-do-i-install-and-configure-kitty)
   * [Demo of the kitty configuration](#demo-of-the-kitty-configuration)
 - [Timeline](#timeline)
+- [Start your 14 day FREE trial](#start-your-14-day-free-trial)
 
 <!-- tocstop -->
 
@@ -220,7 +221,7 @@ vim ~/.config/kitty/kitty.conf
 11:18 - outro
 ```
 
----
+## Start your 14 day FREE trial
 
 [Start your 14 day FREE trial](https://www.dpbolvw.net/click-101327218-15917064){:target="\_blank"}
 

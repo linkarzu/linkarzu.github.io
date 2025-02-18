@@ -52,6 +52,7 @@ tags:
 - [How to get your feet wet?](#how-to-get-your-feet-wet)
 - [What do you want to see next?](#what-do-you-want-to-see-next)
 - [Timeline](#timeline)
+- [Start your 14 day FREE trial](#start-your-14-day-free-trial)
 
 <!-- tocstop -->
 
@@ -587,7 +588,7 @@ brew install node
 15:49 - RECOMMENDATION markdown workflow 2024
 ```
 
----
+## Start your 14 day FREE trial
 
 [Start your 14 day FREE trial](https://www.dpbolvw.net/click-101327218-15917064){:target="\_blank"}
 

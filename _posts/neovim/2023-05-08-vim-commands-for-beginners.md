@@ -228,7 +228,7 @@ This is by no means a complete Vim guide, as more advanced topics are not
 covered. But I think it's enough to get you started and interested in your
 journey to continue learning about Vim.
 
----
+## Start your 14 day FREE trial
 
 [Start your 14 day FREE trial](https://www.dpbolvw.net/click-101327218-15917064){:target="\_blank"}
 

@@ -50,6 +50,7 @@ tags:
     + [debounce_delay](#debounce_delay)
   * [auto-save.nvim plugin](#auto-savenvim-plugin)
 - [What do you think about autosave and autoformat?](#what-do-you-think-about-autosave-and-autoformat)
+- [Start your 14 day FREE trial](#start-your-14-day-free-trial)
 
 <!-- tocstop -->
 
@@ -604,7 +605,7 @@ noautocmd = false,
 - Also, remember to Join the discord channel to troubleshoot, talk to others,
   offer help or just hang out
 
----
+## Start your 14 day FREE trial
 
 [Start your 14 day FREE trial](https://www.dpbolvw.net/click-101327218-15917064){:target="\_blank"}
 

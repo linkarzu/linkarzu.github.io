@@ -26,6 +26,7 @@ tags:
   * [Use a neovim distro](#use-a-neovim-distro)
   * [Clone linkarzu config](#clone-linkarzu-config)
   * [Use emacs org mode](#use-emacs-org-mode)
+- [Start your 14 day FREE trial](#start-your-14-day-free-trial)
 
 <!-- tocstop -->
 
@@ -62,7 +63,7 @@ tags:
 - Yeah right, have you seen the `sure grandma, let's get you to bed` meme?
 <!-- TODO: Item about a future video -->
 
----
+## Start your 14 day FREE trial
 
 [Start your 14 day FREE trial](https://www.dpbolvw.net/click-101327218-15917064){:target="\_blank"}
 

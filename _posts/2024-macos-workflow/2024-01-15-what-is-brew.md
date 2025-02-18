@@ -27,6 +27,7 @@ tags:
   * [(Optional) create ll alias](#optional-create-ll-alias)
 - [Install brew](#install-brew)
 - [Install apps through brew](#install-apps-through-brew)
+- [Start your 14 day FREE trial](#start-your-14-day-free-trial)
 
 <!-- tocstop -->
 
@@ -206,7 +207,7 @@ neofetch
 - Each package will have its own **caveats** at the bottom of the install, see
   The **install mulitple packages** video to see how I handle all at once
 
----
+## Start your 14 day FREE trial
 
 [Start your 14 day FREE trial](https://www.dpbolvw.net/click-101327218-15917064){:target="\_blank"}
 

@@ -46,6 +46,7 @@ tags:
 - [Disable snacks picker in blink.cmp](#disable-snacks-picker-in-blinkcmp)
 - [Bullets.vim configuration](#bulletsvim-configuration)
 - [How to install the snacks picker](#how-to-install-the-snacks-picker)
+- [Start your 14 day FREE trial](#start-your-14-day-free-trial)
 
 <!-- tocstop -->
 
@@ -524,7 +525,7 @@ vim.g.bullets_enable_in_empty_buffers = 0
 - And very important, if you use the `bullets.vim` plugin, remember to modify
   the config mentioned above
 
----
+## Start your 14 day FREE trial
 
 [Start your 14 day FREE trial](https://www.dpbolvw.net/click-101327218-15917064){:target="\_blank"}
 

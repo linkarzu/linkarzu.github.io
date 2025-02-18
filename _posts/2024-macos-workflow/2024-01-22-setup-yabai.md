@@ -32,6 +32,7 @@ tags:
 - [Yabai settings](#yabai-settings)
 - [Yabai updates 2024 - video](#yabai-updates-2024---video)
 - [Help with things I need to fix](#help-with-things-i-need-to-fix)
+- [Start your 14 day FREE trial](#start-your-14-day-free-trial)
 
 <!-- tocstop -->
 
@@ -306,7 +307,7 @@ yabai -m query --windows | jq -r '.[].app'
 - When on any browser or YouTube and do a find, can see that search box in other
   apps as well, don't know how to fix it
 
----
+## Start your 14 day FREE trial
 
 [Start your 14 day FREE trial](https://www.dpbolvw.net/click-101327218-15917064){:target="\_blank"}
 

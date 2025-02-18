@@ -114,6 +114,7 @@ tags:
 - [Improve the video next year](#improve-the-video-next-year)
 - [Timeline](#timeline)
 - [Completed tasks](#completed-tasks)
+- [Start your 14 day FREE trial](#start-your-14-day-free-trial)
 
 <!-- tocstop -->
 
@@ -1640,7 +1641,7 @@ body {
 - [x] `done: 250111` task2
 - [x] `done: 250111` task1
 
----
+## Start your 14 day FREE trial
 
 [Start your 14 day FREE trial](https://www.dpbolvw.net/click-101327218-15917064){:target="\_blank"}
 

@@ -48,6 +48,7 @@ tags:
 - [Test out my Neobean config](#test-out-my-neobean-config)
 - [Script to auto-push to GitHub](#script-to-auto-push-to-github)
 - [Reload kitty notes when restart yabai](#reload-kitty-notes-when-restart-yabai)
+- [Start your 14 day FREE trial](#start-your-14-day-free-trial)
 
 <!-- tocstop -->
 
@@ -437,7 +438,7 @@ alias neobean='NVIM_APPNAME=linkarzu/dotfiles-latest/neovim/neobean nvim'
 
 {% include embed/youtube.html id='9SQG5ogWEug' %}
 
----
+## Start your 14 day FREE trial
 
 [Start your 14 day FREE trial](https://www.dpbolvw.net/click-101327218-15917064){:target="\_blank"}
 

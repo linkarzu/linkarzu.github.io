@@ -26,6 +26,7 @@ tags:
 - [How do you manage your passwords?](#how-do-you-manage-your-passwords)
 - [What is alacritty and why?](#what-is-alacritty-and-why)
 - [How do I install alacritty?](#how-do-i-install-alacritty)
+- [Start your 14 day FREE trial](#start-your-14-day-free-trial)
 
 <!-- tocstop -->
 
@@ -131,7 +132,7 @@ vim ~/.config/alacritty/alacritty.toml
   "write and quit"
 - Quit and re-open Alacritty and that should take care of it
 
----
+## Start your 14 day FREE trial
 
 [Start your 14 day FREE trial](https://www.dpbolvw.net/click-101327218-15917064){:target="\_blank"}
 

@@ -38,6 +38,7 @@ tags:
     + [Manual installation](#manual-installation)
     + [I have issues installing pam-watchid](#i-have-issues-installing-pam-watchid)
 - [I messed up, cannot run sudo commands anymore](#i-messed-up-cannot-run-sudo-commands-anymore)
+- [Start your 14 day FREE trial](#start-your-14-day-free-trial)
 
 <!-- tocstop -->
 
@@ -480,7 +481,7 @@ auth       sufficient     pam_tid.so
   - Then navigate to the directory `/Volumes/Macintosh HD/private/etc/pam.d`
   - And fix your sudo_local file there
 
----
+## Start your 14 day FREE trial
 
 [Start your 14 day FREE trial](https://www.dpbolvw.net/click-101327218-15917064){:target="\_blank"}
 

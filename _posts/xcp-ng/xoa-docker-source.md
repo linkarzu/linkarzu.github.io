@@ -28,6 +28,7 @@ tags:
 - [Discord server](#discord-server)
 - [Follow me on social media](#follow-me-on-social-media)
 - [How do you manage your passwords?](#how-do-you-manage-your-passwords)
+- [Start your 14 day FREE trial](#start-your-14-day-free-trial)
 
 <!-- tocstop -->
 
@@ -93,7 +94,7 @@ tags:
 
 [![Image](../../assets/img/imgs/250124-1password-banner.avif){: width="300" }](https://www.dpbolvw.net/click-101327218-15917064){:target="\_blank"}
 
----
+## Start your 14 day FREE trial
 
 [Start your 14 day FREE trial](https://www.dpbolvw.net/click-101327218-15917064){:target="\_blank"}
 

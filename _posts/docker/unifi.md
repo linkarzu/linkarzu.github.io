@@ -41,6 +41,7 @@ tags:
   * [Update Inform host](#update-inform-host)
   * [Point AP to the new controller](#point-ap-to-the-new-controller)
   * [Factory reset AP](#factory-reset-ap)
+- [Start your 14 day FREE trial](#start-your-14-day-free-trial)
 
 <!-- tocstop -->
 
@@ -376,7 +377,7 @@ client_loop: send disconnect: Broken pipe
 ssh ubnt@192.168.88.254
 ```
 
----
+## Start your 14 day FREE trial
 
 [Start your 14 day FREE trial](https://www.dpbolvw.net/click-101327218-15917064){:target="\_blank"}
 

@@ -98,6 +98,7 @@ tags:
   * [epwalsh/obsidian.nvim (uninstalled)](#epwalshobsidiannvim-uninstalled)
 - [Improve the video next year](#improve-the-video-next-year)
 - [Timeline](#timeline)
+- [Start your 14 day FREE trial](#start-your-14-day-free-trial)
 
 <!-- tocstop -->
 
@@ -1219,7 +1220,7 @@ body {
 38:44 - RECOMMENDATION view paste images neovim
 ```
 
----
+## Start your 14 day FREE trial
 
 [Start your 14 day FREE trial](https://www.dpbolvw.net/click-101327218-15917064){:target="\_blank"}
 

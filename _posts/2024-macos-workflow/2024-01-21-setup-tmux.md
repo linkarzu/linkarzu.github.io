@@ -28,6 +28,7 @@ tags:
 - [tmux configuration file](#tmux-configuration-file)
 - [Delete tmux resurrect settings](#delete-tmux-resurrect-settings)
 - [Tmux basics](#tmux-basics)
+- [Start your 14 day FREE trial](#start-your-14-day-free-trial)
 
 <!-- tocstop -->
 
@@ -239,7 +240,7 @@ tmux a -t 0
   - `q` to stop scrolling
     - or `ctrl+c`
 
----
+## Start your 14 day FREE trial
 
 [Start your 14 day FREE trial](https://www.dpbolvw.net/click-101327218-15917064){:target="\_blank"}
 

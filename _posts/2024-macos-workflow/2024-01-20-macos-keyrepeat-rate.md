@@ -23,6 +23,7 @@ tags:
 - [Follow me on social media](#follow-me-on-social-media)
 - [How do you manage your passwords?](#how-do-you-manage-your-passwords)
 - [Increase macOS key repeat rate](#increase-macos-key-repeat-rate)
+- [Start your 14 day FREE trial](#start-your-14-day-free-trial)
 
 <!-- tocstop -->
 
@@ -143,7 +144,7 @@ sudo reboot
 - We'll learn to move through commands even faster in a latter video related to
   `zsh-vi-mode`
 
----
+## Start your 14 day FREE trial
 
 [Start your 14 day FREE trial](https://www.dpbolvw.net/click-101327218-15917064){:target="\_blank"}
 

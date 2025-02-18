@@ -49,6 +49,7 @@ tags:
 - [How to search for files in Neovim compared to Obsidian](#how-to-search-for-files-in-neovim-compared-to-obsidian)
 - [My entire markdown workflow](#my-entire-markdown-workflow)
 - [It seems you're shitting on Obsidian, do you hate it?](#it-seems-youre-shitting-on-obsidian-do-you-hate-it)
+- [Start your 14 day FREE trial](#start-your-14-day-free-trial)
 
 <!-- tocstop -->
 
@@ -533,7 +534,7 @@ _Same file but in HTML view_
     jekyll theme, but if you don't want to go through all that setup, Obsidian
     publish is the way to go
 
----
+## Start your 14 day FREE trial
 
 [Start your 14 day FREE trial](https://www.dpbolvw.net/click-101327218-15917064){:target="\_blank"}
 
