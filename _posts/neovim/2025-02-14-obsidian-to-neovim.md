@@ -1,11 +1,11 @@
 ---
-title: Why I switched from Obsidian to Neovim and some useful tips
+title: How I Recreated (and Improved) My Obsidian Note-Taking Workflow in Neovim
 description: >-
   I go over the reasons why I switched from Obsidian to Neovim, I also compare
   the features in the two tools and explain what features I like about neovim vs
   Obsidian
 image:
-  path: ./../../assets/img/imgs/250214-thux-obsidian-neovim.avif
+  path: ./../../assets/img/imgs/250220-thux-neovim-like-obsidian.avif
 date: '2025-02-14 06:10:00 +0000'
 categories:
   - neovim
@@ -55,7 +55,7 @@ tags:
 
 ## YouTube video
 
-{% include embed/youtube.html id='pCzSPHrLBoU' %}
+{% include embed/youtube.html id='k_g8q5JeisY' %}
 
 ## Pre-requisites
 
