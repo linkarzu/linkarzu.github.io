@@ -25,9 +25,16 @@ tags:
 - [Follow me on social media](#follow-me-on-social-media)
 - [All links in the video description](#all-links-in-the-video-description)
 - [How do you manage your passwords?](#how-do-you-manage-your-passwords)
-- [Examples](#examples)
-  * [Add a line at the end of every file](#add-a-line-at-the-end-of-every-file)
-  * [Replace only certain files in a sub path](#replace-only-certain-files-in-a-sub-path)
+- [Multiline search and replace](#multiline-search-and-replace)
+- [Open links in new tab](#open-links-in-new-tab)
+- [Add a line at the end of every file](#add-a-line-at-the-end-of-every-file)
+- [Replace only certain items](#replace-only-certain-items)
+- [Replace only certain files in a sub path](#replace-only-certain-files-in-a-sub-path)
+- [Search only current file](#search-only-current-file)
+- [ast-grep](#ast-grep)
+- [Exclude files](#exclude-files)
+- [I don't remember a flag or command](#i-dont-remember-a-flag-or-command)
+- [Get the ripgrep command for a search](#get-the-ripgrep-command-for-a-search)
 - [Start your 14 day FREE trial](#start-your-14-day-free-trial)
 
 <!-- tocstop -->
@@ -90,9 +97,21 @@ tags:
 
 [![Image](../../assets/img/imgs/250124-1password-banner.avif){: width="300" }](https://www.dpbolvw.net/click-101327218-15917064){:target="\_blank"}
 
-## Examples
+## Multiline search and replace
 
-### Add a line at the end of every file
+- I used to do this by hand, fuck that man
+
+## Open links in new tab
+
+- I needed to add `{:target="\_blank"}` at the end of each of my links
+- Demo in video
+
+```bash
+\[(.*?)\]\((http[s]?:\/\/.*?)\)(?:[^{]|$)
+[$1]($2){:target="_blank"}
+```
+
+## Add a line at the end of every file
 
 ```regex
 RIPGREP
@@ -102,10 +121,18 @@ return match .. "\n<!-- very end of the file -->"
 \x (lua interpreter)
 ```
 
-### Replace only certain files in a sub path
+## Replace only certain items
 
-- Use this in the `Files Filter` filter, the `path` filter only accepts fixed
-  paths
+- Sometimes your search includes multiple results, but you need to leave some of
+  them out
+- that's when you use `\s` ( Sync all )
+  - `Sync All` does **not** work with multiline replacement
+  - `ast-grep` only supports `\r` ( Replace )
+
+## Replace only certain files in a sub path
+
+- Use this in the `Files Filter:` filter
+- The `Paths:` filter only accepts fixed paths
 - The `Files Filter` uses
   [gitignore syntax](https://git-scm.com/docs/gitignore){:target="\_blank"}
 
@@ -114,6 +141,78 @@ _posts/**/*
 or
 _posts/*.md
 ```
+
+## Search only current file
+
+- Look at the
+  [cookbook](https://github.com/MagicDuck/grug-far.nvim?tab=readme-ov-file#-cookbook){:target="\_blank"}
+- You can (and should) create a keymap for the ones you need
+
+```bash
+:lua require('grug-far').open({ prefills = { paths = vim.fn.expand("%") } })
+```
+
+## ast-grep
+
+- ast-grep understand your codes, that's all I fucking now
+- [Their page](https://ast-grep.github.io/){:target="\_blank"}
+- **_"It is like syntax-aware grep/sed! You can write code patterns to locate
+  and modify code, based on AST, in thousands of files, interactively."_**
+
+---
+
+- Old way of me achieving this
+
+```bash
+colors\["(linkarzu_color\d+)"\]
+"$1"
+```
+
+- But with Astgrep
+
+```bash
+colors[$A]
+$A
+\e (switch engine to astgrep)
+```
+
+- Make sure you have ast-grep installed
+- [Installation instructions](https://ast-grep.github.io/guide/quick-start.html#installation){:target="\_blank"}
+
+```bash
+brew install ast-grep
+```
+
+---
+
+- Another example provided by maintainer
+- By mistake added `/` and now I need to replace it with `.` inside a `require`
+
+```bash
+require($A)
+return 'require(' .. vars.A:gsub('/', '.') .. ')'
+*sample.lua
+\x (lua interpreter)
+\e (switch engine to astgrep)
+```
+
+## Exclude files
+
+- I wanted to exclude 2 files from the replace, so added each file in a separate
+  line under `Files Filter:`
+  - !wezterm.lua
+  - !eldritch.lua
+- But remember that it may be easier to treat the search results like a buffer,
+  delete what you don't want, and then replace
+
+## I don't remember a flag or command
+
+- Just type --help in the `Flags` field, you'll find all the docs and search
+- Also for help type `g?`
+
+## Get the ripgrep command for a search
+
+- `<localleader>p`
 
 ## Start your 14 day FREE trial
 
