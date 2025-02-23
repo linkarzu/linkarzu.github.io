@@ -652,7 +652,7 @@ sudo chmod -R 775 ~/github/containerdata-public/docker/samba/mnt/isos
   forward requests to the TFTP server and then select a boot file from the TFTP
   server.
 - I found this in the
-  [official documentation](https://netboot.xyz/docs/docker#dhcp-configurations)
+  [official documentation](https://netboot.xyz/docs/docker#dhcp-configurations){:target="_blank"}
 - In my local network my Mikrotik router #mikrotikForTheWin is my DHCP server as
   of Feb 2024, so I'll configure it to forward requests to netboot.xyz
 - For instructions on how to set up your router, go to the site below

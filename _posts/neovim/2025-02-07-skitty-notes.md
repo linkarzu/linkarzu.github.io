@@ -239,7 +239,7 @@ end
 - Here's part of the configuration to get you inspired
 - Notice the else at the bottom is for my regular neovim config
 - Remember that all of these configurations are in
-  [my dotfiles](https://github.com/linkarzu/dotfiles-latest)
+  [my dotfiles](https://github.com/linkarzu/dotfiles-latest){:target="_blank"}
 
 ```lua
 -- Conditional settings based on mode

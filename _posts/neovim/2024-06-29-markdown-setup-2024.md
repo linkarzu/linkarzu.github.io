@@ -123,7 +123,7 @@ tags:
   stuff in the 2025 video, for the things that haven't changed, I still refer
   you to this 2024 guide
 - The 2025 guide can be found here:
-  [My complete Neovim markdown setup and workflow in 2025](https://youtu.be/1YEbKDlxfss)
+  [My complete Neovim markdown setup and workflow in 2025](https://youtu.be/1YEbKDlxfss){:target="_blank"}
 
 {% include embed/youtube.html id='1YEbKDlxfss' %}
 
@@ -433,7 +433,7 @@ This is just a single line of text
 
 - Remember that I use the `lazyvim.org` distro
 - That distro already comes with some Default keymaps configured
-  [that you can find here](https://www.lazyvim.org/configuration/general#keymaps)
+  [that you can find here](https://www.lazyvim.org/configuration/general#keymaps){:target="_blank"}
 - Some of these default keymaps are the `better up/down` ones found below:
 
 ```lua

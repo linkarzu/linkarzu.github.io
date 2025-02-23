@@ -529,7 +529,7 @@ _Same file but in HTML view_
 - Obsidian also has a feature that allows you to publish your knowledge base or
   documentation on the internet, similar to this blogpost you're looking at
   right now, their solution is called
-  [Obsidian publish](https://obsidian.md/publish)
+  [Obsidian publish](https://obsidian.md/publish){:target="_blank"}
   - The only difference is that I host my blogpost in github pages using a
     jekyll theme, but if you don't want to go through all that setup, Obsidian
     publish is the way to go

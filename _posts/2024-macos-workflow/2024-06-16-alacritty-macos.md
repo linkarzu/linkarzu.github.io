@@ -126,7 +126,7 @@ vim ~/.config/alacritty/alacritty.toml
 ```
 
 - Here's a link to my
-  [alacritty configuration file](https://github.com/linkarzu/dotfiles-latest/blob/e5b1104383a685dab46f2a719567d735338a1023/alacritty/alacritty.toml)
+  [alacritty configuration file](https://github.com/linkarzu/dotfiles-latest/blob/e5b1104383a685dab46f2a719567d735338a1023/alacritty/alacritty.toml){:target="_blank"}
   and the rest of my dotfiles
 - Once you have pasted the config in the file, save it by typying `:wq` to
   "write and quit"

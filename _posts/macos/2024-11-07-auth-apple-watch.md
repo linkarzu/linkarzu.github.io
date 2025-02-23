@@ -329,8 +329,8 @@ Password:
 
 - I don't use my magic keyboard anymore, so I want to unlock my mac mini (that
   doesn't have touch ID) with my apple watch
-- [Repo: pam-watchid](https://github.com/Logicer16/pam-watchid)
-- [Issue raised in repo](https://github.com/Logicer16/pam-watchid/issues/2)
+- [Repo: pam-watchid](https://github.com/Logicer16/pam-watchid){:target="_blank"}
+- [Issue raised in repo](https://github.com/Logicer16/pam-watchid/issues/2){:target="_blank"}
 - The repo has a script that clones it, runs the makefile and then cleans up
   afterwards
 - Running this script will add extra lines to your `sudo_local` file that you'll

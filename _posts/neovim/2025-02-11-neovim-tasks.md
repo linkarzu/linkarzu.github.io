@@ -291,7 +291,7 @@ vim.keymap.set("n", "<M-x>", function()
 - Notice above I left some notes on the things that you can customize for the
   keymap
 - The configuration for this keymap is quite long, so go and get it directly
-  from [my dotfiles](https://github.com/linkarzu/dotfiles-latest) also, while
+  from [my dotfiles](https://github.com/linkarzu/dotfiles-latest){:target="_blank"}also, while
   you're there:
   - **⭐⭐⭐⭐ Remember to star my dotfiles ⭐⭐⭐⭐**
 

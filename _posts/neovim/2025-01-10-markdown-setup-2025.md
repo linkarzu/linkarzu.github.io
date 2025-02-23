@@ -496,7 +496,7 @@ alias neobean='NVIM_APPNAME=linkarzu/dotfiles-latest/neovim/neobean nvim'
 - (You thought I wasn't going to provide an alternative? 😉)
 - These 2 new snippets add the link that you have in your clipboard as a
   markdown link and put your cursor in the alternative text section
-- [dotfiles](https://github.com/linkarzu/dotfiles-latest)
+- [dotfiles](https://github.com/linkarzu/dotfiles-latest){:target="_blank"}
 - [dotfiles ext](https://github.com/linkarzu/dotfiles-latest){:target="\_blank"}
 
 ---
@@ -822,7 +822,7 @@ gsaiw`
 
 - ⭐⭐⭐ If you like what you find in my dotfiles, including my `neobean`
   configuration and keymaps, star
-  [my dotfiles](https://github.com/linkarzu/dotfiles-latest)
+  [my dotfiles](https://github.com/linkarzu/dotfiles-latest){:target="_blank"}
 
 ### Jump between markdown headings
 
@@ -1083,7 +1083,7 @@ Minim tempor ullamco do eu pariatur minim.
 ## What's that keyboard?
 
 - Are you wondering what they keyboard I use is? I recently reviewed it:
-  - [Thoughts after 5 months of using the Glove80 - Firmware upload - Layouts - Battery life](https://youtu.be/Yvn2V-Bij44)
+  - [Thoughts after 5 months of using the Glove80 - Firmware upload - Layouts - Battery life](https://youtu.be/Yvn2V-Bij44){:target="_blank"}
 
 {% include embed/youtube.html id='Yvn2V-Bij44' %}
 
@@ -1265,7 +1265,7 @@ tmux_session_name=${note_name}
 - [3rd/image.nvim](https://github.com/3rd/image.nvim){:target="\_blank"}
 - View images in neovim
 - I have a full tutorial on how to set this up in the video:
-  - [View and paste images in Neovim like in Obsidian](https://youtu.be/0O3kqGwNzTI)
+  - [View and paste images in Neovim like in Obsidian](https://youtu.be/0O3kqGwNzTI){:target="_blank"}
 
 {% include embed/youtube.html id='0O3kqGwNzTI' %}
 
@@ -1277,7 +1277,7 @@ tmux_session_name=${note_name}
   images with transparent backgrounds
 - I use this plugin always with `3rd/image.nvim`
 - I go over a demo on how and what I use this plugin for in the video:
-  - [img-clip.nvim - Add images to "assets" directory in Neovim - Drag images - Paste images and more](https://youtu.be/a3CsyZGxHrs)
+  - [img-clip.nvim - Add images to "assets" directory in Neovim - Drag images - Paste images and more](https://youtu.be/a3CsyZGxHrs){:target="_blank"}
 
 {% include embed/youtube.html id='a3CsyZGxHrs' %}
 
