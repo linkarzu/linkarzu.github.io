@@ -61,17 +61,10 @@ _purchase receipt, in case you don't trust me_
 
 ## If you like my content, and want to support me
 
-- I create and edit my videos in an M1 mac mini, and it's starting to stay
-  behind in the editing side of things, tends to slow me down a bit, I'd like to
-  upgrade the machine I use for all my videos to a `mac mini` with these specs:
-  - Apple M4 Pro chip with 14‑core CPU, 20‑core GPU, 16-core Neural Engine
-  - 24GB unified memory
-  - 1TB SSD storage
-  - 10 Gigabit Ethernet
-- If you want to help me reach my goal, you can
+- If you want to share a tip, you can
   [donate here](https://ko-fi.com/linkarzu/goal?g=6){:target="\_blank"}
-
-[![Image](../../assets/img/imgs/250103-ko-fi-donate.avif){: width="300" }](https://ko-fi.com/linkarzu/goal?g=6){:target="\_blank"}
+- I recently was laid off, so if you know about any SRE related roles, please
+  let me know
 
 ## Discord server
 
@@ -135,7 +128,7 @@ _Cherry blossom switches banner_
 
 - On the image below you'll be able to see the technical differences between the
   2 switches
-  ([image found here](https://www.moergo.com/pages/glove80-key-switches){:target="\_blank"}){:target="_blank"}
+  ([image found here](https://www.moergo.com/pages/glove80-key-switches){:target="\_blank"}){:target="\_blank"}
 - The main differences are:
   - Both of them are `linear` switches, but the plum blossoms are silent, and
     personally I love silent switches
@@ -156,7 +149,7 @@ _Notice the technical differences between the 2 switches_
 - I have a full tutorial on the glove80, in which I cover my layout, how you can
   make changes and upload a new firmware, and my thoughts related to the
   keyboard, you can see the entire thing in the video below:
-  - [Thoughts after 5 months of using the Glove80 - Firmware upload - Layouts - Battery life](https://youtu.be/Yvn2V-Bij44){:target="_blank"}
+  - [Thoughts after 5 months of using the Glove80 - Firmware upload - Layouts - Battery life](https://youtu.be/Yvn2V-Bij44){:target="\_blank"}
 
 {% include embed/youtube.html id='Yvn2V-Bij44' %}
 

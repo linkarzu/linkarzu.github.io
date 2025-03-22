@@ -105,17 +105,10 @@ alias neobean='NVIM_APPNAME=linkarzu/dotfiles-latest/neovim/neobean nvim'
 
 ## If you like my content, and want to support me
 
-- I create and edit my videos in an M1 mac mini, and it's starting to stay
-  behind in the editing side of things, tends to slow me down a bit, I'd like to
-  upgrade the machine I use for all my videos to a `mac mini` with these specs:
-  - Apple M4 Pro chip with 14‑core CPU, 20‑core GPU, 16-core Neural Engine
-  - 24GB unified memory
-  - 1TB SSD storage
-  - 10 Gigabit Ethernet
-- If you want to help me reach my goal, you can
+- If you want to share a tip, you can
   [donate here](https://ko-fi.com/linkarzu/goal?g=6){:target="\_blank"}
-
-[![Image](../../assets/img/imgs/250103-ko-fi-donate.avif){: width="300" }](https://ko-fi.com/linkarzu/goal?g=6){:target="\_blank"}
+- I recently was laid off, so if you know about any SRE related roles, please
+  let me know
 
 ## Discord server
 
@@ -529,7 +522,7 @@ _Same file but in HTML view_
 - Obsidian also has a feature that allows you to publish your knowledge base or
   documentation on the internet, similar to this blogpost you're looking at
   right now, their solution is called
-  [Obsidian publish](https://obsidian.md/publish){:target="_blank"}
+  [Obsidian publish](https://obsidian.md/publish){:target="\_blank"}
   - The only difference is that I host my blogpost in github pages using a
     jekyll theme, but if you don't want to go through all that setup, Obsidian
     publish is the way to go

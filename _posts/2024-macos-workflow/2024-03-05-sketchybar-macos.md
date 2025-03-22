@@ -51,17 +51,10 @@ tags:
 
 ## If you like my content, and want to support me
 
-- I create and edit my videos in an M1 mac mini, and it's starting to stay
-  behind in the editing side of things, tends to slow me down a bit, I'd like to
-  upgrade the machine I use for all my videos to a `mac mini` with these specs:
-  - Apple M4 Pro chip with 14‑core CPU, 20‑core GPU, 16-core Neural Engine
-  - 24GB unified memory
-  - 1TB SSD storage
-  - 10 Gigabit Ethernet
-- If you want to help me reach my goal, you can
+- If you want to share a tip, you can
   [donate here](https://ko-fi.com/linkarzu/goal?g=6){:target="\_blank"}
-
-[![Image](../../assets/img/imgs/250103-ko-fi-donate.avif){: width="300" }](https://ko-fi.com/linkarzu/goal?g=6){:target="\_blank"}
+- I recently was laid off, so if you know about any SRE related roles, please
+  let me know
 
 ## Discord server
 
@@ -96,7 +89,7 @@ tags:
 ## What is sketchybar
 
 - As the project owner `FelixKratz` states in the
-  [main repo page](https://github.com/FelixKratz/SketchyBar){:target="_blank"}
+  [main repo page](https://github.com/FelixKratz/SketchyBar){:target="\_blank"}
   - "This bar project aims to create a highly flexible, customizable, fast and
     powerful status bar replacement for people that like playing with shell
     scripts."
@@ -131,9 +124,9 @@ osascript -e 'tell application "System Events" to set autohide menu bar of dock 
 ## Sketchybar installation
 
 - I'll be following the installation instructions found in the main
-  [setup page](https://felixkratz.github.io/SketchyBar/setup){:target="_blank"}
+  [setup page](https://felixkratz.github.io/SketchyBar/setup){:target="\_blank"}
 - We will need brew, if you don't have brew installed, go and watch
-  [this video](https://youtube.com/watch?v=BEB7X78ivNM){:target="_blank"}
+  [this video](https://youtube.com/watch?v=BEB7X78ivNM){:target="\_blank"}
 
 ### Install sketchybar
 
@@ -179,7 +172,7 @@ brew install --cask font-meslo-lg-nerd-font
 - I'm using a modified version of the plugin's creator theme, so we need to
   install some additional dependencies that the plugin creator lists
 - This information can be found in
-  [felixkratz dotfiles](https://github.com/FelixKratz/dotfiles/tree/7cef83fc577bb8853c01d6aae66fdc6625feb761){:target="_blank"}
+  [felixkratz dotfiles](https://github.com/FelixKratz/dotfiles/tree/7cef83fc577bb8853c01d6aae66fdc6625feb761){:target="\_blank"}
 
 ```bash
 # This shows the apple logo and rest of icons on the right
@@ -208,7 +201,7 @@ sketchybar --reload
 ## Install themes
 
 - There are several themes created by community members that can be found in the
-  [setups discussion](https://github.com/FelixKratz/SketchyBar/discussions/47?sort=top){:target="_blank"}
+  [setups discussion](https://github.com/FelixKratz/SketchyBar/discussions/47?sort=top){:target="\_blank"}
 - Go over the page, see which one you like, and hopefully the creator properly
   documented everything so you can replicate it
 - In this guide I'll install the theme that the plugin creator uses, also a
@@ -226,9 +219,9 @@ sketchybar --reload
       with git commands
   - `Clone my entire dotfiles-latest repo`
     - Follow this method if you're following my playlist:
-      [2024 macOS workflow](https://youtube.com/playlist?list=PLZWMav2s1MZTanWwNKYvS8qgwl0HBH9J-&si=ILvc4F11_KfP3MF0){:target="_blank"}
+      [2024 macOS workflow](https://youtube.com/playlist?list=PLZWMav2s1MZTanWwNKYvS8qgwl0HBH9J-&si=ILvc4F11_KfP3MF0){:target="\_blank"}
     - For more information on what dotfiles are
-      [watch this video](https://youtube.com/watch?v=XBjfzySpGdE){:target="_blank"}
+      [watch this video](https://youtube.com/watch?v=XBjfzySpGdE){:target="\_blank"}
 
 ---
 
@@ -257,7 +250,7 @@ cd ~/github/
   not work
 - You will need a `github account` for this, if you don't have one, set it up
 - Go to my
-  [dotfiles-latest repo](https://github.com/linkarzu/dotfiles-latest/tree/adf127a73b6c57383b6ae17211ceeaf978f70b4a){:target="_blank"}
+  [dotfiles-latest repo](https://github.com/linkarzu/dotfiles-latest/tree/adf127a73b6c57383b6ae17211ceeaf978f70b4a){:target="\_blank"}
 - Once there, press `.` (dot)
   - Or instead you can switch the `github.com` to `github.dev` on the top to go
     to the
@@ -298,9 +291,10 @@ find . -name "helper" -type f -exec ls -l {} +
   - I use yabai in stack mode so I disabled the spaces, as I keep all my apps in
     a single macOS desktop/workspace
   - If you want to learn more about my yabai config, watch
-    [this video](https://youtube.com/watch?v=IRL-ueXXnWM){:target="_blank"}
+    [this video](https://youtube.com/watch?v=IRL-ueXXnWM){:target="\_blank"}
   - I also switch between apps using karabiner-elements mappings, for that you
-    can check [this video](https://youtube.com/watch?v=Cr35bp8yAzo){:target="_blank"}
+    can check
+    [this video](https://youtube.com/watch?v=Cr35bp8yAzo){:target="\_blank"}
 
 ```bash
 ln -snf ~/github/sketchybar/felixkratz-linkarzu ~/.config/sketchybar
@@ -329,7 +323,7 @@ sketchybar --reload
 
 - This below is a community theme, I haven't configured it properly, because I
   don't use it but you can figure it out by following the following thread in
-  [setups discussion](https://github.com/FelixKratz/SketchyBar/discussions/47?sort=top#discussioncomment-4156055){:target="_blank"}
+  [setups discussion](https://github.com/FelixKratz/SketchyBar/discussions/47?sort=top#discussioncomment-4156055){:target="\_blank"}
 
 ```bash
 ln -snf ~/github/sketchybar/neutonfoo ~/.config/sketchybar
@@ -342,7 +336,7 @@ sketchybar --reload
 - If you downloaded the sketchybar dir, make sure you add the code below to your
   zshrc file for the brew item to auto update when you run brew commands
 - The code that you need to add to your `~/.zshrc` file is
-  [shown here](https://github.com/linkarzu/dotfiles-latest/blob/adf127a73b6c57383b6ae17211ceeaf978f70b4a/zshrc/zshrc-file.sh#L225-L247){:target="_blank"}
+  [shown here](https://github.com/linkarzu/dotfiles-latest/blob/adf127a73b6c57383b6ae17211ceeaf978f70b4a/zshrc/zshrc-file.sh#L225-L247){:target="\_blank"}
 
 ```bash
 # I'm using vim to edit the file here, but use whichever text editor you want
@@ -356,13 +350,13 @@ vim ~/.zshrc
 
 - **You only have to follow 1 of the 2 install theme methods**
 - Follow this method if you're following my playlist:
-  [2024 macOS workflow](https://youtube.com/playlist?list=PLZWMav2s1MZTanWwNKYvS8qgwl0HBH9J-&si=ILvc4F11_KfP3MF0){:target="_blank"}
+  [2024 macOS workflow](https://youtube.com/playlist?list=PLZWMav2s1MZTanWwNKYvS8qgwl0HBH9J-&si=ILvc4F11_KfP3MF0){:target="\_blank"}
 - We'll be switching to a new repo, which has the same contents I had in the
   repo we have been using, but it has more updates and is the repo that I'll
   keep maintaining from now on
 - If you want to fork the repo to have your own copy and make changes to re
   upload to your own github account, see my following video
-  [04 - What are dotfiles and how to clone them](https://youtube.com/watch?v=XBjfzySpGdE){:target="_blank"}
+  [04 - What are dotfiles and how to clone them](https://youtube.com/watch?v=XBjfzySpGdE){:target="\_blank"}
 - The commands below apply to both if you're new and want to clone my entire
   repo, or if you're switching from my old repo
 

@@ -36,17 +36,10 @@ tags:
 
 ## If you like my content, and want to support me
 
-- I create and edit my videos in an M1 mac mini, and it's starting to stay
-  behind in the editing side of things, tends to slow me down a bit, I'd like to
-  upgrade the machine I use for all my videos to a `mac mini` with these specs:
-  - Apple M4 Pro chip with 14‑core CPU, 20‑core GPU, 16-core Neural Engine
-  - 24GB unified memory
-  - 1TB SSD storage
-  - 10 Gigabit Ethernet
-- If you want to help me reach my goal, you can
+- If you want to share a tip, you can
   [donate here](https://ko-fi.com/linkarzu/goal?g=6){:target="\_blank"}
-
-[![Image](../../assets/img/imgs/250103-ko-fi-donate.avif){: width="300" }](https://ko-fi.com/linkarzu/goal?g=6){:target="\_blank"}
+- I recently was laid off, so if you know about any SRE related roles, please
+  let me know
 
 ## Discord server
 
@@ -126,7 +119,7 @@ vim ~/.config/alacritty/alacritty.toml
 ```
 
 - Here's a link to my
-  [alacritty configuration file](https://github.com/linkarzu/dotfiles-latest/blob/e5b1104383a685dab46f2a719567d735338a1023/alacritty/alacritty.toml){:target="_blank"}
+  [alacritty configuration file](https://github.com/linkarzu/dotfiles-latest/blob/e5b1104383a685dab46f2a719567d735338a1023/alacritty/alacritty.toml){:target="\_blank"}
   and the rest of my dotfiles
 - Once you have pasted the config in the file, save it by typying `:wq` to
   "write and quit"

@@ -1,36 +1,41 @@
 ---
-title: 05 - Install nerdfonts macOS
-description: null
+title: test
+description: aabc
 image:
-  path: >-
-    https://res.cloudinary.com/daqwsgmx6/image/upload/q_75/v1706149938/youtube/2024-macos-workflow/05-nerdfonts.avif
-date: '2024-01-21 20:05:00 +0000'
+  path: ./../../assets/img/imgs/250117-thux-simple-bar-sketchybar.avif
+date: '2025-01-16 06:10:00 +0000'
 categories:
-  - 2024-macos-workflow
+  - macos
 tags:
   - macos
   - tutorial
   - youtube
   - video
-  - nerdfonts
 ---
 ## Contents
+
+### Table of contents
 
 <!-- toc -->
 
 - [YouTube video](#youtube-video)
+- [Pre-requisites](#pre-requisites)
 - [If you like my content, and want to support me](#if-you-like-my-content-and-want-to-support-me)
 - [Discord server](#discord-server)
 - [Follow me on social media](#follow-me-on-social-media)
+- [All links in the video description](#all-links-in-the-video-description)
 - [How do you manage your passwords?](#how-do-you-manage-your-passwords)
-- [Install nerdfonts](#install-nerdfonts)
-- [Start your 14 day FREE trial](#start-your-14-day-free-trial)
+- [bottom banner](#bottom-banner)
 
 <!-- tocstop -->
 
 ## YouTube video
 
-{% include embed/youtube.html id='7oCjW4dqLj4' %}
+{% include embed/youtube.html id='' %}
+
+## Pre-requisites
+
+- List any here
 
 ## If you like my content, and want to support me
 
@@ -60,6 +65,12 @@ tags:
 - [YouTube (subscribe MF, subscribe)](https://www.youtube.com/@linkarzu){:target="\_blank"}
 - [Ko-Fi](https://ko-fi.com/linkarzu/goal?g=6){:target="\_blank"}
 
+## All links in the video description
+
+- The following links will be in the YouTube video description:
+  - Each one of the videos shown
+  - A link to this blogpost
+
 ## How do you manage your passwords?
 
 - I've tried many different password managers in the past, I've switched from
@@ -69,50 +80,9 @@ tags:
 
 [![Image](../../assets/img/imgs/250124-1password-banner.avif){: width="300" }](https://www.dpbolvw.net/click-101327218-15917064){:target="\_blank"}
 
-## Install nerdfonts
+## bottom banner
 
-- `https://www.nerdfonts.com` is a Iconic font aggregator, collection, and
-  patcher
-- Different apps use nerdfonts, so we need to install a font package, else:
-  - Starship fonts won't show up properly
-  - Neovim symbols will nos show up correctly
-  - Other apps that use symbols will display them incorrectly
-  - Demonstration in the video
-- Fonts were already installed automatically by my Brewfiles, but will uninstall
-  them so you can see how it looks like without fonts
-
-```bash
-brew uninstall font-meslo-lg-nerd-font
-```
-
-```bash
-# Terminal symbols don't look correctly
-cd ~/github/dotfiles-latest/karabiner/mxstbr
-
-# Neovim symbols don't show up correctly
-nvim
-```
-
-- To install the fonts again
-
-```bash
-brew tap homebrew/cask-fonts
-brew install --cask font-meslo-lg-nerd-font
-# fc command to verify if fonts are installed
-brew install fontconfig
-```
-
-```bash
-fc-list | grep -i "Meslo"
-```
-
-```bash
-fc-list | grep -i "MesloLGM Nerd Font"
-```
-
-- After this, close and re-open alacritty
-
-## Start your 14 day FREE trial
+---
 
 [Start your 14 day FREE trial](https://www.dpbolvw.net/click-101327218-15917064){:target="\_blank"}
 
