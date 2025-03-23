@@ -23,11 +23,6 @@ tags:
 - [YouTube video](#youtube-video)
 - [Disclaimer](#disclaimer)
 - [Introduction](#introduction)
-- [A link to my guide will be in the video description](#a-link-to-my-guide-will-be-in-the-video-description)
-- [If you like my content, and want to support me](#if-you-like-my-content-and-want-to-support-me)
-- [Discord server](#discord-server)
-- [Follow me on social media](#follow-me-on-social-media)
-- [How do you manage your passwords?](#how-do-you-manage-your-passwords)
 - [Pros and cons of each](#pros-and-cons-of-each)
   * [Using a distribution](#using-a-distribution)
   * [Using kickstart.nvim](#using-kickstartnvim)
@@ -80,48 +75,6 @@ tags:
 - I already have everything setup on this machine, so in the video you'll see
   that I'll go through the whole process by remotely managing other computer and
   starting from scratch
-
-## A link to my guide will be in the video description
-
-- So you can copy all the commands
-- So you can also find all the links I share
-
-## If you like my content, and want to support me
-
-- If you want to share a tip, you can
-  [donate here](https://ko-fi.com/linkarzu/goal?g=6){:target="\_blank"}
-- I recently was laid off, so if you know about any SRE related roles, please
-  let me know
-
-## Discord server
-
-- My discord server is now open to the public, feel free to join and hang out
-  with others
-- join the
-  [discord server in this link](https://discord.gg/NgqMgwwtMH){:target="\_blank"}
-
-[![Image](./../../assets/img/imgs/250210-discord-free.avif){: width="300" }](https://discord.gg/NgqMgwwtMH){:target="\_blank"}
-
-## Follow me on social media
-
-- [Twitter (or "X")](https://x.com/link_arzu){:target="\_blank"}
-- [LinkedIn](https://www.linkedin.com/in/christianarzu){:target="\_blank"}
-- [TikTok](https://www.tiktok.com/@linkarzu){:target="\_blank"}
-- [Instagram](https://www.instagram.com/link_arzu){:target="\_blank"}
-- [GitHub](https://github.com/linkarzu){:target="\_blank"}
-- [Threads](https://www.threads.net/@link_arzu){:target="\_blank"}
-- [OnlyFans 🍆](https://linkarzu.com/assets/img/imgs/250126-whyugae.avif){:target="\_blank"}
-- [YouTube (subscribe MF, subscribe)](https://www.youtube.com/@linkarzu){:target="\_blank"}
-- [Ko-Fi](https://ko-fi.com/linkarzu/goal?g=6){:target="\_blank"}
-
-## How do you manage your passwords?
-
-- I've tried many different password managers in the past, I've switched from
-  `LastPass` to `Dashlane` and finally ended up in `1password`
-- You want to find out why? More info in my article:
-  - [How I use 1password to keep all my accounts safe](https://linkarzu.com/posts/1password/1password/){:target="\_blank"}
-
-[![Image](../../assets/img/imgs/250124-1password-banner.avif){: width="300" }](https://www.dpbolvw.net/click-101327218-15917064){:target="\_blank"}
 
 ## Pros and cons of each
 
