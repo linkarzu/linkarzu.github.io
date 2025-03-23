@@ -22,6 +22,11 @@ tags:
 - [What are dotfiles?](#what-are-dotfiles)
 - [Importance of the .zshrc file](#importance-of-the-zshrc-file)
 - [Clone the dotfiles](#clone-the-dotfiles)
+- [If you like my content, and want to support me](#if-you-like-my-content-and-want-to-support-me)
+- [Discord server](#discord-server)
+- [Follow me on social media](#follow-me-on-social-media)
+- [All links in the video description](#all-links-in-the-video-description)
+- [How do you manage your passwords?](#how-do-you-manage-your-passwords)
 - [Start your 14 day FREE trial](#start-your-14-day-free-trial)
 
 <!-- tocstop -->
@@ -161,6 +166,49 @@ lla ~
   alacritty video
 - **If you cloned my repo directly instead of forking, comment the auto update
   lines, demo in the video**
+
+## If you like my content, and want to support me
+
+- If you want to share a tip, you can
+  [donate here](https://ko-fi.com/linkarzu/goal?g=6){:target="\_blank"}
+- I recently was laid off, so if you know about any SRE related roles, please
+  let me know
+
+## Discord server
+
+- My discord server is now open to the public, feel free to join and hang out
+  with others
+- join the
+  [discord server in this link](https://discord.gg/NgqMgwwtMH){:target="\_blank"}
+
+[![Image](./../../assets/img/imgs/250210-discord-free.avif){: width="300" }](https://discord.gg/NgqMgwwtMH){:target="\_blank"}
+
+## Follow me on social media
+
+- [Twitter (or "X")](https://x.com/link_arzu){:target="\_blank"}
+- [LinkedIn](https://www.linkedin.com/in/christianarzu){:target="\_blank"}
+- [TikTok](https://www.tiktok.com/@linkarzu){:target="\_blank"}
+- [Instagram](https://www.instagram.com/link_arzu){:target="\_blank"}
+- [GitHub](https://github.com/linkarzu){:target="\_blank"}
+- [Threads](https://www.threads.net/@link_arzu){:target="\_blank"}
+- [OnlyFans 🍆](https://linkarzu.com/assets/img/imgs/250126-whyugae.avif){:target="\_blank"}
+- [YouTube (subscribe MF, subscribe)](https://www.youtube.com/@linkarzu){:target="\_blank"}
+- [Ko-Fi](https://ko-fi.com/linkarzu/goal?g=6){:target="\_blank"}
+
+## All links in the video description
+
+- The following links will be in the YouTube video description:
+  - Each one of the videos shown
+  - A link to this blogpost
+
+## How do you manage your passwords?
+
+- I've tried many different password managers in the past, I've switched from
+  `LastPass` to `Dashlane` and finally ended up in `1password`
+- You want to find out why? More info in my article:
+  - [How I use 1password to keep all my accounts safe](https://linkarzu.com/posts/1password/1password/){:target="\_blank"}
+
+[![Image](../../assets/img/imgs/250124-1password-banner.avif){: width="300" }](https://www.dpbolvw.net/click-101327218-15917064){:target="\_blank"}
 
 ## Start your 14 day FREE trial
 
