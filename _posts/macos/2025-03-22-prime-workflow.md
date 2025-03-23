@@ -300,7 +300,7 @@ _kekw_
   that have not been accessed for a bit less than 2 hours
 - You can configure it every day or week, however you like
 - The script can be found here:
-  [linkarzu/tmuxKillSessions.sh](~/github/dotfiles-latest/tmux/tools/linkarzu/tmuxKillSessions.sh)
+  [linkarzu/tmuxKillSessions.sh](https://github.com/linkarzu/dotfiles-latest/blob/main/tmux/tools/linkarzu/tmuxKillSessions.sh)
 - But I also created a video in which I set up everything from scratch, and
   since I use macOS I configure the `LauncAgent` (basically the cron job):
   - [Tmux Cleanup Session Script - Automatically Kill Unused Tmux Sessions](https://youtu.be/3axjsVR7QfA){:target="\_blank"}
