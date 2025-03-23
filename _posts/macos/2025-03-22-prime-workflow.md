@@ -31,8 +31,10 @@ tags:
   * [Bonus yabai tip](#bonus-yabai-tip)
 - [Tmux](#tmux)
 - [I can switch to tmux sessions from any app](#i-can-switch-to-tmux-sessions-from-any-app)
+- [Tmux session cleanup script](#tmux-session-cleanup-script)
 - [Vim telescope harpoon](#vim-telescope-harpoon)
 - [Be careful with the hyper key you choose](#be-careful-with-the-hyper-key-you-choose)
+- [Where can you find my config?](#where-can-you-find-my-config)
 - [Conclusion](#conclusion)
 - [If you like my content, and want to support me](#if-you-like-my-content-and-want-to-support-me)
 - [Discord server](#discord-server)
@@ -289,6 +291,22 @@ _kekw_
 - All of this is covered in my `tmux-sessionizer` and `karabiner-elements`
   videos shared above
 
+## Tmux session cleanup script
+
+- If you open each different project in a new tmux sessions, and if you're like
+  me, you will probably end up with 20 or 25 tmux sessions.
+- I don't usually clean them up, and I end up with too many
+- So I created a small script that I run every 2 hours, that cleans up sessions
+  that have not been accessed for a bit less than 2 hours
+- You can configure it every day or week, however you like
+- The script can be found here:
+  [linkarzu/tmuxKillSessions.sh](~/github/dotfiles-latest/tmux/tools/linkarzu/tmuxKillSessions.sh)
+- But I also created a video in which I set up everything from scratch, and
+  since I use macOS I configure the `LauncAgent` (basically the cron job):
+  - [Tmux Cleanup Session Script - Automatically Kill Unused Tmux Sessions](https://youtu.be/3axjsVR7QfA){:target="\_blank"}
+
+{% include embed/youtube.html id='3axjsVR7QfA' %}
+
 ## Vim telescope harpoon
 
 - **This is for navigating `inside` a project or codebase**
@@ -358,6 +376,12 @@ _kekw_
 - If you want to learn about all the different keymaps I use, I have a video in
   which I go over this in detail:
   [karabiner-elements configuration updates 2024 (video)](https://youtu.be/dqEiDVYRWLk){:target="\_blank"}
+
+## Where can you find my config?
+
+- All of my config files and scripts are in
+  [my dotfiles](https://github.com/linkarzu/dotfiles-latest){:target="\_blank"}
+- ⭐⭐⭐ If you like what you find there, consider giving them a star
 
 ## Conclusion
 
