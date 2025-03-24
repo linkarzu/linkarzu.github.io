@@ -20,6 +20,7 @@ tags:
 
 - [YouTube video](#youtube-video)
 - [Pre-requisites](#pre-requisites)
+- [Other videos mentioned](#other-videos-mentioned)
 - [If you like my content, and want to support me](#if-you-like-my-content-and-want-to-support-me)
 - [Discord server](#discord-server)
 - [Follow me on social media](#follow-me-on-social-media)
@@ -37,16 +38,20 @@ tags:
 - For a detailed overview guide:
   - [01 - video series overview](https://youtu.be/fYwvWa8c_Bs){:target="\_blank"};
 
-{% include embed/youtube.html id='fYwvWa8c_Bs' %}
-
 ---
 
 - To learn more about blink in Neovim:
   - [blink.cmp updates - Remove LuaSnip - Emoji and Dictionary Sources - Fix Jump Autosave Issue](https://youtu.be/JrgfpWap_Pg){:target="\_blank"}
 
+## Other videos mentioned
+
+{% include embed/youtube.html id='fYwvWa8c_Bs' %}
+
 {% include embed/youtube.html id='JrgfpWap_Pg' %}
 
 {% include embed/youtube.html id='keqLvqcHaMI' %}
+
+{% include embed/youtube.html id='AcLRyqjzqY4' %}
 
 ## If you like my content, and want to support me
 
@@ -54,12 +59,6 @@ tags:
   [donate here](https://ko-fi.com/linkarzu/goal?g=6){:target="\_blank"}
 - I recently was laid off, so if you know about any SRE related roles, please
   let me know
-
-{% include embed/youtube.html id='AcLRyqjzqY4' %}
-
-{% include embed/youtube.html id='JrgfpWap_Pg' %}
-
-{% include embed/youtube.html id='keqLvqcHaMI' %}
 
 ## Discord server
 
