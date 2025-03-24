@@ -38,6 +38,7 @@ tags:
 - [Be careful with the hyper key you choose](#be-careful-with-the-hyper-key-you-choose)
 - [Where can you find my config?](#where-can-you-find-my-config)
 - [Conclusion](#conclusion)
+- [Other videos mentioned](#other-videos-mentioned)
 - [If you like my content, and want to support me](#if-you-like-my-content-and-want-to-support-me)
 - [Discord server](#discord-server)
 - [Follow me on social media](#follow-me-on-social-media)
@@ -64,10 +65,8 @@ tags:
 - He talked fast and just cranked jokes out of nowhere, which made the
   experience like watching a Dave Chappelle stand-up tech tutorial, and I liked
   it
-- Anyway, I ended up in this video:
+- Anyway, I ended up in this video by ThePrimeagen:
   - [My Developer Workflow - How I use i3, tmux, and vim](https://youtu.be/bdumjiHabhQ)
-
-{% include embed/youtube.html id='bdumjiHabhQ' %}
 
 ## With my 55 inch TV, I thought I was productive
 
@@ -206,17 +205,12 @@ _kekw_
 - To learn how I do all my different mappings to switch between apps, change
   system settings, and way more, check out my karabiner-elements video:
   - [karabiner-elements configuration updates 2024](https://youtu.be/dqEiDVYRWLk){:target="\_blank"}
-  - [karabiner-elements configuration updates 2024](https://youtu.be/dqEiDVYRWLk)
-
-{% include embed/youtube.html id='dqEiDVYRWLk' %}
 
 ---
 
 - To learn how I use yabai in `stack` mode, how I set my terminal transparent,
   and overall how I do window management in macOS, check this video out:
   - [Yabai configuration updates 2024](https://youtu.be/9SQG5ogWEug){:target="\_blank"}
-
-{% include embed/youtube.html id='9SQG5ogWEug' %}
 
 ### Bonus yabai tip
 
@@ -232,8 +226,6 @@ _kekw_
   it allows me to use vim motions to edit text
 - I have a full tutorial on how to set it up, you can find it here:
   - [skitty-notes - Markdown Sticky Notes app in Neovim in the Kitty Terminal](https://youtu.be/M0B_24d0MWw){:target="\_blank"}
-
-{% include embed/youtube.html id='M0B_24d0MWw' %}
 
 ## Tmux
 
@@ -275,9 +267,8 @@ _kekw_
 
 - To switch between tmux sessions I'm using Prime's tmux sessionizer script
 - I explain everything in detail in the video below:
-  - [Primeagen's tmux-sessionizer and tmux-sshonizer-agen](https://youtu.be/MCbEPylDEWU){:target="\_blank"}
 
-{% include embed/youtube.html id='MCbEPylDEWU' %}
+  - [Primeagen's tmux-sessionizer and tmux-sshonizer-agen](https://youtu.be/MCbEPylDEWU){:target="\_blank"}
 
 - I would also highly recommend you to watch the karabiner-elements video shared
   above to understand my keymaps
@@ -308,8 +299,6 @@ _kekw_
   since I use macOS I configure the `LauncAgent` (basically the cron job):
   - [Tmux Cleanup Session Script - Automatically Kill Unused Tmux Sessions](https://youtu.be/3axjsVR7QfA){:target="\_blank"}
 
-{% include embed/youtube.html id='3axjsVR7QfA' %}
-
 ## Vim telescope harpoon
 
 - **This is for navigating `inside` a project or codebase**
@@ -338,14 +327,10 @@ _kekw_
 - If you want to learn how to set up the snacks plugin
   [Why I'm Moving from Telescope to Snacks Picker - Why I'm not Using fzf-lua - Frecency feature](https://youtu.be/7hEWG3GP6m0){:target="\_blank"}
 
-{% include embed/youtube.html id='7hEWG3GP6m0' %}
-
 ---
 
 - I also have a video in which I go over how I use harpoon:
   [Snipe vs Harpoon in Neovim](https://youtu.be/SuKhJlqGb5A){:target="\_blank"}
-
-{% include embed/youtube.html id='SuKhJlqGb5A' %}
 
 ## Be careful with the hyper key you choose
 
@@ -393,6 +378,24 @@ _kekw_
 - It would be interesting to see what new tricks he has under his sleeve and
   grab some inspiration
 - I love my new way of navigating around
+
+## Other videos mentioned
+
+{% include embed/youtube.html id='bdumjiHabhQ' %}
+
+{% include embed/youtube.html id='dqEiDVYRWLk' %}
+
+{% include embed/youtube.html id='9SQG5ogWEug' %}
+
+{% include embed/youtube.html id='M0B_24d0MWw' %}
+
+{% include embed/youtube.html id='MCbEPylDEWU' %}
+
+{% include embed/youtube.html id='3axjsVR7QfA' %}
+
+{% include embed/youtube.html id='7hEWG3GP6m0' %}
+
+{% include embed/youtube.html id='SuKhJlqGb5A' %}
 
 ## If you like my content, and want to support me
 
