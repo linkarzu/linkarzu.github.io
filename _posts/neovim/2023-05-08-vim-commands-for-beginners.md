@@ -5,9 +5,10 @@ description: >-
   redo, delete, cut, copy, paste, change, replace, join, search, other ways of
   quitting Vim, Vimtutor, and the tip to install the Vim VS code extension.
 image:
-  path: https://res.cloudinary.com/daqwsgmx6/image/upload/q_75/v1683742199/blog/vim-tutorial_xdxvlf.avif
+  path: >-
+    https://res.cloudinary.com/daqwsgmx6/image/upload/q_75/v1683742199/blog/vim-tutorial_xdxvlf.avif
   alt: vim tutorial
-date: "2023-05-08 18:50:00 +0000"
+date: '2023-05-08 18:50:00 +0000'
 categories:
   - Editors
 tags:
@@ -17,6 +18,36 @@ tags:
   - tutorial
   - ssh
 ---
+## Contents
+
+### Table of contents
+
+<!-- toc -->
+
+- [My history with Vim](#my-history-with-vim)
+- [VIM modes](#vim-modes)
+  * [Normal mode](#normal-mode)
+  * [Insert mode](#insert-mode)
+  * [Command mode](#command-mode)
+- [Quit and save](#quit-and-save)
+- [Navigation](#navigation)
+  * [Basic navigation](#basic-navigation)
+  * [Useful navigation](#useful-navigation)
+- [Undo, redo, repeat](#undo-redo-repeat)
+- [Delete text](#delete-text)
+- [Cut, copy, and paste](#cut-copy-and-paste)
+- [Change, replace, join](#change-replace-join)
+- [Search, find replace](#search-find-replace)
+- [Documentation](#documentation)
+- [If you like my content, and want to support me](#if-you-like-my-content-and-want-to-support-me)
+- [Discord server](#discord-server)
+- [Follow me on social media](#follow-me-on-social-media)
+- [All links in the video description](#all-links-in-the-video-description)
+- [How do you manage your passwords?](#how-do-you-manage-your-passwords)
+
+<!-- tocstop -->
+
+## My history with Vim
 
 I was once there all excited, following my network tutorial and doing my
 
@@ -24,7 +55,7 @@ I was once there all excited, following my network tutorial and doing my
 vim /etc/network/interfaces
 ```
 
-to try to assign a static IP on my host, and suddenly got trapped somewhere, not
+To try to assign a static IP on my host, and suddenly got trapped somewhere, not
 knowing what it was, or how to save or get out.
 
 So I decided to switch to nano (I know, the Vim cult is gonna hate this) and
@@ -34,31 +65,52 @@ Vim, so decided to "learn" Vim.
 
 We've been on the ring quite a few times, and I keep getting knocked out when I
 don't remember how do to the basic stuff, like searching, copying, pasting, etc.
+
 So I'm creating this guide to remember basic useful commands that a beginner
 needs to know when working with Vim.
 
 Nowadays, I mostly use VS code to SSH into my remote devices
 [guide here](https://code.visualstudio.com/docs/remote/ssh-tutorial){:target="\_blank"}
-and edit files from it (I know Vim gods), but there are times in which I don't
+and edit files from it (I know Vim gods). But there are times in which I don't
 want to deal with the VS code slowness and use Vim directly to practice my
-skills. There will be other times in which you'll log in to an old remote Linux
+skills. There will be other times in which you'll log into an old remote Linux
 server that's not supported by the `Remote - SSH` extension or it has no other
 text editor than Vim, so hopefully this will help you out too.
 
+<!-- markdownlint-disable -->
+<!-- prettier-ignore-start -->
+ 
+<!-- tip=green, info=blue, warning=yellow, danger=red -->
+ 
 > If you're using VS code you can install the `Vim` extension by `vscodevim` and
-> use Vim key bindings {: .prompt-tip }
+> use Vim key bindings 
+{: .prompt-tip }
+ 
+<!-- prettier-ignore-end -->
+<!-- markdownlint-restore -->
 
+---
+
+<!-- markdownlint-disable -->
+<!-- prettier-ignore-start -->
+ 
+<!-- tip=green, info=blue, warning=yellow, danger=red -->
+ 
 > If you have Vim installed on your system, most likely `Vimtutor` is installed
 > as well, as the name implies, it's an interactive Vim tutorial. Just type
 > `vimtutor` in your terminal to open it and follow along. **I highly recommend
-> you check it out** {: .prompt-tip }
+> you check it out** 
+{: .prompt-tip }
+ 
+<!-- prettier-ignore-end -->
+<!-- markdownlint-restore -->
 
 ## VIM modes
 
 Vim has several modes, but the ones discussed in this tutorial will be:
 
-- `normal` - default mode when you open Vim, you can use all of the shortcuts
-  below to navigate and do everything.
+- `normal` - default mode when you open Vim, you can use all the shortcuts below
+  to navigate and do everything.
 - `insert` - allows you to insert or edit text
 - `command` - allows you to enter Vim commands, like save or quit files
 
@@ -80,8 +132,8 @@ To enter insert mode there are several options, here are some useful ones:
 - `a` - append text **after** the cursor position.
 - `A` - append text at the **end** of the line.
   - this is the same as `$a`
-- `o` - open a new line below the cursor and enter insert mode.
-- `O` - open a new line above the cursor and enter insert mode.
+- `o` - open a newline below the cursor and enter insert mode.
+- `O` - open a newline above the cursor and enter insert mode.
 - `s` - substitute the character under the cursor and enter insert mode.
 - `S` - substitute the entire line and enter insert mode.
 
@@ -99,7 +151,7 @@ that there is another way of quitting Vim with `ZZ` or `ZQ`
 
 - `:wq` - write and quit
   - `ZZ` - also write and quit (shift-Z-Z, notice the Z's are uppercase)
-  - an alternate way of quitting Vim
+  - An alternate way of quitting Vim
 - `:q!` - quit without saving changes
   - `ZQ` - also quit without saving changes (shift-Z-Q, uppercase too)
   - other way of quitting Vim
@@ -133,7 +185,7 @@ keys, it's more efficient
 - `^` - takes you to the first letter of the line
 - `$` - takes you to the last letter of the line
 - `0` - takes you to the very beginning of a line
-  - you can then press `w` to move to the first word
+  - You can then press `w` to move to the first word
 - `z[enter]` - moves the current cursor line to the top of the screen
 - `gg` - go to the top of the file
   - `:^` - go to the top of the file
@@ -157,7 +209,7 @@ keys, it's more efficient
   symbols)
   - `dW` - does the same thing but it stops at space
   - `5dw` - deletes 5 words
-  - `d5w` - same thing, but easier to remember (delete 5 words)
+  - `d5w` - same thing, easier to remember (delete 5 words)
 - `dB` - deletes backward a word (stops at spaces)
   - `db` - deletes to the beginning of the previous word (stops at symbols)
 - `d^` - deletes to the beginning of the line starting at the cursor
@@ -167,7 +219,7 @@ keys, it's more efficient
   - `3dd` - deletes 3 lines including the one where the cursor is on
     - `d3d` - the same thing, deletes 3 lines
 
-## Cut, copy and paste
+## Cut, copy, and paste
 
 Text copied to the registry(clipboard) stays there until replaced with something
 else, which means it can be pasted multiple times
@@ -272,3 +324,4 @@ journey to continue learning about Vim.
   1password 14 day free trial by clicking the image below**
 
 [![Image](../../assets/img/imgs/250124-1password-banner.avif){: width="300" }](https://www.dpbolvw.net/click-101327218-15917064){:target="\_blank"}
+
