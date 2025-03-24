@@ -30,10 +30,12 @@ tags:
 
 ## YouTube video
 
+{% include embed/youtube.html id='fYwvWa8c_Bs' %}
+
+## Pre-requisites
+
 - For a detailed overview guide:
   - [01 - video series overview](https://youtu.be/fYwvWa8c_Bs){:target="\_blank"};
-
-{% include embed/youtube.html id='fYwvWa8c_Bs' %}
 
 {% include embed/youtube.html id='fYwvWa8c_Bs' %}
 
@@ -46,10 +48,6 @@ tags:
 
 {% include embed/youtube.html id='keqLvqcHaMI' %}
 
-## Pre-requisites
-
-- List any here
-
 ## If you like my content, and want to support me
 
 - If you want to share a tip, you can
@@ -58,6 +56,10 @@ tags:
   let me know
 
 {% include embed/youtube.html id='AcLRyqjzqY4' %}
+
+{% include embed/youtube.html id='JrgfpWap_Pg' %}
+
+{% include embed/youtube.html id='keqLvqcHaMI' %}
 
 ## Discord server
 
