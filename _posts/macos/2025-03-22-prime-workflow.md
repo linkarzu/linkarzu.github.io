@@ -17,6 +17,8 @@ tags:
   - youtube
   - video
 ---
+## Contents
+
 ### Table of contents
 
 <!-- toc -->
@@ -204,6 +206,7 @@ _kekw_
 - To learn how I do all my different mappings to switch between apps, change
   system settings, and way more, check out my karabiner-elements video:
   - [karabiner-elements configuration updates 2024](https://youtu.be/dqEiDVYRWLk){:target="\_blank"}
+  - [karabiner-elements configuration updates 2024](https://youtu.be/dqEiDVYRWLk)
 
 {% include embed/youtube.html id='dqEiDVYRWLk' %}
 
