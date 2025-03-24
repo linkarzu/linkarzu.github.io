@@ -35,12 +35,16 @@ tags:
 
 {% include embed/youtube.html id='fYwvWa8c_Bs' %}
 
+{% include embed/youtube.html id='fYwvWa8c_Bs' %}
+
 ---
 
 - To learn more about blink in Neovim:
   - [blink.cmp updates - Remove LuaSnip - Emoji and Dictionary Sources - Fix Jump Autosave Issue](https://youtu.be/JrgfpWap_Pg){:target="\_blank"}
 
 {% include embed/youtube.html id='JrgfpWap_Pg' %}
+
+{% include embed/youtube.html id='keqLvqcHaMI' %}
 
 ## Pre-requisites
 
@@ -52,6 +56,8 @@ tags:
   [donate here](https://ko-fi.com/linkarzu/goal?g=6){:target="\_blank"}
 - I recently was laid off, so if you know about any SRE related roles, please
   let me know
+
+{% include embed/youtube.html id='AcLRyqjzqY4' %}
 
 ## Discord server
 
