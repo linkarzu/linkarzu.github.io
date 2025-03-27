@@ -34,6 +34,7 @@ tags:
 - [Change interval in which the script is executed](#change-interval-in-which-the-script-is-executed)
   * [If adding the code to your `zshrc` file](#if-adding-the-code-to-your-zshrc-file)
   * [If creating the plist file manually](#if-creating-the-plist-file-manually)
+- [Other videos mentioned](#other-videos-mentioned)
 - [If you like my content, and want to support me](#if-you-like-my-content-and-want-to-support-me)
 - [Discord server](#discord-server)
 - [Follow me on social media](#follow-me-on-social-media)
@@ -266,8 +267,6 @@ launchctl load ~/Library/LaunchAgents/com.linkarzu.tmuxKillSessions.plist
   detail in this video:
   - [Script to set up a Mac and Install Everything - Configure all the macOS System Settings via script](https://youtu.be/ZSLkyB-XYYQ){:target="\_blank"}
 
-{% include embed/youtube.html id='ZSLkyB-XYYQ' %}
-
 ## Command: `launchctl print`
 
 - If I run this command, it shows me a lot of details about this `launchctl`
@@ -358,6 +357,10 @@ launchctl bootout gui/$(id -u) ~/Library/LaunchAgents/com.linkarzu.tmuxKillSessi
 ```bash
 launchctl load ~/Library/LaunchAgents/com.linkarzu.tmuxKillSessions.plist
 ```
+
+## Other videos mentioned
+
+{% include embed/youtube.html id='ZSLkyB-XYYQ' %}
 
 ## If you like my content, and want to support me
 

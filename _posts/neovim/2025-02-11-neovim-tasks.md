@@ -36,6 +36,7 @@ tags:
   * [Alt+x to toggle tasks](#altx-to-toggle-tasks)
   * [Alt+l to create task](#altl-to-create-task)
   * [Leader+tt and leader+tc to list incomplete and completed tasks](#leadertt-and-leadertc-to-list-incomplete-and-completed-tasks)
+- [Other videos mentioned](#other-videos-mentioned)
 - [If you like my content, and want to support me](#if-you-like-my-content-and-want-to-support-me)
 - [Discord server](#discord-server)
 - [Follow me on social media](#follow-me-on-social-media)
@@ -56,8 +57,6 @@ tags:
   config, but also other neovim distributions, so I highly recommend you check
   it out:
   - [Download and test multiple Neovim distros and configurations - Without affecting your current config](https://youtu.be/xN1hdY1cc3E){:target="\_blank"}
-
-{% include embed/youtube.html id='xN1hdY1cc3E' %}
 
 ---
 
@@ -92,15 +91,11 @@ alias neobean='NVIM_APPNAME=linkarzu/dotfiles-latest/neovim/neobean nvim'
   this video:
   - [View and paste images in Neovim like in Obsidian](https://youtu.be/0O3kqGwNzTI){:target="\_blank"}
 
-{% include embed/youtube.html id='0O3kqGwNzTI' %}
-
 ---
 
 - If you don't even have neovim yet, of course you will need to install it
   first, so if you're just getting started, I have a video for you:
   - [How to install neovim on macos](https://youtu.be/un7DhE71EeY){:target="\_blank"}
-
-{% include embed/youtube.html id='un7DhE71EeY' %}
 
 ## How I managed tasks in obsidian?
 
@@ -138,8 +133,6 @@ _How I manage tasks in Neovim_
 - It's basically my neovim configuration (modified a bit) running inside kitty
 - I have a full tutorial on how to set it up, you can find it here:
   - [skitty-notes - Markdown Sticky Notes app in Neovim in the Kitty Terminal](https://youtu.be/M0B_24d0MWw){:target="\_blank"}
-
-{% include embed/youtube.html id='M0B_24d0MWw' %}
 
 ### How I untoggle tasks
 
@@ -185,8 +178,6 @@ _List of completed tasks in the current working directory_
   about that you can find it here:
   - [Why I switched from Obsidian to Neovim and some useful tips](https://youtu.be/pCzSPHrLBoU){:target="\_blank"}
 
-{% include embed/youtube.html id='pCzSPHrLBoU' %}
-
 ## Keymap to create a task
 
 - I create tasks with `Alt+l`
@@ -200,8 +191,6 @@ _List of completed tasks in the current working directory_
 - If you would like to learn about my markdown setup in detail, I would highly
   recommend you to check my markdown workflow video, the 2025 version:
   - [My complete Neovim markdown setup and workflow in 2025](https://youtu.be/1YEbKDlxfss){:target="\_blank"}
-
-{% include embed/youtube.html id='1YEbKDlxfss' %}
 
 ## Configure keymaps
 
@@ -326,6 +315,20 @@ end, { desc = "[P]Search for completed tasks" })
 - If you want to understand how I migrated away from Telescope to Snacks picker
   and also why I did it, I have a video:
   - [Why I'm Moving from Telescope to Snacks Picker - Why I'm not Using fzf-lua - Frecency feature](https://youtu.be/7hEWG3GP6m0){:target="\_blank"}
+
+## Other videos mentioned
+
+{% include embed/youtube.html id='xN1hdY1cc3E' %}
+
+{% include embed/youtube.html id='0O3kqGwNzTI' %}
+
+{% include embed/youtube.html id='un7DhE71EeY' %}
+
+{% include embed/youtube.html id='M0B_24d0MWw' %}
+
+{% include embed/youtube.html id='pCzSPHrLBoU' %}
+
+{% include embed/youtube.html id='1YEbKDlxfss' %}
 
 {% include embed/youtube.html id='7hEWG3GP6m0' %}
 

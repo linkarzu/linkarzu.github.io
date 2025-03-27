@@ -45,6 +45,7 @@ tags:
     + [debounce_delay](#debounce_delay)
   * [auto-save.nvim plugin](#auto-savenvim-plugin)
 - [What do you think about autosave and autoformat?](#what-do-you-think-about-autosave-and-autoformat)
+- [Other videos mentioned](#other-videos-mentioned)
 - [If you like my content, and want to support me](#if-you-like-my-content-and-want-to-support-me)
 - [Discord server](#discord-server)
 - [Follow me on social media](#follow-me-on-social-media)
@@ -65,8 +66,6 @@ tags:
   config, but also other neovim distributions, so I highly recommend you check
   it out:
   - [Download and test multiple Neovim distros and configurations - Without affecting your current config](https://youtu.be/xN1hdY1cc3E){:target="\_blank"}
-
-{% include embed/youtube.html id='xN1hdY1cc3E' %}
 
 ---
 
@@ -101,15 +100,11 @@ alias neobean='NVIM_APPNAME=linkarzu/dotfiles-latest/neovim/neobean nvim'
   this video:
   - [View and paste images in Neovim like in Obsidian](https://youtu.be/0O3kqGwNzTI){:target="\_blank"}
 
-{% include embed/youtube.html id='0O3kqGwNzTI' %}
-
 ---
 
 - If you don't even have neovim yet, of course you will need to install it
   first, so if you're just getting started, I have a video for you:
   - [How to install neovim on macos](https://youtu.be/un7DhE71EeY){:target="\_blank"}
-
-{% include embed/youtube.html id='un7DhE71EeY' %}
 
 ## Auto format
 
@@ -325,8 +320,6 @@ vim.api.nvim_create_autocmd({ "FocusLost", "BufLeave" }, {
 - I came up with a solution and I go over this solution in detail in this video:
   - [Paste unformatted text from Neovim to Slack, Discord, Word or any other app](https://youtu.be/S3drTCO7Ct4){:target="\_blank"}
 
-{% include embed/youtube.html id='S3drTCO7Ct4' %}
-
 ## Auto save
 
 ### Why do I auto save?
@@ -477,16 +470,12 @@ end
   `nvim-cmp`):
   - [Custom Snippets with LuaSnip in Neovim and Configure completion priority on nvim-cmp](https://youtu.be/GxnBIRl9UmA){:target="\_blank"}
 
-{% include embed/youtube.html id='GxnBIRl9UmA' %}
-
 ---
 
 - Folke moved us all in the LazyVim distro from `nvim-cmp` to `blink.cmp` as the
   completion engine, it's working great for me, so if you're using your own
   config and want to migrate to `blink.cmp` watch this video:
   - [blink.cmp updates - Remove LuaSnip - Emoji and Dictionary Sources - Fix Jump Autosave Issue](https://youtu.be/JrgfpWap_Pg){:target="\_blank"}
-
-{% include embed/youtube.html id='JrgfpWap_Pg' %}
 
 #### Don't auto-format after auto-save
 
@@ -542,8 +531,6 @@ noautocmd = false,
   more about Neovide, check out this video:
   - [Is Neovide just for Visual Effects? - Open LazyGit files, Disable Plugins, TMUX and more](https://youtu.be/rNYtfA4zlO4){:target="\_blank"}
 
-{% include embed/youtube.html id='rNYtfA4zlO4' %}
-
 ## What do you think about autosave and autoformat?
 
 - Do you like them?
@@ -553,6 +540,22 @@ noautocmd = false,
   YouTube comments
 - Also, remember to Join the discord channel to troubleshoot, talk to others,
   offer help or just hang out
+
+## Other videos mentioned
+
+{% include embed/youtube.html id='xN1hdY1cc3E' %}
+
+{% include embed/youtube.html id='0O3kqGwNzTI' %}
+
+{% include embed/youtube.html id='un7DhE71EeY' %}
+
+{% include embed/youtube.html id='S3drTCO7Ct4' %}
+
+{% include embed/youtube.html id='GxnBIRl9UmA' %}
+
+{% include embed/youtube.html id='JrgfpWap_Pg' %}
+
+{% include embed/youtube.html id='rNYtfA4zlO4' %}
 
 ## If you like my content, and want to support me
 

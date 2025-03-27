@@ -43,6 +43,7 @@ tags:
 - [Test out my Neobean config](#test-out-my-neobean-config)
 - [Script to auto-push to GitHub](#script-to-auto-push-to-github)
 - [Reload kitty notes when restart yabai](#reload-kitty-notes-when-restart-yabai)
+- [Other videos mentioned](#other-videos-mentioned)
 - [If you like my content, and want to support me](#if-you-like-my-content-and-want-to-support-me)
 - [Discord server](#discord-server)
 - [Follow me on social media](#follow-me-on-social-media)
@@ -323,8 +324,6 @@ return {
   it out:
   - [Download and test multiple Neovim distros and configurations - Without affecting your current config](https://youtu.be/xN1hdY1cc3E){:target="\_blank"}
 
-{% include embed/youtube.html id='xN1hdY1cc3E' %}
-
 ---
 
 - If you **don't** want to watch the video above, and you already have your own
@@ -358,15 +357,11 @@ alias neobean='NVIM_APPNAME=linkarzu/dotfiles-latest/neovim/neobean nvim'
   this video:
   - [View and paste images in Neovim like in Obsidian](https://youtu.be/0O3kqGwNzTI){:target="\_blank"}
 
-{% include embed/youtube.html id='0O3kqGwNzTI' %}
-
 ---
 
 - If you don't even have neovim yet, of course you will need to install it
   first, so if you're just getting started, I have a video for you:
   - [How to install neovim on macos](https://youtu.be/un7DhE71EeY){:target="\_blank"}
-
-{% include embed/youtube.html id='un7DhE71EeY' %}
 
 ## Script to auto-push to GitHub
 
@@ -384,6 +379,14 @@ alias neobean='NVIM_APPNAME=linkarzu/dotfiles-latest/neovim/neobean nvim'
 - Remember that this file is in my dotfiles
 - If you want to learn more about yabai, I have a video:
   - [Yabai configuration updates 2024](https://youtu.be/9SQG5ogWEug){:target="\_blank"}
+
+## Other videos mentioned
+
+{% include embed/youtube.html id='xN1hdY1cc3E' %}
+
+{% include embed/youtube.html id='0O3kqGwNzTI' %}
+
+{% include embed/youtube.html id='un7DhE71EeY' %}
 
 {% include embed/youtube.html id='9SQG5ogWEug' %}
 

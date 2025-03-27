@@ -109,6 +109,7 @@ tags:
 - [Improve the video next year](#improve-the-video-next-year)
 - [Timeline](#timeline)
 - [Completed tasks](#completed-tasks)
+- [Other videos mentioned](#other-videos-mentioned)
 - [If you like my content, and want to support me](#if-you-like-my-content-and-want-to-support-me)
 - [Discord server](#discord-server)
 - [Follow me on social media](#follow-me-on-social-media)
@@ -140,8 +141,6 @@ tags:
   config, but also other neovim distributions, so I highly recommend you check
   it out:
   - [Download and test multiple Neovim distros and configurations - Without affecting your current config](https://youtu.be/xN1hdY1cc3E){:target="\_blank"}
-
-{% include embed/youtube.html id='xN1hdY1cc3E' %}
 
 ---
 
@@ -176,15 +175,11 @@ alias neobean='NVIM_APPNAME=linkarzu/dotfiles-latest/neovim/neobean nvim'
   this video:
   - [View and paste images in Neovim like in Obsidian](https://youtu.be/0O3kqGwNzTI){:target="\_blank"}
 
-{% include embed/youtube.html id='0O3kqGwNzTI' %}
-
 ## Last year video
 
 - This is an update to the video I made last year, so if you have questions for
   the things that have not changed, go and check them in that video:
   - [My complete Neovim markdown setup and workflow in 2024](https://youtu.be/c0cuvzK1SDo){:target="\_blank"}
-
-{% include embed/youtube.html id='c0cuvzK1SDo' %}
 
 ## The stuff you'll see here, is the stuff that I use as of today
 
@@ -224,16 +219,12 @@ alias neobean='NVIM_APPNAME=linkarzu/dotfiles-latest/neovim/neobean nvim'
   `nvim-cmp`):
   - [Custom Snippets with LuaSnip in Neovim and Configure completion priority on nvim-cmp](https://youtu.be/GxnBIRl9UmA){:target="\_blank"}
 
-{% include embed/youtube.html id='GxnBIRl9UmA' %}
-
 ---
 
 - Folke moved us all in the LazyVim distro from `nvim-cmp` to `blink.cmp` as the
   completion engine, it's working great for me, so if you're using your own
   config and want to migrate to `blink.cmp` watch this video:
   - [blink.cmp updates - Remove LuaSnip - Emoji and Dictionary Sources - Fix Jump Autosave Issue](https://youtu.be/JrgfpWap_Pg){:target="\_blank"}
-
-{% include embed/youtube.html id='JrgfpWap_Pg' %}
 
 ### Todo items (tasks)
 
@@ -264,8 +255,6 @@ alias neobean='NVIM_APPNAME=linkarzu/dotfiles-latest/neovim/neobean nvim'
 - To learn about this task management in detail, go and check a video I created:
   - [Manage Markdown tasks in Neovim similar to Obsidian - Telescope to List Completed and Pending Tasks](https://youtu.be/59hvZl077hM){:target="\_blank"}
 
-{% include embed/youtube.html id='59hvZl077hM' %}
-
 ### skitty-notes
 
 - I like keeping track of the things that I have to do during the day, and the
@@ -278,8 +267,6 @@ alias neobean='NVIM_APPNAME=linkarzu/dotfiles-latest/neovim/neobean nvim'
   tasks there
 - I have a video in which I explain it in detail:
   - [skitty-notes - Markdown Sticky Notes app in Neovim in the Kitty Terminal](https://youtu.be/M0B_24d0MWw){:target="\_blank"}
-
-{% include embed/youtube.html id='M0B_24d0MWw' %}
 
 ### Add images to assets dir
 
@@ -297,8 +284,6 @@ alias neobean='NVIM_APPNAME=linkarzu/dotfiles-latest/neovim/neobean nvim'
 - The "assets" directory is a pretty neat workflow that required a video on its
   own, so I created a video and I cover how I do stuff there in detail:
   - [img-clip.nvim - Add images to "assets" directory in Neovim - Drag images - Paste images and more](https://youtu.be/a3CsyZGxHrs){:target="\_blank"}
-
-{% include embed/youtube.html id='a3CsyZGxHrs' %}
 
 ### Create or jump daily note hyper+t+r
 
@@ -322,8 +307,6 @@ alias neobean='NVIM_APPNAME=linkarzu/dotfiles-latest/neovim/neobean nvim'
 - I created a dedicated video explaining how the daily note works and how to set
   it up:
   - [Open your daily note in Neovim with a single keymap](https://youtu.be/W3hgsMoUcqo){:target="\_blank"}
-
-{% include embed/youtube.html id='W3hgsMoUcqo' %}
 
 ---
 
@@ -351,15 +334,11 @@ alias neobean='NVIM_APPNAME=linkarzu/dotfiles-latest/neovim/neobean nvim'
 - I explain everything in detail in the video:
   - [karabiner-elements configuration updates 2024](https://youtu.be/dqEiDVYRWLk){:target="\_blank"}
 
-{% include embed/youtube.html id='dqEiDVYRWLk' %}
-
 ---
 
 - To switch between tmux sessions I'm using Prime's tmux sessionizer script
 - I explain everything in detail in the video below:
   - [Primeagen's tmux-sessionizer and tmux-sshonizer-agen](https://youtu.be/MCbEPylDEWU){:target="\_blank"}
-
-{% include embed/youtube.html id='MCbEPylDEWU' %}
 
 ---
 
@@ -367,8 +346,6 @@ alias neobean='NVIM_APPNAME=linkarzu/dotfiles-latest/neovim/neobean nvim'
   hyper+t+j from any app, not just from the terminal itself
 - I have a video in which I go over BetterTouchTool in great detail:
   - [Advanced BetterTouchTool shortcuts that execute a set of actions like scripts](https://youtu.be/RBHCgEEluD0){:target="\_blank"}
-
-{% include embed/youtube.html id='RBHCgEEluD0' %}
 
 ### Fold all level 2 or 3 headings
 
@@ -399,8 +376,6 @@ alias neobean='NVIM_APPNAME=linkarzu/dotfiles-latest/neovim/neobean nvim'
 
 - I created a video about folds after my last markdown workflow video:
   - [Fold markdown headings in Neovim with a keymap](https://youtu.be/EYczZLNEnIY){:target="\_blank"}
-
-{% include embed/youtube.html id='EYczZLNEnIY' %}
 
 #### Folding basics
 
@@ -455,8 +430,6 @@ alias neobean='NVIM_APPNAME=linkarzu/dotfiles-latest/neovim/neobean nvim'
   `nvim-cmp`):
   - [Custom Snippets with LuaSnip in Neovim and Configure completion priority on nvim-cmp](https://youtu.be/GxnBIRl9UmA){:target="\_blank"}
 
-{% include embed/youtube.html id='GxnBIRl9UmA' %}
-
 ### Copy current file path to clipboard
 
 - To copy the file path to the clipboard use ~~`<leader>fp`~~ `<M-c>`
@@ -466,10 +439,6 @@ alias neobean='NVIM_APPNAME=linkarzu/dotfiles-latest/neovim/neobean nvim'
   - [Advanced MINI.FILES Keymaps for Neovim – System Clipboard Integration and More](https://youtu.be/BzblG2eV8dU){:target="\_blank"}
 - I use the same keymap in the `zen browser`:
   - [Switching from Google Chrome to Zen Browser - Vertical tabs - Raindrop - OpenIn](https://youtu.be/ca1csvxfu0Q){:target="\_blank"}
-
-{% include embed/youtube.html id='ca1csvxfu0Q' %}
-
-{% include embed/youtube.html id='BzblG2eV8dU' %}
 
 ### Open current file in Github on the browser
 
@@ -484,8 +453,6 @@ alias neobean='NVIM_APPNAME=linkarzu/dotfiles-latest/neovim/neobean nvim'
 - Full details for this can be found in the video:
   - [Neovim Toggle Terminal on Tmux Pane at the Bottom (or Right)](https://youtu.be/33gQ9p-Zp0I){:target="\_blank"}
 
-{% include embed/youtube.html id='33gQ9p-Zp0I' %}
-
 ### Alternate file
 
 - This is not strictly markdown related, but if greatly improves your markdown
@@ -496,15 +463,11 @@ alias neobean='NVIM_APPNAME=linkarzu/dotfiles-latest/neovim/neobean nvim'
 - - I have a video about this:
   - [Alternate between the last 2 tmux sessions or neovim buffers, blazingly fast, with a keymap](https://youtu.be/HWs3YEj05K4){:target="\_blank"}
 
-{% include embed/youtube.html id='HWs3YEj05K4' %}
-
 ---
 
 - The trick to alternate tmux sessions by tapping `Left Shift` is discussed in
   my karabiner-elements video:
   - [karabiner-elements configuration updates 2024](https://youtu.be/dqEiDVYRWLk){:target="\_blank"}
-
-{% include embed/youtube.html id='dqEiDVYRWLk' %}
 
 ### Use the dictionary with blink.cmp
 
@@ -512,8 +475,6 @@ alias neobean='NVIM_APPNAME=linkarzu/dotfiles-latest/neovim/neobean nvim'
   avoid typos and understand what a word means
 - I explain how the dictionary works in detail in this video:
   - [blink.cmp updates - Remove LuaSnip - Emoji and Dictionary Sources - Fix Jump Autosave Issue](https://youtu.be/JrgfpWap_Pg){:target="\_blank"}
-
-{% include embed/youtube.html id='JrgfpWap_Pg' %}
 
 ### Spell checking (works in tmux)
 
@@ -532,8 +493,6 @@ alias neobean='NVIM_APPNAME=linkarzu/dotfiles-latest/neovim/neobean nvim'
 
 - I created a video dedicated to spell and how do do it in multiple languages:
   - [neovim spell multiple languages](https://youtu.be/uLFAMYFmpkE){:target="\_blank"}
-
-{% include embed/youtube.html id='uLFAMYFmpkE' %}
 
 ---
 
@@ -575,8 +534,6 @@ set -as terminal-overrides ',*:Setulc=\E[58::2::%p1%{65536}%/%d::%p1%{256}%/%{25
 - If you want to setup Ghostty the way I do, and learn why I chose it as my
   default terminal, check this video out:
   - [How to setup the Ghostty terminal, is it just hype? READ PINNED MESSAGE](https://youtu.be/rCiq5CyFFhA){:target="\_blank"}
-
-{% include embed/youtube.html id='rCiq5CyFFhA' %}
 
 #### Lazyvim spell defaults
 
@@ -640,8 +597,6 @@ macos-option-as-alt = right
   default terminal, check this video out:
   - [How to setup the Ghostty terminal, is it just hype? READ PINNED MESSAGE](https://youtu.be/rCiq5CyFFhA){:target="\_blank"}
 
-{% include embed/youtube.html id='rCiq5CyFFhA' %}
-
 ### I need help
 
 - My entire markdown config is a bit complex and will probably raise some
@@ -663,8 +618,6 @@ macos-option-as-alt = right
 - I have a video in which I go over this in detail:
   - [Create table of contents in neovim with markdown-toc](https://youtu.be/BVyrXsZ_ViA){:target="\_blank"}
 
-{% include embed/youtube.html id='BVyrXsZ_ViA' %}
-
 ### Upload images to my own imgur account (authenticated)
 
 - Sometimes you need to share an image, but through a link
@@ -674,8 +627,6 @@ macos-option-as-alt = right
   and updates them as needed.
 - I have a video in which all of this is explained in detail:
   - [Upload images from Neovim to Imgur](https://youtu.be/Lzl_0SzbUBo){:target="\_blank"}
-
-{% include embed/youtube.html id='Lzl_0SzbUBo' %}
 
 ### Delete newlines in between (markdown join)
 
@@ -1034,8 +985,6 @@ Minim tempor ullamco do eu pariatur minim.
 - Are you wondering what they keyboard I use is? I recently reviewed it:
   - [Thoughts after 5 months of using the Glove80 - Firmware upload - Layouts - Battery life](https://youtu.be/Yvn2V-Bij44){:target="\_blank"}
 
-{% include embed/youtube.html id='Yvn2V-Bij44' %}
-
 ## Markdown plugins
 
 - These are sorted by my personal preference, most preferred ones at the top
@@ -1049,8 +998,6 @@ Minim tempor ullamco do eu pariatur minim.
   language, etc?
 - This is what you're looking for, I go over this plugin in a video:
   - [Beautiful markdown documents with render-markdown.nvim](https://youtu.be/_PjKiIUo5Hc){:target="\_blank"}
-
-{% include embed/youtube.html id='_PjKiIUo5Hc' %}
 
 ### bullets-vim/bullets.vim
 
@@ -1071,8 +1018,6 @@ Minim tempor ullamco do eu pariatur minim.
   example.
 - I have a video on these keymaps for mini.files:
   - [Advanced MINI.FILES Keymaps for Neovim – System Clipboard Integration and More](https://youtu.be/BzblG2eV8dU){:target="\_blank"}
-
-{% include embed/youtube.html id='BzblG2eV8dU' %}
 
 ### echasnovski/mini.surround
 
@@ -1142,8 +1087,6 @@ tmux_session_name=${note_name}
 - I open it with `<leader>o`
 - I have a video about this plugin:
   - [markdown outline in lazyvim](https://youtu.be/UqLEKe7o2zg){:target="\_blank"}
-
-{% include embed/youtube.html id='UqLEKe7o2zg' %}
 
 ### ~~lukas-reineke/headlines.nvim~~
 
@@ -1216,8 +1159,6 @@ tmux_session_name=${note_name}
 - I have a full tutorial on how to set this up in the video:
   - [View and paste images in Neovim like in Obsidian](https://youtu.be/0O3kqGwNzTI){:target="\_blank"}
 
-{% include embed/youtube.html id='0O3kqGwNzTI' %}
-
 ### HakonHarnes/img-clip.nvim
 
 - [HakonHarnes/img-clip.nvim](https://github.com/HakonHarnes/img-clip.nvim){:target="\_blank"}
@@ -1227,8 +1168,6 @@ tmux_session_name=${note_name}
 - I use this plugin always with `3rd/image.nvim`
 - I go over a demo on how and what I use this plugin for in the video:
   - [img-clip.nvim - Add images to "assets" directory in Neovim - Drag images - Paste images and more](https://youtu.be/a3CsyZGxHrs){:target="\_blank"}
-
-{% include embed/youtube.html id='a3CsyZGxHrs' %}
 
 ### ~~jlanzarotta/bufexplorer~~
 
@@ -1254,15 +1193,11 @@ tmux_session_name=${note_name}
 - I have a video in which I cover all of this:
   - [How I navigate between buffers in neovim](https://youtu.be/ldfxEda_mzc){:target="\_blank"}
 
-{% include embed/youtube.html id='ldfxEda_mzc' %}
-
 ---
 
 - If you're a fan of harpoon, I'd recommend you to also check out the snipe
   plugin, I have a video for it:
   - [Snipe vs Harpoon in Neovim](https://youtu.be/SuKhJlqGb5A){:target="\_blank"}
-
-{% include embed/youtube.html id='SuKhJlqGb5A' %}
 
 ### nvim-telescope/telescope.nvim
 
@@ -1278,8 +1213,6 @@ tmux_session_name=${note_name}
   will show at the top
 - I have a video in which I go over frecency and how I set it up:
   - [telescope-frecency.nvim - Sort files in telescope by showing the most accessed files first](https://youtu.be/Qr-vX51gB8g){:target="\_blank"}
-
-{% include embed/youtube.html id='Qr-vX51gB8g' %}
 
 ### nvim-treesitter/nvim-treesitter
 
@@ -1418,8 +1351,6 @@ body {
 - I have a video that explains how to use this plugin:
   - [Follow markdown standards with markdowlint markdownlint-cli2 and nvim-lint](https://youtu.be/LsABH1_Ma04){:target="\_blank"}
 
-{% include embed/youtube.html id='LsABH1_Ma04' %}
-
 ### LazyExtras
 
 - You can manage these in the `lua/config/lazy.lua` file or with `:LazyExtras`
@@ -1450,16 +1381,12 @@ body {
 - I have a video about this plugin:
   - [Follow markdown standards with markdowlint markdownlint-cli2 and nvim-lint](https://youtu.be/LsABH1_Ma04){:target="\_blank"}
 
-{% include embed/youtube.html id='LsABH1_Ma04' %}
-
 ##### markdown-toc
 
 - [jonschlinkert/markdown-toc](https://github.com/jonschlinkert/markdown-toc){:target="\_blank"}
 - This is the plugin that adds the TOC at the top of the file
 - I have a vide about this as well:
   - [Create table of contents in neovim with markdown-toc](https://youtu.be/BVyrXsZ_ViA){:target="\_blank"}
-
-{% include embed/youtube.html id='BVyrXsZ_ViA' %}
 
 ##### marksman
 
@@ -1589,6 +1516,64 @@ body {
 - [x] `done: 250111` task3
 - [x] `done: 250111` task2
 - [x] `done: 250111` task1
+
+## Other videos mentioned
+
+{% include embed/youtube.html id='xN1hdY1cc3E' %}
+
+{% include embed/youtube.html id='0O3kqGwNzTI' %}
+
+{% include embed/youtube.html id='c0cuvzK1SDo' %}
+
+{% include embed/youtube.html id='GxnBIRl9UmA' %}
+
+{% include embed/youtube.html id='JrgfpWap_Pg' %}
+
+{% include embed/youtube.html id='59hvZl077hM' %}
+
+{% include embed/youtube.html id='M0B_24d0MWw' %}
+
+{% include embed/youtube.html id='a3CsyZGxHrs' %}
+
+{% include embed/youtube.html id='W3hgsMoUcqo' %}
+
+{% include embed/youtube.html id='dqEiDVYRWLk' %}
+
+{% include embed/youtube.html id='MCbEPylDEWU' %}
+
+{% include embed/youtube.html id='RBHCgEEluD0' %}
+
+{% include embed/youtube.html id='EYczZLNEnIY' %}
+
+{% include embed/youtube.html id='ca1csvxfu0Q' %}
+
+{% include embed/youtube.html id='BzblG2eV8dU' %}
+
+{% include embed/youtube.html id='33gQ9p-Zp0I' %}
+
+{% include embed/youtube.html id='HWs3YEj05K4' %}
+
+{% include embed/youtube.html id='uLFAMYFmpkE' %}
+
+{% include embed/youtube.html id='rCiq5CyFFhA' %}
+
+{% include embed/youtube.html id='BVyrXsZ_ViA' %}
+
+{% include embed/youtube.html id='Lzl_0SzbUBo' %}
+
+{% include embed/youtube.html id='Yvn2V-Bij44' %}
+
+{% include embed/youtube.html id='_PjKiIUo5Hc' %}
+
+{% include embed/youtube.html id='UqLEKe7o2zg' %}
+
+{% include embed/youtube.html id='ldfxEda_mzc' %}
+
+{% include embed/youtube.html id='SuKhJlqGb5A' %}
+
+{% include embed/youtube.html id='Qr-vX51gB8g' %}
+
+{% include embed/youtube.html id='LsABH1_Ma04' %}
 
 ## If you like my content, and want to support me
 

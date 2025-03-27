@@ -42,6 +42,7 @@ tags:
 - [Differences with SketchyBar](#differences-with-sketchybar)
 - [Share your tips](#share-your-tips)
 - [Completed tasks](#completed-tasks)
+- [Other videos mentioned](#other-videos-mentioned)
 - [If you like my content, and want to support me](#if-you-like-my-content-and-want-to-support-me)
 - [Discord server](#discord-server)
 - [Follow me on social media](#follow-me-on-social-media)
@@ -74,8 +75,6 @@ tags:
   out my tutorial:
   - [02 - What is brew and how to install it in macOS](https://youtu.be/BEB7X78ivNM){:target="\_blank"}
 
-{% include embed/youtube.html id='BEB7X78ivNM' %}
-
 ## What is uebersicht
 
 - It's the app that allows you to display widgets on macos, they're written in
@@ -90,8 +89,6 @@ tags:
 - To understand what SketchyBar is and how to set it up from scratch, I have
   this video:
   - [Install and configure a custom menubar, sketchybar macOS](https://youtu.be/CY0gU_iPRTk){:target="\_blank"}
-
-{% include embed/youtube.html id='CY0gU_iPRTk' %}
 
 ## Install uebersicht
 
@@ -207,16 +204,12 @@ _simple-bar after some basic changes_
   and overall how I do window management in macOS, check this video out:
   - [Yabai configuration updates 2024](https://youtu.be/9SQG5ogWEug){:target="\_blank"}
 
-{% include embed/youtube.html id='9SQG5ogWEug' %}
-
 ---
 
 - To learn how I do all my different mappings to switch between apps, change
   system settings, switch between tmux sessions and way more, check out my
   karabiner-elements video:
   - [karabiner-elements configuration updates 2024](https://youtu.be/dqEiDVYRWLk){:target="\_blank"}
-
-{% include embed/youtube.html id='dqEiDVYRWLk' %}
 
 ## My simple-bar changes
 
@@ -369,8 +362,6 @@ curl http://localhost:7776/widget/cpu/enable
   video:
   - [Colorscheme selector to change the colors in kitty, tmux, starship, neovim, sketchybar and more](https://youtu.be/SBU2YRv02Mc){:target="\_blank"}
 
-{% include embed/youtube.html id='SBU2YRv02Mc' %}
-
 ## Share your tips
 
 - If you already figured out some of the stuff I want to do, or if you have
@@ -383,6 +374,18 @@ curl http://localhost:7776/widget/cpu/enable
 - [x] `done: 250117-0756` Apply my own theme colors
 - [x] `done: 250117-0755` Brew outdated packages counter
 - [x] `done: 250117-0754` CPU usage preferably with a graph and percentage
+
+## Other videos mentioned
+
+{% include embed/youtube.html id='BEB7X78ivNM' %}
+
+{% include embed/youtube.html id='CY0gU_iPRTk' %}
+
+{% include embed/youtube.html id='9SQG5ogWEug' %}
+
+{% include embed/youtube.html id='dqEiDVYRWLk' %}
+
+{% include embed/youtube.html id='SBU2YRv02Mc' %}
 
 ## If you like my content, and want to support me
 

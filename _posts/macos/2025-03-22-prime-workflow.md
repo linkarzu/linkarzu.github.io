@@ -38,7 +38,6 @@ tags:
 - [Be careful with the hyper key you choose](#be-careful-with-the-hyper-key-you-choose)
 - [Where can you find my config?](#where-can-you-find-my-config)
 - [Conclusion](#conclusion)
-- [Other videos mentioned](#other-videos-mentioned)
 - [If you like my content, and want to support me](#if-you-like-my-content-and-want-to-support-me)
 - [Discord server](#discord-server)
 - [Follow me on social media](#follow-me-on-social-media)
@@ -378,24 +377,6 @@ _kekw_
 - It would be interesting to see what new tricks he has under his sleeve and
   grab some inspiration
 - I love my new way of navigating around
-
-## Other videos mentioned
-
-{% include embed/youtube.html id='bdumjiHabhQ' %}
-
-{% include embed/youtube.html id='dqEiDVYRWLk' %}
-
-{% include embed/youtube.html id='9SQG5ogWEug' %}
-
-{% include embed/youtube.html id='M0B_24d0MWw' %}
-
-{% include embed/youtube.html id='MCbEPylDEWU' %}
-
-{% include embed/youtube.html id='3axjsVR7QfA' %}
-
-{% include embed/youtube.html id='7hEWG3GP6m0' %}
-
-{% include embed/youtube.html id='SuKhJlqGb5A' %}
 
 ## If you like my content, and want to support me
 

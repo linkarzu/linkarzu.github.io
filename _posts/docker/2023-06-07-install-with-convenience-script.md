@@ -31,6 +31,7 @@ tags:
   * [Run docker commands without sudo](#run-docker-commands-without-sudo)
 - [What's next?](#whats-next)
 - [Timeline](#timeline)
+- [Other videos mentioned](#other-videos-mentioned)
 - [If you like my content, and want to support me](#if-you-like-my-content-and-want-to-support-me)
 - [Discord server](#discord-server)
 - [Follow me on social media](#follow-me-on-social-media)
@@ -371,8 +372,6 @@ CONTAINER ID   IMAGE     COMMAND   CREATED   STATUS    PORTS     NAMES
 
 ---
 
-{% include embed/youtube.html id='25uqeRAG39A' %}
-
 ## Timeline
 
 ```bash
@@ -392,6 +391,10 @@ CONTAINER ID   IMAGE     COMMAND   CREATED   STATUS    PORTS     NAMES
 9:11 - RECOMMENDATION install windows 11 over the network 9:24
 9:39 - outro
 ```
+
+## Other videos mentioned
+
+{% include embed/youtube.html id='25uqeRAG39A' %}
 
 ## If you like my content, and want to support me
 

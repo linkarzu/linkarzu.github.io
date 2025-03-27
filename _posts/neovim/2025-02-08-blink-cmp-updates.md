@@ -37,6 +37,7 @@ tags:
 - [Scroll documentation](#scroll-documentation)
 - [Task management in Neovim](#task-management-in-neovim)
 - [Fix auto-save issue](#fix-auto-save-issue)
+- [Other videos mentioned](#other-videos-mentioned)
 - [If you like my content, and want to support me](#if-you-like-my-content-and-want-to-support-me)
 - [Discord server](#discord-server)
 - [Follow me on social media](#follow-me-on-social-media)
@@ -57,8 +58,6 @@ tags:
   config, but also other neovim distributions, so I highly recommend you check
   it out:
   - [Download and test multiple Neovim distros and configurations - Without affecting your current config](https://youtu.be/xN1hdY1cc3E){:target="\_blank"}
-
-{% include embed/youtube.html id='xN1hdY1cc3E' %}
 
 ---
 
@@ -93,15 +92,11 @@ alias neobean='NVIM_APPNAME=linkarzu/dotfiles-latest/neovim/neobean nvim'
   this video:
   - [View and paste images in Neovim like in Obsidian](https://youtu.be/0O3kqGwNzTI){:target="\_blank"}
 
-{% include embed/youtube.html id='0O3kqGwNzTI' %}
-
 ---
 
 - If you don't even have neovim yet, of course you will need to install it
   first, so if you're just getting started, I have a video for you:
   - [How to install neovim on macos](https://youtu.be/un7DhE71EeY){:target="\_blank"}
-
-{% include embed/youtube.html id='un7DhE71EeY' %}
 
 ## Blink.cmp breaking changes
 
@@ -356,8 +351,6 @@ dependencies = { "moyiz/blink-emoji.nvim", "Kaiser-Yang/blink-cmp-dictionary", }
   video I created:
   - [Manage Markdown tasks in Neovim similar to Obsidian - Telescope to List Completed and Pending Tasks](https://youtu.be/59hvZl077hM){:target="\_blank"}
 
-{% include embed/youtube.html id='59hvZl077hM' %}
-
 ## Fix auto-save issue
 
 - I like auto saving in neovim, but there was an issue between auto-save and
@@ -372,6 +365,16 @@ dependencies = { "moyiz/blink-emoji.nvim", "Kaiser-Yang/blink-cmp-dictionary", }
           return false
         end
 ```
+
+## Other videos mentioned
+
+{% include embed/youtube.html id='xN1hdY1cc3E' %}
+
+{% include embed/youtube.html id='0O3kqGwNzTI' %}
+
+{% include embed/youtube.html id='un7DhE71EeY' %}
+
+{% include embed/youtube.html id='59hvZl077hM' %}
 
 ## If you like my content, and want to support me
 

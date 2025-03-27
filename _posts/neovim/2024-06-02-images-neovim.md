@@ -49,6 +49,7 @@ tags:
   * [Configure img-clip.nvim](#configure-img-clipnvim)
 - [Tips and tricks](#tips-and-tricks)
 - [Petition (reminder)](#petition-reminder)
+- [Other videos mentioned](#other-videos-mentioned)
 - [If you like my content, and want to support me](#if-you-like-my-content-and-want-to-support-me)
 - [Discord server](#discord-server)
 - [Follow me on social media](#follow-me-on-social-media)
@@ -107,8 +108,6 @@ tags:
 ## My complete Neovim markdown setup and workflow in 2024
 
 - If you like this current article, you will find this quite useful:
-
-{% include embed/youtube.html id='c0cuvzK1SDo' %}
 
 ## image.nvim
 
@@ -463,6 +462,10 @@ brew install pngpaste
 - If you like my videos and you want me to keep making more, once you've
   finished watching it, please give it a like and comment
 - This helps me a lot so that YouTube shows the video to more people
+
+## Other videos mentioned
+
+{% include embed/youtube.html id='c0cuvzK1SDo' %}
 
 ## If you like my content, and want to support me
 

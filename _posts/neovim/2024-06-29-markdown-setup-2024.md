@@ -93,6 +93,7 @@ tags:
   * [epwalsh/obsidian.nvim (uninstalled)](#epwalshobsidiannvim-uninstalled)
 - [Improve the video next year](#improve-the-video-next-year)
 - [Timeline](#timeline)
+- [Other videos mentioned](#other-videos-mentioned)
 - [If you like my content, and want to support me](#if-you-like-my-content-and-want-to-support-me)
 - [Discord server](#discord-server)
 - [Follow me on social media](#follow-me-on-social-media)
@@ -123,8 +124,6 @@ tags:
   you to this 2024 guide
 - The 2025 guide can be found here:
   [My complete Neovim markdown setup and workflow in 2025](https://youtu.be/1YEbKDlxfss){:target="\_blank"}
-
-{% include embed/youtube.html id='1YEbKDlxfss' %}
 
 ## Disclaimer
 
@@ -1168,6 +1167,10 @@ body {
 36:30 - RECOMMENDATION auto-save.nvim
 38:44 - RECOMMENDATION view paste images neovim
 ```
+
+## Other videos mentioned
+
+{% include embed/youtube.html id='1YEbKDlxfss' %}
 
 ## If you like my content, and want to support me
 

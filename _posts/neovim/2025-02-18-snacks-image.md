@@ -39,6 +39,7 @@ tags:
 - [What terminal emulator can I use?](#what-terminal-emulator-can-i-use)
 - [Where are the cached images?](#where-are-the-cached-images)
 - [Checkhealth command](#checkhealth-command)
+- [Other videos mentioned](#other-videos-mentioned)
 - [If you like my content, and want to support me](#if-you-like-my-content-and-want-to-support-me)
 - [Discord server](#discord-server)
 - [Follow me on social media](#follow-me-on-social-media)
@@ -59,8 +60,6 @@ tags:
   config, but also other neovim distributions, so I highly recommend you check
   it out:
   - [Download and test multiple Neovim distros and configurations - Without affecting your current config](https://youtu.be/xN1hdY1cc3E){:target="\_blank"}
-
-{% include embed/youtube.html id='xN1hdY1cc3E' %}
 
 ---
 
@@ -94,8 +93,6 @@ alias neobean='NVIM_APPNAME=linkarzu/dotfiles-latest/neovim/neobean nvim'
 - If you don't even have neovim yet, of course you will need to install it
   first, so if you're just getting started, I have a video for you:
   - [How to install neovim on macos](https://youtu.be/un7DhE71EeY){:target="\_blank"}
-
-{% include embed/youtube.html id='un7DhE71EeY' %}
 
 ## How do the images look?
 
@@ -163,8 +160,6 @@ _Preview of a PDF file shown as an image_
   own, so I created a video and I cover how I do stuff there in detail:
   - [img-clip.nvim - Add images to "assets" directory in Neovim - Drag images - Paste images and more](https://youtu.be/a3CsyZGxHrs){:target="\_blank"}
 
-{% include embed/youtube.html id='a3CsyZGxHrs' %}
-
 ## Does this replace the `3rd/image.nvim` plugin
 
 - [3rd/image.nvim](https://github.com/3rd/image.nvim){:target="\_blank"}
@@ -210,15 +205,11 @@ _Preview of a PDF file shown as an image_
   to Neovim, I cover all of of that in detail in the video below:
   - [How I Recreated (and Improved) My Obsidian Note-Taking Workflow in Neovim](https://youtu.be/k_g8q5JeisY){:target="\_blank"}
 
-{% include embed/youtube.html id='k_g8q5JeisY' %}
-
 ---
 
 - If you want to understand how I migrated away from Telescope to Snacks picker
   and also why I did it, I have a video:
   - [Why I'm Moving from Telescope to Snacks Picker - Why I'm not Using fzf-lua - Frecency feature](https://youtu.be/7hEWG3GP6m0){:target="\_blank"}
-
-{% include embed/youtube.html id='7hEWG3GP6m0' %}
 
 ## Configure Snacks Image
 
@@ -294,8 +285,6 @@ _skitty-notes_
 - It's basically my neovim configuration (modified a bit) running inside kitty
 - I have a full tutorial on how to set it up, you can find it here:
   - [skitty-notes - Markdown Sticky Notes app in Neovim in the Kitty Terminal](https://youtu.be/M0B_24d0MWw){:target="\_blank"}
-
-{% include embed/youtube.html id='M0B_24d0MWw' %}
 
 ## Disable image.nvim
 
@@ -430,8 +419,6 @@ brew install pkg-config
   up in detail, you can find it here:
   - [View and paste images in Neovim like in Obsidian](https://youtu.be/0O3kqGwNzTI){:target="\_blank"}
 
-{% include embed/youtube.html id='0O3kqGwNzTI' %}
-
 ## What terminal emulator can I use?
 
 - I'm currently using Ghostty, that's the one I demo in the video
@@ -531,6 +518,22 @@ Snacks.image ~
 - WARNING `mmdc` is required to render Mermaid diagrams
 - OK your terminal supports the kitty graphics protocol
 ```
+
+## Other videos mentioned
+
+{% include embed/youtube.html id='xN1hdY1cc3E' %}
+
+{% include embed/youtube.html id='un7DhE71EeY' %}
+
+{% include embed/youtube.html id='a3CsyZGxHrs' %}
+
+{% include embed/youtube.html id='k_g8q5JeisY' %}
+
+{% include embed/youtube.html id='7hEWG3GP6m0' %}
+
+{% include embed/youtube.html id='M0B_24d0MWw' %}
+
+{% include embed/youtube.html id='0O3kqGwNzTI' %}
 
 ## If you like my content, and want to support me
 

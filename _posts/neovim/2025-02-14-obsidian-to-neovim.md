@@ -44,6 +44,7 @@ tags:
 - [How to search for files in Neovim compared to Obsidian](#how-to-search-for-files-in-neovim-compared-to-obsidian)
 - [My entire markdown workflow](#my-entire-markdown-workflow)
 - [It seems you're shitting on Obsidian, do you hate it?](#it-seems-youre-shitting-on-obsidian-do-you-hate-it)
+- [Other videos mentioned](#other-videos-mentioned)
 - [If you like my content, and want to support me](#if-you-like-my-content-and-want-to-support-me)
 - [Discord server](#discord-server)
 - [Follow me on social media](#follow-me-on-social-media)
@@ -64,8 +65,6 @@ tags:
   config, but also other neovim distributions, so I highly recommend you check
   it out:
   - [Download and test multiple Neovim distros and configurations - Without affecting your current config](https://youtu.be/xN1hdY1cc3E){:target="\_blank"}
-
-{% include embed/youtube.html id='xN1hdY1cc3E' %}
 
 ---
 
@@ -99,8 +98,6 @@ alias neobean='NVIM_APPNAME=linkarzu/dotfiles-latest/neovim/neobean nvim'
 - If you don't even have neovim yet, of course you will need to install it
   first, so if you're just getting started, I have a video for you:
   - [How to install neovim on macos](https://youtu.be/un7DhE71EeY){:target="\_blank"}
-
-{% include embed/youtube.html id='un7DhE71EeY' %}
 
 ## Did I use Obsidian?
 
@@ -186,8 +183,6 @@ _Markdown file with all the headings unfolded_
 - If you want to learn more about folds, I created a video:
 - [Fold markdown headings in Neovim with a keymap](https://youtu.be/EYczZLNEnIY){:target="\_blank"}
 
-{% include embed/youtube.html id='EYczZLNEnIY' %}
-
 ## Outline plugin
 
 - I loved the outline plugin in Obsidian, I used it a lot, the huge downside for
@@ -197,8 +192,6 @@ _Markdown file with all the headings unfolded_
   navigate in it compared to Obsidian
 - I have a video about it in which I cover it:
   - [markdown outline in lazyvim](https://youtu.be/UqLEKe7o2zg){:target="\_blank"}
-
-{% include embed/youtube.html id='UqLEKe7o2zg' %}
 
 ## How to link notes together
 
@@ -220,8 +213,6 @@ _Markdown file with all the headings unfolded_
 - But I cover everything in the video below:
   - [View and paste images in Neovim like in Obsidian](https://youtu.be/0O3kqGwNzTI){:target="\_blank"}
 
-{% include embed/youtube.html id='0O3kqGwNzTI' %}
-
 ## How to paste images in Neovim
 
 - I have a very advanced and customized way of pasting images in Neovim, I can
@@ -232,8 +223,6 @@ _Markdown file with all the headings unfolded_
   video out:
   - [img-clip.nvim - Add images to "assets" directory in Neovim - Drag images - Paste images and more](https://youtu.be/a3CsyZGxHrs){:target="\_blank"}
 
-{% include embed/youtube.html id='a3CsyZGxHrs' %}
-
 ## How to upload images to imgur from neovim
 
 - This is something that I did a lot back in Obsidian, I didn't have a way of
@@ -243,8 +232,6 @@ _Markdown file with all the headings unfolded_
   can upload the images in an unauthenticated way as well
 - I cover the entire setup in the video below:
   - [Upload images from Neovim to Imgur](https://youtu.be/Lzl_0SzbUBo){:target="\_blank"}
-
-{% include embed/youtube.html id='Lzl_0SzbUBo' %}
 
 ## How to Create and open the daily note in Neovim
 
@@ -265,8 +252,6 @@ _Markdown file with all the headings unfolded_
 - I created a dedicated video explaining how the daily note works and how to set
   it up:
   - [Open your daily note in Neovim with a single keymap](https://youtu.be/W3hgsMoUcqo){:target="\_blank"}
-
-{% include embed/youtube.html id='W3hgsMoUcqo' %}
 
 ## How to mange tasks in Neovim
 
@@ -289,14 +274,10 @@ _Markdown file with all the headings unfolded_
 - I have a full tutorial on how to set up `skitty-notes`, you can find it here:
   - [skitty-notes - Markdown Sticky Notes app in Neovim in the Kitty Terminal](https://youtu.be/M0B_24d0MWw){:target="\_blank"}
 
-{% include embed/youtube.html id='M0B_24d0MWw' %}
-
 ---
 
 - To learn about this task management in detail, go and check a video I created:
   - [Manage Markdown tasks in Neovim similar to Obsidian - Telescope to List Completed and Pending Tasks](https://youtu.be/59hvZl077hM){:target="\_blank"}
-
-{% include embed/youtube.html id='59hvZl077hM' %}
 
 ---
 
@@ -304,8 +285,6 @@ _Markdown file with all the headings unfolded_
   `Snacks Picker`, and I explain how I migrated my custom picker searches and
   how I configured the snacks plugin entirely in the video below:
   - [Why I'm Moving from Telescope to Snacks Picker - Why I'm not Using fzf-lua - Frecency feature](https://youtu.be/7hEWG3GP6m0){:target="\_blank"}
-
-{% include embed/youtube.html id='7hEWG3GP6m0' %}
 
 ## Script to auto-push to GitHub
 
@@ -374,8 +353,6 @@ create_symlink ~/github/dotfiles-latest/vimrc/vimrc-file ~/github/obsidian_main/
 - If you don't know wtf the Dataview plugin is in Obsidian, check this vide by
   [Nicole van der Hoeven](https://youtu.be/JTObSymEvWA?si=Gf4fqqgdMBTCFLFI){:target="\_blank"}
 
-{% include embed/youtube.html id='JTObSymEvWA' %}
-
 ## What about Excalidraw in Neovim?
 
 - I don't use excalidraw extensively, I know that the Obsidian plugin is really
@@ -441,15 +418,11 @@ _Same file but in HTML view_
 - If you want to understand how I navigate files in Neovim, I have a video:
   - [How I navigate between buffers in neovim](https://youtu.be/ldfxEda_mzc){:target="\_blank"}
 
-{% include embed/youtube.html id='ldfxEda_mzc' %}
-
 ---
 
 - Also, if you want to learn why I moved away from telescope 😢, I have a video
   as well:
   - [Why I'm Moving from Telescope to Snacks Picker - Why I'm not Using fzf-lua - Frecency feature](https://youtu.be/7hEWG3GP6m0){:target="\_blank"}
-
-{% include embed/youtube.html id='7hEWG3GP6m0' %}
 
 ## My entire markdown workflow
 
@@ -457,8 +430,6 @@ _Same file but in HTML view_
   because I've configured so many keymaps that do many different things, but if
   you like what you see so far, I'd recommend you to check this video:
   - [My complete Neovim markdown setup and workflow in 2025](https://youtu.be/1YEbKDlxfss){:target="\_blank"}
-
-{% include embed/youtube.html id='1YEbKDlxfss' %}
 
 ## It seems you're shitting on Obsidian, do you hate it?
 
@@ -482,6 +453,36 @@ _Same file but in HTML view_
   - The only difference is that I host my blogpost in github pages using a
     jekyll theme, but if you don't want to go through all that setup, Obsidian
     publish is the way to go
+
+## Other videos mentioned
+
+{% include embed/youtube.html id='xN1hdY1cc3E' %}
+
+{% include embed/youtube.html id='un7DhE71EeY' %}
+
+{% include embed/youtube.html id='EYczZLNEnIY' %}
+
+{% include embed/youtube.html id='UqLEKe7o2zg' %}
+
+{% include embed/youtube.html id='0O3kqGwNzTI' %}
+
+{% include embed/youtube.html id='a3CsyZGxHrs' %}
+
+{% include embed/youtube.html id='Lzl_0SzbUBo' %}
+
+{% include embed/youtube.html id='W3hgsMoUcqo' %}
+
+{% include embed/youtube.html id='M0B_24d0MWw' %}
+
+{% include embed/youtube.html id='59hvZl077hM' %}
+
+{% include embed/youtube.html id='7hEWG3GP6m0' %}
+
+{% include embed/youtube.html id='JTObSymEvWA' %}
+
+{% include embed/youtube.html id='ldfxEda_mzc' %}
+
+{% include embed/youtube.html id='1YEbKDlxfss' %}
 
 ## If you like my content, and want to support me
 

@@ -67,6 +67,7 @@ tags:
 - [echasnovski/mini.surround](#echasnovskiminisurround)
 - [Tutor](#tutor)
 - [Timeline](#timeline)
+- [Other videos mentioned](#other-videos-mentioned)
 - [If you like my content, and want to support me](#if-you-like-my-content-and-want-to-support-me)
 - [Discord server](#discord-server)
 - [Follow me on social media](#follow-me-on-social-media)
@@ -123,8 +124,6 @@ tags:
 
 - I have a video in which I explain how to install the lazyvim.org distro,
   kickstart and the config that you see on the video:
-
-{% include embed/youtube.html id='_WJBLC8LciQ' %}
 
 ## Neovim modes
 
@@ -560,8 +559,6 @@ do not drink anymore, but whisky is just the first word that came to mind
 
 - If you like this current article, you will find this quite useful:
 
-{% include embed/youtube.html id='c0cuvzK1SDo' %}
-
 ## Search, find replace
 
 ### Search find
@@ -640,6 +637,12 @@ word
 0:39 - RECOMMENDATION lazyvim vs kickstart
 8:05 - RECOMMENDATION markdown workflow
 ```
+
+## Other videos mentioned
+
+{% include embed/youtube.html id='_WJBLC8LciQ' %}
+
+{% include embed/youtube.html id='c0cuvzK1SDo' %}
 
 ## If you like my content, and want to support me
 

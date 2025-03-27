@@ -41,6 +41,7 @@ tags:
 - [Disable snacks picker in blink.cmp](#disable-snacks-picker-in-blinkcmp)
 - [Bullets.vim configuration](#bulletsvim-configuration)
 - [How to install the snacks picker](#how-to-install-the-snacks-picker)
+- [Other videos mentioned](#other-videos-mentioned)
 - [If you like my content, and want to support me](#if-you-like-my-content-and-want-to-support-me)
 - [Discord server](#discord-server)
 - [Follow me on social media](#follow-me-on-social-media)
@@ -61,8 +62,6 @@ tags:
   config, but also other neovim distributions, so I highly recommend you check
   it out:
   - [Download and test multiple Neovim distros and configurations - Without affecting your current config](https://youtu.be/xN1hdY1cc3E){:target="\_blank"}
-
-{% include embed/youtube.html id='xN1hdY1cc3E' %}
 
 ---
 
@@ -97,20 +96,17 @@ alias neobean='NVIM_APPNAME=linkarzu/dotfiles-latest/neovim/neobean nvim'
   this video:
   - [View and paste images in Neovim like in Obsidian](https://youtu.be/0O3kqGwNzTI){:target="\_blank"}
 
-{% include embed/youtube.html id='0O3kqGwNzTI' %}
-
 ---
 
 - If you don't even have neovim yet, of course you will need to install it
   first, so if you're just getting started, I have a video for you:
   - [How to install neovim on macos](https://youtu.be/un7DhE71EeY){:target="\_blank"}
 
-{% include embed/youtube.html id='un7DhE71EeY' %}
-
 ## Why didn't I move to fzf-lua?
 
 - I use the LazyVim distro, and Folke moved everyone from Telescope to fzf-lua a
   few mongs ago, but I didn't switch because of a few reasons:
+
   - One of the main reasons was `frecency`, this is a plugin I used in telescope
     that increases the scores of files every time you open them, so the more
     times you open a file, the higher it's score will be, so the next time you
@@ -119,8 +115,6 @@ alias neobean='NVIM_APPNAME=linkarzu/dotfiles-latest/neovim/neobean nvim'
   - If you are still using telescope, and want to learn more about this frecency
     plugin, I have a video:
     - [telescope-frecency.nvim - Sort files in telescope by showing the most accessed files first](https://youtu.be/Qr-vX51gB8g){:target="\_blank"}
-
-{% include embed/youtube.html id='Qr-vX51gB8g' %}
 
 - Another reason why I didn't switch to fzf-lua is because I couldn't start the
   buffers picker in normal mode, and that's something I'm used to doing in
@@ -248,9 +242,8 @@ _vscode_
   through the completed tasks, I set it up as `<leader>tc`
 - Notice that these 2 custom keymaps, put me in **normal** mode by default
 - To learn about this task management in detail, go and check a video I created:
-  - [Manage Markdown tasks in Neovim similar to Obsidian - Telescope to List Completed and Pending Tasks](https://youtu.be/59hvZl077hM){:target="\_blank"}
 
-{% include embed/youtube.html id='59hvZl077hM' %}
+  - [Manage Markdown tasks in Neovim similar to Obsidian - Telescope to List Completed and Pending Tasks](https://youtu.be/59hvZl077hM){:target="\_blank"}
 
 - I have another custom keymap `Alt+k` that shows me all the different keymaps I
   have configured in neovim. I tend to forget them, so this picker allows me to
@@ -264,9 +257,8 @@ _vscode_
   - I start it in **normal mode**
   - I configured the key `d` to close buffers when in this picker
 - I have a video in which I cover how I navigate buffers in Neovim:
-  - [How I navigate between buffers in neovim](https://youtu.be/ldfxEda_mzc){:target="\_blank"}
 
-{% include embed/youtube.html id='ldfxEda_mzc' %}
+  - [How I navigate between buffers in neovim](https://youtu.be/ldfxEda_mzc){:target="\_blank"}
 
 - If you want to see how the other keymaps work and what they do, I demo that in
   the video
@@ -427,8 +419,6 @@ _vscode_
   config and want to migrate to `blink.cmp` watch this video:
   - [blink.cmp updates - Remove LuaSnip - Emoji and Dictionary Sources - Fix Jump Autosave Issue](https://youtu.be/JrgfpWap_Pg){:target="\_blank"}
 
-{% include embed/youtube.html id='JrgfpWap_Pg' %}
-
 ## Bullets.vim configuration
 
 - I had a really strange issue, when I opened a picker, searched for something,
@@ -452,8 +442,6 @@ vim.g.bullets_enable_in_empty_buffers = 0
   recommend you to check my markdown workflow video, the 2025 version:
   - [My complete Neovim markdown setup and workflow in 2025](https://youtu.be/1YEbKDlxfss){:target="\_blank"}
 
-{% include embed/youtube.html id='1YEbKDlxfss' %}
-
 ## How to install the snacks picker
 
 - Remember that I use the lazyvim distro, so you need to add is as an extra
@@ -473,6 +461,24 @@ vim.g.bullets_enable_in_empty_buffers = 0
   [config/keymaps.lua](https://github.com/linkarzu/dotfiles-latest/blob/main/neovim/neobean/lua/config/keymaps.lua){:target="\_blank"}
 - And very important, if you use the `bullets.vim` plugin, remember to modify
   the config mentioned above
+
+## Other videos mentioned
+
+{% include embed/youtube.html id='xN1hdY1cc3E' %}
+
+{% include embed/youtube.html id='0O3kqGwNzTI' %}
+
+{% include embed/youtube.html id='un7DhE71EeY' %}
+
+{% include embed/youtube.html id='Qr-vX51gB8g' %}
+
+{% include embed/youtube.html id='59hvZl077hM' %}
+
+{% include embed/youtube.html id='ldfxEda_mzc' %}
+
+{% include embed/youtube.html id='JrgfpWap_Pg' %}
+
+{% include embed/youtube.html id='1YEbKDlxfss' %}
 
 ## If you like my content, and want to support me
 

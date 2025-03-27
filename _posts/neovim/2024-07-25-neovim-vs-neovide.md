@@ -33,6 +33,7 @@ tags:
   * [Get variable values](#get-variable-values)
   * [Issues](#issues)
 - [Timeline](#timeline)
+- [Other videos mentioned](#other-videos-mentioned)
 - [If you like my content, and want to support me](#if-you-like-my-content-and-want-to-support-me)
 - [Discord server](#discord-server)
 - [Follow me on social media](#follow-me-on-social-media)
@@ -60,13 +61,9 @@ tags:
 - In this video I explain how to install the lazyvim.org distro, kickstart and
   `my own config`, which is the one that you see in the video:
 
-{% include embed/youtube.html id='_WJBLC8LciQ' %}
-
 ## My complete Neovim markdown setup and workflow in 2024
 
 - If you like this current article, you will find this quite useful:
-
-{% include embed/youtube.html id='c0cuvzK1SDo' %}
 
 ## Neovim vs Neovide
 
@@ -203,6 +200,12 @@ echo g:neovide_cursor_animation_length
 6:21 - RECOMMENDATION view paste images neovim
 6:31 - RECOMMENDATION markdown workflow
 ```
+
+## Other videos mentioned
+
+{% include embed/youtube.html id='_WJBLC8LciQ' %}
+
+{% include embed/youtube.html id='c0cuvzK1SDo' %}
 
 ## If you like my content, and want to support me
 

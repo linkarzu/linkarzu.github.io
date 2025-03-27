@@ -38,6 +38,7 @@ tags:
 - [My complete Neovim markdown setup and workflow in 2024](#my-complete-neovim-markdown-setup-and-workflow-in-2024)
 - [Timeline](#timeline)
 - [Recommendations](#recommendations)
+- [Other videos mentioned](#other-videos-mentioned)
 - [If you like my content, and want to support me](#if-you-like-my-content-and-want-to-support-me)
 - [Discord server](#discord-server)
 - [Follow me on social media](#follow-me-on-social-media)
@@ -218,8 +219,6 @@ nvim test-file.md
 
 - If you like this current article, you will find this quite useful:
 
-{% include embed/youtube.html id='c0cuvzK1SDo' %}
-
 ## Timeline
 
 ```bash
@@ -254,6 +253,10 @@ https://youtu.be/QAKLsFGWmNU
 05 - Install nerdfonts macOS
 https://youtu.be/7oCjW4dqLj4
 ```
+
+## Other videos mentioned
+
+{% include embed/youtube.html id='c0cuvzK1SDo' %}
 
 ## If you like my content, and want to support me
 

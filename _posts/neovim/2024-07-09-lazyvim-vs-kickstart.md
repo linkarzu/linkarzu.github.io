@@ -47,6 +47,7 @@ tags:
 - [How to get your feet wet?](#how-to-get-your-feet-wet)
 - [What do you want to see next?](#what-do-you-want-to-see-next)
 - [Timeline](#timeline)
+- [Other videos mentioned](#other-videos-mentioned)
 - [If you like my content, and want to support me](#if-you-like-my-content-and-want-to-support-me)
 - [Discord server](#discord-server)
 - [Follow me on social media](#follow-me-on-social-media)
@@ -485,8 +486,6 @@ brew install node
 
 - If you like this current article, you will find this quite useful:
 
-{% include embed/youtube.html id='c0cuvzK1SDo' %}
-
 ## How to get your feet wet?
 
 - Start by taking notes in neovim, I mean editing markdown files
@@ -537,6 +536,10 @@ brew install node
 11:35 - RECOMMENDATION dotfiles
 15:49 - RECOMMENDATION markdown workflow 2024
 ```
+
+## Other videos mentioned
+
+{% include embed/youtube.html id='c0cuvzK1SDo' %}
 
 ## If you like my content, and want to support me
 

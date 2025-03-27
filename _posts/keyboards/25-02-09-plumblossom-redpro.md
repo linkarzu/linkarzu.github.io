@@ -33,6 +33,7 @@ tags:
 - [I removed the palm rests](#i-removed-the-palm-rests)
 - [Should I try the voyager?](#should-i-try-the-voyager)
 - [Which switches should you get](#which-switches-should-you-get)
+- [Other videos mentioned](#other-videos-mentioned)
 - [If you like my content, and want to support me](#if-you-like-my-content-and-want-to-support-me)
 - [Discord server](#discord-server)
 - [Follow me on social media](#follow-me-on-social-media)
@@ -107,8 +108,6 @@ _Notice the technical differences between the 2 switches_
   keyboard, you can see the entire thing in the video below:
   - [Thoughts after 5 months of using the Glove80 - Firmware upload - Layouts - Battery life](https://youtu.be/Yvn2V-Bij44){:target="\_blank"}
 
-{% include embed/youtube.html id='Yvn2V-Bij44' %}
-
 ## I removed the palm rests
 
 - If you notice in the video, I don't have the palm rests attached anymore,
@@ -149,8 +148,6 @@ _Some of the keys that perform particular actions_
   single key on my keyboard, I have a video in which I cover all of this:
   - [You don't need a KVM switch to switch your mouse keyboard and monitor to another computer](https://youtu.be/26r52tpzbY4){:target="\_blank"}
 
-{% include embed/youtube.html id='26r52tpzbY4' %}
-
 ---
 
 - To learn how I do all my different mappings, including when I type
@@ -158,8 +155,6 @@ _Some of the keys that perform particular actions_
   `cmd+v` to paste, how I switch between apps, change system settings, switch
   between tmux sessions and way more, check out my karabiner-elements video:
   - [karabiner-elements configuration updates 2024](https://youtu.be/dqEiDVYRWLk){:target="\_blank"}
-
-{% include embed/youtube.html id='dqEiDVYRWLk' %}
 
 ## Which switches should you get
 
@@ -202,6 +197,14 @@ _Some of the keys that perform particular actions_
 <!-- prettier-ignore -->
 ![Image](./../../assets/img/imgs/250209-dora-send-switches.avif){: width="500" }
 _Cmon Stephen_
+
+## Other videos mentioned
+
+{% include embed/youtube.html id='Yvn2V-Bij44' %}
+
+{% include embed/youtube.html id='26r52tpzbY4' %}
+
+{% include embed/youtube.html id='dqEiDVYRWLk' %}
 
 ## If you like my content, and want to support me
 

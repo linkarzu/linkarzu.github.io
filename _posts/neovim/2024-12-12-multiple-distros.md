@@ -40,6 +40,7 @@ tags:
 - [Clean up](#clean-up)
 - [How to get your feet wet?](#how-to-get-your-feet-wet)
 - [What do you want to see next?](#what-do-you-want-to-see-next)
+- [Other videos mentioned](#other-videos-mentioned)
 - [If you like my content, and want to support me](#if-you-like-my-content-and-want-to-support-me)
 - [Discord server](#discord-server)
 - [Follow me on social media](#follow-me-on-social-media)
@@ -318,8 +319,6 @@ echo "XDG_CONFIG_HOME=$download_dir NVIM_APPNAME=$distro nvim"
 - In this video I also go over how I manage different distros in my `.zshrc`
   file and upload all of them to my dotfiles
 
-{% include embed/youtube.html id='_WJBLC8LciQ' %}
-
 ### Adding LazyVim
 
 - Download instructions in the
@@ -371,8 +370,6 @@ XDG_CONFIG_HOME=$download_dir NVIM_APPNAME=$distro nvim $download_dir/$distro/in
 - I have some advanced keymaps that allow you for example to zip an entire
   directory, copy it to your clipboard, so then you can share it over slack, or
   another app
-
-{% include embed/youtube.html id='BzblG2eV8dU' %}
 
 ### Adding LunarVim
 
@@ -429,8 +426,6 @@ rm -rf LunarVim/.git
   navigate any other macOS app without the mouse
 - This is done by the `homerow` app, check out this video below
 
-{% include embed/youtube.html id='abZP1xFZrRU' %}
-
 ## Clean up
 
 - Once you're done testing delete the directories in `~/.local/share` as its
@@ -451,13 +446,21 @@ cd ~/.local/share
 - If you experience any errors or have any issues, let me know down in the
   comments and me or others can try to help
 
-{% include embed/youtube.html id='c0cuvzK1SDo' %}
-
 ## What do you want to see next?
 
 - Let me know down in the comments:
   - You want to go over kickstart.nvim?
   - Explain something about my configuration?
+
+## Other videos mentioned
+
+{% include embed/youtube.html id='_WJBLC8LciQ' %}
+
+{% include embed/youtube.html id='BzblG2eV8dU' %}
+
+{% include embed/youtube.html id='abZP1xFZrRU' %}
+
+{% include embed/youtube.html id='c0cuvzK1SDo' %}
 
 ## If you like my content, and want to support me
 
