@@ -65,7 +65,7 @@ tags:
   experience like watching a Dave Chappelle stand-up tech tutorial, and I liked
   it
 - Anyway, I ended up in this video by ThePrimeagen:
-  - [My Developer Workflow - How I use i3, tmux, and vim](https://youtu.be/bdumjiHabhQ)
+  - [My Developer Workflow - How I use i3, tmux, and vim](https://youtu.be/bdumjiHabhQ){:target="_blank"}
 
 ## With my 55 inch TV, I thought I was productive
 
@@ -293,7 +293,7 @@ _kekw_
   that have not been accessed for a bit less than 2 hours
 - You can configure it every day or week, however you like
 - The script can be found here:
-  [linkarzu/tmuxKillSessions.sh](https://github.com/linkarzu/dotfiles-latest/blob/main/tmux/tools/linkarzu/tmuxKillSessions.sh)
+  [linkarzu/tmuxKillSessions.sh](https://github.com/linkarzu/dotfiles-latest/blob/main/tmux/tools/linkarzu/tmuxKillSessions.sh){:target="_blank"}
 - But I also created a video in which I set up everything from scratch, and
   since I use macOS I configure the `LauncAgent` (basically the cron job):
   - [Tmux Cleanup Session Script - Automatically Kill Unused Tmux Sessions](https://youtu.be/3axjsVR7QfA){:target="\_blank"}
