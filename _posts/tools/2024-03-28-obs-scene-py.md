@@ -87,7 +87,7 @@ devices.
 ## OBS WebSocket
 
 - The official WebSocket documentation can be found here:
-  - [obsproject/obs-websocket](https://github.com/obsproject/obs-websocket){:target="_blank"}
+  - [obsproject/obs-websocket](https://github.com/obsproject/obs-websocket){:target="\_blank"}
 - **`obs-websocket` is now included by default with OBS Studio 28.0.0 and
   above**
   - Notice on the image below I'm using 31.0.2
@@ -111,7 +111,7 @@ _OBS WebSocket server settings_
   different one, and create the script in `rust` or `go` for example
 - In the `obsws-python` library you will find the documentation and a link to
   the
-  [obs-websocket 5.x.x Protocol](https://github.com/obsproject/obs-websocket/blob/master/docs/generated/protocol.md#requests){:target="_blank"}
+  [obs-websocket 5.x.x Protocol](https://github.com/obsproject/obs-websocket/blob/master/docs/generated/protocol.md#requests){:target="\_blank"}
   - Here you can find all documentation of the things that can be done with the
     `obs-websocket` for now I'm just changing scenes, but you can do everything
     listed in this file:
@@ -234,7 +234,7 @@ YouCanProceedToLigmaNaughts
 <!-- markdownlint-restore -->
 
 - The python script can be found in my dotfiles
-  - [py/switch_scene.py](https://github.com/linkarzu/dotfiles-latest/blob/main/scripts/macos/mac/obs/scene-switcher/py/switch_scene.py){:target="_blank"}
+  - [py/switch_scene.py](https://github.com/linkarzu/dotfiles-latest/blob/main/scripts/macos/mac/obs/scene-switcher/py/switch_scene.py){:target="\_blank"}
   - If you like my dotfiles **⭐⭐⭐⭐ remember to star them ⭐⭐⭐⭐**
 - Make sure to modify the path to the secret:
   - `onepassword_secret = "op://helixdeeznuts/obs-websocket-password/credential"`
