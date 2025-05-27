@@ -212,7 +212,7 @@ YouCanProceedToLigmaNaughts
 
 - **If you want to support me in keeping this blogpost ad free, start your
   1password 14 day free trial by clicking the image below**
-  - [start your 14 day free trial](https://www.dpbolvw.net/click-101327218-15917064){:target="\_blank"}
+  - [start your 14 day free trial](https://www.dpbolvw.net/click-101327218-15734885){:target="\_blank"}
 
 ## Python script
 
@@ -393,5 +393,5 @@ _How my macOS terminal usually looks_
 - **If you want to support me in keeping this blogpost ad free, start your
   1password 14 day free trial by clicking the image below**
 
-[![Image](../../assets/img/imgs/250124-1password-banner.avif){: width="300" }](https://www.dpbolvw.net/click-101327218-15917064){:target="\_blank"}
+[![Image](../../assets/img/imgs/250124-1password-banner.avif){: width="300" }](https://www.dpbolvw.net/click-101327218-15734885){:target="\_blank"}
 

@@ -424,5 +424,5 @@ ssh ubnt@192.168.88.254
 - **If you want to support me in keeping this blogpost ad free, start your
   1password 14 day free trial by clicking the image below**
 
-[![Image](../../assets/img/imgs/250124-1password-banner.avif){: width="300" }](https://www.dpbolvw.net/click-101327218-15917064){:target="\_blank"}
+[![Image](../../assets/img/imgs/250124-1password-banner.avif){: width="300" }](https://www.dpbolvw.net/click-101327218-15734885){:target="\_blank"}
 
