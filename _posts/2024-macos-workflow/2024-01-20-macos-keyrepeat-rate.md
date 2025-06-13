@@ -80,9 +80,9 @@ defaults write -g KeyRepeat -int 1
 > because of this being set to 10. My other computer with the value set to 15
 > didn't experience this issue
 > - Mi `mac mini` worked with this set to 15, but my `macbook` worked with 20
-> - **Experimenting with kanata afterward, `25` is what worked**
+> - **Experimenting with kanata afterward, `50` is what worked**
 > - Otherwise I would still get repeated keys, so experiment and see what works,
->   for now I'll keep everything at 25
+>   for now I'll keep everything at 50
 > - If using a **wired** keyboard, you may go with lower values, I use a **glove80**
 >   that switches between the 2 computers, and both connect via Bluetooth
 {: .prompt-danger }
@@ -91,7 +91,7 @@ defaults write -g KeyRepeat -int 1
 <!-- markdownlint-restore -->
 
 ```bash
-defaults write -g InitialKeyRepeat -int 25
+defaults write -g InitialKeyRepeat -int 50
 ```
 
 - No need to reboot afterward, to apply the changes just `reboot your keyboard`
