@@ -67,6 +67,7 @@ tags:
 - [What is `hardtime.nvim`](#what-is-hardtimenvim)
 - [Use flash.nvim to jump to sections](#use-flashnvim-to-jump-to-sections)
 - [I navigate markdown files faster with folds](#i-navigate-markdown-files-faster-with-folds)
+- [Jump to diagnostics, spells, etc](#jump-to-diagnostics-spells-etc)
 - [You will feel like reinventing the `hjkl` wheel](#you-will-feel-like-reinventing-the-hjkl-wheel)
 - [My complete Neovim markdown setup and workflow](#my-complete-neovim-markdown-setup-and-workflow)
 - [Search, find replace](#search-find-replace)
@@ -92,8 +93,8 @@ tags:
 - I'm not, and I don't intend to be a blogpost writer. I like creating videos,
   this blogpost is just complimentary to the video, so if something is not
   clear, watch the video.
-- My goal is not to create blogpost articles, yes, they're helpful sometimes,
-  but it's not my main gig.
+- My goal is **not** to create blogpost articles, yes, they're helpful
+  sometimes, but it's not my main gig.
 - **If you're watching the video, this file I'm reading is a blogpost article
   that I create and edit in Neovim, link in the video description**
 - There is a lot of keymaps and configs **here** that are not defaults in
@@ -110,7 +111,9 @@ tags:
 - There's multiple ways to get started, distro, no distro, kickstart.nvim,
   config from scratch
 - Get started by trying out my `neobean` config, see if you like neovim or not,
-  then move on to something else
+  then move on to something else.
+- This guide will get a taste of what Neovim is capable of, editing markdown,
+  which is a good first step
 - My config is based on the
   [lazyvim.org](https://www.lazyvim.org){:target="\_blank"} distro
 - [Download and test multiple Neovim distros and configurations - Without affecting your current config](https://youtu.be/xN1hdY1cc3E){:target="\_blank"}
@@ -158,11 +161,11 @@ alias neobean='NVIM_APPNAME=linkarzu/dotfiles-latest/neovim/neobean nvim'
 
 ## Quit and save
 
-- Let's start with a hot take, I like auto-saving, why bother saving?
+- Let's start with a hot take 🔥, I like auto-saving, why bother saving?
   - In short, when you're in normal mode, your file will be auto-saved every 3
     seconds only after you made a change
   - I don't worry about saving and to quit I just press `<leader>qq` or
-    `<alt+q>`
+    `<right_alt+q>`
   - To learn this in full detail:
     - [Neovim Auto-Format (conform.nvim) & Auto-Save (auto-save.nvim) Masterclass You didn't Know you Need](https://youtu.be/oq-0ioaI5V4)
 
@@ -228,6 +231,7 @@ alias neobean='NVIM_APPNAME=linkarzu/dotfiles-latest/neovim/neobean nvim'
 - I remapped `esc` to `capslock` and many other remaps using Kanata on macOS
 - Kanata is multiplatform. So Linux furries and Windows normies can use it as
   well
+- [Kanata vs Karabiner-Elements: Which One Wins?](https://youtu.be/P5vTzsmBNQc)
 
 ### Normal mode navigation
 
@@ -235,8 +239,10 @@ alias neobean='NVIM_APPNAME=linkarzu/dotfiles-latest/neovim/neobean nvim'
 
 - In neovim, instead of navigating with the arrow keys (which you also can, but
   not recommended), you navigate with `hjkl`
-- It'll be tough to get used to, but once you do, you won't have to lift your
-  hand to look for the arrow keys, and it'll be faster:
+- - This is one of the most difficult things to get used to, trust me, we all go
+    through it, I got defeated like 4 times before it stuck
+- Once you get used to it, you won't have to lift your hand to look for the
+  arrow keys, and you'll be faster:
   - `j` - move cursor down by one line.
   - `k` - move cursor up by one line.
   - `h` - move cursor left by one character.
@@ -361,15 +367,17 @@ stuff, so do not pay attention to it
 
 ---
 
-- The following work with the
+- The following work with
   [echasnovski/mini.ai](https://github.com/echasnovski/mini.ai){:target="\_blank"}
-  plugin
   - `cit` or `cat` - for tags <div>change that</div>
-  - `cio` or `cao` - for text inside a code block
-    - **I use code blocks a lot, so this is my favorite of all times, but the
-      `v` variant:**
-      - `vio`
   - This plugin can do way much more
+
+---
+
+- `vio` - to select text inside a code block
+  - **I use code blocks a lot, so this is my favorite of all times**
+  - This used to work with `mini.ai`, not sure what happened, so I created a
+    custom keymap
 
 ```bash
 - first paragraph
@@ -411,7 +419,7 @@ test
   - will delete everything from your cursor until the character 7
   - **it doesn't delete the `[` itself**
 - `cf[` - change find [beginning of square bracket]
-  - similar to above but will delete the `[`
+  - Similar to above but will delete the `[`
 
 ## Insert mode
 
@@ -431,12 +439,12 @@ test
 ### Get to insert mode
 
 - To enter insert mode there are several options, here are some useful ones:
-- `i` - "insert" text **before** the cursor position.
-- `a` - "append" text **after** the cursor position.
-- `I` - "insert" text at the **beginning** of the line.
-- `A` - "append" text at the **end** of the line.
-- `o` - "open" a new line below the cursor and enter insert mode.
-- `O` - "open" a new line above the cursor and enter insert mode.
+- `i` - "Insert" text **before** the cursor position.
+- `a` - "Append" text **after** the cursor position.
+- `I` - "Insert" text at the **beginning** of the line.
+- `A` - "Append" text at the **end** of the line.
+- `o` - "Open" a newline below the cursor and enter insert mode.
+- `O` - "Open" a newline above the cursor and enter insert mode.
 - `gi` - takes you back to the last position you were in insert mode
 
 ### Indent text in insert mode
@@ -465,7 +473,7 @@ test
   - Using the `hjkl` keys
   - `vgl` - select to the end of the line (`gl` is a custom mapping I have)
   - `vgh` - select to the start of the line (`gh` is a custom mapping I have)
-  - `vw` - select word, keep pressing `w` to keep selecting words
+  - `vw` - select word. Keep pressing `w` to keep selecting words
   - Basically use any normal navigation commands when in visual mode
 - `V` - selects entire line
 - `gv` - takes you to the last selection you had in visual mode
@@ -661,6 +669,12 @@ do not drink anymore, but whisky is just the first word that came to mind
 - This allows me to navigate markdown files way faster
 - Now, I rarely use `outline.nvim`
 
+## Jump to diagnostics, spells, etc
+
+- I use `]` and which key will shop up
+- Mispellled word here
+- Diagnostic, ass, will show here
+
 ## You will feel like reinventing the `hjkl` wheel
 
 - Once you get a little bit of experience, you will feel like an overlord, and
@@ -701,7 +715,7 @@ word
 
 - For all the following options:
   - `n` - keep searching the same word **forward**
-  * `N` - keep searching the same word **backward**
+  - `N` - keep searching the same word **backward**
 
 ---
 
