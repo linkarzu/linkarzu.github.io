@@ -375,7 +375,7 @@ stuff, so do not pay attention to it
 
 ---
 
-- Remember that instead of `d` below, you can switch it for `y`, `c` or `v`
+- Remember that instead of `c` below, you can switch it for `y`, `d` or `v`
 - `caw` or `ciw` - for a word, doesn't matter if you're in the middle
 - `ca"` or `ci"` - for "text in double quotes"
 - `ca'` or `ci'` - for 'text in single quotes'
@@ -414,7 +414,7 @@ test
  
 <!-- tip=green, info=blue, warning=yellow, danger=red -->
  
-> There's a lot more of these motions, if in lazyvim press `ci` to list them
+> There's a lot more of these motions, if in LazyVim press `ci` to list them
 {: .prompt-info }
  
 <!-- prettier-ignore-end -->
@@ -694,8 +694,10 @@ do not drink anymore, but whiskey is just the first word that came to mind
 ## Jump to diagnostics, spells, etc
 
 - I use `]` and which key will shop up
-- Mispellled word here
-- Diagnostic, ass, will show here
+- Misspelled word here
+- Diagnostic, will show here
+- In case you want to learn more about Harper to write better:
+  - [Meet Harper - A Grammarly Alternative for Neovim - Emacs, Obsidian, Zed, VScode and Helix (deez)](https://youtu.be/3p2n2-eiuZw)
 
 ## You will feel like reinventing the `hjkl` wheel
 
