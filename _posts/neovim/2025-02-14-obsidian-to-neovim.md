@@ -486,10 +486,9 @@ _Same file but in HTML view_
 
 ## If you like my content, and want to support me
 
-- If you want to share a tip, you can
-  [donate here](https://ko-fi.com/linkarzu/goal?g=6){:target="\_blank"}
-- I recently was laid off, so if you know about any SRE related roles, please
-  let me know
+- Consider becoming a YouTube member
+- [link can be found here](https://www.youtube.com/channel/UCrSIvbFncPSlK6AdwE2QboA/join){:target="\_blank"}
+- I have a daytime job, this helps me so I can keep creating similar content
 
 ## Discord server
 
