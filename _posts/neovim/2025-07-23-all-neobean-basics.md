@@ -74,8 +74,6 @@ tags:
   * [Search find](#search-find)
 - [echasnovski/mini.surround](#echasnovskiminisurround)
 - [Tutor](#tutor)
-- [Timeline](#timeline)
-- [Other videos mentioned](#other-videos-mentioned)
 - [If you like my content, and want to support me](#if-you-like-my-content-and-want-to-support-me)
 - [Discord server](#discord-server)
 - [Follow me on social media](#follow-me-on-social-media)
@@ -591,26 +589,27 @@ new word one new extra line 5
 
 ### Substitute
 
-- I rarely use this, instead I use the plugin:
-  - [nvim-pack/nvim-spectre](https://github.com/nvim-pack/nvim-spectre){:target="\_blank"}
-- Folke recently replaced this plugin with this other one:
-  - [MagicDuck/grug-far.nvim](https://github.com/MagicDuck/grug-far.nvim){:target="\_blank"}
-  - But I haven't had time to test it
+- I rarely use the substitute command, instead I use the plugin `grug-far.nvim`
+- I use 2 keymaps mainly `<leader>sr` for all files and `<leader>s1` for only
+  current file. I mainly use ti after selecting text in visual mode
+- **This plugin is one of my favorite ones**, it's amazing, all of it is covered
+  in this video:
+  - [Neovim Multiline Search and Replace with grug-far.nvim - ast-grep and waaaaaay more](https://youtu.be/AK1TSwJrB3k)
 
 ---
 
 - Anyway, it's good to know at least this one that replaces all occurrences of
-  "whisky" with "juice":
+  "whiskey" with "juice":
   - First enter command line mode with `:`, then
-  - `%s/whisky/juice/g`
+  - `%s/whiskey/juice/g`
     - `%` - represents all lines in the file
     - `s` - is to substitute
     - `g` - means globally (entire file)
 
 ```bash
-whisky word will be replaced, I have written whisky three times, even though I
-this is just some sample whisky text that has some test words in which the
-do not drink anymore, but whisky is just the first word that came to mind
+whiskey word will be replaced, I have written whiskey three times, even though I
+this is just some sample whiskey text that has some test words in which the
+do not drink anymore, but whiskey is just the first word that came to mind
 ```
 
 ### checkhealth
@@ -756,40 +755,9 @@ word
 - If you're using the lazyvim.org distro it comes disabled by default, so enable
   it by deleting the `"tutor"` line in the following file:
   - `lua/config/lazy.lua`
-
-## Timeline
-
-```bash
-0:00 - Intro
-0:15 - Quit save
-0:43 - normal mode
-2:00 - undo redo
-2:13 - indent
-2:23 - delete cut copy paste
-2:51 - change replace join
-3:12 - around inside
-4:20 - til find
-4:48 - insert mode
-5:29 - visual mode
-6:14 - paste text in visual mode
-6:33 - vertical visual mode
-7:23 - command line mode
-7:34 - substitute
-8:16 - search find
-8:44 - mini.surround
-9:39 - tutor
-```
-
-```bash
-0:39 - RECOMMENDATION lazyvim vs kickstart
-8:05 - RECOMMENDATION markdown workflow
-```
-
-## Other videos mentioned
-
-{% include embed/youtube.html id='_WJBLC8LciQ' %}
-
-{% include embed/youtube.html id='c0cuvzK1SDo' %}
+- I created 2 videos in which I go through tutor in full:
+  - [Neovim Tutor Crash-Course (Part 1) - Basics & Navigation](https://youtu.be/Qt0xLuCS15I)
+  - [Neovim Tutor Crash-Course (Part 2)](https://youtu.be/sZtL512mdt4)
 
 ## If you like my content, and want to support me
 
