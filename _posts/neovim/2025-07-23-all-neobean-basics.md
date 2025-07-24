@@ -165,7 +165,7 @@ alias neobean='NVIM_APPNAME=linkarzu/dotfiles-latest/neovim/neobean nvim'
   - I don't worry about saving and to quit I just press `<leader>qq` or
     `<right_alt+q>`
   - To learn this in full detail:
-    - [Neovim Auto-Format (conform.nvim) & Auto-Save (auto-save.nvim) Masterclass You didn't Know you Need](https://youtu.be/oq-0ioaI5V4)
+    - [Neovim Auto-Format (conform.nvim) & Auto-Save (auto-save.nvim) Masterclass You didn't Know you Need](https://youtu.be/oq-0ioaI5V4){:target="\_blank"}
 
 ---
 
@@ -229,7 +229,7 @@ alias neobean='NVIM_APPNAME=linkarzu/dotfiles-latest/neovim/neobean nvim'
 - I remapped `esc` to `capslock` and many other remaps using Kanata on macOS
 - Kanata is multiplatform. So Linux furries and Windows normies can use it as
   well
-- [Kanata vs Karabiner-Elements: Which One Wins?](https://youtu.be/P5vTzsmBNQc)
+- [Kanata vs Karabiner-Elements: Which One Wins?](https://youtu.be/P5vTzsmBNQc){:target="\_blank"}
 
 ### Normal mode navigation
 
@@ -594,7 +594,7 @@ new word one new extra line 5
   current file. I mainly use ti after selecting text in visual mode
 - **This plugin is one of my favorite ones**, it's amazing, all of it is covered
   in this video:
-  - [Neovim Multiline Search and Replace with grug-far.nvim - ast-grep and waaaaaay more](https://youtu.be/AK1TSwJrB3k)
+  - [Neovim Multiline Search and Replace with grug-far.nvim - ast-grep and waaaaaay more](https://youtu.be/AK1TSwJrB3k){:target="\_blank"}
 
 ---
 
@@ -638,7 +638,7 @@ do not drink anymore, but whiskey is just the first word that came to mind
 
 ## What is `hardtime.nvim`
 
-- [m4xshen/hardtime.nvim](https://github.com/m4xshen/hardtime.nvim)
+- [m4xshen/hardtime.nvim](https://github.com/m4xshen/hardtime.nvim){:target="\_blank"}
 - This is the plugin that got me used to relative line numbers
 - At first you will feel like cheating:
   - Using the arrows (yikes, disgusting),
@@ -649,7 +649,7 @@ do not drink anymore, but whiskey is just the first word that came to mind
   strict
   - Alright, if you feel like going and crying to your mommy because all of this
     is too difficult, you can disable it while you get started
-- [Mastering Neovim Jump Motions and Jumplist - hardtime.nvim + Better Navigation Habits](https://youtu.be/rtfKuJYrrYw)
+- [Mastering Neovim Jump Motions and Jumplist - hardtime.nvim + Better Navigation Habits](https://youtu.be/rtfKuJYrrYw){:target="\_blank"}
 
 ## Use flash.nvim to jump to sections
 
@@ -658,7 +658,7 @@ do not drink anymore, but whiskey is just the first word that came to mind
 - Demo to jump to links in other files with marksman
 - If after this demo you want to learn more about flash.nvim, the jumplist and
   hardtime, check the video below
-- [Mastering Neovim Jump Motions and Jumplist - hardtime.nvim + Better Navigation Habits](https://youtu.be/rtfKuJYrrYw)
+- [Mastering Neovim Jump Motions and Jumplist - hardtime.nvim + Better Navigation Habits](https://youtu.be/rtfKuJYrrYw){:target="\_blank"}
 
 ## I navigate markdown files faster with folds
 
@@ -684,7 +684,7 @@ do not drink anymore, but whiskey is just the first word that came to mind
       sense, that's why this blogpost will not be liked by so many 90 year olds
       that like sticking to defaults. So when the day finally comes to diffuse a
       bomb using stock motions, they can achieve it
-      ([Thorsten Ball words, not mine](https://youtu.be/8XweSqTYdMQ?si=ndjtxRl84pa5spxV&t=2250))
+      ([Thorsten Ball words, not mine](https://youtu.be/8XweSqTYdMQ?si=ndjtxRl84pa5spxV&t=2250){:target="\_blank"}
     - But please, do not commit this aberration
     - EVERY other tool out there that uses vim motions, like kindaVim for mac,
       Homerow, even a basic tool like the Raycast app launcher use vim motions.
@@ -702,8 +702,8 @@ do not drink anymore, but whiskey is just the first word that came to mind
 
 - If you like this current article, and you want to learn about my entire
   markdown setup:
-  - [My complete Neovim markdown setup and workflow in 2024](https://youtu.be/c0cuvzK1SDo)
-  - [My complete Neovim markdown setup and workflow in 2025](https://youtu.be/1YEbKDlxfss)
+  - [My complete Neovim markdown setup and workflow in 2024](https://youtu.be/c0cuvzK1SDo){:target="\_blank"}
+  - [My complete Neovim markdown setup and workflow in 2025](https://youtu.be/1YEbKDlxfss){:target="\_blank"}
 
 ## Search, find replace
 
@@ -756,8 +756,8 @@ word
   it by deleting the `"tutor"` line in the following file:
   - `lua/config/lazy.lua`
 - I created 2 videos in which I go through tutor in full:
-  - [Neovim Tutor Crash-Course (Part 1) - Basics & Navigation](https://youtu.be/Qt0xLuCS15I)
-  - [Neovim Tutor Crash-Course (Part 2)](https://youtu.be/sZtL512mdt4)
+  - [Neovim Tutor Crash-Course (Part 1) - Basics & Navigation](https://youtu.be/Qt0xLuCS15I){:target="\_blank"}
+  - [Neovim Tutor Crash-Course (Part 2)](https://youtu.be/sZtL512mdt4){:target="\_blank"}
 
 ## If you like my content, and want to support me
 
