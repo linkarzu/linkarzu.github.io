@@ -83,7 +83,7 @@ tags:
 
 ## YouTube video
 
-{% include embed/youtube.html id='YvZgM-PrP3s' %}
+{% include embed/youtube.html id='' %}
 
 ## Disclaimer
 
@@ -288,7 +288,9 @@ alias neobean='NVIM_APPNAME=linkarzu/dotfiles-latest/neovim/neobean nvim'
 
 - These are custom keymaps I configured:
   - `gl` - takes you to the last character of the line
+    - Default for this is `$`
   - `gh` - takes you to the first character of the line
+    - Default for this is `^`
   - `gj` - takes me to the markdown header below
   - `gk` - takes me to the markdown header above
 
