@@ -1,10 +1,9 @@
 ---
-title: >-
-  All the basic and advanced Neovim navigation and editing commands you need to
-  know to get  started
+title: Everything you need to know to get started with Neovim
 description: >-
-  Learn the neovim basics that show you how to navigate and edit text leaving a
-  lot of nonsense out, this is all you need to know to get started
+  You hear about Neovim everywhere, you watch a couple of videos and you're even
+  more confused than you were before. Here I'll cover the basics to get you
+  started editing Markdown
 image:
   path: >-
     https://res.cloudinary.com/daqwsgmx6/image/upload/q_75/v1717456413/youtube/neovim/neovim-nav-basics.avif
@@ -69,11 +68,11 @@ tags:
 - [I navigate markdown files faster with folds](#i-navigate-markdown-files-faster-with-folds)
 - [Jump to diagnostics, spells, etc](#jump-to-diagnostics-spells-etc)
 - [You will feel like reinventing the `hjkl` wheel](#you-will-feel-like-reinventing-the-hjkl-wheel)
-- [My complete Neovim markdown setup and workflow](#my-complete-neovim-markdown-setup-and-workflow)
 - [Search, find replace](#search-find-replace)
   * [Search find](#search-find)
 - [echasnovski/mini.surround](#echasnovskiminisurround)
 - [Tutor](#tutor)
+- [What do do next?](#what-do-do-next)
 - [If you like my content, and want to support me](#if-you-like-my-content-and-want-to-support-me)
 - [Discord server](#discord-server)
 - [Follow me on social media](#follow-me-on-social-media)
@@ -103,6 +102,25 @@ tags:
   - Well, `ackkkshualllyyyy` it's better if you leave comments in the YouTube
     video, it helps with the algorithm 💅 (I'll follow along and will try to
     extend our conversation as much as possible, I promise)
+- Is this only for beginners? Even if you're an advanced user, check the video
+  chapters, pretty sure you'll find something useful
+- As Gregory Anders (Neovim Core maintainer) said in the
+  [Neovim vs Emacs - Roundtable w/ TJ DeVries, DistroTube, Greg Anders & Joshua Blais](https://youtu.be/SnhcXR9CKno){:target="\_blank"}
+  video: "Start small"
+  - So we're starting the way I started, which was editing markdown files for
+    taking my notes
+  - After this, Neovim became my editor for everything, and the same will happen
+    to you too
+  - I even ditched Obsidian and now I do everything in Neovim, including this
+    blogpost and all my note taking
+- There's a lot of "Neovim from scratch" videos, that just help you configure
+  stuff that you don't understand to begin with. You'll be typing commands not
+  having an idea of what you're doing. This video won't be about config, but
+  instead focuses on practicing
+- If you know nothing about Vim motions, you will suffer, and there's no easy
+  way around that. I was there, everyone was there, but after a few weeks,
+  you'll get the hang of it. Trust me, it does not require special skills, just
+  for you to be stubborn and stick to it
 
 ## Pre-requisites
 
@@ -156,6 +174,9 @@ alias neobean='NVIM_APPNAME=linkarzu/dotfiles-latest/neovim/neobean nvim'
   1. I'm not even remotely close to know them all
   2. Even if I did, you won't remember them all at the beginning
   3. Start with these few suggestions and keep adding new stuff later on
+- I released a video that was sped up like 200%, which wasn't very popular, so
+  this is an updated version of that video:
+  - [All the basic and advanced Neovim navigation and editing commands you need to know to get started](https://youtu.be/YvZgM-PrP3s){:target="\_blank"}
 
 ## Quit and save
 
@@ -698,13 +719,6 @@ do not drink anymore, but whiskey is just the first word that came to mind
       at you different (just suffer in silence and stay anonymous)
   - Quick kindaVim, homerow, Raycast demo
 
-## My complete Neovim markdown setup and workflow
-
-- If you like this current article, and you want to learn about my entire
-  markdown setup:
-  - [My complete Neovim markdown setup and workflow in 2024](https://youtu.be/c0cuvzK1SDo){:target="\_blank"}
-  - [My complete Neovim markdown setup and workflow in 2025](https://youtu.be/1YEbKDlxfss){:target="\_blank"}
-
 ## Search, find replace
 
 ### Search find
@@ -758,6 +772,16 @@ word
 - I created 2 videos in which I go through tutor in full:
   - [Neovim Tutor Crash-Course (Part 1) - Basics & Navigation](https://youtu.be/Qt0xLuCS15I){:target="\_blank"}
   - [Neovim Tutor Crash-Course (Part 2)](https://youtu.be/sZtL512mdt4){:target="\_blank"}
+
+## What do do next?
+
+- In case you want to learn how I paste images in neovim and many other things
+- Fist, check out the videos related to my entire markdown setup:
+  - [My complete Neovim markdown setup and workflow in 2024](https://youtu.be/c0cuvzK1SDo){:target="\_blank"}
+  - [My complete Neovim markdown setup and workflow in 2025](https://youtu.be/1YEbKDlxfss){:target="\_blank"}
+- I'd also recommend you check out the video in which I explain why I switched
+  from Neovim to Obsidian, and how I did it:
+  - [Why I Replaced Obsidian with Neovim for All My Note-Taking](https://youtu.be/k_g8q5JeisY){:target="\_blank"}
 
 ## If you like my content, and want to support me
 
