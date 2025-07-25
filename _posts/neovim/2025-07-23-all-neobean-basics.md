@@ -1,12 +1,12 @@
 ---
-title: Everything you need to know to get started with Neovim
+title: Neovim Ultimate Beginner Guide | Everything You Need to Start
 description: >-
-  You hear about Neovim everywhere, you watch a couple of videos and you're even
-  more confused than you were before. Here I'll cover the basics to get you
-  started editing Markdown
+  Do Neovim videos feel way too advanced? This one starts where you actually
+  are: editing Markdown. We’ll work on notes and blog posts so you can focus on
+  learning motions, text objects, and keymaps instead of fighting a full-blown
+  codebase.
 image:
-  path: >-
-    https://res.cloudinary.com/daqwsgmx6/image/upload/q_75/v1717456413/youtube/neovim/neovim-nav-basics.avif
+  path: ./../../assets/img/imgs/250724-thux-neovim-ultimate-guide.avif
 date: '2025-07-23 06:00:00 +0000'
 categories:
   - neovim
@@ -83,7 +83,7 @@ tags:
 
 ## YouTube video
 
-{% include embed/youtube.html id='' %}
+{% include embed/youtube.html id='2UVQlA9ORjs' %}
 
 ## Disclaimer
 
