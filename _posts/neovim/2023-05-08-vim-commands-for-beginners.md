@@ -42,7 +42,6 @@ tags:
 - [If you like my content, and want to support me](#if-you-like-my-content-and-want-to-support-me)
 - [Discord server](#discord-server)
 - [Follow me on social media](#follow-me-on-social-media)
-- [All links in the video description](#all-links-in-the-video-description)
 - [How do you manage your passwords?](#how-do-you-manage-your-passwords)
 
 <!-- tocstop -->
@@ -306,12 +305,6 @@ journey to continue learning about Vim.
 - [OnlyFans 🍆](https://linkarzu.com/assets/img/imgs/250126-whyugae.avif){:target="\_blank"}
 - [YouTube (subscribe MF, subscribe)](https://www.youtube.com/@linkarzu){:target="\_blank"}
 - [Ko-Fi](https://ko-fi.com/linkarzu/goal?g=6){:target="\_blank"}
-
-## All links in the video description
-
-- The following links will be in the YouTube video description:
-  - Each one of the videos shown
-  - A link to this blogpost
 
 ## How do you manage your passwords?
 

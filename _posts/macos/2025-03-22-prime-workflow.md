@@ -41,7 +41,6 @@ tags:
 - [If you like my content, and want to support me](#if-you-like-my-content-and-want-to-support-me)
 - [Discord server](#discord-server)
 - [Follow me on social media](#follow-me-on-social-media)
-- [All links in the video description](#all-links-in-the-video-description)
 - [How do you manage your passwords?](#how-do-you-manage-your-passwords)
 
 <!-- tocstop -->
@@ -65,7 +64,7 @@ tags:
   experience like watching a Dave Chappelle stand-up tech tutorial, and I liked
   it
 - Anyway, I ended up in this video by ThePrimeagen:
-  - [My Developer Workflow - How I use i3, tmux, and vim](https://youtu.be/bdumjiHabhQ){:target="_blank"}
+  - [My Developer Workflow - How I use i3, tmux, and vim](https://youtu.be/bdumjiHabhQ){:target="\_blank"}
 
 ## With my 55 inch TV, I thought I was productive
 
@@ -293,7 +292,7 @@ _kekw_
   that have not been accessed for a bit less than 2 hours
 - You can configure it every day or week, however you like
 - The script can be found here:
-  [linkarzu/tmuxKillSessions.sh](https://github.com/linkarzu/dotfiles-latest/blob/main/tmux/tools/linkarzu/tmuxKillSessions.sh){:target="_blank"}
+  [linkarzu/tmuxKillSessions.sh](https://github.com/linkarzu/dotfiles-latest/blob/main/tmux/tools/linkarzu/tmuxKillSessions.sh){:target="\_blank"}
 - But I also created a video in which I set up everything from scratch, and
   since I use macOS I configure the `LauncAgent` (basically the cron job):
   - [Tmux Cleanup Session Script - Automatically Kill Unused Tmux Sessions](https://youtu.be/3axjsVR7QfA){:target="\_blank"}
@@ -404,12 +403,6 @@ _kekw_
 - [OnlyFans 🍆](https://linkarzu.com/assets/img/imgs/250126-whyugae.avif){:target="\_blank"}
 - [YouTube (subscribe MF, subscribe)](https://www.youtube.com/@linkarzu){:target="\_blank"}
 - [Ko-Fi](https://ko-fi.com/linkarzu/goal?g=6){:target="\_blank"}
-
-## All links in the video description
-
-- The following links will be in the YouTube video description:
-  - Each one of the videos shown
-  - A link to this blogpost
 
 ## How do you manage your passwords?
 
