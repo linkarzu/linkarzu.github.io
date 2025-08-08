@@ -1,8 +1,28 @@
 ---
 icon: fas fa-info-circle
 order: 4
-title: About this blog
+title: About Me
 ---
+## Contents
+
+<!-- toc -->
+
+- [Why did I create this site?](#why-did-i-create-this-site)
+- [Is the blogpost my main medium?](#is-the-blogpost-my-main-medium)
+- [A bit about me](#a-bit-about-me)
+- [Can the interviews I make be found as a podcast?](#can-the-interviews-i-make-be-found-as-a-podcast)
+- [You're a fraud, why do you ask for money, isn't YouTube Ads enough?](#youre-a-fraud-why-do-you-ask-for-money-isnt-youtube-ads-enough)
+  * [Here's what I replied (grab your popcorn)](#heres-what-i-replied-grab-your-popcorn)
+- [What's the best way to support me? (pick one)](#whats-the-best-way-to-support-me-pick-one)
+  * [1. Become a YouTube member](#1-become-a-youtube-member)
+  * [2. Monthly Ko-Fi donation](#2-monthly-ko-fi-donation)
+  * [3. Ko-Fi one time donation](#3-ko-fi-one-time-donation)
+  * [4. 1password free trial](#4-1password-free-trial)
+  * [5. Setapp free trial](#5-setapp-free-trial)
+- [Discord server](#discord-server)
+- [Follow me on social media](#follow-me-on-social-media)
+
+<!-- tocstop -->
 
 ## Why did I create this site?
 
@@ -55,7 +75,7 @@ title: About this blog
   - If you don't see all the episodes, just give me some time and they'll
     eventually show up.
 
-## Why do you ask for support, isn't YouTube Ads enough?
+## You're a fraud, why do you ask for money, isn't YouTube Ads enough?
 
 - I was asked this in
   [this reddit post](https://www.reddit.com/r/emacs/comments/1meuo52/comment/n74320l/?utm_source=share&utm_medium=web3x&utm_name=web3xcss&utm_term=1&utm_content=share_button){:target="\_blank"}
@@ -132,7 +152,7 @@ my family.
 Yeah, I get it, sounds like a lot of drama, but I just want to educate people
 that really wonder what happens behind the scenes.
 
-## What's the best way to support me?
+## What's the best way to support me? (pick one)
 
 - As I shared above, YouTube is just a hobby right now, it does not provide for
   my family. My day time job does.
@@ -199,3 +219,4 @@ that really wonder what happens behind the scenes.
 - [OnlyFans 🍆](https://linkarzu.com/assets/img/imgs/250126-whyugae.avif){:target="\_blank"}
 - [YouTube (subscribe MF, subscribe)](https://www.youtube.com/@linkarzu){:target="\_blank"}
 - [Ko-Fi](https://ko-fi.com/linkarzu/goal?g=6){:target="\_blank"}
+
