@@ -11,6 +11,7 @@ title: About Me
 - [Is the blogpost my main medium?](#is-the-blogpost-my-main-medium)
 - [A bit about me](#a-bit-about-me)
 - [Can the interviews I make be found as a podcast?](#can-the-interviews-i-make-be-found-as-a-podcast)
+- [Where can I see future interviews and how can I chat in them?](#where-can-i-see-future-interviews-and-how-can-i-chat-in-them)
 - [You're a fraud, why do you ask for money, isn't YouTube Ads enough?](#youre-a-fraud-why-do-you-ask-for-money-isnt-youtube-ads-enough)
   * [Here's what I replied (grab your popcorn)](#heres-what-i-replied-grab-your-popcorn)
 - [What's the best way to support me? (pick one)](#whats-the-best-way-to-support-me-pick-one)
@@ -74,6 +75,19 @@ title: About Me
   audio, and upload them. So I'm a little behind there.
   - If you don't see all the episodes, just give me some time and they'll
     eventually show up.
+
+## Where can I see future interviews and how can I chat in them?
+
+- All the interviews with guests are transmitted as a live stream, but they're
+  also recorded
+- Each one of them is edited nicely with its respective chapters, and then
+  released FOR FREE to everyone a few days after.
+- These live streams are only available for YouTube members, so they can join to
+  chat and ask questions
+- If you want to see the scheduled live streams:
+  - [List of upcoming live streams](https://www.youtube.com/@linkarzu/streams){:target="\_blank"}
+- If you want to become a YouTube member to chat on these calls:
+  - [Link to become a member](https://www.youtube.com/channel/UCrSIvbFncPSlK6AdwE2QboA/join){:target="\_blank"}
 
 ## You're a fraud, why do you ask for money, isn't YouTube Ads enough?
 
