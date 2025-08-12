@@ -468,7 +468,8 @@ map({ "n", "x" }, "<Up>", "v:count == 0 ? 'gk' : 'k'", { expr = true, silent = t
  
 <!-- tip=green, info=blue, warning=yellow, danger=red -->
  
-> [If you like my content, and want to support me](#if-you-like-my-content-and-want-to-support-me)
+> [You're a fraud, why do you ask for money, isn't YouTube Ads enough?](#youre-a-fraud-why-do-you-ask-for-money-isnt-youtube-ads-enough)
+
 
 {: .prompt-tip }
  
