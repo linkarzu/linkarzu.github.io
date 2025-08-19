@@ -20,6 +20,10 @@ title: About Me
   * [3. Ko-Fi one time donation](#3-ko-fi-one-time-donation)
   * [4. 1password free trial](#4-1password-free-trial)
   * [5. Setapp free trial](#5-setapp-free-trial)
+- [People that support me (Thank You)](#people-that-support-me-thank-you)
+  * [CEOs](#ceos)
+  * [Executive Producers](#executive-producers)
+- [What's the "Linkarzu CEOs Monthly Hangout" Podcast](#whats-the-linkarzu-ceos-monthly-hangout-podcast)
 - [Discord server](#discord-server)
 - [Follow me on social media](#follow-me-on-social-media)
 
@@ -67,6 +71,8 @@ title: About Me
 - Yes, I upload them to all the major podcasting platforms
 - If for a strange reason the "linkarzu" podcast does not show in your
   podcasting app, let me know and I'll add it
+- You can find all the episodes in this YouTube playlist:
+- [Linkarzu Podcast - Neovim, macOS, Emacs, Linux, Terminals and more](https://youtube.com/playlist?list=PLZWMav2s1MZRr93uiz6vjEWCdXL93QzGz&si=NbJ6pXhXoKEXdo8V){:target="\_blank"}
 - All the episodes are immediately uploaded to YouTube music without me doing
   anything:
   - [Link to Podcast in YouTube music](https://music.youtube.com/playlist?list=PLZWMav2s1MZRr93uiz6vjEWCdXL93QzGz&si=a7WJg4FxRVSwEetF){:target="\_blank"}
@@ -94,7 +100,7 @@ title: About Me
 - I was asked this in
   [this reddit post](https://www.reddit.com/r/emacs/comments/1meuo52/comment/n74320l/?utm_source=share&utm_medium=web3x&utm_name=web3xcss&utm_term=1&utm_content=share_button){:target="\_blank"}
   in a very rude manner, calling me a fraud and all that good stuff
-- The comment was deleted by the same user after my reply, but
+- The comment was deleted by the same user after my reply, but:
 
 ### Here's what I replied (grab your popcorn)
 
@@ -202,25 +208,105 @@ that really wonder what happens behind the scenes.
 
 ### 4. 1password free trial
 
-- I have an affiliate link with 1password and in theory I get a small portion in
-  case you purchase 1password after the free trial
-- This is the password manager I've using for quite some time now
-- [Start your free trial](https://www.dpbolvw.net/click-101327218-15734885){:target="\_blank"}
+- Do I even use this thing and believe in it? Or am I just trying to shove it
+  down your throat and make some money out of it?
+  - I've been using 1password for a while now. Before, I was using Dashlane for
+    a couple of years, and before that I was using LastPass. I used to work for
+    LastPass, handled many incidents in the past as I was in the NOC team for
+    the parent company back then `LogMeIn`, now known as `GoTo` (They keep
+    changing their name with every acquisition, so it'll change again)
+  - Out of all the different password managers I've extensively used,
+    `1password` is hands down the best. I have not tried any other ones, so
+    there could be better ones
+  - I wish they would sponsor me, but no, all I have is an affiliate link, and
+    in theory I get a small portion in case you purchase 1password after the
+    free trial
+- If you want to learn more about it, I have this blogpost article:
+  - [How I use 1password to keep all my accounts safe](https://linkarzu.com/posts/1password/1password/){:target="\_blank"}
+- Link to use my affiliate link:
+  - [Start your free trial](https://www.dpbolvw.net/click-101327218-15734885){:target="\_blank"}
 
 ### 5. Setapp free trial
 
-- I also have an affiliate link for Setapp
-- I do also pay for setapp, and I like several of the apps that it includes
-- [Setapp free trial](https://setapp.sjv.io/QjKK1a){:target="\_blank"}
+- Do I believe in this, is it a scam?
+  - I've been paying for setapp for quite some time now, you don't believe me?
+    Why would I lie to you MF
+
+<!-- prettier-ignore -->
+![Image](./../assets/img/imgs/250819-setapp-bills.avif){: width="500" }
+_setapp start date_
+
+- I even upgraded my plan to use it on multiple devices and on my phone
+- I have a video in which I go over how I use Setapp and the apps I use:
+  - [Setapp Apps I use in macOS, Why and How](https://youtu.be/PTElkgpjMP0){:target="\_blank"}
+- I also wish they would sponsor me, but they don't so I have an affiliate link
+  in case you want to give it a try:
+  - [Setapp free trial](https://setapp.sjv.io/QjKK1a){:target="\_blank"}
+
+## People that support me (Thank You)
+
+- In this list, you will find the people that support me with YouTube `CEO` and
+  `Executive Producer` memberships.
+- One of the perks is to have their name listed here, so they get a bit of
+  exposure and you get to know them, and consider using their services
+- If you want to become a YouTube member:
+  - [Link to become a member](https://www.youtube.com/channel/UCrSIvbFncPSlK6AdwE2QboA/join){:target="\_blank"}
+
+### CEOs
+
+- [web2three.com](https://web2three.com/){:target="\_blank"}
+
+### Executive Producers
+
+- [Hotze (youtube)](https://youtube.com/@hotzetron){:target="\_blank"}
+- [b3rdma (blogpost)](https://b3rdma.github.io/){:target="\_blank"}
+- [François Baillargeon](https://solutionsinformatiquesbaillargeon.ca/){:target="\_blank"}
+
+## What's the "Linkarzu CEOs Monthly Hangout" Podcast
+
+- This is a monthly video live stream I'll have with the folks that pay for the
+  [CEO YouTube membership](https://www.youtube.com/channel/UCrSIvbFncPSlK6AdwE2QboA/join){:target="\_blank"}
+- What's the goal?:
+  - Make some money on the side, as YouTube ads pays me just pennies
+  - Give people that can afford it some exposure
+  - This is a win-win situation and a way to mutually support each other. So if
+    you want to become a CEO it helps me, but it also helps so you can share
+    about your service. It can be anything
+    - I'd advise your product is tech related, because we'll be discussing tech
+      related topics in the podcast
+- It's really boring to listen to a podcast and just listen to people sell their
+  products, is this what this is?
+  - No, I hate `sales` videos as well, at the beginning of the video the guests
+    share about their services.
+  - After that we discuss interesting topics related to tech
+  - For example, in the first episode we discussed `Kitty Sessions`, `Omarchy`,
+    how `ThePrimeagen` has influenced us and more
+- Is this an audio thing only, since it's a "podcast"?
+  - No, this is a live stream, you can find all the episodes in this YouTube
+    playlist:
+  - [Linkarzu CEOs Monthly Hangout](https://www.youtube.com/playlist?list=PLZWMav2s1MZR_E0s7OTicc7Th5QuWvUPx){:target="\_blank"}
+  - The benefit of it being a podcast, is that all the episodes are immediately
+    uploaded to YouTube music without me doing anything:
+  - [Link to Podcast in YouTube music](https://www.youtube.com/playlist?list=PLZWMav2s1MZR_E0s7OTicc7Th5QuWvUPx){:target="\_blank"}
+- Will these episodes be available on Spotify, Apple Music and all the other
+  platforms?
+  - I was planning on doing so, but to create multiple podcasts on my hosting
+    solution [rss.com](https://rss.com/){:target="\_blank"} I have to increase
+    the monthly payment from $15.99 to $24.99
+  - I already pay the $15.99 out of my pocket, so not planning on increasing
+    that.
+  - `Buuuuut`, if 2 or more CEOs join, I'll gladly pay the extra fee.
+  - This means more exposure to the CEOs, not only on YouTube but other
+    platforms
 
 ## Discord server
 
-- My discord server is now open to the public, feel free to join and hang out
-  with others
+- My discord server is open to the public, feel free to join and hang out with
+  others
 - join the
-  [discord server in this link](https://discord.gg/NgqMgwwtMH){:target="\_blank"}
+  [discord server in this link](https://discord.gg/ngqmgwwtmh){:target="\_blank"}
 
-[![Image](./../assets/img/imgs/250210-discord-free.avif){: width="300" }](https://discord.gg/NgqMgwwtMH){:target="\_blank"}
+[![image](./../assets/img/imgs/250210-discord-free.avif){: width="300" }](https://discord.gg/ngqmgwwtmh){:target="\_blank"}
 
 ## Follow me on social media
 
