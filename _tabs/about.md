@@ -10,7 +10,9 @@ title: About Me
 - [Why did I create this site?](#why-did-i-create-this-site)
 - [Is the blogpost my main medium?](#is-the-blogpost-my-main-medium)
 - [A bit about me](#a-bit-about-me)
-- [Can the interviews I make be found as a podcast?](#can-the-interviews-i-make-be-found-as-a-podcast)
+- [I'm confused, is there more than 1 podcast?](#im-confused-is-there-more-than-1-podcast)
+  * [Linkarzu Podcast - Neovim, macOS, Emacs, Linux, Terminals, and more](#linkarzu-podcast---neovim-macos-emacs-linux-terminals-and-more)
+  * [What's the "Linkarzu CEOs Monthly Hangout" Podcast](#whats-the-linkarzu-ceos-monthly-hangout-podcast)
 - [Where can I see future interviews and how can I chat in them?](#where-can-i-see-future-interviews-and-how-can-i-chat-in-them)
 - [You're a fraud, why do you ask for money, isn't YouTube Ads enough?](#youre-a-fraud-why-do-you-ask-for-money-isnt-youtube-ads-enough)
   * [Here's what I replied (grab your popcorn)](#heres-what-i-replied-grab-your-popcorn)
@@ -23,7 +25,6 @@ title: About Me
 - [People that support me (Thank You)](#people-that-support-me-thank-you)
   * [CEOs](#ceos)
   * [Executive Producers](#executive-producers)
-- [What's the "Linkarzu CEOs Monthly Hangout" Podcast](#whats-the-linkarzu-ceos-monthly-hangout-podcast)
 - [Discord server](#discord-server)
 - [Follow me on social media](#follow-me-on-social-media)
 
@@ -66,11 +67,47 @@ title: About Me
   migrated all my notes to Obsidian, so now everything is handled as markdown
   files and automatically uploaded to my private GitHub repo.
 
-## Can the interviews I make be found as a podcast?
+## I'm confused, is there more than 1 podcast?
 
-- Yes, I upload them to all the major podcasting platforms
-- If for a strange reason the "linkarzu" podcast does not show in your
-  podcasting app, let me know and I'll add it
+- Yes, I'm running more than 1 podcast, here's a small comparative table
+
+| Aspect           | Linkarzu Podcast                                                                                                                                                                                                              | Linkarzu CEOs Monthly Hangout                                                                                                                                                                                                                         |
+| ---------------- | ----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------- | ----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------- |
+| **Who can chat** | Only [YouTube Members](https://www.youtube.com/channel/UCrSIvbFncPSlK6AdwE2QboA/join){:target="\_blank"}                                                                                                                      | Anyone can join and chat during<br>the live stream                                                                                                                                                                                                    |
+| **Editing**      | Yes, streams are edited<br>and released publicly<br>after a few days                                                                                                                                                          | No, streams remain<br>public and unedited                                                                                                                                                                                                             |
+| **Guest format** | Interviews with creators<br>(Kovid Goyal, Sylvan Franklin,<br>DistroTube, etc.)                                                                                                                                               | Monthly hangout with CEO members,<br>guests present services briefly,<br>then tech discussions                                                                                                                                                        |
+| **After live**   | Edited version<br>free for everyone                                                                                                                                                                                           | Recording stays public<br>immediately                                                                                                                                                                                                                 |
+| **Platforms**    | YouTube, YouTube Music<br>(automatic), Spotify/Apple Music<br>(manual, some delay)                                                                                                                                            | YouTube, YouTube Music<br>(automatic). Other platforms<br>only if ≥2 CEOs join                                                                                                                                                                        |
+| **Goal**         | Share free edited interviews<br>while giving members access<br>to live participation                                                                                                                                          | Support CEO memberships,<br>give exposure to members’ projects,<br>discuss tech                                                                                                                                                                       |
+| **Links**        | [YouTube Playlist](https://youtube.com/playlist?list=PLZWMav2s1MZRr93uiz6vjEWCdXL93QzGz){:target="\_blank"}<br>[YouTube Music](https://music.youtube.com/playlist?list=PLZWMav2s1MZRr93uiz6vjEWCdXL93QzGz){:target="\_blank"} | [YouTube Playlist](https://www.youtube.com/playlist?list=PLZWMav2s1MZR_E0s7OTicc7Th5QuWvUPx){:target="\_blank"}<br>[YouTube Music](https://music.youtube.com/playlist?list=PLZWMav2s1MZR_E0s7OTicc7Th5QuWvUPx&si=9y-NssvjRmlAVKIr){:target="\_blank"} |
+
+- **Read each section below to understand their differences**
+
+### Linkarzu Podcast - Neovim, macOS, Emacs, Linux, Terminals, and more
+
+- This podcast is the first one, in which I interview other guests, like Kovid
+  Goyal (Kitty Terminal creator), Sylvan Franklin (Vimothée Chalamet),
+  DistroTube, etc.
+
+<!-- markdownlint-disable -->
+<!-- prettier-ignore-start -->
+ 
+<!-- tip=green, info=blue, warning=yellow, danger=red -->
+ 
+> Only [YouTube members](https://www.youtube.com/channel/UCrSIvbFncPSlK6AdwE2QboA/join){:target="\_blank"} are able to join the live stream
+> and chat during these interviews
+{: .prompt-tip }
+ 
+<!-- prettier-ignore-end -->
+<!-- markdownlint-restore -->
+
+- All of these videos are edited, and shared with everyone **FOR FREE** a few
+  days after, the live stream is for members only, but the edited version is
+  made public once edited
+- Is it uploaded to Spotify and other podcasting platforms?
+  - Yes, I upload them to all the major podcasting platforms
+  - If for a strange reason the "linkarzu" podcast does not show in your
+    podcasting app, let me know and I'll add it
 - You can find all the episodes in this YouTube playlist:
 - [Linkarzu Podcast - Neovim, macOS, Emacs, Linux, Terminals and more](https://youtube.com/playlist?list=PLZWMav2s1MZRr93uiz6vjEWCdXL93QzGz&si=NbJ6pXhXoKEXdo8V){:target="\_blank"}
 - All the episodes are immediately uploaded to YouTube music without me doing
@@ -81,6 +118,58 @@ title: About Me
   audio, and upload them. So I'm a little behind there.
   - If you don't see all the episodes, just give me some time and they'll
     eventually show up.
+
+### What's the "Linkarzu CEOs Monthly Hangout" Podcast
+
+- This is a monthly video live stream I'll have with the folks that pay for the
+  [CEO YouTube membership](https://www.youtube.com/channel/UCrSIvbFncPSlK6AdwE2QboA/join){:target="\_blank"}
+
+<!-- markdownlint-disable -->
+<!-- prettier-ignore-start -->
+
+<!-- tip=green, info=blue, warning=yellow, danger=red -->
+
+> Anyone is able to join the live stream and chat during these calls, you don't
+> have to be a YouTube member 
+{: .prompt-tip }
+
+<!-- prettier-ignore-end -->
+<!-- markdownlint-restore -->
+
+- These videos are not edited, the live stream remains public and everyone can
+  watch it right away.
+- What's the goal?:
+  - Make some money on the side, as YouTube ads pays me just pennies
+  - Give people that can afford it some exposure
+  - This is a win-win situation and a way to mutually support each other. So if
+    you want to become a CEO it helps me, but it also helps so you can share
+    about your service. It can be anything
+    - I'd advise your product is tech related, because we'll be discussing tech
+      related topics in the podcast
+- It's really boring to listen to a podcast and just listen to people sell their
+  products, is this what this is?
+  - No, I hate `sales` videos as well, at the beginning of the video the guests
+    share about their services.
+  - After that we discuss interesting topics related to tech
+  - For example, in the first episode we discussed `Kitty Sessions`, `Omarchy`,
+    how `ThePrimeagen` has influenced us and more
+- Is this an audio thing only, since it's a "podcast"?
+  - No, this is a live stream, you can find all the episodes in this YouTube
+    playlist:
+  - [Linkarzu CEOs Monthly Hangout](https://www.youtube.com/playlist?list=PLZWMav2s1MZR_E0s7OTicc7Th5QuWvUPx){:target="\_blank"}
+  - The benefit of it being a podcast, is that all the episodes are immediately
+    uploaded to YouTube music without me doing anything:
+  - [Link to Podcast in YouTube music](https://music.youtube.com/playlist?list=PLZWMav2s1MZR_E0s7OTicc7Th5QuWvUPx&si=9y-NssvjRmlAVKIr){:target="\_blank"}
+- Will these episodes be available on Spotify, Apple Music and all the other
+  platforms?
+  - I was planning on doing so, but to create multiple podcasts on my hosting
+    solution [rss.com](https://rss.com/){:target="\_blank"} I have to increase
+    the monthly payment from $15.99 to $24.99
+  - I already pay the $15.99 out of my pocket, so not planning on increasing
+    that.
+  - `Buuuuut`, if 2 or more CEOs join, I'll gladly pay the extra fee.
+  - This means more exposure to the CEOs, not only on YouTube but other
+    platforms
 
 ## Where can I see future interviews and how can I chat in them?
 
@@ -261,43 +350,6 @@ _setapp start date_
 - [Hotze (youtube)](https://youtube.com/@hotzetron){:target="\_blank"}
 - [b3rdma (blogpost)](https://b3rdma.github.io/){:target="\_blank"}
 - [François Baillargeon](https://solutionsinformatiquesbaillargeon.ca/){:target="\_blank"}
-
-## What's the "Linkarzu CEOs Monthly Hangout" Podcast
-
-- This is a monthly video live stream I'll have with the folks that pay for the
-  [CEO YouTube membership](https://www.youtube.com/channel/UCrSIvbFncPSlK6AdwE2QboA/join){:target="\_blank"}
-- What's the goal?:
-  - Make some money on the side, as YouTube ads pays me just pennies
-  - Give people that can afford it some exposure
-  - This is a win-win situation and a way to mutually support each other. So if
-    you want to become a CEO it helps me, but it also helps so you can share
-    about your service. It can be anything
-    - I'd advise your product is tech related, because we'll be discussing tech
-      related topics in the podcast
-- It's really boring to listen to a podcast and just listen to people sell their
-  products, is this what this is?
-  - No, I hate `sales` videos as well, at the beginning of the video the guests
-    share about their services.
-  - After that we discuss interesting topics related to tech
-  - For example, in the first episode we discussed `Kitty Sessions`, `Omarchy`,
-    how `ThePrimeagen` has influenced us and more
-- Is this an audio thing only, since it's a "podcast"?
-  - No, this is a live stream, you can find all the episodes in this YouTube
-    playlist:
-  - [Linkarzu CEOs Monthly Hangout](https://www.youtube.com/playlist?list=PLZWMav2s1MZR_E0s7OTicc7Th5QuWvUPx){:target="\_blank"}
-  - The benefit of it being a podcast, is that all the episodes are immediately
-    uploaded to YouTube music without me doing anything:
-  - [Link to Podcast in YouTube music](https://www.youtube.com/playlist?list=PLZWMav2s1MZR_E0s7OTicc7Th5QuWvUPx){:target="\_blank"}
-- Will these episodes be available on Spotify, Apple Music and all the other
-  platforms?
-  - I was planning on doing so, but to create multiple podcasts on my hosting
-    solution [rss.com](https://rss.com/){:target="\_blank"} I have to increase
-    the monthly payment from $15.99 to $24.99
-  - I already pay the $15.99 out of my pocket, so not planning on increasing
-    that.
-  - `Buuuuut`, if 2 or more CEOs join, I'll gladly pay the extra fee.
-  - This means more exposure to the CEOs, not only on YouTube but other
-    platforms
 
 ## Discord server
 
