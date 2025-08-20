@@ -9,7 +9,6 @@ title: About Me
 
 - [Why did I create this site?](#why-did-i-create-this-site)
 - [Is the blogpost my main medium?](#is-the-blogpost-my-main-medium)
-- [A bit about me](#a-bit-about-me)
 - [I'm confused, is there more than 1 podcast?](#im-confused-is-there-more-than-1-podcast)
   * [Linkarzu Podcast - Neovim, macOS, Emacs, Linux, Terminals, and more](#linkarzu-podcast---neovim-macos-emacs-linux-terminals-and-more)
   * [What's the "Linkarzu CEOs Monthly Hangout" Podcast](#whats-the-linkarzu-ceos-monthly-hangout-podcast)
@@ -22,11 +21,12 @@ title: About Me
   * [3. Ko-Fi one time donation](#3-ko-fi-one-time-donation)
   * [4. 1password free trial](#4-1password-free-trial)
   * [5. Setapp free trial](#5-setapp-free-trial)
-- [People that support me (Thank You)](#people-that-support-me-thank-you)
+- [People that support me (thank you)](#people-that-support-me-thank-you)
   * [CEOs](#ceos)
   * [Executive Producers](#executive-producers)
 - [Discord server](#discord-server)
 - [Follow me on social media](#follow-me-on-social-media)
+- [A bit about me](#a-bit-about-me)
 
 <!-- tocstop -->
 
@@ -50,22 +50,6 @@ title: About Me
   to my YouTube channel. Usually each article is related to a video
 - So if you have questions related to an article, watch the video. Here's my
   [YouTube channel](https://www.youtube.com/@linkarzu){:target="\_blank"}
-
-## A bit about me
-
-- My journey in the IT world started when I decided to get my Cisco CCNA
-  certification back in 2018. Then I realized that networking is just a small
-  part of the landscape, so I've been trying to catch up to new technologies
-  ever since.
-- I adapt quickly and connect the dots to understand how things work. If I don't
-  know an answer, I'm not going to pretend I know and give you false
-  information, I'll tell you to give me some time and come back with something
-  useful. If for example I'm working with a docker container in a GCP VM, I'll
-  document the whole process in case I need to re-do it.
-- I love taking notes, let's say for example I'm learning to deploy WordPress
-- I used to manage my notes in Google Docs but it's too slow to load, so
-  migrated all my notes to Obsidian, so now everything is handled as markdown
-  files and automatically uploaded to my private GitHub repo.
 
 ## I'm confused, is there more than 1 podcast?
 
@@ -332,7 +316,7 @@ _setapp start date_
   in case you want to give it a try:
   - [Setapp free trial](https://setapp.sjv.io/QjKK1a){:target="\_blank"}
 
-## People that support me (Thank You)
+## People that support me (thank you)
 
 - In this list, you will find the people that support me with YouTube `CEO` and
   `Executive Producer` memberships.
@@ -371,4 +355,20 @@ _setapp start date_
 - [OnlyFans 🍆](https://linkarzu.com/assets/img/imgs/250126-whyugae.avif){:target="\_blank"}
 - [YouTube (subscribe MF, subscribe)](https://www.youtube.com/@linkarzu){:target="\_blank"}
 - [Ko-Fi](https://ko-fi.com/linkarzu/goal?g=6){:target="\_blank"}
+
+## A bit about me
+
+- My journey in the IT world started when I decided to get my Cisco CCNA
+  certification back in 2018. Then I realized that networking is just a small
+  part of the landscape, so I've been trying to catch up to new technologies
+  ever since.
+- I adapt quickly and connect the dots to understand how things work. If I don't
+  know an answer, I'm not going to pretend I know and give you false
+  information, I'll tell you to give me some time and come back with something
+  useful. If for example I'm working with a docker container in a GCP VM, I'll
+  document the whole process in case I need to re-do it.
+- I love taking notes, let's say for example I'm learning to deploy WordPress
+- I used to manage my notes in Google Docs but it's too slow to load, so
+  migrated all my notes to Obsidian, so now everything is handled as markdown
+  files and automatically uploaded to my private GitHub repo.
 
