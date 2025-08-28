@@ -333,7 +333,6 @@ _setapp start date_
 
 - [Hotze (youtube)](https://youtube.com/@hotzetron){:target="\_blank"}
 - [b3rdma (blogpost)](https://b3rdma.github.io/){:target="\_blank"}
-- [François Baillargeon](https://solutionsinformatiquesbaillargeon.ca/){:target="\_blank"}
 
 ## Discord server
 
