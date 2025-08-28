@@ -340,9 +340,9 @@ _setapp start date_
 - My discord server is open to the public, feel free to join and hang out with
   others
 - join the
-  [discord server in this link](https://discord.gg/ngqmgwwtmh){:target="\_blank"}
+  [discord server in this link](https://discord.gg/NgqMgwwtMH){:target="\_blank"}
 
-[![image](./../assets/img/imgs/250210-discord-free.avif){: width="300" }](https://discord.gg/ngqmgwwtmh){:target="\_blank"}
+[![image](./../assets/img/imgs/250210-discord-free.avif){: width="300" }](https://discord.gg/NgqMgwwtMH){:target="\_blank"}
 
 ## Follow me on social media
 
