@@ -58,12 +58,12 @@ title: About Me
 
 | Aspect           | Linkarzu Podcast                                                                                                                                                                                                              | Linkarzu CEOs Monthly Hangout                                                                                                                                                                                                                         |
 | ---------------- | ----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------- | ----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------- |
-| **Who can chat** | Only [YouTube Members](https://www.youtube.com/channel/UCrSIvbFncPSlK6AdwE2QboA/join){:target="\_blank"}                                                                                                                      | Anyone can join and chat during<br>the live stream                                                                                                                                                                                                    |
+| **Who can chat** | Anyone                                                                                                                                                                                                                        | Anyone                                                                                                                                                                                                                                                |
 | **Editing**      | Yes, streams are edited<br>and released publicly<br>after a few days                                                                                                                                                          | No, streams remain<br>public and unedited                                                                                                                                                                                                             |
-| **Guest format** | Interviews with creators<br>(Kovid Goyal, Sylvan Franklin,<br>DistroTube, etc.)                                                                                                                                               | Monthly hangout with CEO members,<br>guests present services briefly,<br>then tech discussions                                                                                                                                                        |
-| **After live**   | Edited version<br>free for everyone                                                                                                                                                                                           | Recording stays public<br>immediately                                                                                                                                                                                                                 |
-| **Platforms**    | YouTube, YouTube Music<br>(automatic), Spotify/Apple Music<br>(manual, some delay)                                                                                                                                            | YouTube, YouTube Music<br>(automatic). Other platforms<br>only if ≥2 CEOs join                                                                                                                                                                        |
-| **Goal**         | Share free edited interviews<br>while giving members access<br>to live participation                                                                                                                                          | Support CEO memberships,<br>give exposure to members’ projects,<br>discuss tech                                                                                                                                                                       |
+| **Guest format** | Interviews with creators<br>(Kovid Goyal, Sylvan Franklin,<br>DistroTube, etc.)                                                                                                                                               | CEO YouTube members,<br>guests present services briefly,<br>then tech discussions                                                                                                                                                                     |
+| **After live**   | Rec turns members only<br>editing process starts                                                                                                                                                                              | Recording stays public<br>immediately                                                                                                                                                                                                                 |
+| **Podcast?**     | All podcast platforms                                                                                                                                                                                                         | YouTube Music.<br>Other platforms?<br>only if ≥2 CEOs join                                                                                                                                                                                            |
+| **Goal**         | Get to know guests                                                                                                                                                                                                            | Support CEO memberships,<br>members gain exposure<br>discuss tech                                                                                                                                                                                     |
 | **Links**        | [YouTube Playlist](https://youtube.com/playlist?list=PLZWMav2s1MZRr93uiz6vjEWCdXL93QzGz){:target="\_blank"}<br>[YouTube Music](https://music.youtube.com/playlist?list=PLZWMav2s1MZRr93uiz6vjEWCdXL93QzGz){:target="\_blank"} | [YouTube Playlist](https://www.youtube.com/playlist?list=PLZWMav2s1MZR_E0s7OTicc7Th5QuWvUPx){:target="\_blank"}<br>[YouTube Music](https://music.youtube.com/playlist?list=PLZWMav2s1MZR_E0s7OTicc7Th5QuWvUPx&si=9y-NssvjRmlAVKIr){:target="\_blank"} |
 
 - **Read each section below to understand their differences**
@@ -79,30 +79,26 @@ title: About Me
  
 <!-- tip=green, info=blue, warning=yellow, danger=red -->
  
-> Only [YouTube members](https://www.youtube.com/channel/UCrSIvbFncPSlK6AdwE2QboA/join){:target="\_blank"} are able to join the live stream
-> and chat during these interviews
+> Anyone is able to join the live stream and chat during these interviews
 {: .prompt-tip }
  
 <!-- prettier-ignore-end -->
 <!-- markdownlint-restore -->
 
-- All of these videos are edited, and shared with everyone **FOR FREE** a few
-  days after, the live stream is for members only, but the edited version is
-  made public once edited
+- **Questions and comments that will be read during the livestream, are YouTube
+  super chats**
+- Once the public livestream is over, the unedited and full version remains
+  available for
+  [members only](https://www.youtube.com/channel/UCrSIvbFncPSlK6AdwE2QboA/join){:target="\_blank"}
+- Each one of them is edited nicely with its respective chapters, and then
+  released FOR FREE to everyone a few days after.
 - Is it uploaded to Spotify and other podcasting platforms?
   - Yes, I upload them to all the major podcasting platforms
+    - YouTube Music, Apple Music, Spotify, Amazon music, Deezer, etc
   - If for a strange reason the "linkarzu" podcast does not show in your
     podcasting app, let me know and I'll add it
 - You can find all the episodes in this YouTube playlist:
 - [Linkarzu Podcast - Neovim, macOS, Emacs, Linux, Terminals and more](https://youtube.com/playlist?list=PLZWMav2s1MZRr93uiz6vjEWCdXL93QzGz&si=NbJ6pXhXoKEXdo8V){:target="\_blank"}
-- All the episodes are immediately uploaded to YouTube music without me doing
-  anything:
-  - [Link to Podcast in YouTube music](https://music.youtube.com/playlist?list=PLZWMav2s1MZRr93uiz6vjEWCdXL93QzGz&si=a7WJg4FxRVSwEetF){:target="\_blank"}
-- For other platforms like Spotify, Apple Music, etc, I have to manually upload
-  them to a podcasting hosting service, which means I have to export them as
-  audio, and upload them. So I'm a little behind there.
-  - If you don't see all the episodes, just give me some time and they'll
-    eventually show up.
 
 ### What's the "Linkarzu CEOs Monthly Hangout" Podcast
 
@@ -114,8 +110,7 @@ title: About Me
 
 <!-- tip=green, info=blue, warning=yellow, danger=red -->
 
-> Anyone is able to join the live stream and chat during these calls, you don't
-> have to be a YouTube member 
+> Anyone is able to join the live stream and chat during these calls
 {: .prompt-tip }
 
 <!-- prettier-ignore-end -->
@@ -125,7 +120,7 @@ title: About Me
   watch it right away.
 - What's the goal?:
   - Make some money on the side, as YouTube ads pays me just pennies
-  - Give people that can afford it some exposure
+  - Give people that can afford it, some exposure
   - This is a win-win situation and a way to mutually support each other. So if
     you want to become a CEO it helps me, but it also helps so you can share
     about your service. It can be anything
@@ -136,14 +131,10 @@ title: About Me
   - No, I hate `sales` videos as well, at the beginning of the video the guests
     share about their services.
   - After that we discuss interesting topics related to tech
-  - For example, in the first episode we discussed `Kitty Sessions`, `Omarchy`,
-    how `ThePrimeagen` has influenced us and more
 - Is this an audio thing only, since it's a "podcast"?
   - No, this is a live stream, you can find all the episodes in this YouTube
     playlist:
   - [Linkarzu CEOs Monthly Hangout](https://www.youtube.com/playlist?list=PLZWMav2s1MZR_E0s7OTicc7Th5QuWvUPx){:target="\_blank"}
-  - The benefit of it being a podcast, is that all the episodes are immediately
-    uploaded to YouTube music without me doing anything:
   - [Link to Podcast in YouTube music](https://music.youtube.com/playlist?list=PLZWMav2s1MZR_E0s7OTicc7Th5QuWvUPx&si=9y-NssvjRmlAVKIr){:target="\_blank"}
 - Will these episodes be available on Spotify, Apple Music and all the other
   platforms?
@@ -158,16 +149,11 @@ title: About Me
 
 ## Where can I see future interviews and how can I chat in them?
 
-- All the interviews with guests are transmitted as a live stream, but they're
-  also recorded
-- Each one of them is edited nicely with its respective chapters, and then
-  released FOR FREE to everyone a few days after.
-- These live streams are only available for YouTube members, so they can join to
-  chat and ask questions
-- If you want to see the scheduled live streams:
-  - [List of upcoming live streams](https://www.youtube.com/@linkarzu/streams){:target="\_blank"}
-- If you want to become a YouTube member to chat on these calls:
-  - [Link to become a member](https://www.youtube.com/channel/UCrSIvbFncPSlK6AdwE2QboA/join){:target="\_blank"}
+- [List of upcoming live streams](https://www.youtube.com/@linkarzu/streams){:target="\_blank"}
+- When are these livestreams released, who can chat in them, how can I ask
+  questions, are they available as a podcast?
+  - See this:
+    [Linkarzu Podcast - Neovim, macOS, Emacs, Linux, Terminals, and more](#linkarzu-podcast---neovim-macos-emacs-linux-terminals-and-more)
 
 ## You're a fraud, why do you ask for money, isn't YouTube Ads enough?
 
@@ -249,7 +235,7 @@ that really wonder what happens behind the scenes.
 ## What's the best way to support me? (pick one)
 
 - As I shared above, YouTube is just a hobby right now, it does not provide for
-  my family. My day time job does.
+  my family. My daytime job does.
 - The end goal is supporting my family doing what I do, which is sharing good
   quality content that helps the audience and me grow
 - So to support me, the best way is with a recurring option. As bills are not a
