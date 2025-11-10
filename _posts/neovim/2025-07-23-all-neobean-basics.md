@@ -236,7 +236,6 @@ alias neobean='NVIM_APPNAME=linkarzu/dotfiles-latest/neovim/neobean nvim'
 ---
 
 - The traditional way:
-
   - `[esc]`
     - I re-mapped `escape` to `capslock` because it's easier to press
   - `ctrl-[`
@@ -244,7 +243,7 @@ alias neobean='NVIM_APPNAME=linkarzu/dotfiles-latest/neovim/neobean nvim'
 ---
 
 - I remapped `esc` to `capslock` and many other remaps using Kanata on macOS
-- Kanata is multiplatform. So Linux furries and Windows normies can use it as
+- Kanata is multiplatform, so Linux furries and Windows normies can use it as
   well
 - [Kanata vs Karabiner-Elements: Which One Wins?](https://youtu.be/P5vTzsmBNQc){:target="\_blank"}
 
