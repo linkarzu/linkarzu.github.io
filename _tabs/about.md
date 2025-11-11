@@ -9,6 +9,11 @@ title: About Me
 
 - [Why did I create this site?](#why-did-i-create-this-site)
 - [Is the blogpost my main medium?](#is-the-blogpost-my-main-medium)
+- [Community-driven promotion](#community-driven-promotion)
+  * [How it works](#how-it-works)
+  * [Pricing](#pricing)
+  * [Who this is for](#who-this-is-for)
+  * [Terms and conditions](#terms-and-conditions)
 - [I'm confused, is there more than 1 podcast?](#im-confused-is-there-more-than-1-podcast)
   * [Linkarzu Podcast - Neovim, macOS, Emacs, Linux, Terminals, and more](#linkarzu-podcast---neovim-macos-emacs-linux-terminals-and-more)
   * [What's the "Linkarzu CEOs Monthly Hangout" Podcast](#whats-the-linkarzu-ceos-monthly-hangout-podcast)
@@ -51,6 +56,87 @@ title: About Me
   to my YouTube channel. Usually each article is related to a video
 - So if you have questions related to an article, watch the video. Here's my
   [YouTube channel](https://www.youtube.com/@linkarzu){:target="\_blank"}
+
+## Community-driven promotion
+
+This isn't a brand deal, a sponsorship, or a company ad. This is something
+different. I’m calling it community-driven promotion. It’s meant for people
+inside this community who want to share what they’re building, a project, a
+YouTube channel, a product, a course, a tool, or even a blogpost. Think of it as
+an open space to promote yourself, created by and for the same type of people
+who watch these videos.
+
+If you've been trying to get your work seen and reach a real audience of open
+source loving, keyboard obsessed, tech driven people, this is it.
+
+---
+
+### How it works
+
+<!-- markdownlint-disable -->
+<!-- prettier-ignore-start -->
+ 
+<!-- tip=green, info=blue, warning=yellow, danger=red -->
+ 
+> Before anything, send me a message either by email or on Discord. We’ll talk
+> about what you want to promote and make sure it fits the channel. Once that’s
+> done, you can join the corresponding YouTube membership tier.
+{: .prompt-danger }
+ 
+<!-- prettier-ignore-end -->
+<!-- markdownlint-restore -->
+
+There’s no exclusivity over videos. If the ad slots are full for a given month,
+multiple promotions can appear in the same upload. You don’t get to choose which
+video your ad appears in, most of my videos are recorded, edited, and published
+the same day, so it’s all organic and unplanned. The only exception is the long
+form interviews, which are scheduled in advance.
+
+Each ad is recorded by me. No templates, no voice-overs, just a short and
+personal mention with supporting video or images that blend naturally into the
+content.
+
+---
+
+### Pricing
+
+- **$100/month**
+  - One `15 second` ad in a random video under 20 minutes
+
+- **$300/month**
+  - Three `15 second` ads in three different videos under 20 minutes
+
+- **$500/month**
+  - One `30 second` ad in a long form interview (around 2 hours)
+  - Two `15 second` ads in shorter videos
+  - You get to chose the interview
+
+---
+
+### Who this is for
+
+This is for creators, builders, and makers who want to share something they've
+built. You might have a small product, an app, a course, a YouTube channel, a
+blogpost, a ZMK config, a neovim plugin, anything that represents what you do.
+
+It’s not a place for companies to advertise. It’s for people like you and me,
+people who build things for fun and want to share them with others who actually
+care.
+
+---
+
+### Terms and conditions
+
+- Ads must be approved before payment.
+- I reserve the right to reject any ad that doesn't fit the channel.
+- The **same ad recording** will be reused for all your placements.
+- No political, religious, or adult content.
+- Ad placement and scheduling are decided by me.
+- Multiple sponsors can appear in the same video.
+- Once published, ads can’t be changed or removed.
+- Refunds are not available after the ad is recorded.
+- Memberships renew monthly through YouTube and can be canceled anytime before
+  the next billing cycle.
 
 ## I'm confused, is there more than 1 podcast?
 
