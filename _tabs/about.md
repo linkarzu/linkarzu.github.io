@@ -12,7 +12,6 @@ title: About Me
 - [Community-driven promotion](#community-driven-promotion)
   * [How it works](#how-it-works)
   * [Pricing](#pricing)
-  * [Who this is for](#who-this-is-for)
   * [Terms and conditions](#terms-and-conditions)
 - [I'm confused, is there more than 1 podcast?](#im-confused-is-there-more-than-1-podcast)
   * [Linkarzu Podcast - Neovim, macOS, Emacs, Linux, Terminals, and more](#linkarzu-podcast---neovim-macos-emacs-linux-terminals-and-more)
@@ -59,12 +58,11 @@ title: About Me
 
 ## Community-driven promotion
 
-This isn't a brand deal, a sponsorship, or a company ad. This is something
-different. I’m calling it community-driven promotion. It’s meant for people
-inside this community who want to share what they’re building, a project, a
-YouTube channel, a product, a course, a tool, or even a blogpost. Think of it as
-an open space to promote yourself, created by and for the same type of people
-who watch these videos.
+This isn't a brand deal, or a sponsorship. This is something different. I’m
+calling it community-driven promotion. Meant for people in this community who
+want to share a product, project, YouTube channel, course, application, service,
+merch (furry socks), etc. Think of it as space to promote yourself, created by
+and for the same type of people who watch these videos.
 
 If you've been trying to get your work seen and reach a real audience of open
 source loving, keyboard obsessed, tech driven people, this is it.
@@ -92,9 +90,8 @@ video your ad appears in, most of my videos are recorded, edited, and published
 the same day, so it’s all organic and unplanned. The only exception is the long
 form interviews, which are scheduled in advance.
 
-Each ad is recorded by me. No templates, no voice-overs, just a short and
-personal mention with supporting video or images that blend naturally into the
-content.
+Each ad is recorded by me. You can provide the script and supporting video or
+images. I'll make it blend naturally into my content.
 
 ---
 
@@ -108,20 +105,8 @@ content.
 
 - **$500/month**
   - One `30 second` ad in a long form interview (around 2 hours)
-  - Two `15 second` ads in shorter videos
-  - You get to chose the interview
-
----
-
-### Who this is for
-
-This is for creators, builders, and makers who want to share something they've
-built. You might have a small product, an app, a course, a YouTube channel, a
-blogpost, a ZMK config, a neovim plugin, anything that represents what you do.
-
-It’s not a place for companies to advertise. It’s for people like you and me,
-people who build things for fun and want to share them with others who actually
-care.
+    - You get to chose the interview
+  - Additionally, two `15 second` ads in 2 random videos under 20 minutes.
 
 ---
 
@@ -131,8 +116,9 @@ care.
 - I reserve the right to reject any ad that doesn't fit the channel.
 - The **same ad recording** will be reused for all your placements.
 - No political, religious, or adult content.
-- Ad placement and scheduling are decided by me.
-- Multiple sponsors can appear in the same video.
+- Ad placement and scheduling are decided by me. Except for interview long form
+  videos
+- Multiple ads can be placed in the same video.
 - Once published, ads can’t be changed or removed.
 - Refunds are not available after the ad is recorded.
 - Memberships renew monthly through YouTube and can be canceled anytime before
