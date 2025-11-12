@@ -97,16 +97,16 @@ images. I'll make it blend naturally into my content.
 
 ### Pricing
 
-- **$100/month**
-  - One `15 second` ad in a random video under 20 minutes
+- **$60/month**
+  - One `15 second` ad in a random video, `not` a podcast interview
 
-- **$300/month**
-  - Three `15 second` ads in three different videos under 20 minutes
+- **$150/month**
+  - Three `15 second` ads in three different videos, `not` podcast interviews
 
-- **$500/month**
-  - One `30 second` ad in a long form interview (around 2 hours)
+- **$200/month**
+  - One `15 second` ad in a podcast interview (around 2 hours)
     - You get to chose the interview
-  - Additionally, two `15 second` ads in 2 random videos under 20 minutes.
+  - Additionally, two `15 second` ads in 2 `non` podcast videos
 
 ---
 
