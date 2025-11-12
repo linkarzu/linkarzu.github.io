@@ -34,6 +34,7 @@ tags:
     + [Manual installation](#manual-installation)
     + [I have issues installing pam-watchid](#i-have-issues-installing-pam-watchid)
 - [I messed up, cannot run sudo commands anymore](#i-messed-up-cannot-run-sudo-commands-anymore)
+- [Community-driven promotion](#community-driven-promotion)
 - [You're a fraud, why do you ask for money, isn't YouTube Ads enough?](#youre-a-fraud-why-do-you-ask-for-money-isnt-youtube-ads-enough)
 
 <!-- tocstop -->
@@ -432,6 +433,16 @@ auth       sufficient     pam_tid.so
   - Quit disk utility and open the terminal `Utilities - Terminal`
   - Then navigate to the directory `/Volumes/Macintosh HD/private/etc/pam.d`
   - And fix your sudo_local file there
+
+## Community-driven promotion
+
+Do you want to promote yourself in my channel? I'm not talking about a company
+like notion, brilliant, and all those other ones we're using to seeing. I'm
+talking about you as a person, do you have a project, course, youtube channel or
+product and trying to reach an audience?
+
+If interested, pricing and all the details can be found
+[in this other page](https://chirpy.home.linkarzu.com/about/#community-driven-promotion){:target="\_blank"}
 
 ## You're a fraud, why do you ask for money, isn't YouTube Ads enough?
 

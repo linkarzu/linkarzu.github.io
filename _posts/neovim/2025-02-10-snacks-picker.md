@@ -42,6 +42,7 @@ tags:
 - [Bullets.vim configuration](#bulletsvim-configuration)
 - [How to install the snacks picker](#how-to-install-the-snacks-picker)
 - [Other videos mentioned](#other-videos-mentioned)
+- [Community-driven promotion](#community-driven-promotion)
 - [You're a fraud, why do you ask for money, isn't YouTube Ads enough?](#youre-a-fraud-why-do-you-ask-for-money-isnt-youtube-ads-enough)
 
 <!-- tocstop -->
@@ -102,7 +103,6 @@ alias neobean='NVIM_APPNAME=linkarzu/dotfiles-latest/neovim/neobean nvim'
 
 - I use the LazyVim distro, and Folke moved everyone from Telescope to fzf-lua a
   few mongs ago, but I didn't switch because of a few reasons:
-
   - One of the main reasons was `frecency`, this is a plugin I used in telescope
     that increases the scores of files every time you open them, so the more
     times you open a file, the higher it's score will be, so the next time you
@@ -238,7 +238,6 @@ _vscode_
   through the completed tasks, I set it up as `<leader>tc`
 - Notice that these 2 custom keymaps, put me in **normal** mode by default
 - To learn about this task management in detail, go and check a video I created:
-
   - [Manage Markdown tasks in Neovim similar to Obsidian - Telescope to List Completed and Pending Tasks](https://youtu.be/59hvZl077hM){:target="\_blank"}
 
 - I have another custom keymap `Alt+k` that shows me all the different keymaps I
@@ -253,7 +252,6 @@ _vscode_
   - I start it in **normal mode**
   - I configured the key `d` to close buffers when in this picker
 - I have a video in which I cover how I navigate buffers in Neovim:
-
   - [How I navigate between buffers in neovim](https://youtu.be/ldfxEda_mzc){:target="\_blank"}
 
 - If you want to see how the other keymaps work and what they do, I demo that in
@@ -475,6 +473,16 @@ vim.g.bullets_enable_in_empty_buffers = 0
 {% include embed/youtube.html id='JrgfpWap_Pg' %}
 
 {% include embed/youtube.html id='1YEbKDlxfss' %}
+
+## Community-driven promotion
+
+Do you want to promote yourself in my channel? I'm not talking about a company
+like notion, brilliant, and all those other ones we're using to seeing. I'm
+talking about you as a person, do you have a project, course, youtube channel or
+product and trying to reach an audience?
+
+If interested, pricing and all the details can be found
+[in this other page](https://chirpy.home.linkarzu.com/about/#community-driven-promotion){:target="\_blank"}
 
 ## You're a fraud, why do you ask for money, isn't YouTube Ads enough?
 

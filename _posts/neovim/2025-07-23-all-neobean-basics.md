@@ -73,6 +73,7 @@ tags:
 - [echasnovski/mini.surround](#echasnovskiminisurround)
 - [Tutor](#tutor)
 - [What do do next?](#what-do-do-next)
+- [Community-driven promotion](#community-driven-promotion)
 - [You're a fraud, why do you ask for money, isn't YouTube Ads enough?](#youre-a-fraud-why-do-you-ask-for-money-isnt-youtube-ads-enough)
 
 <!-- tocstop -->
@@ -781,6 +782,16 @@ word
 - I'd also recommend you check out the video in which I explain why I switched
   from Neovim to Obsidian, and how I did it:
   - [Why I Replaced Obsidian with Neovim for All My Note-Taking](https://youtu.be/k_g8q5JeisY){:target="\_blank"}
+
+## Community-driven promotion
+
+Do you want to promote yourself in my channel? I'm not talking about a company
+like notion, brilliant, and all those other ones we're using to seeing. I'm
+talking about you as a person, do you have a project, course, youtube channel or
+product and trying to reach an audience?
+
+If interested, pricing and all the details can be found
+[in this other page](https://chirpy.home.linkarzu.com/about/#community-driven-promotion){:target="\_blank"}
 
 ## You're a fraud, why do you ask for money, isn't YouTube Ads enough?
 

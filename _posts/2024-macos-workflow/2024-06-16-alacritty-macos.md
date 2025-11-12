@@ -22,6 +22,7 @@ tags:
 - [YouTube video](#youtube-video)
 - [What is alacritty and why?](#what-is-alacritty-and-why)
 - [How do I install alacritty?](#how-do-i-install-alacritty)
+- [Community-driven promotion](#community-driven-promotion)
 - [You're a fraud, why do you ask for money, isn't YouTube Ads enough?](#youre-a-fraud-why-do-you-ask-for-money-isnt-youtube-ads-enough)
 
 <!-- tocstop -->
@@ -83,6 +84,16 @@ vim ~/.config/alacritty/alacritty.toml
 - Once you have pasted the config in the file, save it by typying `:wq` to
   "write and quit"
 - Quit and re-open Alacritty and that should take care of it
+
+## Community-driven promotion
+
+Do you want to promote yourself in my channel? I'm not talking about a company
+like notion, brilliant, and all those other ones we're using to seeing. I'm
+talking about you as a person, do you have a project, course, youtube channel or
+product and trying to reach an audience?
+
+If interested, pricing and all the details can be found
+[in this other page](https://chirpy.home.linkarzu.com/about/#community-driven-promotion){:target="\_blank"}
 
 ## You're a fraud, why do you ask for money, isn't YouTube Ads enough?
 

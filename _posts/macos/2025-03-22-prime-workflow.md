@@ -38,6 +38,7 @@ tags:
 - [Be careful with the hyper key you choose](#be-careful-with-the-hyper-key-you-choose)
 - [Where can you find my config?](#where-can-you-find-my-config)
 - [Conclusion](#conclusion)
+- [Community-driven promotion](#community-driven-promotion)
 - [You're a fraud, why do you ask for money, isn't YouTube Ads enough?](#youre-a-fraud-why-do-you-ask-for-money-isnt-youtube-ads-enough)
 
 <!-- tocstop -->
@@ -262,7 +263,6 @@ _kekw_
 
 - To switch between tmux sessions I'm using Prime's tmux sessionizer script
 - I explain everything in detail in the video below:
-
   - [Primeagen's tmux-sessionizer and tmux-sshonizer-agen](https://youtu.be/MCbEPylDEWU){:target="\_blank"}
 
 - I would also highly recommend you to watch the karabiner-elements video shared
@@ -373,6 +373,16 @@ _kekw_
 - It would be interesting to see what new tricks he has under his sleeve and
   grab some inspiration
 - I love my new way of navigating around
+
+## Community-driven promotion
+
+Do you want to promote yourself in my channel? I'm not talking about a company
+like notion, brilliant, and all those other ones we're using to seeing. I'm
+talking about you as a person, do you have a project, course, youtube channel or
+product and trying to reach an audience?
+
+If interested, pricing and all the details can be found
+[in this other page](https://chirpy.home.linkarzu.com/about/#community-driven-promotion){:target="\_blank"}
 
 ## You're a fraud, why do you ask for money, isn't YouTube Ads enough?
 
