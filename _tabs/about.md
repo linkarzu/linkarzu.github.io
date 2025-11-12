@@ -76,9 +76,9 @@ source loving, keyboard obsessed, tech driven people, this is it.
  
 <!-- tip=green, info=blue, warning=yellow, danger=red -->
  
-> Before anything, send me a message either by email or on Discord. We’ll talk
-> about what you want to promote and make sure it fits the channel. Once that’s
-> done, you can join the corresponding YouTube membership tier.
+> Before anything, send me a message either by email `admin@linkarzu.com` or 
+> on Discord. We’ll talk about what you want to promote and make sure it fits 
+> the channel. Once that’s done, you can join the corresponding ko-fi membership tier.
 {: .prompt-danger }
  
 <!-- prettier-ignore-end -->
@@ -118,11 +118,12 @@ images. I'll make it blend naturally into my content.
 - No political, religious, or adult content.
 - Ad placement and scheduling are decided by me. Except for interview long form
   videos
-- Multiple ads can be placed in the same video.
+- Multiple ads from multiple people can be placed in the same video (only if
+  necessary)
 - Once published, ads can’t be changed or removed.
 - Refunds are not available after the ad is recorded.
-- Memberships renew monthly through YouTube and can be canceled anytime before
-  the next billing cycle.
+- Memberships renew monthly, but can be canceled anytime before the next billing
+  cycle.
 
 ## I'm confused, is there more than 1 podcast?
 
