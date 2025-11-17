@@ -1,8 +1,11 @@
 ---
 title: Why Do I use Neovim?
 description: >-
-  Have you ever wondered, why do people use Neovim, is it because all the other
-  popular youtubers out there are usig it? What's realy happening
+  Trying Neovim for the first time feels strange, but once you understand how it
+  fits into your workflow everything starts to click. In this video I show why
+  Neovim replaced every editor I used in the past and how it helps me work
+  faster without breaking my focus. Daily notes, dotfiles, blogposts, GitHub
+  repos, images, keymaps, sessions, diagnostics and more.
 image:
   path: ./../../assets/img/imgs/251117-thux-why-use-neovim.avif
 date: '2025-11-17 06:10:00 +0000'
@@ -29,7 +32,7 @@ tags:
 
 ## YouTube video
 
-{% include embed/youtube.html id='' %} Paste thumbnail here
+{% include embed/youtube.html id='ygvm1nYCmqQ' %}
 
 ## Why do I use Neovim?
 
@@ -87,7 +90,7 @@ previous session by just leaving `b` pressed again.
 
 If you don't know what the concept of the "Alternate" session, file, and app
 are. It just means the "previous" one. With `b` I go to the alternate kitty
-session. With `leader+space` I go to the alternate file within neovim, with `z`
+session. With `leader+space` I go to the alternate file within Neovim, with `z`
 I go to the alternate app. With `x` I go to the alternate instance of the same
 app. The idea is to go back really fast between the last 2 things you were
 working on. More detailed video coming soon.
@@ -149,7 +152,7 @@ So, will you be giving Neovim a try?
 
 Do you want to promote yourself in my channel? I'm not talking about a company
 like notion, brilliant, and all those other ones we're using to seeing. I'm
-talking about you as a person, do you have a project, course, youtube channel or
+talking about you as a person, do you have a project, course, YouTube channel or
 product and trying to reach an audience?
 
 If interested, pricing and all the details can be found
