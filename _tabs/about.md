@@ -97,6 +97,18 @@ images. I'll make it blend naturally into my content.
 
 ### Pricing
 
+<!-- markdownlint-disable -->
+<!-- prettier-ignore-start -->
+ 
+<!-- tip=green, info=blue, warning=yellow, danger=red -->
+ 
+> If you don't want to do a monthly option, but instead, a one time thing, also
+> let me know and we can discuss it
+{: .prompt-tip }
+ 
+<!-- prettier-ignore-end -->
+<!-- markdownlint-restore -->
+
 - **$60/month**
   - One `15 second` ad in a random video, `not` a podcast interview
 
