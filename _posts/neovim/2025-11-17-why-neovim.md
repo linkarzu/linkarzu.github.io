@@ -146,13 +146,13 @@ and other Linux related questions. Probably this coming Sunday. So if you have
 questions, get them ready for the public and free livestream. In the meantime,
 go and watch the first interview we had a few months ago.
 
-So, will you be giving Neovim a try?
+So, will you be giving Neovim a try? Let me know.
 
 ## Community-driven promotion
 
 Do you want to promote yourself in my channel? I'm not talking about a company
 like notion, brilliant, and all those other ones we're using to seeing. I'm
-talking about you as a person, do you have a project, course, YouTube channel or
+talking about you as a person, do you have a project, course, youtube channel or
 product and trying to reach an audience?
 
 If interested, pricing and all the details can be found
