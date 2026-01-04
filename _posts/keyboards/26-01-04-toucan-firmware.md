@@ -1,5 +1,5 @@
 ---
-title: 'Toucan Keyboard, Build and Flash Custom Firwmware'
+title: 'Toucan Keyboard, Build and Flash Custom Firmware'
 description: >-
   In this article, I build custom ZMK firmware for the Beekeeb Toucan using a
   repo and text files instead of GUI tools, and this is part 2 of the Toucan
@@ -29,6 +29,7 @@ tags:
   * [Invert the Y scrolling axis](#invert-the-y-scrolling-axis)
   * [Right and middle click](#right-and-middle-click)
   * [Flash the firmware](#flash-the-firmware)
+  * [What's next?](#whats-next)
 - [Community-driven promotion](#community-driven-promotion)
 - [You're a fraud, why do you ask for money, isn't YouTube Ads enough?](#youre-a-fraud-why-do-you-ask-for-money-isnt-youtube-ads-enough)
 
@@ -40,7 +41,8 @@ tags:
 
 ## Pre-requisites
 
-- [Toucan First Impressions](https://linkarzu.com/posts/keyboards/toucan-first-impr/){:target="\_blank"}
+- Read this other article first
+  - [Toucan First Impressions](https://linkarzu.com/posts/keyboards/toucan-first-impr/){:target="\_blank"}
 
 ## Toucan Keyboard flash firmware
 
@@ -69,24 +71,26 @@ you how I do it later on, but you don't have to do it this way.
    [beekeeb/zmk-keyboard-toucan](https://github.com/beekeeb/zmk-keyboard-toucan){:target="\_blank"}
 2. After forking, in the fork go to the `Actions` tab and click on
    `I understand my workflows, go ahead and enable them`, if you don't do this,
-   the GitHub action that generates the firmware won't be trigger after you push
-   your commit
+   the GitHub action that generates the firmware won't be triggered after you
+   push your commit
 3. Clone your fork
 
 ---
 
 If you're a Neovim user, I'm using `qmk.nvim` and I configured it so that it
-recognizes both of my keyboards, the glove80 and the toucan and it guides me
-through the installation process
+recognizes both of my keyboards, the glove80 and the toucan. This greatly helps
+you with the keymap file configuration process, as it auto formats it for you
+and lets you know if there are basic mistakes, like for example if in a layer
+you have more keys configured than needed.
 
-I'll briefly show my `qmk.nvim` config including the autocmds, and I'm also
-going to show the `toucan.keymap` file
+In the video I briefly show my `qmk.nvim` config including the autocmds, and the
+`toucan.keymap` file
 
-In the blogpost article you will find a link to my keymap config file in GitHub
+Here's a link to my keymap config file in GitHub
 [toucan.keymap](https://github.com/linkarzu/zmk-keyboard-toucan/blob/48cb6544bc7e505cea008b2612cebea69e94d420/config/toucan.keymap){:target="\_blank"}
 
 If you want to learn more about the `qmk.nvim` plugin, I created this video:
-[youtube.com/watch?v=menWdCt3Go0](https://youtube.com/watch?v=menWdCt3Go0){:target="\_blank"}
+[The Hidden Tool Behind Perfect Keyboard Layouts](https://youtube.com/watch?v=menWdCt3Go0){:target="\_blank"}
 
 ### Invert the Y scrolling axis
 
@@ -99,14 +103,15 @@ Adding this under the scroller:
 &zip_scroll_transform INPUT_TRANSFORM_Y_INVERT
 ```
 
-Link to the GitHub config in the accompanying blogpost article
+Link to the GitHub config on this link:
 [toucan.dtsi](https://github.com/linkarzu/zmk-keyboard-toucan/blob/48cb6544bc7e505cea008b2612cebea69e94d420/boards/shields/toucan/toucan.dtsi#L117C17-L117C63){:target="\_blank"}
 
 ### Right and middle click
 
 Not sure if there's a way to do this with the trackpad, but I added 2 keymaps in
-my navigation layer. For this to work, make sure to add this header at the top
-of your `.keymap` file
+my navigation layer.
+
+For this to work, make sure to add this header at the top of your `.keymap` file
 
 ```bash
 #include <dt-bindings/zmk/pointing.h>
@@ -132,6 +137,12 @@ I show the `.keymap` file including the heading in the video
      `toucan_right rgbled_adapter-seeeduino_xiao_ble-zmk.uf2`
 5. You will probably get an error that the drive cannot be written to, but don't
    worry, the firmware is still flashed and it works
+
+### What's next?
+
+In the next article, we'll take a look at the battery details, there's an issue
+currently with the battery not lasting too long on the right side due to the
+trackpad, but there's a fix on the way
 
 ## Community-driven promotion
 
