@@ -31,7 +31,7 @@ tags:
   * [First impressions](#first-impressions)
   * [Typing test](#typing-test)
   * [Website](#website)
-  * [More articles related to the toucan coming soon](#more-articles-related-to-the-toucan-coming-soon)
+  * [More articles related to the toucan](#more-articles-related-to-the-toucan)
 - [Community-driven promotion](#community-driven-promotion)
 - [You're a fraud, why do you ask for money, isn't YouTube Ads enough?](#youre-a-fraud-why-do-you-ask-for-money-isnt-youtube-ads-enough)
 
@@ -173,12 +173,12 @@ Here's the blogpost article for the toucan
 All the instructions and documentation for the keyboard can be found here
 [docs.beekeeb.com/toucan-keyboard](https://docs.beekeeb.com/toucan-keyboard){:target="\_blank"}
 
-### More articles related to the toucan coming soon
+### More articles related to the toucan
 
 This is the first video (blogpost) related to the keyboard, I'll be posting
 other ones in which I'll show:
 
-- How to flash the firmware
+- [Toucan Keyboard, Build and Flash Custom Firmware](https://linkarzu.com/posts/keyboards/toucan-firmware)
 - Battery information (very important, as it's not great as of Jan 2025)
 - What's in the box
 - Switch typing sound test
