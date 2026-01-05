@@ -11,6 +11,8 @@ categories:
   - keyboards
 tags:
   - toucan
+  - zmk
+  - beekeeb
   - tutorial
   - youtube
   - video
