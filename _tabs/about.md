@@ -417,6 +417,7 @@ _setapp start date_
 
 ## Follow me on social media
 
+- [Ko-Fi](https://ko-fi.com/linkarzu/goal?g=6){:target="\_blank"}
 - [Twitter (or "X")](https://x.com/link_arzu){:target="\_blank"}
 - [LinkedIn](https://www.linkedin.com/in/christianarzu){:target="\_blank"}
 - [TikTok](https://www.tiktok.com/@linkarzu){:target="\_blank"}
@@ -425,7 +426,8 @@ _setapp start date_
 - [Threads](https://www.threads.net/@link_arzu){:target="\_blank"}
 - [OnlyFans 🍆](https://linkarzu.com/assets/img/imgs/250126-whyugae.avif){:target="\_blank"}
 - [YouTube (subscribe MF, subscribe)](https://www.youtube.com/@linkarzu){:target="\_blank"}
-- [Ko-Fi](https://ko-fi.com/linkarzu/goal?g=6){:target="\_blank"}
+- [Bluesky](https://bsky.app/profile/linkarzu.bsky.social){:target="\_blank"}
+- [Mastodon](https://mastodon.social/@linkarzu){:target="\_blank"}
 
 ## A bit about me
 
