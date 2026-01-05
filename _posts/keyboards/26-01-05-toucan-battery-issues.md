@@ -34,6 +34,7 @@ tags:
   * [Why attach round rubber feet](#why-attach-round-rubber-feet)
   * [Battery not included](#battery-not-included)
   * [Install the battery](#install-the-battery)
+  * [What's next?](#whats-next)
 - [Community-driven promotion](#community-driven-promotion)
 - [You're a fraud, why do you ask for money, isn't YouTube Ads enough?](#youre-a-fraud-why-do-you-ask-for-money-isnt-youtube-ads-enough)
 
@@ -185,6 +186,11 @@ Instructions can be found here
 [toucan-keyboard/case-assembly-part-2](https://docs.beekeeb.com/toucan-keyboard/case-assembly-part-2){:target="\_blank"}
 
 Let's take a look at how to install the battery
+
+### What's next?
+
+In the next article, we'll take a look at the switches I got including sound
+tests
 
 ## Community-driven promotion
 
