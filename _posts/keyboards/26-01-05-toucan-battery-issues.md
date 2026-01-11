@@ -26,25 +26,25 @@ tags:
 
 <!-- toc -->
 
-- [YouTube video](#youtube-video)
-- [Pre-requisites](#pre-requisites)
+- [YouTube Video](#youtube-video)
+- [Pre-Requisites](#pre-requisites)
 - [Toucan Keyboard Battery](#toucan-keyboard-battery)
-  * [Battery very important info](#battery-very-important-info)
-  * [How am I going to deal with the battery issues?](#how-am-i-going-to-deal-with-the-battery-issues)
-  * [Why attach round rubber feet](#why-attach-round-rubber-feet)
-  * [Battery not included](#battery-not-included)
-  * [Install the battery](#install-the-battery)
-  * [What's next?](#whats-next)
+  * [Battery Very Important Info](#battery-very-important-info)
+  * [How Am I Going to Deal with the Battery Issues?](#how-am-i-going-to-deal-with-the-battery-issues)
+  * [Why Attach Round Rubber Feet](#why-attach-round-rubber-feet)
+  * [Battery Not Included](#battery-not-included)
+  * [Install the Battery](#install-the-battery)
+  * [What's Next?](#whats-next)
 - [Community-driven promotion](#community-driven-promotion)
 - [You're a fraud, why do you ask for money, isn't YouTube Ads enough?](#youre-a-fraud-why-do-you-ask-for-money-isnt-youtube-ads-enough)
 
 <!-- tocstop -->
 
-## YouTube video
+## YouTube Video
 
 {% include embed/youtube.html id='KcO5-uuk7vU' %}
 
-## Pre-requisites
+## Pre-Requisites
 
 There are other 2 articles related to the toucan keyboard, so that this one
 makes more sense:
@@ -54,7 +54,7 @@ makes more sense:
 
 ## Toucan Keyboard Battery
 
-### Battery very important info
+### Battery Very Important Info
 
 Before you order the keyboard, there's some issues that you need to be aware of,
 regarding the battery on the side with the trackpad.
@@ -136,7 +136,47 @@ Beekeeb does not recommend this, but it is possible to reverse the polarity as
 described here:
 [not-recommended-changing-the-polarity](https://docs.beekeeb.com/toucan-keyboard/battery-specs#not-recommended-changing-the-polarity){:target="\_blank"}
 
-### How am I going to deal with the battery issues?
+---
+
+Battery updates
+
+<!-- markdownlint-disable -->
+<!-- prettier-ignore-start -->
+ 
+<!-- tip=green, info=blue, warning=yellow, danger=red -->
+ 
+> `Update: Jan 6th at 5:00 am Guatemala time`
+>
+> The right half finally died, keep in mind that I used it for an additional **4 hours**
+> yesterday after it showed up off on the screen. So now the right half (trackpad)
+> is connected and left half (screen) disconnected. We'll see for how long the left half
+> keeps going
+{: .prompt-info }
+ 
+<!-- prettier-ignore-end -->
+<!-- markdownlint-restore -->
+
+<!-- markdownlint-disable -->
+<!-- prettier-ignore-start -->
+ 
+<!-- tip=green, info=blue, warning=yellow, danger=red -->
+ 
+> `Update: Jan 11th at 5:00 am Guatemala time`
+>
+> The **left half** died. The screen battery indicator went off like 8 hours before
+> it died. So if you see that the left half disappears from the keyboard screen,
+> you have a few hours to connect it.
+>
+> So the battery for the left half lasted from `Jan 1st 2026 at 9:35 am` to
+> `Jan 11th 2026 at 5:00 am Guatemala time`, which is almost 10 days. I haven't
+> used my computer as much these days, and sometimes I use the laptop keyboard,
+> so for you it could be less.
+{: .prompt-info }
+ 
+<!-- prettier-ignore-end -->
+<!-- markdownlint-restore -->
+
+### How Am I Going to Deal with the Battery Issues?
 
 I'll wait for ZMK 0.4 to be released, then I'll flash the new firmware which
 should fix the issue with the battery on the right side.
@@ -150,7 +190,7 @@ while charging.
 Remember that in another video I showed the cable, which I bought when I
 purchased my glove80, and that I used to also flash the firmware.
 
-### Why attach round rubber feet
+### Why Attach Round Rubber Feet
 
 Not sure if the round rubber feet come in the package or not
 
@@ -171,7 +211,7 @@ time
 
 I show how this looks in the video
 
-### Battery not included
+### Battery Not Included
 
 I had to purchase the battery on my own in amazon, I bought the one recommended
 by the keyboard manufacturer
@@ -180,14 +220,14 @@ by the keyboard manufacturer
 
 I bought a 4 pack, so I have 2 as spare.
 
-### Install the battery
+### Install the Battery
 
 Instructions can be found here
 [toucan-keyboard/case-assembly-part-2](https://docs.beekeeb.com/toucan-keyboard/case-assembly-part-2){:target="\_blank"}
 
 Let's take a look at how to install the battery
 
-### What's next?
+### What's Next?
 
 In the next article, we'll take a look at the switches I got including sound
 tests
