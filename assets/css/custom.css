@@ -1,0 +1,42 @@
+#sidebar .nav-link[href="/merch/"] i,
+#sidebar .nav-link[href="/merch/"] span {
+  color: #37f499;
+}
+
+#sidebar .nav-link[href="/merch/"]:hover i,
+#sidebar .nav-link[href="/merch/"]:hover span,
+#sidebar .nav-link[href="/merch/"]:focus i,
+#sidebar .nav-link[href="/merch/"]:focus span,
+#sidebar .nav-link[href="/merch/"]:active i,
+#sidebar .nav-link[href="/merch/"]:active span,
+#sidebar .nav-link[href="/merch/"]:focus-visible i,
+#sidebar .nav-link[href="/merch/"]:focus-visible span {
+  color: #6bffb4;
+}
+
+#sidebar .nav-item.active .nav-link[href="/merch/"] {
+  background-color: #1a3a2a;
+}
+
+#sidebar .nav-link[href="/merch/"]:hover,
+#sidebar .nav-link[href="/merch/"]:focus,
+#sidebar .nav-link[href="/merch/"]:active,
+#sidebar .nav-link[href="/merch/"]:focus-visible {
+  background-color: #1a3a2a;
+}
+
+
+.merch-cta {
+  background-color: #37f499;
+  border-color: #37f499;
+  color: #0b0f0e;
+}
+
+.merch-cta:hover,
+.merch-cta:focus,
+.merch-cta:active,
+.merch-cta:focus-visible {
+  background-color: #6bffb4;
+  border-color: #6bffb4;
+  color: #0b0f0e;
+}
