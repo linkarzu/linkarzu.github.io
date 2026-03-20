@@ -150,16 +150,19 @@ rm ~/.zprofile
 
 - Most, if not all, neovim configs need special icons, so I will install
   nerdfonts, I'll go with:
-  - [meslo-lg](https://www.nerdfonts.com/font-downloads){:target="\_blank"}
-- To find this font search for `menlo` on the page
+  - [jetbrains mono](https://www.nerdfonts.com/font-downloads){:target="\_blank"}
+- To find this font search for `jetbrains` on the page
 - Installation methods can be found at the **bottom** of their downloads page
 
 ```bash
-brew install --cask font-meslo-lg-nerd-font
+brew install --cask font-jetbrains-mono-nerd-font
 ```
 
-- To verify the fonts were installed open `Font book` app on macos and search
-  for `meslo`, you will see everything listed, including the icons
+- To verify the fonts were installed open `Font book` app on macOS and search
+  for `jetbrains`, you will see everything listed, including the icons
+
+---
+
 - Another way of making sure the fonts were installed
 
 ```bash
@@ -181,7 +184,14 @@ fc-list | grep -i "MesloLGM Nerd Font Mono"
 brew install neovim
 ```
 
-- Then you can create a new file in neovim to test, save it with `:wq`
+- Install additional required tools, you can find out more on the
+  [LazyVim website](https://www.lazyvim.org/){:target="\_blank"}
+
+```bash
+brew install tree-sitter-cli
+```
+
+- Then you can create a new file in Neovim to test, save it with `:wq`
 
 ```bash
 nvim test-file.md
