@@ -408,12 +408,11 @@ _setapp start date_
 
 ## Discord server
 
-- My discord server is open to the public, feel free to join and hang out with
-  others
-- join the
-  [discord server in this link](https://discord.gg/NgqMgwwtMH){:target="\_blank"}
-
-[![image](./../assets/img/imgs/250210-discord-free.avif){: width="300" }](https://discord.gg/NgqMgwwtMH){:target="\_blank"}
+- My Discord server used to be open to the public and grew to over 400 members,
+  but I closed it after the age verification thingy started
+- Honestly, that probably was just an excuse, because It was taking some time to
+  manage, especially because it slowly turned into a free support place instead
+  of something sustainable for the channel.
 
 ## Follow me on social media
 
@@ -424,7 +423,7 @@ _setapp start date_
 - [Instagram](https://www.instagram.com/link_arzu){:target="\_blank"}
 - [GitHub](https://github.com/linkarzu){:target="\_blank"}
 - [Threads](https://www.threads.net/@link_arzu){:target="\_blank"}
-- [OnlyFans 🍆](https://linkarzu.com/assets/img/imgs/250126-whyugae.avif){:target="\_blank"}
+- [✔️ OnlyFans](https://linkarzu.com/assets/img/imgs/250126-whyugae.avif){:target="\_blank"}
 - [YouTube (subscribe MF, subscribe)](https://www.youtube.com/@linkarzu){:target="\_blank"}
 - [Bluesky](https://bsky.app/profile/linkarzu.bsky.social){:target="\_blank"}
 - [Mastodon](https://mastodon.social/@linkarzu){:target="\_blank"}
