@@ -19,9 +19,8 @@ title: About Me
 - [What's the best way to support me? (pick one)](#whats-the-best-way-to-support-me-pick-one)
   * [1. Become a YouTube member](#1-become-a-youtube-member)
   * [2. Monthly Ko-Fi donation](#2-monthly-ko-fi-donation)
-  * [3. Ko-Fi one time donation](#3-ko-fi-one-time-donation)
-  * [4. 1password free trial](#4-1password-free-trial)
-  * [5. Setapp free trial](#5-setapp-free-trial)
+  * [3. Buy Stuff at the Merch Store](#3-buy-stuff-at-the-merch-store)
+  * [4. Ko-Fi one time donation](#4-ko-fi-one-time-donation)
 - [People that support me (thank you)](#people-that-support-me-thank-you)
   * [CEOs](#ceos)
 - [Discord server](#discord-server)
@@ -267,46 +266,16 @@ that really wonder what happens behind the scenes.
 - But you can donate if you want to support me
 - [Link to donate in Ko-Fi](https://ko-fi.com/linkarzu){:target="\_blank"}
 
-### 3. Ko-Fi one time donation
+### 3. Buy Stuff at the Merch Store
+
+If you like the shirt designs you see in my videos, you can get shirts, mugs,
+sweaters, and more at:
+
+[https://merch.linkarzu.com](https://merch.linkarzu.com){:target="\_blank"}
+
+### 4. Ko-Fi one time donation
 
 - [Link to donate in Ko-Fi](https://ko-fi.com/linkarzu){:target="\_blank"}
-
-### 4. 1password free trial
-
-- Do I even use this thing and believe in it? Or am I just trying to shove it
-  down your throat and make some money out of it?
-  - I've been using 1password for a while now. Before, I was using Dashlane for
-    a couple of years, and before that I was using LastPass. I used to work for
-    LastPass, handled many incidents in the past as I was in the NOC team for
-    the parent company back then `LogMeIn`, now known as `GoTo` (They keep
-    changing their name with every acquisition, so it'll change again)
-  - Out of all the different password managers I've extensively used,
-    `1password` is hands down the best. I have not tried any other ones, so
-    there could be better ones
-  - I wish they would sponsor me, but no, all I have is an affiliate link, and
-    in theory I get a small portion in case you purchase 1password after the
-    free trial
-- If you want to learn more about it, I have this blogpost article:
-  - [How I use 1password to keep all my accounts safe](https://linkarzu.com/posts/1password/1password/){:target="\_blank"}
-- Link to use my affiliate link:
-  - [Start your free trial](https://www.dpbolvw.net/click-101327218-15734885){:target="\_blank"}
-
-### 5. Setapp free trial
-
-- Do I believe in this, is it a scam?
-  - I've been paying for setapp for quite some time now, you don't believe me?
-    Why would I lie to you MF
-
-<!-- prettier-ignore -->
-![Image](./../assets/img/imgs/250819-setapp-bills.avif){: width="500" }
-_setapp start date_
-
-- I even upgraded my plan to use it on multiple devices and on my phone
-- I have a video in which I go over how I use Setapp and the apps I use:
-  - [Setapp Apps I use in macOS, Why and How](https://youtu.be/PTElkgpjMP0){:target="\_blank"}
-- I also wish they would sponsor me, but they don't so I have an affiliate link
-  in case you want to give it a try:
-  - [Setapp free trial](https://setapp.sjv.io/QjKK1a){:target="\_blank"}
 
 ## People that support me (thank you)
 
