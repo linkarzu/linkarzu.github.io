@@ -10,9 +10,6 @@ title: About Me
 - [Why did I create this site?](#why-did-i-create-this-site)
 - [Is the blogpost my main medium?](#is-the-blogpost-my-main-medium)
 - [Community-driven promotion](#community-driven-promotion)
-  * [How it works](#how-it-works)
-  * [Pricing](#pricing)
-  * [Terms and conditions](#terms-and-conditions)
 - [I'm confused, is there more than 1 podcast?](#im-confused-is-there-more-than-1-podcast)
   * [Linkarzu Podcast - Neovim, macOS, Emacs, Linux, Terminals, and more](#linkarzu-podcast---neovim-macos-emacs-linux-terminals-and-more)
   * [What's the "Linkarzu CEOs Monthly Hangout" Podcast](#whats-the-linkarzu-ceos-monthly-hangout-podcast)
@@ -27,7 +24,6 @@ title: About Me
   * [5. Setapp free trial](#5-setapp-free-trial)
 - [People that support me (thank you)](#people-that-support-me-thank-you)
   * [CEOs](#ceos)
-  * [Executive Producers](#executive-producers)
 - [Discord server](#discord-server)
 - [Follow me on social media](#follow-me-on-social-media)
 - [A bit about me](#a-bit-about-me)
@@ -58,84 +54,8 @@ title: About Me
 
 ## Community-driven promotion
 
-This isn't a brand deal, or a sponsorship. This is something different. I’m
-calling it community-driven promotion. Meant for people in this community who
-want to share a product, project, YouTube channel, course, application, service,
-merch (furry socks), etc. Think of it as space to promote yourself, created by
-and for the same type of people who watch these videos.
-
-If you've been trying to get your work seen and reach a real audience of open
-source loving, keyboard obsessed, tech driven people, this is it.
-
----
-
-### How it works
-
-<!-- markdownlint-disable -->
-<!-- prettier-ignore-start -->
- 
-<!-- tip=green, info=blue, warning=yellow, danger=red -->
- 
-> Before anything, send me a message either by email `admin@linkarzu.com` or 
-> on Discord. We’ll talk about what you want to promote and make sure it fits 
-> the channel. Once that’s done, you can join the corresponding ko-fi membership tier.
-{: .prompt-danger }
- 
-<!-- prettier-ignore-end -->
-<!-- markdownlint-restore -->
-
-There’s no exclusivity over videos. If the ad slots are full for a given month,
-multiple promotions can appear in the same upload. You don’t get to choose which
-video your ad appears in, most of my videos are recorded, edited, and published
-the same day, so it’s all organic and unplanned. The only exception is the long
-form interviews, which are scheduled in advance.
-
-Each ad is recorded by me. You can provide the script and supporting video or
-images. I'll make it blend naturally into my content.
-
----
-
-### Pricing
-
-<!-- markdownlint-disable -->
-<!-- prettier-ignore-start -->
- 
-<!-- tip=green, info=blue, warning=yellow, danger=red -->
- 
-> If you don't want to do a monthly option, but instead, a one time thing, also
-> let me know and we can discuss it
-{: .prompt-tip }
- 
-<!-- prettier-ignore-end -->
-<!-- markdownlint-restore -->
-
-- **$60/month**
-  - One `15 second` ad in a random video, `not` a podcast interview
-
-- **$150/month**
-  - Three `15 second` ads in three different videos, `not` podcast interviews
-
-- **$200/month**
-  - One `15 second` ad in a podcast interview (around 2 hours)
-    - You get to chose the interview
-  - Additionally, two `15 second` ads in 2 `non` podcast videos
-
----
-
-### Terms and conditions
-
-- Ads must be approved before payment.
-- I reserve the right to reject any ad that doesn't fit the channel.
-- The **same ad recording** will be reused for all your placements.
-- No political, religious, or adult content.
-- Ad placement and scheduling are decided by me. Except for interview long form
-  videos
-- Multiple ads from multiple people can be placed in the same video (only if
-  necessary)
-- Once published, ads can’t be changed or removed.
-- Refunds are not available after the ad is recorded.
-- Memberships renew monthly, but can be canceled anytime before the next billing
-  cycle.
+This was a good idea in theory, but never worked in practice, I'm just leaving
+the heading because I don't want to deal with broken links.
 
 ## I'm confused, is there more than 1 podcast?
 
@@ -401,11 +321,6 @@ _setapp start date_
 
 - [web2three.com](https://web2three.com/){:target="\_blank"}
 
-### Executive Producers
-
-- [Hotze (youtube)](https://youtube.com/@hotzetron){:target="\_blank"}
-- [François Baillargeon](https://solutionsinformatiquesbaillargeon.ca/){:target="\_blank"}
-
 ## Discord server
 
 - My Discord server used to be open to the public and grew to over 400 members,
@@ -446,7 +361,7 @@ _setapp start date_
 
 ## Contact information
 
-- For collaborations or inquiries:
+- For collaborations or sponsorships:
   - Name: `Christian Arzu`
   - Email: `admin@linkarzu.com`
 
