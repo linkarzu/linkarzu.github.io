@@ -40,3 +40,96 @@
   border-color: #6bffb4;
   color: #0b0f0e;
 }
+
+:root {
+  --merch-banner-height: 3.25rem;
+}
+
+.merch-banner {
+  position: fixed;
+  top: 0;
+  right: 0;
+  left: 0;
+  z-index: 1100;
+  min-height: var(--merch-banner-height);
+  background: #37f499;
+  color: #0b0f0e;
+  box-shadow: 0 0.25rem 1rem rgb(0 0 0 / 20%);
+}
+
+.merch-banner__inner {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 1rem;
+  min-height: var(--merch-banner-height);
+  max-width: 72rem;
+  margin: 0 auto;
+  padding: 0.55rem 1rem;
+}
+
+.merch-banner__icon {
+  flex: 0 0 auto;
+  font-size: 1.1rem;
+}
+
+.merch-banner__text {
+  margin: 0;
+  font-family: ui-monospace, SFMono-Regular, Menlo, Monaco, Consolas, "Liberation Mono", monospace;
+  font-size: clamp(0.9rem, 1.7vw, 1.25rem);
+  font-weight: 700;
+  line-height: 1.25;
+}
+
+.merch-banner__text a {
+  color: inherit;
+  text-decoration: underline;
+  text-underline-offset: 0.15em;
+}
+
+.merch-banner__close {
+  flex: 0 0 auto;
+  display: inline-flex;
+  align-items: center;
+  justify-content: center;
+  width: 2rem;
+  height: 2rem;
+  padding: 0;
+  border: 0;
+  border-radius: 999px;
+  background: transparent;
+  color: inherit;
+  font-size: 1.2rem;
+  cursor: pointer;
+}
+
+.merch-banner__close:hover,
+.merch-banner__close:focus-visible {
+  background: rgb(32 35 40 / 14%);
+}
+
+body.merch-banner-visible {
+  padding-top: var(--merch-banner-height);
+}
+
+body.merch-banner-visible #sidebar {
+  top: var(--merch-banner-height);
+  height: calc(100% - var(--merch-banner-height));
+}
+
+@media (max-width: 575.98px) {
+  :root {
+    --merch-banner-height: 4.5rem;
+  }
+
+  .merch-banner__inner {
+    gap: 0.65rem;
+    justify-content: flex-start;
+    padding-right: 0.5rem;
+    padding-left: 0.75rem;
+  }
+
+  .merch-banner__text {
+    font-size: 0.9rem;
+  }
+}

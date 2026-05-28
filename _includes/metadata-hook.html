@@ -1,0 +1,72 @@
+{% if page.layout == 'post' %}
+  <script>
+    (() => {
+      const storageKey = 'linkarzu-merch-banner-dismissed';
+
+      const isDismissed = () => {
+        try {
+          return localStorage.getItem(storageKey) === 'true';
+        } catch (_error) {
+          return false;
+        }
+      };
+
+      const dismiss = () => {
+        document.body.classList.remove('merch-banner-visible');
+        document.querySelector('.merch-banner')?.remove();
+        window.removeEventListener('resize', updateBannerHeight);
+        document.documentElement.style.removeProperty('--merch-banner-height');
+
+        try {
+          localStorage.setItem(storageKey, 'true');
+        } catch (_error) {
+          // Ignore browsers that block localStorage.
+        }
+      };
+
+      const updateBannerHeight = () => {
+        const banner = document.querySelector('.merch-banner');
+
+        if (banner) {
+          document.documentElement.style.removeProperty('--merch-banner-height');
+          document.documentElement.style.setProperty('--merch-banner-height', `${banner.offsetHeight}px`);
+        }
+      };
+
+      const showBanner = () => {
+        if (isDismissed()) {
+          return;
+        }
+
+        const banner = document.createElement('div');
+        banner.className = 'merch-banner';
+        banner.setAttribute('role', 'region');
+        banner.setAttribute('aria-label', 'Merch store announcement');
+        banner.innerHTML = `
+          <div class="merch-banner__inner">
+            <i class="fas fa-store merch-banner__icon" aria-hidden="true"></i>
+            <p class="merch-banner__text">
+              New merch store now open. Check it out at
+              <a href="https://merch.linkarzu.com" target="_blank" rel="noopener noreferrer">merch.linkarzu.com</a>
+            </p>
+            <button type="button" class="merch-banner__close" aria-label="Dismiss merch store banner">
+              <i class="fas fa-times" aria-hidden="true"></i>
+            </button>
+          </div>
+        `;
+
+        banner.querySelector('.merch-banner__close').addEventListener('click', dismiss);
+        document.body.prepend(banner);
+        document.body.classList.add('merch-banner-visible');
+        updateBannerHeight();
+        window.addEventListener('resize', updateBannerHeight);
+      };
+
+      if (document.readyState === 'loading') {
+        document.addEventListener('DOMContentLoaded', showBanner, { once: true });
+      } else {
+        showBanner();
+      }
+    })();
+  </script>
+{% endif %}
