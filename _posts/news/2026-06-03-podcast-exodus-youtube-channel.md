@@ -4,7 +4,7 @@ description: >-
   I moved the linkarzu podcast interviews to their own YouTube podcast channel,
   without deleting the old episodes from the main channel.
 image:
-  path: ./../../assets/img/imgs/260603-thux-podcast-logo.avif
+  path: ./../../assets/img/imgs/260604-thux-podcast-new-logo.avif
 date: '2026-06-03 06:10:00 +0000'
 categories:
   - news
