@@ -33,7 +33,6 @@ tags:
 - [How livestreams and new episodes will work](#how-livestreams-and-new-episodes-will-work)
 - [If you're here only for the podcast](#if-youre-here-only-for-the-podcast)
 - [Links](#links)
-- [Community-driven promotion](#community-driven-promotion)
 - [You're a fraud, why do you ask for money, isn't YouTube Ads enough?](#youre-a-fraud-why-do-you-ask-for-money-isnt-youtube-ads-enough)
 
 <!-- tocstop -->
@@ -204,16 +203,6 @@ channel, the playlist is here:
 
 The main channel will continue as usual with my regular videos. This just gives
 the podcast its own proper home.
-
-## Community-driven promotion
-
-Do you want to promote yourself in my channel? I'm not talking about a company
-like notion, brilliant, and all those other ones we're using to seeing. I'm
-talking about you as a person, do you have a project, course, youtube channel or
-product and trying to reach an audience?
-
-If interested, pricing and all the details can be found
-[in this other page](https://chirpy.home.linkarzu.com/about/#community-driven-promotion){:target="\_blank"}
 
 ## You're a fraud, why do you ask for money, isn't YouTube Ads enough?
 

@@ -65,3 +65,4 @@ _Gruvbox is for old people_
 <div class="text-center">
   <a class="btn btn-primary merch-cta" href="https://merch.linkarzu.com" target="_blank" rel="noopener noreferrer">Buy now!</a>
 </div>
+

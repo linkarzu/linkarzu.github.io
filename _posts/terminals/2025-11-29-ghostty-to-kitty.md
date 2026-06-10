@@ -34,7 +34,6 @@ tags:
   * [The man that broke our family apart](#the-man-that-broke-our-family-apart)
   * [Moving back to Kitty](#moving-back-to-kitty)
   * [Going back to Ghostty?](#going-back-to-ghostty)
-- [Community-driven promotion](#community-driven-promotion)
 - [You're a fraud, why do you ask for money, isn't YouTube Ads enough?](#youre-a-fraud-why-do-you-ask-for-money-isnt-youtube-ads-enough)
 
 <!-- tocstop -->
@@ -258,16 +257,6 @@ as I still have it installed.
 
 Remember that I did an interview with Kovid Part 2. There's a lot of questions I
 missed in the first one due to time.
-
-## Community-driven promotion
-
-Do you want to promote yourself in my channel? I'm not talking about a company
-like notion, brilliant, and all those other ones we're using to seeing. I'm
-talking about you as a person, do you have a project, course, youtube channel or
-product and trying to reach an audience?
-
-If interested, pricing and all the details can be found
-[in this other page](https://chirpy.home.linkarzu.com/about/#community-driven-promotion){:target="\_blank"}
 
 ## You're a fraud, why do you ask for money, isn't YouTube Ads enough?
 
