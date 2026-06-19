@@ -292,11 +292,28 @@ sweaters, and more at:
 
 ## Discord server
 
-- My Discord server used to be open to the public and grew to over 400 members,
-  but I closed it after the age verification thingy started
-- Honestly, that probably was just an excuse, because It was taking some time to
-  manage, especially because it slowly turned into a free support place instead
-  of something sustainable for the channel.
+New Update:
+
+<!-- markdownlint-disable -->
+<!-- prettier-ignore-start -->
+ 
+<!-- tip=green, info=blue, warning=yellow, danger=red -->
+ 
+> I've reopened the discord server, details, and instructions found here:
+> [https://discord.gg/D7CZMzw3rM](https://discord.gg/D7CZMzw3rM){:target="\_blank"}
+{: .prompt-tip }
+ 
+<!-- prettier-ignore-end -->
+<!-- markdownlint-restore -->
+
+---
+
+- A bit of history:
+  - My Discord server used to be open to the public and grew to over 400
+    members, but I closed it after the age verification thingy started
+  - Honestly, that probably was just an excuse, because It was taking some time
+    to manage, especially because it slowly turned into a free support place
+    instead of something sustainable for the channel.
 
 ## Follow me on social media
 
