@@ -62,15 +62,21 @@ YouTube videos, etc.
 
 It will not be a place in which I will provide support, if you need assistance
 with something, join of my livestreams and ask there, if I don't respond send
-your question again and eventually I will get to it. It was faster and simpler
+your question again and eventually I will get to it. It is faster and simpler
 for me to answer and show you on my screen than to try to type it on discord.
 
 I also need to filter people out, I don't want everybody to join. When that's
 the case, it becomes a ghost server, there's a lot of people just reading
 through stuff, not interacting and it just does not make sense.
 
-So in this case, the filter will be monetary, and that's more than enough for a.
-At least I get something back.
+So in this case, the filter will be monetary, and that's more than enough for
+me.
+
+One of the HUGE benefits of this being a paid server is that not even a single
+bot/spammer has joined. Because once they make it to the server they reach a
+dead end, the paywall. I don't lose time moderating any spam messages and
+members don't get annoyed as well. I don't want to have any mods as the plan is
+to keep the community small, but close together.
 
 ## How Do I Join?
 
@@ -84,7 +90,8 @@ All the instructions and details can be found in the server itself:
 - **Can there be other ways to join rather than spending money?**
   - Friend, my membership is like $3.99 a month and it includes other perks. If
     you care at least a little bit about the content I make, you'll be fine with
-    this and understand
+    this and understand. **If you don't understand this, you're not the type of
+    person I want around in Discord.**
 - **Why do you ask for money, isn't YouTube ads enough?**
   - Read this:
     [youre-a-fraud-why-do-you-ask-for-money-isnt-youtube-ads-enough](https://linkarzu.com/about/#youre-a-fraud-why-do-you-ask-for-money-isnt-youtube-ads-enough){:target="\_blank"}
