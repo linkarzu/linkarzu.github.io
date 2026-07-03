@@ -130,7 +130,7 @@ _emojis in livestreams and YouTube comments_
 
 ## Why does TTS not work?
 
-There could be 3 reasons:
+There could be a few reasons reasons:
 
 1.  [2. If it's a Livestream with a Guest](#2-if-its-a-livestream-with-a-guest)
 2.  TTS is actually stuck and it needs a refresh
