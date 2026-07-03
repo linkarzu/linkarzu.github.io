@@ -132,7 +132,7 @@ _emojis in livestreams and YouTube comments_
 
 There could be 3 reasons:
 
-1.  [If it's a Livestream with a Guest](#if-its-a-livestream-with-a-guest)
+1.  [2. If it's a Livestream with a Guest](#2-if-its-a-livestream-with-a-guest)
 2.  TTS is actually stuck and it needs a refresh
 3.  I ran out of tokens and I need to put more money
 
