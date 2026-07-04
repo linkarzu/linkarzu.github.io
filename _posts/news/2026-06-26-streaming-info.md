@@ -92,7 +92,7 @@ formatted in a nice way. So all I need to do is chop them up and spam them to
 YouTube and
 [all other social media apps](https://linkarzu.com/about/#follow-me-on-social-media){:target="\_blank"}
 
-I'll probably start a `linkarzu-shorts` channel for this, not sure yet.
+I'll probably start a `linkarzu-shorts` channel for this, not sure yet
 
 ## What's that weird voice when someone sends a message
 
