@@ -31,10 +31,12 @@ tags:
 - [Why aren't you reading chats on stream?](#why-arent-you-reading-chats-on-stream)
   * [1. If it's a regular stream, or a stream with friends](#1-if-its-a-regular-stream-or-a-stream-with-friends)
   * [2. If it's a Livestream with a Guest](#2-if-its-a-livestream-with-a-guest)
+- [What's that Ko-Fi progress bar we see in your videos?](#whats-that-ko-fi-progress-bar-we-see-in-your-videos)
 - [How can I join your discord?](#how-can-i-join-your-discord)
 - [How can I share my setup and workflow in your channel?](#how-can-i-share-my-setup-and-workflow-in-your-channel)
   * [1. Random gathering with discord members from time to time](#1-random-gathering-with-discord-members-from-time-to-time)
   * [2. Recurring meeting with members](#2-recurring-meeting-with-members)
+- [Why did the livestream become members only after recording?](#why-did-the-livestream-become-members-only-after-recording)
 - [You're a fraud, why do you ask for money, isn't YouTube Ads enough?](#youre-a-fraud-why-do-you-ask-for-money-isnt-youtube-ads-enough)
 
 <!-- tocstop -->
@@ -172,6 +174,30 @@ So if you want your message to be read:
 So yes, pretty much we'll ignore you so that you pay. It's all about the money
 baby.
 
+## What's that Ko-Fi progress bar we see in your videos?
+
+<!-- prettier-ignore -->
+![Image](./../../assets/img/imgs/260705-buggers.avif){: width="500" }
+_Ko-Fi progress bar to reach my goals_
+
+Brother, you're a 38 old man with family, are you sure buying a switch 2 with
+the remake of Ocarina of Time is a good idea?
+
+I know. I wonder the same thing all the time. Once I reach the goal I'll decide
+what to do with the money as I have a wife and kids.
+
+Should I relive my childhood memories and enjoy for a little while, or should I
+buy another split keyboard I'll never use 😂
+
+If you want to support me,
+[send a donation in Ko-Fi](https://ko-fi.com/linkarzu){:target="\_blank"}
+
+---
+
+If you send a Ko-Fi donation when I'm streaming the message will be showed in
+the video and played out loud. Read more about this here:
+[2. If it's a Livestream with a Guest](#2-if-its-a-livestream-with-a-guest)
+
 ## How can I join your discord?
 
 The discord server is for members only, we don't want cheap MFs there that are
@@ -227,6 +253,35 @@ For pricing and details on how many meeting you get a month, go to the
  
 <!-- prettier-ignore-end -->
 <!-- markdownlint-restore -->
+
+## Why did the livestream become members only after recording?
+
+That means that the episode will be edited and released on the
+[YouTube Podcast Channel](https://www.youtube.com/@linkarzu-podcast){:target="\_blank"}
+a few days after.
+
+Before the "I demand everything for free" community jumps and gets offended, it
+will be **FREE FOR EVERYONE AT NO CHARGE**.
+
+It will also be available in all the podcasting platforms (Spotify, YouTube
+Music, Apple Music, etc). Even the most esoteric ones, so if it's missing from
+your podcasting platform let me know and I'll add it.
+
+If you want to know about why the podcast is in a new channel and where the old
+episodes live,
+[go and read this](https://linkarzu.com/posts/news/podcast-exodus-youtube-channel/){:target="\_blank"}
+
+---
+
+But that doesn't answer my question, why for members only?
+
+This is mainly a monetization strategy, for the people that care about my
+content and want to support me to keep the channel going. This is to give them
+something back for their support.
+
+---
+
+Editing of the final video takes time, so be patient.
 
 ## You're a fraud, why do you ask for money, isn't YouTube Ads enough?
 
