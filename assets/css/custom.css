@@ -117,6 +117,31 @@ body.merch-banner-visible #sidebar {
   height: calc(100% - var(--merch-banner-height));
 }
 
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+  font-weight: 700;
+}
+
+h2 {
+  color: #37f499;
+}
+
+h3 {
+  color: #04d1f9;
+}
+
+h4 {
+  color: #fca6ff;
+}
+
+h5 {
+  color: #e58f2a;
+}
+
 @media (max-width: 575.98px) {
   :root {
     --merch-banner-height: 4.5rem;
