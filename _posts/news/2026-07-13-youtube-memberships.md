@@ -5,7 +5,7 @@ description: >-
   my audience, and get a fully edited episode, five Shorts, a 10-minute clip,
   and distribution to Spotify and other podcast platforms.
 image:
-  path: ./../../assets/img/imgs/250117-thux-simple-bar-sketchybar.avif
+  path: ./../../assets/img/imgs/260714-thux-your-podcast.avif
 date: '2026-07-14 06:10:00 +0000'
 categories:
   - youtube
@@ -280,62 +280,38 @@ Includes:
 
 #### What is included in the Podcast Director membership?
 
-Every paid month includes:
+Every paid month includes one fully produced podcast episode:
 
 - 1 podcast livestream
 - Up to 2 hours of recording
 - Up to 4 guests, plus you
 - The option to invite me as one of your guests
-- Your own podcast playlist on my YouTube channel
-- Your own separate podcast RSS feed
+- A dedicated podcast playlist on my YouTube channel
+- A separate podcast RSS feed for your show
 - Distribution to Spotify, Apple Podcasts, YouTube Music, and other podcast
   platforms
 - 1 edited full podcast episode
-- 1 edited video clip of approximately 10 minutes
-- 5 edited vertical Shorts
+- 1 edited video clip of approximately 10 minutes from the episode
+- 5 edited vertical Shorts from the episode
 - Access to all 4 monthly Linkarzu Root Access group livestreams
 - All perks from the previous YouTube membership levels
 
 The 2 hours refer to **2 hours of my recording and livestream production time**,
-not a guaranteed final episode of exactly 2 hours.
-
-Those 2 hours normally turn into at least 8 hours of work for me including
-preparation, audio cleanup, editing, exporting, uploading, publishing, and
-podcast distribution.
+not a guaranteed final episode of exactly 2 hours. A standard episode usually
+turns into at least 8 hours of work for me after preparation, editing,
+exporting, publishing, and distribution.
 
 #### Why does the Podcast Director membership cost that?
 
-The first thing most people notice is probably the $499.99 price.
+The $499.99 price is not just for 2 hours of recording. It covers the production
+pipeline: livestream setup, recording up to 5 people, audio cleanup, editing,
+uploading, podcast distribution, clips, Shorts, and access to my existing
+audience.
 
-The Podcast Director membership isn't just paying for 2 hours of recording.
-
-You're getting access to an entire production pipeline that normally takes
-months or years to build yourself.
-
-Some of the things included are:
-
-- Professional livestream production
-- Recording up to 5 participants
-- Audio cleanup and leveling
-- Editing
-- Podcast distribution
-- Your own podcast RSS feed
-- Your own podcast playlist on my YouTube channel
-- A 10-minute edited clip
-- 5 edited Shorts
-- Access to my existing audience
-- The possibility of leveraging my network for future guests
-- Access to all 4 monthly Linkarzu Root Access podcast episodes
-- All previous membership perks
-
-My normal hourly rate is $50, and a standard Director episode usually requires
-at least 8 hours of work after preparation, recording, editing, publishing, and
-distribution are taken into account.
-
-The membership also includes something that's much harder to put a price on:
-instead of spending months building your own production workflow, podcast
-distribution, and audience from scratch, you can launch your podcast immediately
-using mine.
+My normal hourly rate is $50, and a Director episode usually requires at least 8
+hours of total work. The membership also lets you launch a podcast using my
+channel, workflow, and distribution setup instead of building everything from
+zero.
 
 If that's the value you're looking for, this membership may be a good fit.
 
@@ -345,12 +321,8 @@ option.
 
 #### What are the benefits of becoming a Podcast Director?
 
-Besides the recording, editing, clips, and podcast distribution, you also get
-access to my existing audience.
-
-Your episode will be livestreamed and published on my YouTube channel, so you do
-not need to start a new channel from zero and spend the next 7 years waiting for
-the algorithm to notice you.
+Your episode is livestreamed and published on my YouTube channel, so you can use
+my existing audience instead of starting from zero.
 
 This gives you an opportunity to:
 
@@ -360,23 +332,10 @@ This gives you an opportunity to:
 - Talk about your projects and ideas
 - Build your own podcast without managing the technical production
 
-You may also benefit from the pool of people I have met through previous podcast
-episodes and livestreams.
-
-For example, I can ask a previous guest or community member if they are
-interested in joining your episode. I may also try to contact someone on your
-behalf if they would be a good fit for the conversation.
-
-However, there are **no guarantees** that another guest will accept the
-invitation or even reply.
-
-I will only contact external guests on your behalf if I am also participating in
-the livestream. I do not want to invite someone from my network and then leave
-them in a conversation with people they have never met while I hide behind OBS
-pressing buttons.
-
-If I invite them, I will also join the episode so the introduction feels natural
-and nobody ends up feeling uncomfortable or awkward.
+I may also ask previous guests or community members if they want to join your
+episode, but there are **no guarantees** they will accept or reply. I only make
+those introductions if I am also joining the episode, so the conversation feels
+natural.
 
 ### Running your podcast
 
@@ -384,43 +343,21 @@ and nobody ends up feeling uncomfortable or awkward.
 
 You do.
 
-You're the Podcast Director, so you host the conversation, introduce the guests,
-choose the subjects, and decide where the discussion goes.
-
-This is not an interview in which I control all the questions. It is your show.
-
-I will be handling the livestream and production in the background. You can also
-invite me to participate as a guest if you want.
+You host the conversation, introduce the guests, choose the subjects, and decide
+where the discussion goes. I handle the livestream and production in the
+background unless you invite me to participate as a guest.
 
 #### How many guests can I invite?
 
-You can invite up to **4 guests**, plus yourself.
-
-That means there can be up to 5 people participating in the podcast.
-
-If one of your guests cancels at the last minute, we don't need to cancel the
-entire episode. I will adjust the livestream layout and we continue with one
-fewer guest.
+You can invite up to **4 guests**, plus yourself, for a maximum of 5 people. If
+someone cancels, I adjust the layout and we continue with fewer people.
 
 #### Can the podcast be about anything?
 
-Pretty much.
-
-You can talk about your business, YouTube channel, open-source project, Linux,
-Emacs, Neovim, networking, homelabbing, keyboards, productivity, your personal
-workflow, or whatever else you want.
-
-You can also promote:
-
-- Your business
-- Your products
-- Your services
-- Your projects
-- Your social media accounts
-- Your Ko-Fi page
-- Your YouTube channel
-
-It's your show, brother. Promote your stuff.
+Pretty much. You can talk about your business, YouTube channel, open-source
+project, Linux, Emacs, Neovim, networking, homelabbing, keyboards, productivity,
+or your personal workflow. You can also promote your business, products,
+services, projects, social accounts, Ko-Fi page, or YouTube channel.
 
 However, the following content is not allowed:
 
@@ -440,52 +377,31 @@ rules, copyright requirements, and protect my channel.
 
 #### Can we record with or without a live audience?
 
-Absolutely.
+Yes. We can record in whichever format fits the episode:
 
-Whether we're recording for the Podcast Director membership or through my Ko-Fi
-services, you decide how the recording is done.
-
-Some examples include:
-
-- A public livestream with YouTube chat
+- A public livestream
 - A members-only livestream
 - An unlisted livestream
-- A completely private recording with no livestream at all
-
-Some people enjoy interacting with chat and answering questions during the
-episode.
-
-Others prefer recording privately to avoid interruptions or because the content
-is intended for a business, a course, internal training, or another platform.
+- A private recording with no livestream
 
 We'll decide the format before the recording.
 
 #### What equipment do I and my guests need?
 
-The better your equipment is, the better the final episode will look and sound.
+A dedicated microphone connected to a computer is strongly recommended, but a
+phone can work if that is the only option.
 
-A dedicated microphone connected to a computer is strongly recommended.
-
-However, someone can participate from a phone if that is their only option.
-
-**Headphones are mandatory.**
-
-Without headphones, the microphone may capture the podcast audio and create echo
-for everyone else.
-
-Guest cameras are received at a maximum resolution of 720p. Higher-resolution
-cameras are still useful because the image normally looks better after being
-downscaled.
+**Headphones are mandatory** to avoid echo. Guest cameras are received at a
+maximum resolution of 720p, though higher-quality cameras still help because the
+image usually looks better after being downscaled.
 
 ### Publishing and editing
 
 #### Where will my podcast be published?
 
-Your podcast episode will be published on my YouTube channel inside its own
-dedicated podcast playlist.
-
-You will also receive a completely separate podcast RSS feed so the show can be
-distributed to:
+Your episode is published on my YouTube channel inside its own dedicated podcast
+playlist. You also receive a separate podcast RSS feed so the show can be
+distributed to platforms such as:
 
 - Spotify
 - Apple Podcasts
@@ -494,16 +410,12 @@ distributed to:
 - Pocket Casts
 - Other podcast platforms
 
-The goal is to distribute it everywhere possible.
-
-If you notice that your podcast is missing from the weird podcast app used by 14
-people in an underground bunker, let me know and I'll see if I can add it.
+The goal is to distribute it everywhere possible. If a platform is missing, let
+me know and I'll see if I can add it.
 
 #### What editing is included?
 
-The full recording will be edited before publication.
-
-This includes things such as:
+The full recording is edited before publication. The standard edit includes:
 
 - Removing unnecessary silences
 - Removing technical interruptions
@@ -514,15 +426,10 @@ This includes things such as:
 - Publishing the episode
 - Distributing the episode to podcast platforms
 
-Expect editing and audio quality similar to the episodes published on my own
-podcast.
-
-Specific sections that you want removed should be mentioned before the episode
-is published.
-
-Once the final episode is published, it will not be completely re-edited or
-taken down just because someone changed their mind later. I may be able to
-remove a specific section using the YouTube editor when there is a valid reason.
+Tell me before publication if a specific section should be removed. After the
+episode is published, it will not be fully re-edited or taken down just because
+someone changed their mind. If there is a valid reason, I may be able to remove
+a specific section with the YouTube editor.
 
 #### What additional videos do I receive?
 
@@ -542,17 +449,8 @@ arrange a separate production package outside the YouTube membership.
 #### How long does publication take?
 
 The edited episode should be ready **within 7 days**. New podcast feeds and
-listings on third-party platforms may take longer because their approval and
+third-party platform listings may take longer because their approval and
 processing times are outside my control.
-
-It could be ready earlier, but 7 days gives me enough time to properly edit the
-recording, process the audio, export everything, upload the episode, and prepare
-the podcast distribution.
-
-Do not start sending me messages 14 minutes after the livestream asking where
-the edited episode is.
-
-Editing takes time.
 
 #### Can I publish the full podcast episode on my own YouTube channel?
 
@@ -574,21 +472,14 @@ can arrange the same production service separately through my Ko-Fi page:
 
 [https://ko-fi.com/linkarzu](https://ko-fi.com/linkarzu){:target="\_blank"}
 
-In that case, you receive:
-
-- The complete edited episode
-- The approximately 10-minute clip
-- The 5 Shorts
-
-You can then publish everything on your own platforms.
+In that case, you receive the complete edited episode, the approximately
+10-minute clip, and the 5 Shorts for publication on your own platforms.
 
 ### Scheduling
 
 #### How far in advance should I schedule the episode?
 
-Schedule the episode at least **1 week in advance**.
-
-This gives us enough time to:
+Schedule the episode at least **1 week in advance** so we have time to:
 
 - Choose a date that works
 - Coordinate with all guests
@@ -598,16 +489,12 @@ This gives us enough time to:
 - Fix technical problems before going live
 
 Everyone should join approximately **20 minutes before the livestream** so I can
-check microphones, level the audio, test cameras, and make sure nobody sounds
-like they're calling from inside a washing machine.
+check microphones, level audio, test cameras, and fix technical problems.
 
 #### What happens if I do not use my episode that month?
 
 Unused podcast episodes can roll over, but you can only accumulate a maximum of
 **2 unused episodes**.
-
-This prevents someone from paying for 14 months, disappearing into the forest,
-and then coming back expecting me to produce 14 podcast episodes in one week.
 
 Once you have 2 unused episodes stored, you should schedule one before
 accumulating another.
@@ -615,9 +502,8 @@ accumulating another.
 #### What happens if I cancel the membership?
 
 Episodes that were already recorded and published remain online after the
-membership is cancelled. They remain in my channel.
-
-Cancelling prevents you from earning additional podcast episodes.
+membership is cancelled. They remain on my channel. Cancelling prevents you from
+earning additional podcast episodes.
 
 Any unused episodes earned before cancellation must be scheduled and recorded
 within 60 days after the membership ends. You can have a maximum of 2 unused
@@ -637,28 +523,16 @@ An additional hour can be purchased for **$200** through my Ko-Fi page:
 The additional hour extends the absolute recording limit to approximately **3
 hours and 15 minutes**.
 
-The rate is **$200 per additional recorded hour**, not per hour of editing.
-
-That additional recorded hour also creates more audio cleanup, editing, export
-time, storage, uploading, and post-production work after the livestream ends.
-
-The additional hour should preferably be arranged and paid before the
-livestream.
-
-If I have the availability, you can also pay for the extra hour during the
-session through my Ko-Fi page and we can extend the recording on the spot.
-
-This is not guaranteed, since I may have another commitment immediately after
-the scheduled recording time.
+The rate is **$200 per additional recorded hour**, not per hour of editing. The
+extra hour should preferably be arranged and paid before the livestream.
+Same-day extensions are only possible if I have availability.
 
 ### Final notes
 
 #### Are views, subscribers, clients, or sales guaranteed?
 
-No.
-
-This membership gives you access to my production workflow, my channel, and my
-existing audience, but it does not guarantee:
+No. This membership gives you access to my production workflow, my channel, and
+my existing audience, but it does not guarantee:
 
 - A specific number of views
 - New subscribers
@@ -667,18 +541,15 @@ existing audience, but it does not guarantee:
 - Product sales
 - Business leads
 - Viral success
-- That the YouTube algorithm will suddenly fall in love with you
 
 I will prepare and publish the content, but audience reaction and platform
 performance cannot be guaranteed.
 
 #### Are refunds available?
 
-Membership payments and refunds are managed by YouTube.
-
-You will need to contact YouTube if you want to request a refund.
-
-I do not manually control YouTube membership refunds.
+Membership payments and refunds are managed by YouTube. You will need to contact
+YouTube if you want to request a refund, because I do not manually control
+YouTube membership refunds.
 
 ## Recording Services Outside YouTube
 
@@ -686,40 +557,25 @@ I do not manually control YouTube membership refunds.
 
 Yes.
 
-The Podcast Director membership is designed for shows that will be livestreamed
-and published on my YouTube channel.
-
-However, you may need the same recording and production setup for content that
-belongs entirely to you or your business.
-
-For example:
-
-- You own a business and want me to interview you about your company
-- You want an interview that your company can publish on its own website or
-  YouTube channel
-- You need to record a tutorial for your customers or employees
-- You want to share your screen while I share mine and switch between both
-  dynamically
-- You need a remote presentation with multiple guests
-- You want a professionally produced conversation without publishing it on my
-  channel
-- Your business needs a technical tutorial, demonstration, walkthrough, or
-  training video
-
-I can also record tutorials for businesses as part of my services.
-
-These recordings are arranged outside the YouTube membership through my Ko-Fi
-page:
+The Podcast Director membership is for shows published on my YouTube channel. If
+you need the same recording and production setup for content that belongs to you
+or your business, we can arrange it separately through Ko-Fi:
 
 [https://ko-fi.com/linkarzu](https://ko-fi.com/linkarzu){:target="\_blank"}
 
-The rate is **$200 per recorded hour**.
+Rate: **$200 per recorded hour**.
 
-That means the price is based on the duration of the recording session, not the
-number of hours I spend editing afterward.
+The price is based on recording time, not the number of hours I spend editing
+afterward. One recorded hour may still require several additional hours of
+preparation, audio cleanup, editing, exporting, and delivery.
 
-One recorded hour may still require several additional hours of preparation,
-audio cleanup, editing, exporting, and delivery.
+For example:
+
+- Business interviews
+- Tutorials, demonstrations, walkthroughs, or training videos
+- Remote presentations with multiple guests
+- Screen-sharing sessions with dynamic layout switching
+- Professionally produced conversations that do not publish on my channel
 
 For work arranged outside YouTube, we can define what you need before recording,
 including:
@@ -737,11 +593,11 @@ you for publication on your own platforms.
 
 ### What type of editing is included?
 
-Whether you're a Podcast Director member or hiring me through Ko-Fi, the editing
-included is similar to what you already see on my
+Whether you're a Podcast Director member or hiring me through Ko-Fi, the
+standard edit is similar to what you already see on my
 [Podcast YouTube channel](www.youtube.com/@linkarzu-podcast){:target="\_blank"}
 
-The standard edit includes:
+It includes:
 
 - Audio cleanup and leveling
 - Removing unnecessary silences
@@ -761,11 +617,9 @@ The service does **not** include:
 - Thumbnail design (unless previously agreed)
 - Anything else that significantly increases editing time
 
-The goal is to deliver a clean, professional recording without turning it into a
-Hollywood production.
-
-If your project requires something outside the scope of a standard edit, we'll
-discuss it before recording so we both know exactly what's included.
+The goal is a clean, professional recording, not a full Hollywood production. If
+your project needs something outside the standard edit, we'll define it before
+recording so we both know exactly what's included.
 
 ## You're a fraud, why do you ask for money, isn't YouTube Ads enough?
 
