@@ -595,7 +595,7 @@ you for publication on your own platforms.
 
 Whether you're a Podcast Director member or hiring me through Ko-Fi, the
 standard edit is similar to what you already see on my
-[Podcast YouTube channel](www.youtube.com/@linkarzu-podcast){:target="\_blank"}
+[Podcast YouTube channel](https://www.youtube.com/@linkarzu-podcast){:target="\_blank"}
 
 It includes:
 
