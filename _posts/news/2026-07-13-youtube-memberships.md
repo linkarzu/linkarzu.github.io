@@ -113,11 +113,11 @@ Includes:
 - Access to the GOATED custom emojis
 - Text To Speech during supported livestreams
 - Access to the members-only Discord server
-- Ability to participate in the `Furryconf` livestream that happens every once
+- Ability to participate in the `Open Terminal` livestream that happens every once
   in a while. You can share your setup, workflow, talk about your projects,
   YouTube channel or whatever you want to share.
   [Past episodes can be found here](https://www.youtube.com/playlist?list=PLZWMav2s1MZSKO3uLD5-gB5tK_8lH_rAz){:target="\_blank"}
-  - There's only 1 rule. If you don't share your camera, a furry represents you.
+  - There's only 1 rule. If you don't share your camera, a handsome linkarzu represents you.
 
 To use Text To Speech during a supported livestream, send your message like
 this:

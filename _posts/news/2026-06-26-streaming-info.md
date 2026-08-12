@@ -220,17 +220,17 @@ This can happen for 2 reasons:
 ### 1. Random gathering with discord members from time to time
 
 This is a way of giving something back to the people that support me monetarily
-to keep the channel going. You can participate in `furryconf` and share your
+to keep the channel going. You can participate in `Open Terminal` and share your
 setup, workflow, projects, YouTube channel, or whatever else you want to share.
 
 [Past episodes can be found here](https://www.youtube.com/playlist?list=PLZWMav2s1MZSKO3uLD5-gB5tK_8lH_rAz){:target="\_blank"}
 
-There's only 1 rule. If you don't share your camera, a furry represents you.
+There's only 1 rule. If you don't share your camera, a handsome linkarzu represents you.
 
 The idea is to monetize my channel and make it a real source of income. So far
 it's just an expensive hobby and something I do for fun.
 
-How often do the furryconf episodes happen? There's no guaranteed time, it could
+How often do the Open Terminal episodes happen? There's no guaranteed time, it could
 be once a month, once every couple of months. Every now and then.
 
 If you want to have a recurring livestream see below:
