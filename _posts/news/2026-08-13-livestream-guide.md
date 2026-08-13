@@ -35,8 +35,8 @@ tags:
 Please join around 15 minutes before the livestream starts. We will
 use that time to quickly test the cameras and set audio levels.
 
-Please use headphones during the livestream. This prevents the stream
-audio from feeding back into your microphone.
+**Please use headphones during the livestream**. This prevents the
+stream audio from feeding back into your microphone.
 
 ## Joining the call
 
