@@ -23,6 +23,7 @@ tags:
 <!-- toc -->
 
 - [Membership Levels](#membership-levels)
+  * [Root Access Group Format and Guest Policy](#root-access-group-format-and-guest-policy)
   * [Member](#member)
   * [Executive Producer](#executive-producer)
   * [CEO](#ceo)
@@ -35,13 +36,13 @@ tags:
 
 ## Membership Levels
 
-I provide several different membership levels on YouTube and it tends
-to be a bit confusing, so let's see what each one of them includes.
+I provide several different membership levels on YouTube and it tends to be a
+bit confusing, so let's see what each one of them includes.
 
 Pricing may vary depending on your country.
 
-All paid memberships are managed by YouTube and can be joined from the
-same page:
+All paid memberships are managed by YouTube and can be joined from the same
+page:
 
 [View all YouTube memberships](https://www.youtube.com/channel/UCrSIvbFncPSlK6AdwE2QboA/join){:target="\_blank"}
 
@@ -56,8 +57,8 @@ same page:
 <!-- prettier-ignore-end -->
 <!-- markdownlint-restore -->
 
-For more details about livestreams, TTS, Discord, donations, and other
-channel features, read this page:
+For more details about livestreams, TTS, Discord, donations, and other channel
+features, read this page:
 
 [Livestream and channel information](https://linkarzu.com/posts/news/streaming-info/){:target="\_blank"}
 
@@ -65,17 +66,16 @@ The members-only Discord server can be joined here:
 
 [https://discord.gg/D7CZMzw3rM](https://discord.gg/D7CZMzw3rM){:target="\_blank"}
 
-Your Discord account must be connected to the same YouTube account
-that has the active membership.
+Your Discord account must be connected to the same YouTube account that has the
+active membership.
 
-The **Executive Producer** and **CEO** levels are for the **Linkarzu
-Root Access** podcast.
+The **Executive Producer** and **CEO** levels are for the **Linkarzu Root
+Access** podcast.
 
-These are **group** podcast livestreams where members can join me and
-talk about their workflow, computer setup, Linux, macOS, Neovim,
-Emacs, homelabbing, networking, keyboards, business, YouTube channel,
-projects, videos they want us to react to. Or anything else the group
-wants to discuss.
+These are **group** podcast livestreams where members can join me and talk about
+their workflow, computer setup, Linux, macOS, Neovim, Emacs, homelabbing,
+networking, keyboards, business, YouTube channel, projects, videos they want us
+to react to. Or anything else the group wants to discuss.
 
 All **Linkarzu Root Access** episodes are published here:
 
@@ -90,64 +90,61 @@ You can use these episodes to:
 - Bring videos or topics for us to react to
 - Spend time with other people in the community
 
-Those episodes are not private one-on-one coaching calls. Other
-eligible members may join the same episode, and the conversations are
-normally livestreamed publicly so viewers can watch and participate
-through chat.
+### Root Access Group Format and Guest Policy
 
-The episodes are scheduled based on my availability and the
-availability of the members participating. If you cannot attend one of
-the scheduled episodes, let me know. I will do my best to recover the
-session during that same month when possible, but recovery sessions
-are exceptions, not the normal schedule, and cannot be guaranteed.
+Those episodes are not private one-on-one coaching calls. Other eligible members
+may join the same episode, and the conversations are normally livestreamed
+publicly so viewers can watch and participate through chat.
 
-One guest total can join Root Access per month, even if there is a
-recovery session. Members take turns choosing who brings that guest:
-member 1 chooses in the first month, member 2 chooses in the next
-month, member 3 in the month after that, and then the rotation starts
-over.
+The episodes are scheduled based on my availability and the availability of the
+members participating. If you cannot attend one of the scheduled episodes, let
+me know. I will do my best to recover the session during that same month when
+possible, but recovery sessions are exceptions, not the normal schedule, and
+cannot be guaranteed.
 
-If scheduling becomes difficult for everyone, I may create two groups
-so members can join the group that better fits their schedule. This
-does not create an additional guest slot: there is still only one
-guest total per month across both groups.
+**In addition to the paying members**, one guest total can join Root Access per
+month, even if there is a recovery session. Members take turns choosing who
+brings that guest: member 1 chooses in the first month, member 2 chooses in the
+next month, member 3 in the month after that, and then the rotation starts over.
 
-The podcast is also distributed to Spotify, Apple Podcasts, YouTube
-Music, and other podcast platforms.
+If scheduling becomes difficult for everyone, I may create two groups so members
+can join the group that better fits their schedule. This does not create an
+additional guest slot: there is still only one guest total per month across both
+groups.
+
+The podcast is also distributed to Spotify, Apple Podcasts, YouTube Music, and
+other podcast platforms.
 
 ### Member
 
-For people who want to support the channel and get the basic community
-perks.
+For people who want to support the channel and get the basic community perks.
 
 Price: **$4.19 per month**.
 
 Includes:
 
-- Loyalty badges next to your name in YouTube comments and livestream
-  chats
+- Loyalty badges next to your name in YouTube comments and livestream chats
 - Access to the GOATED custom emojis
 - Text To Speech during supported livestreams
 - Access to the members-only Discord server
-- Ability to participate in the `Open Terminal` livestream that
-  happens every once in a while. You can share your setup, workflow,
-  talk about your projects, YouTube channel or whatever you want to
-  share.
+- Ability to participate in the `Open Terminal` livestream that happens every
+  once in a while. You can share your setup, workflow, talk about your projects,
+  YouTube channel or whatever you want to share.
   [Past episodes can be found here](https://www.youtube.com/playlist?list=PLZWMav2s1MZSKO3uLD5-gB5tK_8lH_rAz){:target="\_blank"}
-  - There's only 1 rule. If you don't share your camera, a handsome
-    linkarzu represents you.
+  - There's only 1 rule. If you don't share your camera, a handsome linkarzu
+    represents you.
 
-To use Text To Speech during a supported livestream, send your message
-like this:
+To use Text To Speech during a supported livestream, send your message like
+this:
 
 `!say I have a small pp`
 
-Your message will be read out loud by a computer voice so I can hear
-it even when chat is moving too fast.
+Your message will be read out loud by a computer voice so I can hear it even
+when chat is moving too fast.
 
-TTS may be disabled during interviews or livestreams with guests so
-the conversation is not interrupted every 14 seconds by someone asking
-which Linux distribution is the best.
+TTS may be disabled during interviews or livestreams with guests so the
+conversation is not interrupted every 14 seconds by someone asking which Linux
+distribution is the best.
 
 [Become a Member here](https://www.youtube.com/channel/UCrSIvbFncPSlK6AdwE2QboA/join){:target="\_blank"}
 
@@ -164,8 +161,8 @@ which Linux distribution is the best.
 
 ### Executive Producer
 
-For people who want to join one **Linkarzu Root Access** group podcast
-episode every 2 months.
+For people who want to join one **Linkarzu Root Access** group podcast episode
+every 2 months.
 
 Price: **$24.99 per month**.
 
@@ -189,8 +186,7 @@ Includes:
 
 ### CEO
 
-For people who want to participate in **Linkarzu Root Access** once a
-month.
+For people who want to participate in **Linkarzu Root Access** once a month.
 
 Price: **$49.99 per month**.
 
@@ -218,22 +214,20 @@ Includes:
 
 Yes.
 
-If you need recording and production for content that belongs to you
-or your business, we can arrange it separately through Ko-Fi:
+If you need recording and production for content that belongs to you or your
+business, we can arrange it separately through Ko-Fi:
 
 [https://ko-fi.com/linkarzu](https://ko-fi.com/linkarzu){:target="\_blank"}
 
 Rate: **$200 per recorded hour**.
 
-The rate applies to the total time reserved for your recording
-session. Pausing the recording for breaks or other interruptions does
-not pause billable time, so please plan the session length
-accordingly.
+The rate applies to the total time reserved for your recording session. Pausing
+the recording for breaks or other interruptions does not pause billable time, so
+please plan the session length accordingly.
 
-The price is based on recording session time, not the number of hours
-I spend editing afterward. One recorded hour may still require several
-additional hours of preparation, audio cleanup, editing, exporting,
-and delivery.
+The price is based on recording session time, not the number of hours I spend
+editing afterward. One recorded hour may still require several additional hours
+of preparation, audio cleanup, editing, exporting, and delivery.
 
 For example:
 
@@ -241,8 +235,7 @@ For example:
 - Tutorials, demonstrations, walkthroughs, or training videos
 - Remote presentations with multiple guests
 - Screen-sharing sessions with dynamic layout switching
-- Professionally produced conversations that do not publish on my
-  channel
+- Professionally produced conversations that do not publish on my channel
 
 We can define what you need before recording, including:
 
@@ -251,8 +244,8 @@ We can define what you need before recording, including:
 - What editing and deliverables are included
 - Whether you need clips or Shorts
 
-The finished content can be delivered to you for publication on your
-own platforms.
+The finished content can be delivered to you for publication on your own
+platforms.
 
 ### What type of editing is included?
 
@@ -265,10 +258,10 @@ It includes:
 - Removing unnecessary silences
 - Basic cuts
 - Switching between cameras and screen shares
-- 10 edited vertical Shorts that you can share on YouTube Shorts,
-  TikTok, Instagram Reels, X, or other social media platforms
-- 3 edited clips of approximately 5 to 10 minutes from the recording
-  that you can publish on your own platforms
+- 10 edited vertical Shorts that you can share on YouTube Shorts, TikTok,
+  Instagram Reels, X, or other social media platforms
+- 3 edited clips of approximately 5 to 10 minutes from the recording that you
+  can publish on your own platforms
 - Exporting the final video
 
 The service does **not** include:
@@ -282,10 +275,9 @@ The service does **not** include:
 - Thumbnail design (unless previously agreed)
 - Anything else that significantly increases editing time
 
-The goal is a clean, professional recording, not a full Hollywood
-production. If your project needs something outside the standard edit,
-we'll define it before recording so we both know exactly what's
-included.
+The goal is a clean, professional recording, not a full Hollywood production. If
+your project needs something outside the standard edit, we'll define it before
+recording so we both know exactly what's included.
 
 ## You're a fraud, why do you ask for money, isn't YouTube Ads enough?
 
