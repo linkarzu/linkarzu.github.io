@@ -3,6 +3,8 @@ layout: compress
 permalink: /feed.xml
 # Atom Feed, reference: https://validator.w3.org/feed/docs/atom.html
 # Overrides the jekyll-theme-chirpy (v7.5.0) feed, which only lists the latest 5 posts
+# Also drops the <link> title attribute: xml_escape plus the final '&' replace
+# double-escaped it (e.g. &amp;apos;), and <title> already carries the post title
 ---
 
 {% capture source %}
@@ -27,7 +29,7 @@ permalink: /feed.xml
   {% assign post_absolute_url = post.url | absolute_url %}
   <entry>
     <title>{{ post.title }}</title>
-    <link href="{{ post_absolute_url }}" rel="alternate" type="text/html" title="{{ post.title | xml_escape }}" />
+    <link href="{{ post_absolute_url }}" rel="alternate" type="text/html" />
     <published>{{ post.date | date_to_xmlschema }}</published>
   {% if post.last_modified_at %}
     <updated>{{ post.last_modified_at | date_to_xmlschema }}</updated>
